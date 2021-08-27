@@ -8,6 +8,10 @@ comments: true
 share: true
 related: true
 breadcrumbs: true
+category:
+- Elixir
+- Payment Gateway
+
 tags:
 - ISO8583
 - ISO8583 switch

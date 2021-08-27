@@ -2,10 +2,13 @@
 layout: single
 title:  "Reputation and Business"
 date:   2021-08-26 21:13:30 +0530
-tags: founder reputation
-category: business
+
 author_profile: true
 author: Sandesh Soni
+category: business
+tags:
+- founder
+- reputation
 
 read_time: true
 comments: true
