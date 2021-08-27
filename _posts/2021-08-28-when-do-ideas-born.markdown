@@ -1,8 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "When are ideas born"
 date:   2021-08-27 21:13:30 +0530
 categories: founder ideas
+author_profile: true
+author: Sandesh Soni
+
+read_time: true
+comments: true
+share: true
+related: true
 ---
 
 We all know many ideas are born during shower. So we call it showerthoughts.

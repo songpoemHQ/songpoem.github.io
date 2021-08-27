@@ -1,8 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "How to grow your professional network?"
 date:   2021-08-27 11:13:30 +0530
 categories: founder networking
+author_profile: true
+author: Sandesh Soni
+
+read_time: true
+comments: true
+share: true
+related: true
 ---
 
 ### Opposites attract!

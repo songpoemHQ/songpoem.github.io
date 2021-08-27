@@ -1,8 +1,15 @@
 ---
-layout: post
+layout: single
 title:  "Reputation and Business"
 date:   2021-08-26 21:13:30 +0530
 categories: founder reputation
+author_profile: true
+author: Sandesh Soni
+
+read_time: true
+comments: true
+share: true
+related: true
 ---
 
 If your customers trust you, they act like marketers of your business.
