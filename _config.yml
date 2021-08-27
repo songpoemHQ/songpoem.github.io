@@ -29,7 +29,8 @@ twitter_username: PaperToApp
 github_username:  PaperToApp
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+
 plugins:
   - jekyll-feed
 
