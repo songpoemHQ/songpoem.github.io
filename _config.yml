@@ -47,10 +47,24 @@ jekyll-archives:
     tag: /tags/:name/
 
 # Build settings
-theme: minimal-mistakes-jekyll
-
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/iamsandeshsoni"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sandeshsoni"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/iamsandeshsoni"
 
   # Collections
 collections:
