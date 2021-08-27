@@ -1,0 +1,14 @@
+Sandesh Soni:
+  name        : "Sandesh Soni"
+  bio         : "Coder. Vegan. Minimalist"
+  avatar      : "/assets/images/sandeshsoni.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "sandesh.soni@papertoapp.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sandeshsoni.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/iamsandeshsoni"
