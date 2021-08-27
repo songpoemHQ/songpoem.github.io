@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "When are ideas born"
+title:  "When are ideas born?"
 date:   2021-08-27 21:13:30 +0530
-categories: founder ideas
+tags: founder ideas
 author_profile: true
 author: Sandesh Soni
 
