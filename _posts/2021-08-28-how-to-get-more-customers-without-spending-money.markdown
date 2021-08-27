@@ -1,9 +1,9 @@
 ---
-layout: single
 title:  "How to get more customers without spending money?"
 date:   2021-08-27 11:59:30 +0530
-author_profile: true
 author: Sandesh Soni
+sidebar:
+  nav: "docs"
 category: business
 tags:
 - founder 
