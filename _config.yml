@@ -28,6 +28,24 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PaperToApp
 github_username:  PaperToApp
 
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
 # Build settings
 theme: minimal-mistakes-jekyll
 
