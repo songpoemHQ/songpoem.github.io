@@ -1,5 +1,4 @@
 ---
-layout: pages
 title: Team
 permalink: /team/
 ---
