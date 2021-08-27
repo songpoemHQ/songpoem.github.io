@@ -11,8 +11,8 @@ main:
   #   url: /page-archive/
   # - title: "Collections"
   #   url: /collection-archive/
-  - title: "LinkedIn"
-    url: https://linkedin.com/in/sandeshsoni
+  # - title: "LinkedIn"
+  #   url: https://linkedin.com/in/sandeshsoni
 
 docs:
   - title: Getting Started
