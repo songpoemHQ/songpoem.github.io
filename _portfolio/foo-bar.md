@@ -2,8 +2,8 @@
 title: "Foo Bar Identity"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
-  image: /assets/images/foo-bar-identity.jpg
-  teaser: /assets/images/foo-bar-identity-th.jpg
+  image: /assets/images/sandeshsoni.png
+  teaser: /assets/images/sandeshsoni.png
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
@@ -18,8 +18,8 @@ gallery:
   - url: /assets/images/sandeshsoni.png
     image_path: /assets/images/sandeshsoni.png
     alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
+  - url: /assets/images/sandeshsoni.png
+    image_path: assets/images/sandeshsoni.png
     alt: "placeholder image 3"
 ---
 
