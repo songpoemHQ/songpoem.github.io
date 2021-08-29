@@ -19,7 +19,9 @@ We listen to this term more often than anything do. So IoT stands for the intern
 
 Thus making it possible to connect non-human things to humans, using the same network technology which sends the packets allowing the user to share information on devices connected to it. 
 
-![1_3N-I4qICwckVaLb9OWS7Cg.png]({{site.baseurl}}/images/intro-iot/O.png)
+```html
+{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/intro-iot/O.png" alt="">{% endraw %}
+```
 
 Now lets take a look at a brief history and future of Internet of Things. 
 
