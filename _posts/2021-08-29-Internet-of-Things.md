@@ -21,6 +21,8 @@ Thus making it possible to connect non-human things to humans, using the same ne
 
 {% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/intro-iot/O.png" alt="">{% endraw %}
 
+{% raw %}![IOT O diagram]({{ site.url }}{{ site.baseurl }}/assets/images/intro-iot/O.png){% endraw %}
+
 
 Now lets take a look at a brief history and future of Internet of Things. 
 
