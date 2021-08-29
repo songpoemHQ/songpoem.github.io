@@ -18,8 +18,8 @@ related: true
 ### Opposites attract!
 
 Collaborate with others.
-But make sure both parties must be benefitted.
-example:
+But make sure **both parties must be benefitted**.
+### example:
 John sells plants/saplings.
 After purchasing plants, customers ask him where can they find pots.
 He replies, you will find them on opposite site, 2nd shop.
