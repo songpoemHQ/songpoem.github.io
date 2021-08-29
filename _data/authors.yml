@@ -12,3 +12,17 @@ Sandesh Soni:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/iamsandeshsoni"
+Piyush Tanksale:
+  name        : "Piyush Tanksale"
+  bio         : "Hardware Enthusiast"
+  avatar      : "/assets/images/piyushtanksale.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "piyush.tanksale@papertoapp.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://papertoapp.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/papertoapp"
