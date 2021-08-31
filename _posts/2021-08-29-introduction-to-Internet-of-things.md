@@ -19,11 +19,9 @@ We listen to this term more often than anything do. So IoT stands for the intern
 
 Thus making it possible to connect non-human things to humans, using the same network technology which sends the packets allowing the user to share information on devices connected to it. 
 
-{% raw %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/intro-iot/O.png" alt="">{% endraw %}
+{% raw %}![IOT O diagram 1]({{site.baseurl}}/assets/images/intro-iot/O.png){% endraw %}
 
-{% raw %}![IOT O diagram]({{site.baseurl}}/assets/images/intro-iot/O.png){% endraw %}
-
-![IOT O diagram]({{site.baseurl}}/assets/images/intro-iot/O.png)					
+![IOT O diagram 2]({{site.baseurl}}/assets/images/intro-iot/O.png)					
 
 
 Now lets take a look at a brief history and future of Internet of Things. 
@@ -46,8 +44,9 @@ Defining the Internet of Things as "simply the point in time when more 'things o
 
 IoT devices are a part of the larger concept of home automation, which can include lighting, heating and air conditioning, media and security systems and camera systems. Long-term benefits could include energy savings by automatically ensuring lights and electronics are turned off or by making the residents in the home aware of usage. They might also help homeowners save money on their utility bills because there is no need to keep track electronically if they have disabled an appliance such as your thermostat. Such smart gadgets offer new possibilities for those who would like more control over household appliances than traditional methods currently available. The internet has helped people develop increasingly sophisticated ways around using them too. Today's connected products do not just appear at any time all day every morning when you turn off one thing but set another up instantly without knowing it. Many older techs find that even after finding out how things work so well today, once learning about these technology changes beyond what was originally planned.
 
-![IOT.jpg]({{site.baseurl}}/assets/images/intro-iot/IOT.jpg)
-
+{% raw %}
+![IOT.jpeg]({{site.baseurl}}/assets/images/intro-iot/IOT.jpeg)
+{% endraw %}
 
 A smart home or automated home could be based on a platform or hubs that control smart devices and appliances. For instance, using Apple's HomeKit, manufacturers can have their home products and accessories controlled by an application in iOS devices such as the iPhone and the Apple Watch. This could be a dedicated app or iOS native applications such as Siri. Such automation is not limited to just remote access.
 
@@ -63,14 +62,14 @@ A 2015 Goldman Sachs report indicated that healthcare IoT devices "can save the 
 ### Transportaion Systems
 The IoT can assist in the integration of communications, control, and information processing across various transport modes such as passenger vehicles, public transit, freight transport, pedestrian systems and other land transportation.
 
-![transport.jpg]({{site.baseurl}}/assets/images/intro-iot/transport.jpg)
+![transport.jpeg]({{site.baseurl}}/assets/images/intro-iot/transport.jpeg)
 
 When it comes to passenger vehicles and public transit we see more and more new models being produced with an increasing number of built-in IoT features. These features are also developed for use outside of passenger vehicles such as for managing traffic flow in urban environments.
 
 ### Military Systems
 The military's battlefield is not only physical anymore. The internet of military things (IoMT) is transforming the way that business and warfare take place. The military has been one of the first to understand these changes, and has adopted IoT technologies in the field for decades.
 
-![imot.jpg]({{site.baseurl}}/assets/images/intro-iot/iomt.jpg)
+![imot.jpeg]({{site.baseurl}}/assets/images/intro-iot/iomt.jpeg)
 
 In this digital age, every soldier is also a sensor, gathering important data about their environment (e.g., the temperature at which their body operates best). This data may in turn be used to help develop more efficient equipment or even new weapons systems that will benefit both soldiers and civilians.
 
@@ -83,7 +82,7 @@ IoT devices use the internet to communicate, collect, and exchange information a
 
 By 2025, there’s projected to be 42 billion IoT-connected devices globally. It’s only natural that as these device numbers grow, the swaths of data will too. That’s where AI steps in—lending its learning capabilities to the connectivity of the IoT.
 
-![Final.jpg]({{site.baseurl}}/assets/images/intro-iot/Final.jpg)
+![Final.jpeg]({{site.baseurl}}/assets/images/intro-iot/Final.jpeg)
 
 The IoT is empowered by three key emerging technologies:
 
