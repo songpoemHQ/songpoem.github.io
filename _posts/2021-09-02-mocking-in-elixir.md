@@ -14,11 +14,25 @@ category: Elixir
 ## Mox
 
 Create a Behaviour.
-Create its Implementation and a Mock
+Create its OriginalImplementation and an TestImplementation / Mock.
+We test the Mock.
 
+> Watch this place for an example with code snippets.
 
-> references
+### references
 
 [Mox library on Hex](https://hexdocs.pm/mox/Mox.html)
+
 [Blog by  Nick Vernij](https://nickvernij.nl/blog/elixir-mox)
+
 [Appsignal blog](https://blog.appsignal.com/2021/06/22/how-to-test-websocket-clients-in-elixir-with-a-mock-server.html)
+
+
+> Youtube Video by elx pro
+
+<iframe width="640" height="360" src="https://youtu.be/C9utmdBjca8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+
+> MOX video by Kamil Skowron (watch it, its Hilarious)
+
+<iframe width="640" height="360" src="https://youtu.be/XNZMNvTjmn8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
