@@ -30,9 +30,9 @@ We test the Mock.
 
 > Youtube Video by elx pro
 
-<iframe width="640" height="360" src="https://youtu.be/C9utmdBjca8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://youtube.com/embed/C9utmdBjca8"></iframe>
 
 
 > MOX video by Kamil Skowron (watch it, its Hilarious)
 
-<iframe width="640" height="360" src="https://youtu.be/XNZMNvTjmn8?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://youtube.com/embed/XNZMNvTjmn8"></iframe>
