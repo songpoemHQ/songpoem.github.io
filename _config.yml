@@ -104,6 +104,10 @@ tag_archive:
   type: liquid
   path: /tags/
 
+  analytics:
+  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id        : G-25WTHF8YFW
 
 # Exclude from processing.
 # The following items will not be processed, by default.
