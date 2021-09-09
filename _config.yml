@@ -132,15 +132,15 @@ analytics:
 
 
 Sandesh Soni:
-  name        : "Sandesh Soni"
-  bio    : >-
+  name: "Sandesh Soni"
+  avatar      : "/assets/images/sandeshsoni.png"
+  bio: >-
     My name is Sandesh Soni.
 
     I was born in Latur, India but I've been living in Pune, since 2008.
     I love working with Elixir and Reactjs and to combine the two together.
     I love writing code using my Keychron K2.
   location: "Pune, India"
-  avatar      : "/assets/images/sandeshsoni.png"
   linkedin: "sandeshsoni"
   stackoverflow: "2227876"
   github: "sandeshsoni"
