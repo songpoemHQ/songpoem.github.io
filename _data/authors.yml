@@ -1,5 +1,5 @@
 Sandesh Soni:
-  name: "Sandesh Soni"
+  name        : "Sandesh Soni"
   avatar      : "/assets/images/sandeshsoni.png"
   bio: >-
     My name is Sandesh Soni.
@@ -18,7 +18,7 @@ Sandesh Soni:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://sandeshsoni.com"
-   - label: "Resume"
+    - label: "Resume"
       icon: "far fa-fw fa-file-pdf"
       url: "/assets/files/Sandesh-Soni-Elixir-Cover.pdf"
 
