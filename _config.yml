@@ -104,10 +104,11 @@ tag_archive:
   type: liquid
   path: /tags/
 
-  analytics:
-  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
+analytics:
+  provider: "google"
   google:
-    tracking_id        : G-25WTHF8YFW
+    tracking_id: "G-25WTHF8YFW"
+    anonymize_ip: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -128,3 +129,43 @@ tag_archive:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+Sandesh Soni:
+  name        : "Sandesh Soni"
+  bio    : >-
+    My name is Sandesh Soni.
+
+    I was born in Latur, India but I've been living in Pune, since 2008.
+    I love working with Elixir and Reactjs and to combine the two together.
+    I love writing code using my Keychron K2.
+  location: "Pune, India"
+  avatar      : "/assets/images/sandeshsoni.png"
+  linkedin: "sandeshsoni"
+  stackoverflow: "2227876"
+  github: "sandeshsoni"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@sandeshsoni.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sandeshsoni.com"
+   - label: "Resume"
+      icon: "far fa-fw fa-file-pdf"
+      url: "/assets/files/Sandesh-Soni-Elixir-Cover.pdf"
+
+Piyush Tanksale:
+  name        : "Piyush Tanksale"
+  bio         : "Hardware Enthusiast"
+  avatar      : "/assets/images/piyushtanksale.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "piyush.tanksale@papertoapp.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://papertoapp.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/papertoapp"
