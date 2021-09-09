@@ -130,8 +130,7 @@ analytics:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
-Sandesh Soni:
+author:
   name: "Sandesh Soni"
   avatar      : "/assets/images/sandeshsoni.png"
   bio: >-
