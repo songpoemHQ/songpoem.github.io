@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Paper To App
-email: sandesh.soni@PaperToApp.com
+title: Songpoem Software
+email: sandesh.soni@songpoem.com
 description: >- # this means to ignore newlines until "baseurl:"
   We help you turn your business idea into an app.
   We have experience discussing with founders and stakeholders.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://papertoapp.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: PaperToApp
-github_username:  PaperToApp
+url: "https://www.songpoem.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: songpoem_com
+github_username:  songpoem-com
 
 # Build settings
 markdown: kramdown
@@ -59,13 +59,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/paperToApp"
+      url: "https://twitter.com/songpoem_com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-li-square"
-      url: "https://linkedin.com/in/paperToApp"  
+      url: "https://linkedin.com/in/songpoem"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/paperToApp"
+      url: "https://github.com/songpoem-com"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/iamsandeshsoni"
