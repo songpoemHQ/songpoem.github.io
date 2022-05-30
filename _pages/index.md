@@ -6,14 +6,23 @@ sidebar:
   nav: "docs"
 ---
 
-We help you build and scale.
-
-- A Digital Platform
-- A Membership site
-- A Subscription site
+We provide customized IT and Marketing solutions for these products.
+- Membership platform
+- Subscription platform
+- Rewards points platform
+- Marketplace
+- Auction platform
 - SAAS
-- Custom Web and Mobile App development
-- Gig Economy Product
+- Gig Economy Platform.
 - Sharing Economy Platform.
+- E-commerce website
 
-We constantly follow market trends and adapt to it.
+This includes
+- Web Application
+- Mobile Application
+- Metrics
+- Gamification
+- Admin Dashboard
+- UX
+
+Our applications are designed for scaling. Contact us to get a MVP for your Idea and then a finished product.
