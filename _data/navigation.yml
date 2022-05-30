@@ -7,6 +7,8 @@ main:
   #   url: /categories/
   - title: "Hire us"
     url: /team/
+  - title: "Blog"
+    url: /blog/
   # - title: "Pages"
   #   url: /page-archive/
   # - title: "Collections"

@@ -81,7 +81,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "blog"
       type: posts
     values:
       layout: single
