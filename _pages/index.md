@@ -16,7 +16,8 @@ We provide customized IT and Marketing solutions for these modern business conce
 - Any other custom platform that has very high traffic or Real-Time response.
 
 A Product includes
-- Web Application, Mobile Application, UX
+- Web Application, Mobile Application, UX.
+- Unit tests and integration tests, Maximum code coverage.
 - Admin Dashboard, Custom Metrics
 - Gamification, Reward points.
 - Payment Integration and other API integration.
