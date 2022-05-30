@@ -1,6 +1,7 @@
 ---
-title: Songpoem Software HOME HOME
-permalink: /home/
+layout: splash
+permalink: /
+hidden: true
 sidebar:
   nav: "docs"
 ---
