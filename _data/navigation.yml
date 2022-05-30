@@ -5,10 +5,13 @@ main:
   #   url: /year-archive/
   # - title: "Categories"
   #   url: /categories/
-  - title: "Hire us"
-    url: /team/
+
   - title: "Blog"
     url: /blog/
+ - title: "Portfolio"
+    url: /portfolio/
+ - title: "Hire us"
+    url: /team/
   # - title: "Pages"
   #   url: /page-archive/
   # - title: "Collections"
@@ -19,9 +22,9 @@ main:
 docs:
   - title: Getting Started
     children:
-      - title: "Quick-Start Guide"
+      - title: "blogs"
         url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: "portfolio"
         url: /docs/structure/
       - title: "Installation"
         url: /docs/installation/
