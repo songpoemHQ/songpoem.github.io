@@ -6,32 +6,30 @@ sidebar:
   nav: "docs"
 ---
 
-We provide customized IT and Marketing solutions for these products.
-- Membership platform
-- Subscription platform
-- Rewards points platform
-- Marketplace
-- Auction platform
-- SAAS
-- Gig Economy Platform.
-- Sharing Economy Platform.
-- E-commerce website
+We provide customized IT and Marketing solutions for these concepts.
+- Membership and Subscription platform
+- Marketplace, Large E-commerce.
+- Booking Platform
+- Gig Economy, Sharing Economy Platform.
+- Any other custom platform that has very high traffic.
+- Any other custom platform that has need of Real-Time response. 
 
 A Product includes
 - Web Application
 - Mobile Application
-- Metrics
-- Gamification
+- Custom Metrics
+- Gamification, Reward points.
 - Admin Dashboard
 - UX
+- Payment Integration and other API integration.
 
 Technologies we use
-- Elixir lang
-- Phoenix Framework
+- Elixir lang, Ruby
+- Phoenix Framework, Ruby on Rails
 - GraphQL, REST APIs
-- React.js, Swelte
+- React.js, Alpine.js, Next.js
 - TailwindCSS
-- Flutter or React Native
+- Flutter, React Native
 - Figma
 
-Our applications are designed for scaling. Contact us to get a MVP for your Idea and then a finished product.
+Our applications are designed for Scaling. Contact us to build a MVP for your Idea and then a finished product.
