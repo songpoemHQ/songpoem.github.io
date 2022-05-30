@@ -14,12 +14,13 @@ We provide customized IT and Marketing solutions.
 - Custom platform or SAAS expecting very high traffic or Real-Time response.
 
 A Product includes
-- Web Application, Mobile Application, UX.
+- Web Application, Mobile Application, UX design.
 - Unit tests, integration tests, Maximum code coverage.
 - Admin Dashboard, Custom Metrics, Multi user levels.
 - Notifications and Chat Messages, Interaction with User.
 - Gamification, Reward points.
 - Payment Integration and other API integration.
+- Support for existing Product and new requirements.
 
 Tools and Technologies we use
 - Elixir lang, Phoenix Framework, Ruby on Rails, Figma.
