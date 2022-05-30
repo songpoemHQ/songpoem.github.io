@@ -8,9 +8,9 @@ main:
 
   - title: "Blog"
     url: /blog/
- - title: "Portfolio"
+  - title: "Portfolio"
     url: /portfolio/
- - title: "Hire us"
+  - title: "Hire us"
     url: /team/
   # - title: "Pages"
   #   url: /page-archive/
