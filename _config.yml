@@ -18,15 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Songpoem Software
+title: Songpoem Solutions
 email: sandesh.soni@songpoem.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We help you turn your business idea into an app.
+  We help your business grow.
+  Membership site or a platform or a Saas, our experts will consult and provide the solutions.
   We have experience discussing with founders and stakeholders.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.songpoem.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: songpoem_com
-github_username:  songpoem-com
+twitter_username: songpoemsol
+github_username:  songpoemsol
 
 # Build settings
 markdown: kramdown
@@ -59,16 +60,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/songpoem_com"
+      url: "https://twitter.com/songpoemsol"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-li-square"
-      url: "https://linkedin.com/in/songpoem"
+      url: "https://linkedin.com/in/songpoemsol"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/songpoem-com"
+      url: "https://github.com/songpoemsol"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/iamsandeshsoni"
+      url: "https://instagram.com/songpoemsol"
 
   # Collections
 collections:
