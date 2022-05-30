@@ -6,21 +6,19 @@ sidebar:
   nav: "docs"
 ---
 
-We provide customized IT and Marketing solutions for these concepts.
+
+
+We provide customized IT and Marketing solutions for these modern business concepts.
 - Membership and Subscription platform
 - Marketplace, Large E-commerce.
 - Booking Platform
 - Gig Economy, Sharing Economy Platform.
-- Any other custom platform that has very high traffic.
-- Any other custom platform that has need of Real-Time response. 
+- Any other custom platform that has very high traffic or Real-Time response.
 
 A Product includes
-- Web Application
-- Mobile Application
-- Custom Metrics
+- Web Application, Mobile Application, UX
+- Admin Dashboard, Custom Metrics
 - Gamification, Reward points.
-- Admin Dashboard
-- UX
 - Payment Integration and other API integration.
 
 Technologies we use
@@ -32,4 +30,4 @@ Technologies we use
 - Flutter, React Native
 - Figma
 
-Our applications are designed for Scaling. Contact us to build a MVP for your Idea and then a finished product.
+Our applications are designed for Scaling. Contact us today to build a MVP for your Idea and then a finished product.
