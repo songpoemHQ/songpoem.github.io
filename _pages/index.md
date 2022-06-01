@@ -13,13 +13,13 @@ sidebar:
 - Custom platform or SAAS expecting a lot of *visitors* or *Real-Time Response*.
 
 ### Our solution includes these modules
-- [x] Web Application, Mobile Application, UX design.
-- [x] Unit tests, integration tests, Maximum code coverage.
-- [x] Admin Dashboard, Custom Metrics, Multi user levels.
-- [x] Notifications and Chat Messages, Interaction with User.
-- [x] Gamification, Reward points.
-- [x] Payment Integration and other API integration.
-- [x] Support for existing Product and new requirements.
+- Web Application, Mobile Application, UX design.
+- Unit tests, integration tests, Maximum code coverage.
+- Admin Dashboard, Custom Metrics, Multi user levels.
+- Notifications and Chat Messages, Interaction with User.
+- Gamification, Reward points.
+- Payment Integration and other API integration.
+- Support for existing Product and new requirements.
 
 ### Tools and Technologies we prefer
 - Elixir lang, Phoenix Framework, Ruby on Rails, Figma.
