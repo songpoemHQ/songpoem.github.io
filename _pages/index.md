@@ -6,7 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-##  Songpoem Solutions provide **Customized IT and Marketing Solutions**
+## Songpoem Solutions provide **Customized IT and Marketing Solutions**
 - Membership and Subscription platform
 - Marketplace, Large E-commerce, Booking platform.
 - Gig Economy, Sharing Economy Platform.
@@ -22,7 +22,7 @@ sidebar:
 - Support for existing Product and new requirements.
 
 ### Tools and Technologies we prefer
-- Elixir lang, Phoenix Framework, Ruby on Rails, Figma.
+- Elixir lang, Phoenix Framework, Ruby on Rails, Figma, git, github, gitlab.
 - React.js, Alpine.js, Next.js, TailwindCSS, Flutter, React Native.
 
 ### Our applications are designed for Scaling for very high traffic load. 
