@@ -6,7 +6,7 @@ sidebar:
   nav: "docs"
 ---
 
-## Songpoem Solutions provide **Customized IT and Marketing Solutions**
+## Songpoem Solutions provides **Customized IT and Marketing Solutions**
 - Membership and Subscription platform
 - Marketplace, Large E-commerce, Booking platform.
 - Gig Economy, Sharing Economy Platform.
@@ -29,4 +29,4 @@ sidebar:
 #### We provide *support for your existing applications* using these technologies.
 #### We help upgrade your *legacy code*.
 #### We work globally overlapping different *timezones*.
-#### Contact us today to discuss your requirements.
+#### Contact us today to _discuss your requirements and kickstart developing prototype app of your startup idea._
