@@ -25,7 +25,8 @@ sidebar:
 - Elixir lang, Phoenix Framework, Ruby on Rails, Figma, git, github, gitlab.
 - React.js, Alpine.js, Next.js, TailwindCSS, Flutter, React Native.
 
-### Our applications are designed for Scaling for very high traffic load. 
-- We also provide support for your existing applications using these technologies.
-- We help upgrade your legacy code.
-- Contact us today to discuss your requirements.
+#### Our applications are designed for Scaling for very high traffic load. 
+#### We provide *support for your existing applications* using these technologies.
+#### We help upgrade your *legacy code*.
+#### We work globally overlapping different *timezones*.
+#### Contact us today to discuss your requirements.
