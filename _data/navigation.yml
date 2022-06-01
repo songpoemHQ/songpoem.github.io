@@ -7,8 +7,8 @@ main:
   #   url: /categories/
   - title: "Blog"
     url: /blog/
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
   - title: "Hire us"
     url: /team/
   # - title: "Pages"

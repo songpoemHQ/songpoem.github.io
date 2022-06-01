@@ -6,26 +6,26 @@ sidebar:
   nav: "docs"
 ---
 
-
-We provide customized IT and Marketing solutions.
+##  Songpoem Solutions provide **Customized IT and Marketing Solutions**
 - Membership and Subscription platform
 - Marketplace, Large E-commerce, Booking platform.
 - Gig Economy, Sharing Economy Platform.
-- Custom platform or SAAS expecting very high traffic or Real-Time response.
+- Custom platform or SAAS expecting a lot of *visitors* or *Real-Time Response*.
 
-A Product includes
-- Web Application, Mobile Application, UX design.
-- Unit tests, integration tests, Maximum code coverage.
-- Admin Dashboard, Custom Metrics, Multi user levels.
-- Notifications and Chat Messages, Interaction with User.
-- Gamification, Reward points.
-- Payment Integration and other API integration.
-- Support for existing Product and new requirements.
+### Our solution includes these modules
+- [x] Web Application, Mobile Application, UX design.
+- [x] Unit tests, integration tests, Maximum code coverage.
+- [x] Admin Dashboard, Custom Metrics, Multi user levels.
+- [x] Notifications and Chat Messages, Interaction with User.
+- [x] Gamification, Reward points.
+- [x] Payment Integration and other API integration.
+- [x] Support for existing Product and new requirements.
 
-Tools and Technologies we use
+### Tools and Technologies we prefer
 - Elixir lang, Phoenix Framework, Ruby on Rails, Figma.
 - React.js, Alpine.js, Next.js, TailwindCSS, Flutter, React Native.
 
-Our applications are designed for Scaling. 
-We also provide support for your existing applications, help upgrade your legacy code.
-Contact us today to discuss your requirements.
+### Our applications are designed for Scaling for very high traffic load. 
+- We also provide support for your existing applications using these technologies.
+- We help upgrade your legacy code.
+- Contact us today to discuss your requirements.
