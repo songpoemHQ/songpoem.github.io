@@ -30,74 +30,42 @@ platfrom_row:
     excerpt: "A Marketplace or a Large E-commerce product"
   - title: "Membership"
     excerpt: "Membership or Subscription site"
-  - title: "Economy"
-    excerpt: "Gig Economy, Sharing Economy Product."
+  - title: "Gig Economy"
+    excerpt: "Gig Economy for digital or physical delivery"
+  - title: "Sharing Economy"
+    excerpt: "For Sharing Products based on Duration"
+  - title: "Booking Portal"
+    excerpt: "To view available inventory and book"
+  - title: "SAAS"
+    excerpt: "Any SAAS Model with custom features"
+songpoem_modules_intro: 
+  - excerpt: "We cover various modules such as"
 modules_row:
   - title: "Application"
     excerpt: "Web application. Mobile Application for Android and iPhone."
-  - title: "Dashboard"
-    excerpt: "Dashboard Dashboard Dashboard"
   - title: "metrics"
     excerpt: "metrics metrics metrics"
-  - title: "API integration"
-    excerpt: "Payment API integration, Slack Integration"
-songpoem_modules_intro: 
-  - excerpt: "We cover various modules such as"
-feature_row4:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "App"
-    excerpt: "Web Application, Mobile Application, UX design"
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Admin Dashboard"
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-    excerpt: "Dashboard to view user activities, approve."
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Marketing Metrics"
-    excerpt: "Marketing metrics needed for marketing Team"
+  - title: "Dashboard"
+    excerpt: "Dashboard for Admin to view user activities, approve."
   - title: "Communication"
     excerpt: "Notifications, Chat Messages, Interaction with User"
   - title: "Integrations"
-    excerpt: "Payment Integration and other API integration"
+    excerpt: "Payment Integration, Slack, and other API integration"
+  - title: "Gamification"
+    excerpt: "designed for Gamification, Reward points"
 why_songpoem_intro: 
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
   - title: "Support"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
   - title: "Clean Code"
-    excerpt: "Our Code is Clean and Modular. Easy to Extend."
+    excerpt: "We follow standing coding practices to keep the code Clean and Modular."
   - title: "Tests"
-    excerpt: "We write unit tests and integration, maximum code coverage."
-feature_row21:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row31:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row41:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    excerpt: "We write unit tests and integration tests, maximum code coverage."
 ---
-
+{% include feature_row id="intro" type="center" %}
 {% include feature_row id="platfrom_row" %}
 {% include feature_row id="modules_row" %}
 {% include feature_row id="technology_row" %}
+{% include feature_row id="why_songpoem_intro" type="center" %}
 {% include feature_row id="why_songpoem_row" %}
