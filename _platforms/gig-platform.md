@@ -36,14 +36,18 @@ feature_row:
     btn_class: "btn--info btn--small"
 ---
 
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
+{% include video id="HvHkmV-Aeoo" provider="youtube" %}
 
 When you have
-- A service provider does not own assets like a computer or a delivery van.
-- A cycle is limited to an order only.
+- An Employer hires a service provider without having to invest in the needed equipments.
+- A service provider owns needed assets like a computer or a delivery van.
+- An order cycle is limited to completing that order only.
 - A gig Economy worker is available on demand. He can work a day or multiples days as per his convinence.
+- There is no Employer Employee relationship. Hire as per demand.
 
 A Digital Gigs marketplace where customer can post their requirement or held a competition and choose the winner.
 Anything like logo design, caption writing, SEO, drawing, illustrating a comic or a cartoon.
 
+A delivery partner is also a gig worker. He own his own vehicle and chooses delivery convinent to him.
+A delivery partner can work with multiple clients.
 {% include feature_row %}
