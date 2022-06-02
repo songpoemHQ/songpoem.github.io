@@ -1,6 +1,7 @@
 ---
 title: Gig Economy Platfrom
-layout: splash
+layout: single
+classes: wide
 permalink: /platform/gig/
 feature_row:
   - title: "Digital Gigs platform Development"
