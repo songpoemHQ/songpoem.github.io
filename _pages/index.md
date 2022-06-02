@@ -1,5 +1,5 @@
 ---
-title: "We provide you A Customized Platform"
+title: "We provide you end to end digital transformations"
 layout: splash
 permalink: /
 date: 2022-06-02T11:48:41-04:00
@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/success-solutions2.jpeg
   cta_label: "Enquire"
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
-excerpt: "If you are looking for A Marketplace, Booking Portal,  Membership or Subscription site, SAAS"
+  excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 intro: 
   - excerpt: "We cover various modules such as
 - Web Application, Mobile Application, UX design.
@@ -70,15 +70,15 @@ why_songpoem:
 why_songpoem_row:
   - title: "Support"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
-  - title: "Clean Code"
-    excerpt: "We follow standing coding practices to keep the code Clean and Modular."
-  - title: "Tests"
-    excerpt: "We write **unit tests** and integration tests, maximum code coverage."
+  - title: "Clean Code & Tests"
+    excerpt: "We follow standing coding practices to keep the code Clean and Modular. We write **unit tests** and integration tests, maximum code coverage."
+  - title: "Accelerators"
+    excerpt: "We reuse of already developed and well tested  modules/ functionalities, that can be imported rather than building from scratch and testing again.
+"
 ---
-Our Expertise Domain
 {% include feature_row id="platfrom_row" %}
 
-We cover various modules such as
+Set of modules already build in that we can reuse and improve.
 {% include feature_row id="modules_row" %}
 
 Technologies we use
