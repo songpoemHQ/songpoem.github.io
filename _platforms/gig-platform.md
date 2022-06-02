@@ -36,7 +36,6 @@ feature_row:
     btn_class: "btn--info btn--small"
 ---
 
-{% include video id="HvHkmV-Aeoo" provider="youtube" %}
 
 When you have
 - An Employer hires a service provider without having to invest in the needed equipments.
@@ -51,3 +50,5 @@ Anything like logo design, caption writing, SEO, drawing, illustrating a comic o
 A delivery partner is also a gig worker. He own his own vehicle and chooses delivery convinent to him.
 A delivery partner can work with multiple clients.
 {% include feature_row %}
+
+{% include video id="HvHkmV-Aeoo" provider="youtube" %}
