@@ -53,7 +53,7 @@ modules_row:
     excerpt: "Payment Integration, Slack, and other API integration"
   - title: "Gamification"
     excerpt: "designed for Gamification, Reward points"
-why_songpoem_intro: 
+why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
   - title: "Support"
@@ -66,10 +66,11 @@ why_songpoem_row:
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="platfrom_row" %}
 
-> We cover various modules such as
+We cover various modules such as
 {% include feature_row id="modules_row" %}
 
 Technologies we use
 {% include feature_row id="technology_row" %}
-<!-- {% include feature_row id="why_songpoem_intro" type="center" %} -->
+
+{{ why_songpoem.excerpt }}
 {% include feature_row id="why_songpoem_row" %}
