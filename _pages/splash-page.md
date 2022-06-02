@@ -20,6 +20,13 @@ intro:
 - Payment Integration and other API integration.
 - Gamification, Reward points."
 feature_row:
+  - title: "Elixir"
+    excerpt: "Elixir Elixir Elixir"
+  - title: "Phoenix"
+    excerpt: "Phoenix Phoenix Phoenix Phoenix"
+  - title: "Ruby"
+    excerpt: "Ruby Ruby Ruby Ruby"
+feature_row3:
   - title: "A Marketplace"
     excerpt: "A Marketplace or a Large E-commerce product"
   - title: "Membership"
@@ -33,13 +40,6 @@ feature_row2:
     excerpt: "Dashboard Dashboard Dashboard"
   - title: "metrics 3"
     excerpt: "metrics metrics metrics"
-feature_row3:
-  - title: "Elixir"
-    excerpt: "Elixir Elixir Elixir"
-  - title: "Phoenix"
-    excerpt: "Phoenix Phoenix Phoenix Phoenix"
-  - title: "Ruby"
-    excerpt: "Ruby Ruby Ruby Ruby"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 feature_row4:
@@ -104,6 +104,7 @@ feature_row41:
 
 {% include feature_row %}
 {% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" %}
 {% include feature_row id="feature_row3" type="left" %}
 {% include feature_row id="feature_row4" type="left" %}
 {% include feature_row id="feature_row5" type="left" %}
