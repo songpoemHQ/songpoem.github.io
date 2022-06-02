@@ -19,27 +19,31 @@ intro:
 - Notifications, Chat Messages, Interaction with User.
 - Payment Integration and other API integration.
 - Gamification, Reward points."
-feature_row:
+technology_row:
   - title: "Elixir"
     excerpt: "Elixir Elixir Elixir"
   - title: "Phoenix"
     excerpt: "Phoenix Phoenix Phoenix Phoenix"
   - title: "Ruby"
     excerpt: "Ruby Ruby Ruby Ruby"
-feature_row3:
+  - title: "Phoenix Liveview"
+    excerpt: "Liveview Liveview Liveview"
+platfrom_row:
   - title: "A Marketplace"
     excerpt: "A Marketplace or a Large E-commerce product"
   - title: "Membership"
     excerpt: "Membership or Subscription site"
   - title: "Economy"
     excerpt: "Gig Economy, Sharing Economy Product."
-feature_row2:
+modules_row:
   - title: "Web Application"
     excerpt: "Mobile Mobile Mobile Mobile"
   - title: "Dashboard 2"
     excerpt: "Dashboard Dashboard Dashboard"
   - title: "metrics 3"
     excerpt: "metrics metrics metrics"
+  - title: "API integration"
+    excerpt: "Payment API integration"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 feature_row4:
@@ -63,18 +67,12 @@ feature_row4:
     excerpt: "Payment Integration and other API integration"
 why_songpoem_intro: 
   - excerpt: "Why customers choose Songpoem Solutions."
-feature_row5:
+why_songpoem_row:
   - title: "Support"
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
   - title: "Clean Code"
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
     excerpt: "Our Code is Clean and Modular. Easy to Extend."
   - title: "Tests"
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
     excerpt: "We write unit tests and integration, maximum code coverage."
 feature_row21:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
@@ -102,8 +100,7 @@ feature_row41:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row %}
-{% include feature_row id="feature_row3" %}
-{% include feature_row id="feature_row2" %}
-{% include feature_row id="feature_row4" %}
-{% include feature_row id="feature_row5" type="left" %}
+{% include feature_row id="platfrom_row" %}
+{% include feature_row id="modules_row" %}
+{% include technology_row %}
+{% include feature_row id="why_songpoem_row" %}
