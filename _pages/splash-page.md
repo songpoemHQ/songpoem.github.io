@@ -35,6 +35,8 @@ feature_row:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+songpoem_modules_intro: 
+  - excerpt: "We cover various modules such as"
 songpoem_modules:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
@@ -51,6 +53,8 @@ songpoem_modules:
     excerpt: "Notifications, Chat Messages, Interaction with User"
   - title: "Integrations"
     excerpt: "Payment Integration and other API integration"
+why_songpoem_intro: 
+  - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem:
   - title: "Support"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
@@ -83,6 +87,12 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
+
+{% include feature_row id="songpoem_modules" type="center" %}
+{% include feature_row %}
+{% include feature_row id="songpoem_modules" type="center" %}
+{% include feature_row id="why_songpoem" type="left" %}
+
 
 {% include feature_row id="intro" type="center" %}
 
