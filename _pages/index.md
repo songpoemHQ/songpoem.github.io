@@ -1,5 +1,5 @@
 ---
-title: "We help you with end to end Digital Transformation"
+title: "We provide solutions for End to End Digital Transformation"
 layout: splash
 permalink: /
 date: 2022-06-02T11:48:41-04:00
@@ -59,6 +59,10 @@ modules_row:
 why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
+  - title: "Accelerated Development"
+    excerpt: "We reuse already developed and well tested Modules and Functionalities,
+     that can be imported rather than building from scratch and testing again.
+    "
   - title: "Agile Development"
     excerpt: "
     Continuous improvements with no practical downtime of the application.
@@ -75,8 +79,8 @@ why_songpoem_row:
 
 {% include feature_row id="platform_row" %}
 
-We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
-{% include feature_row id="modules_row" %}
+<!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
+{% include feature_row id="modules_row" %} -->
 
 <!-- Technologies we use
 {% include feature_row id="technology_row" %} -->
