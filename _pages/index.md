@@ -27,7 +27,7 @@ technology_row:
     excerpt: "React.js, React Native, Next.js, Alpine.js, Flutter"
 platfrom_row:
   - title: "A Marketplace"
-    excerpt: "A Marketplace or a Large E-commerce product"
+    excerpt: "A multi entity Marketplace or a Large E-commerce platform"
   - title: "Membership"
     excerpt: "Membership or Subscription site"
   - title: "Gig Economy"
@@ -61,11 +61,15 @@ why_songpoem_row:
   - title: "Clean Code"
     excerpt: "We follow standing coding practices to keep the code Clean and Modular."
   - title: "Tests"
-    excerpt: "We write unit tests and integration tests, maximum code coverage."
+    excerpt: "We write **unit tests** and integration tests, maximum code coverage."
 ---
 {% include feature_row id="intro" type="center" %}
 {% include feature_row id="platfrom_row" %}
+
+> We cover various modules such as
 {% include feature_row id="modules_row" %}
+
+Technologies we use
 {% include feature_row id="technology_row" %}
-{% include feature_row id="why_songpoem_intro" type="center" %}
+<!-- {% include feature_row id="why_songpoem_intro" type="center" %} -->
 {% include feature_row id="why_songpoem_row" %}
