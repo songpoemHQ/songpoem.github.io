@@ -1,26 +1,32 @@
 ---
-title: Membership Platfrom
+title: Gig Economy Platfrom
+layout: splash
 permalink: /platform/gig/
-services_row:
-  - title: "App Development"
-    excerpt: "Development Development Development Development"
+feature_row:
+  - title: "Digital Gigs platform Development"
+    excerpt: "Web and mobile application development"
     url: "/platform/marketplace"
-    btn_label: "Read More"
+    btn_label: "Enquire"
     btn_class: "btn--info btn--small"
-  - title: "Marketing"
+  - title: "Taxi Booking App Development"
+    excerpt: "Android and iPhone apps development"
+    url: "/platform/marketplace"
+    btn_label: "Enquire"
+    btn_class: "btn--info btn--small"
+  - title: "UX for Gigs platform"
+    excerpt: "Web, Mobile and tab UX designs"
+    url: "/platform/membership/"
+    btn_label: "Enquire"
+    btn_class: "btn--info btn--small"
+  - title: "Email Marketing for gig platform"
+    excerpt: "Email Marketing Email Marketing Email"
+    url: "/platform/membership/"
+    btn_label: "Enquire"
+    btn_class: "btn--info btn--small"
+  - title: "Social Media Marketing"
     excerpt: "Marketing Marketing Marketing Marketing Marketing"
     url: "/platform/membership/"
-    btn_label: "Read More"
-    btn_class: "btn--info btn--small"
-  - title: "UX"
-    excerpt: "Figma UX Figma UX Figma Figma UX"
-    url: "/platform/membership/"
-    btn_label: "Read More"
-    btn_class: "btn--info btn--small"
-  - title: "Marketing"
-    excerpt: "Marketing Marketing Marketing Marketing Marketing"
-    url: "/platform/membership/"
-    btn_label: "Read More"
+    btn_label: "Enquire"
     btn_class: "btn--info btn--small"
 ---
 
@@ -31,4 +37,4 @@ When you have
 - A cycle is limited to an order only.
 - A gig Economy worker is available on demand. He can work a day or multiples days as per his convinence.
 
-{% include feature_row id="services_row" %}
+{% include feature_row %}
