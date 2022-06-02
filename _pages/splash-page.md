@@ -103,23 +103,7 @@ feature_row41:
 ---
 
 {% include feature_row %}
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row3" %}
 {% include feature_row id="feature_row2" %}
-{% include feature_row id="feature_row3" type="left" %}
-{% include feature_row id="feature_row4" type="left" %}
+{% include feature_row id="feature_row4" %}
 {% include feature_row id="feature_row5" type="left" %}
-
-
-{% include feature_row id="songpoem_modules_intro" type="center" %}
-{% include feature_row id="feature_row2" type="left" %}
-{% include feature_row id="feature_row" type="left" %}
-
-
-{% include feature_row id="why_songpoem_intro" type="left" %}
-{% include feature_row id="feature_row3" type="left" %}
-
-{% include feature_row id="intro" type="center" %}
-{% include feature_row id="feature_row4" type="left" %}
-
-
-
