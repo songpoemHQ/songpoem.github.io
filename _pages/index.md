@@ -28,11 +28,11 @@ technology_row:
 platfrom_row:
   - title: "A Marketplace"
     excerpt: "A multi entity Marketplace or a Large E-commerce platform"
+  - title: "Membership"
+    excerpt: "Membership or Subscription site"
     url: "/home-membership"
     btn_label: "Read More"
     btn_class: "btn--primary"
-- title: "Membership"
-    excerpt: "Membership or Subscription site"
   - title: "Gig Economy"
     excerpt: "Gig Economy for digital or physical delivery"
   - title: "Sharing Economy"
