@@ -1,5 +1,7 @@
 ---
 title: Digital Marketplace
+layout: single
+classes: wide
 permalink: /platform/marketplace/
 feature_row:
   - title: "Marketplace Development"
@@ -17,17 +19,22 @@ feature_row:
     url: "/platform/membership/"
     btn_label: "Enquire"
     btn_class: "btn--info btn--small"
-  - title: "Email Marketing for Marketplace"
+  - title: "Shopify Development"
+    excerpt: "Shopify Shopify"
+    url: "/platform/membership/"
+    btn_label: "Enquire"
+    btn_class: "btn--info btn--small"
+  - title: "Email Marketing for your E-commerce"
     excerpt: "Email Marketing Email Marketing Email"
     url: "/platform/membership/"
     btn_label: "Enquire"
     btn_class: "btn--info btn--small"
-  - title: "Social Media Marketing to find sellers for Marketplace"
+  - title: "Amazon Ads specialist"
     excerpt: "Marketing Marketing Marketing Marketing Marketing"
     url: "/platform/membership/"
     btn_label: "Enquire"
     btn_class: "btn--info btn--small"
-  - title: "Social Media Marketing to find new customers for Marketplace"
+  - title: "Facebook Marketing to find new customers for Marketplace"
     excerpt: "Marketing Marketing Marketing Marketing Marketing"
     url: "/platform/membership/"
     btn_label: "Enquire"
