@@ -1,6 +1,6 @@
 ---
 title: - Membership or Subscription Platfrom
-permalink: /home-membership/
+permalink: /membership/
 breadcrumbs:
   - label: "Home"
     url: /

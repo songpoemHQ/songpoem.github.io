@@ -1,5 +1,5 @@
 ---
-title: "We provide you end to end digital transformations"
+title: "We help you with end to end Digital Transformation"
 layout: splash
 permalink: /
 date: 2022-06-02T11:48:41-04:00
@@ -11,13 +11,7 @@ header:
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 intro: 
-  - excerpt: "We cover various modules such as
-- Web Application, Mobile Application, UX design.
-- Admin Dashboard.
-- Custom metrics needed for Marketing Team.
-- Notifications, Chat Messages, Interaction with User.
-- Payment Integration and other API integration.
-- Gamification, Reward points."
+  - excerpt: "We reuse already developed and well tested  modules and functionalities, that can be imported rather than building from scratch and testing again."
 technology_row:
   - title: "Elixir"
     excerpt: "Elixir-lang, Phoenix framework, Phoenix LiveView, AbsInThe"
@@ -25,31 +19,32 @@ technology_row:
     excerpt: "Ruby on Rails"
   - title: "Frontend Technologies"
     excerpt: "React.js, React Native, Next.js, Alpine.js, Flutter"
-platfrom_row:
-  - title: "A Marketplace"
+platform_row:
+  - title: "Marketplace"
     excerpt: "A multi entity Marketplace or a Large E-commerce platform"
-    url: "/home-gig-marketplace"
+    url: "/platform/marketplace"
     btn_label: "Read More"
     btn_class: "btn--inverse btn--small"
   - title: "Membership"
     excerpt: "Membership or Subscription site"
-    url: "/home-membership/"
+    url: "/platform/membership/"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
   - title: "Gig Economy"
     excerpt: "Gig Economy for digital or physical delivery"
-    url: "/home-gig-marketplace"
+    url: "/platform/gig-platform"
     btn_label: "Read More"
     btn_class: "btn--primary btn--small"
   - title: "Sharing Economy"
     excerpt: "For Sharing Products based on Duration"
-    url: "/home-gig-marketplace"
+    url: "/platform/sharing-platform"
     btn_label: "Read More"
     btn_class: "btn--inverse btn--small"
   - title: "Booking Portal"
-    excerpt: "To view available inventory and book"
-  - title: "SAAS"
-    excerpt: "Any SAAS Model with custom features"
+    url: "/platform/booking-platform"
+    btn_label: "Read More"
+    btn_class: "btn--info btn--small"
+    excerpt: "To view available inventory, book, view bookings. Appointment Scheduling, Calender"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 modules_row:
@@ -58,7 +53,7 @@ modules_row:
   - title: "metrics"
     excerpt: "metrics metrics metrics"
   - title: "Dashboard"
-    excerpt: "Dashboard for Admin to view user activities, approve."
+    excerpt: "Performance dashboards displaying stats and providing metadata for further analytics."
   - title: "Communication"
     excerpt: "Notifications, Chat Messages, Interaction with User"
   - title: "Integrations"
@@ -68,6 +63,10 @@ modules_row:
 why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
+  - title: "Agile Development"
+    excerpt: "
+    - Continuous improvements with no practical downtime of the application.
+    - Industry standard processes, documents, delivery and hand off with play book"
   - title: "Support"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
   - title: "Clean Code & Tests"
@@ -76,13 +75,15 @@ why_songpoem_row:
     excerpt: "We reuse of already developed and well tested  modules/ functionalities, that can be imported rather than building from scratch and testing again.
 "
 ---
-{% include feature_row id="platfrom_row" %}
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="platform_row" %}
 
 Set of modules already build in that we can reuse and improve.
 {% include feature_row id="modules_row" %}
 
-Technologies we use
-{% include feature_row id="technology_row" %}
+<!-- Technologies we use
+{% include feature_row id="technology_row" %} -->
 
 Why customers choose Songpoem Solutions
 {{ why_songpoem.excerpt }}
