@@ -32,7 +32,7 @@ feature_row:
     excerpt: "Gig Economy, Sharing Economy Product."
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
-songpoem_modules:
+feature_row2:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
     title: "App"
@@ -53,7 +53,7 @@ songpoem_modules:
     excerpt: "Payment Integration and other API integration"
 why_songpoem_intro: 
   - excerpt: "Why customers choose Songpoem Solutions."
-why_songpoem:
+feature_row3:
   - title: "Support"
     image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -66,7 +66,7 @@ why_songpoem:
     image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     excerpt: "We write unit tests and integration, maximum code coverage."
-feature_row2:
+feature_row21:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
@@ -74,7 +74,7 @@ feature_row2:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
+feature_row31:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Right Aligned"
@@ -93,10 +93,10 @@ feature_row4:
 ---
 
 {% include feature_row id="songpoem_modules_intro" type="center" %}
-{% include feature_row id="songpoem_modules" type="left" %}
+{% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="why_songpoem_intro" type="left" %}
-{% include feature_row id="why_songpoem" type="left" %}
+{% include feature_row id="feature_row3" type="left" %}
 
 {% include feature_row id="intro" type="center" %}
 
