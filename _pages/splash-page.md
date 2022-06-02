@@ -43,7 +43,7 @@ feature_row3:
     excerpt: "Ruby Ruby Ruby Ruby"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
-feature_row2:
+feature_row4
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
     title: "App"
@@ -64,7 +64,7 @@ feature_row2:
     excerpt: "Payment Integration and other API integration"
 why_songpoem_intro: 
   - excerpt: "Why customers choose Songpoem Solutions."
-feature_row3:
+feature_row5:
   - title: "Support"
     image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
