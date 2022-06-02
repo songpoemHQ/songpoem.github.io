@@ -89,21 +89,18 @@ feature_row4:
 ---
 
 {% include feature_row id="songpoem_modules_intro" type="center" %}
-{% include feature_row %}
 {% include feature_row id="songpoem_modules" type="center" %}
 
 {% include feature_row id="why_songpoem_intro" type="center" %}
 {% include feature_row id="why_songpoem" type="center" %}
-{% include feature_row %}
-
 
 {% include feature_row id="intro" type="center" %}
 
 
 {% include feature_row %}
 
-{% include feature_row id="songpoem_modules" type="center" %}
-{% include feature_row id="why_songpoem" type="left" %}
+<!-- {% include feature_row id="songpoem_modules" type="center" %}
+{% include feature_row id="why_songpoem" type="left" %} -->
 
 {% include feature_row id="feature_row2" type="left" %}
 
