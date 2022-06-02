@@ -23,17 +23,24 @@ intro:
 feature_row:
   - title: "A Marketplace"
     excerpt: "A Marketplace or a Large E-commerce product"
-  - title: "Membership 2"
+  - title: "Membership"
     excerpt: "Membership or Subscription site"
-  - title: "Economy 3"
+  - title: "Economy"
     excerpt: "Gig Economy, Sharing Economy Product."
-feature_row4:
-  - title: "A Marketplace"
-    excerpt: "A Marketplace or a Large E-commerce product"
-  - title: "Membership 2"
-    excerpt: "Membership or Subscription site"
-  - title: "Economy 3"
-    excerpt: "Gig Economy, Sharing Economy Product."
+feature_row2:
+  - title: "Web Application"
+    excerpt: "Mobile Mobile Mobile Mobile"
+  - title: "Dashboard 2"
+    excerpt: "Dashboard Dashboard Dashboard"
+  - title: "metrics 3"
+    excerpt: "metrics metrics metrics"
+feature_row3:
+  - title: "Elixir"
+    excerpt: "Elixir Elixir Elixir"
+  - title: "Phoenix"
+    excerpt: "Phoenix Phoenix Phoenix Phoenix"
+  - title: "Ruby"
+    excerpt: "Ruby Ruby Ruby Ruby"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 feature_row2:
@@ -96,13 +103,21 @@ feature_row41:
     btn_class: "btn--primary"
 ---
 
+{% include feature_row %}
+{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row3" type="left" %}
+
+
 {% include feature_row id="songpoem_modules_intro" type="center" %}
 {% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row" type="left" %}
+
 
 {% include feature_row id="why_songpoem_intro" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
 
 {% include feature_row id="intro" type="center" %}
+{% include feature_row id="feature_row4" type="left" %}
 
 
-{% include feature_row %}
+
