@@ -28,7 +28,7 @@ technology_row:
 platfrom_row:
   - title: "A Marketplace"
     excerpt: "A multi entity Marketplace or a Large E-commerce platform"
-    url: "/home/membership"
+    url: "/home-membership"
     btn_label: "Read More"
     btn_class: "btn--primary"
 - title: "Membership"
