@@ -6,10 +6,9 @@ date: 2022-06-02T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: /assets/images/success-solutions.jpeg
   cta_label: "Contact us"
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "If you are looking for A Marketplace, Booking Portal,  Membership or Subscription site, SAAS"
 intro: 
   - excerpt: "We cover various modules such as
@@ -102,5 +101,5 @@ feature_row41:
 
 {% include feature_row id="platfrom_row" %}
 {% include feature_row id="modules_row" %}
-{% include technology_row %}
+{% include feature_row id="technology_row" %}
 {% include feature_row id="why_songpoem_row" %}
