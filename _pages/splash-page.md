@@ -8,7 +8,6 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
   cta_label: "Contact us"
-#   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "If you are looking for A Marketplace, Booking Portal,  Membership or Subscription site, SAAS"
@@ -43,7 +42,7 @@ feature_row3:
     excerpt: "Ruby Ruby Ruby Ruby"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
-feature_row4
+feature_row4:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
     title: "App"
@@ -106,6 +105,8 @@ feature_row41:
 {% include feature_row %}
 {% include feature_row id="feature_row2" type="left" %}
 {% include feature_row id="feature_row3" type="left" %}
+{% include feature_row id="feature_row4" type="left" %}
+{% include feature_row id="feature_row5" type="left" %}
 
 
 {% include feature_row id="songpoem_modules_intro" type="center" %}
