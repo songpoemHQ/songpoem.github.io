@@ -64,9 +64,9 @@ why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
   - title: "Agile Development"
-    excerpt: "
+    excerpt: >-
     - Continuous improvements with no practical downtime of the application.
-    - Industry standard processes, documents, delivery and hand off with play book"
+    - Industry standard processes, documents, delivery and hand off with play book
   - title: "Support"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
   - title: "Clean Code & Tests"

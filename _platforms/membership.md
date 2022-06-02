@@ -1,11 +1,12 @@
 ---
-title: - Membership or Subscription Platfrom
-permalink: /membership/
-breadcrumbs:
-  - label: "Home"
-    url: /
-  - label: "Membership Platform"
-    url: /home-membership/    
+title: Membership Platfrom
+permalink: /platform/membership/
 ---
 
-When you have multiple level of users and different level of quota.
+{% include video id="XsxDH4HcOWA" provider="youtube" %}
+
+When you have
+- multiple level of users.
+- different level of quota.
+- Billing
+- Collaboration
