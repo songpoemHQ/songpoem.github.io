@@ -1,13 +1,13 @@
 ---
 title: "We provide you A Customized Platform"
 layout: splash
-permalink: /home-page/
+permalink: /
 date: 2022-06-02T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/success-solutions.jpeg
-  cta_label: "Contact us"
+  overlay_image: /assets/images/success-solutions2.jpeg
+  cta_label: "Enquire"
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
 excerpt: "If you are looking for A Marketplace, Booking Portal,  Membership or Subscription site, SAAS"
 intro: 
@@ -20,13 +20,11 @@ intro:
 - Gamification, Reward points."
 technology_row:
   - title: "Elixir"
-    excerpt: "Elixir Elixir Elixir"
-  - title: "Phoenix"
-    excerpt: "Phoenix Phoenix Phoenix Phoenix"
+    excerpt: "Elixir-lang, Phoenix framework, Phoenix LiveView, AbsInThe"
   - title: "Ruby"
-    excerpt: "Ruby Ruby Ruby Ruby"
-  - title: "Phoenix Liveview"
-    excerpt: "Liveview Liveview Liveview"
+    excerpt: "Ruby on Rails"
+  - title: "Frontend Technologies"
+    excerpt: "React.js, React Native, Next.js, Alpine.js, Flutter"
 platfrom_row:
   - title: "A Marketplace"
     excerpt: "A Marketplace or a Large E-commerce product"
@@ -35,14 +33,14 @@ platfrom_row:
   - title: "Economy"
     excerpt: "Gig Economy, Sharing Economy Product."
 modules_row:
-  - title: "Web Application"
-    excerpt: "Mobile Mobile Mobile Mobile"
-  - title: "Dashboard 2"
+  - title: "Application"
+    excerpt: "Web application. Mobile Application for Android and iPhone."
+  - title: "Dashboard"
     excerpt: "Dashboard Dashboard Dashboard"
-  - title: "metrics 3"
+  - title: "metrics"
     excerpt: "metrics metrics metrics"
   - title: "API integration"
-    excerpt: "Payment API integration"
+    excerpt: "Payment API integration, Slack Integration"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 feature_row4:

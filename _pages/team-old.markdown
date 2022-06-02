@@ -1,6 +1,6 @@
 ---
 title: Team
-permalink: /team/
+permalink: /team2/
 ---
 
 We have experienced consultants who can help with building a Membership ship with subscription model.

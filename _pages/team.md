@@ -1,7 +1,6 @@
 ---
-layout: splash
-permalink: /
-hidden: true
+title: Team
+permalink: /team/
 ---
 
 Songpoem Solutions provides you A Customized **Platform** if you are looking for
