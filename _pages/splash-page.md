@@ -57,10 +57,16 @@ why_songpoem_intro:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem:
   - title: "Support"
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
   - title: "Clean Code"
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
     excerpt: "Our Code is Clean and Modular. Easy to Extend."
   - title: "Tests"
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
     excerpt: "We write unit tests and integration, maximum code coverage."
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
