@@ -64,22 +64,22 @@ why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
   - title: "Agile Development"
-    excerpt: >-
+    excerpt: "
     - Continuous improvements with no practical downtime of the application.
     - Industry standard processes, documents, delivery and hand off with play book
+    "
   - title: "Support"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
   - title: "Clean Code & Tests"
     excerpt: "We follow standing coding practices to keep the code Clean and Modular. We write **unit tests** and integration tests, maximum code coverage."
-  - title: "Accelerators"
-    excerpt: "We reuse of already developed and well tested  modules/ functionalities, that can be imported rather than building from scratch and testing again.
-"
+  - title: "Compliance"
+    excerpt: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
 ---
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro" type="center" %} -->
 
 {% include feature_row id="platform_row" %}
 
-Set of modules already build in that we can reuse and improve.
+We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
 {% include feature_row id="modules_row" %}
 
 <!-- Technologies we use
