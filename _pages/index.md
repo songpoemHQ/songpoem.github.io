@@ -63,7 +63,7 @@ why_songpoem_row:
   - title: "Tests"
     excerpt: "We write **unit tests** and integration tests, maximum code coverage."
 ---
-{% include feature_row id="intro" type="center" %}
+Our Expertise Domain
 {% include feature_row id="platfrom_row" %}
 
 We cover various modules such as
@@ -72,5 +72,6 @@ We cover various modules such as
 Technologies we use
 {% include feature_row id="technology_row" %}
 
+Why customers choose Songpoem Solutions
 {{ why_songpoem.excerpt }}
 {% include feature_row id="why_songpoem_row" %}
