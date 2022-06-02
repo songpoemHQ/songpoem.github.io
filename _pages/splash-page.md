@@ -51,6 +51,13 @@ songpoem_modules:
     excerpt: "Notifications, Chat Messages, Interaction with User"
   - title: "Integrations"
     excerpt: "Payment Integration and other API integration"
+why_songpoem:
+  - title: "Support"
+    excerpt: "We provide Lifelong Support maintain existing modules and future additions."
+  - title: "Clean Code"
+    excerpt: "Our Code is Clean and Modular. Easy to Extend."
+  - title: "Tests"
+    excerpt: "We write unit tests and integration, maximum code coverage."
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -78,9 +85,12 @@ feature_row4:
 ---
 
 {% include feature_row id="intro" type="center" %}
-{% include feature_row id="songpoem_modules" type="center" %}
+
 
 {% include feature_row %}
+
+{% include feature_row id="songpoem_modules" type="center" %}
+{% include feature_row id="why_songpoem" type="left" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
