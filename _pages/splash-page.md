@@ -25,9 +25,13 @@ feature_row:
     excerpt: "A Marketplace or a Large E-commerce product"
   - title: "Membership 2"
     excerpt: "Membership or Subscription site"
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - title: "Economy 3"
+    excerpt: "Gig Economy, Sharing Economy Product."
+feature_row4:
+  - title: "A Marketplace"
+    excerpt: "A Marketplace or a Large E-commerce product"
+  - title: "Membership 2"
+    excerpt: "Membership or Subscription site"
   - title: "Economy 3"
     excerpt: "Gig Economy, Sharing Economy Product."
 songpoem_modules_intro: 
@@ -82,7 +86,7 @@ feature_row31:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row4:
+feature_row41:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Center Aligned"
@@ -102,12 +106,3 @@ feature_row4:
 
 
 {% include feature_row %}
-
-<!-- {% include feature_row id="songpoem_modules" type="center" %}
-{% include feature_row id="why_songpoem" type="left" %} -->
-
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
