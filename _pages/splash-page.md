@@ -93,8 +93,8 @@ feature_row4:
 {% include feature_row id="songpoem_modules" type="center" %}
 
 {% include feature_row id="why_songpoem_intro" type="center" %}
-{% include feature_row %}
 {% include feature_row id="why_songpoem" type="center" %}
+{% include feature_row %}
 
 
 {% include feature_row id="intro" type="center" %}
