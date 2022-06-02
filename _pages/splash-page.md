@@ -1,8 +1,8 @@
 ---
-title: "Songpoem Solutions provides you A Customized Platform"
+title: "We provide you A Customized Platform"
 layout: splash
 permalink: /home-page/
-date: 2016-03-23T11:48:41-04:00
+date: 2022-06-02T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -11,7 +11,7 @@ header:
 #   cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "if you are looking for A Marketplace, Large E-commerce, Booking Portal,  Membership or Subscription site, Gig Economy, Sharing Economy Product, SAAS"
+excerpt: "If you are looking for A Marketplace, Booking Portal,  Membership or Subscription site, SAAS"
 intro: 
   - excerpt: "We cover various modules such as
 - Web Application, Mobile Application, UX design.
@@ -35,6 +35,22 @@ feature_row:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+songpoem_modules:
+  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+    title: "App"
+    excerpt: "Web Application, Mobile Application, UX design"
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Admin Dashboard"
+    excerpt: "Dashboard to view user activities, approve."
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Marketing Metrics"
+    excerpt: "Marketing metrics needed for marketing Team"
+  - title: "Communication"
+    excerpt: "Notifications, Chat Messages, Interaction with User"
+  - title: "Integrations"
+    excerpt: "Payment Integration and other API integration"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -62,6 +78,7 @@ feature_row4:
 ---
 
 {% include feature_row id="intro" type="center" %}
+{% include feature_row id="songpoem_modules" type="center" %}
 
 {% include feature_row %}
 
