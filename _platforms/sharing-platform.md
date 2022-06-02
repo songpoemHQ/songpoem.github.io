@@ -1,6 +1,6 @@
 ---
-title: Membership Platfrom
-permalink: /platform/sharing-economy/
+title: Sharing Economy Platfrom
+permalink: /platform/sharing/
 ---
 
 {% include video id="XsxDH4HcOWA" provider="youtube" %}

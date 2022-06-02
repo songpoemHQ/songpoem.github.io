@@ -1,6 +1,6 @@
 ---
 title: Membership Platfrom
-permalink: /platform/gig-economy/
+permalink: /platform/gig/
 ---
 
 {% include video id="XsxDH4HcOWA" provider="youtube" %}

@@ -32,12 +32,12 @@ platform_row:
     btn_class: "btn--info btn--small"
   - title: "Gig Economy"
     excerpt: "Gig Economy for digital or physical delivery"
-    url: "/platform/gig-platform"
+    url: "/platform/gig"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
   - title: "Sharing Economy"
     excerpt: "For Sharing Products based on Duration"
-    url: "/platform/sharing-platform"
+    url: "/platform/sharing"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
   - title: "Booking Portal"
@@ -48,10 +48,6 @@ platform_row:
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 modules_row:
-  - title: "Application"
-    excerpt: "Web application. Mobile Application for Android and iPhone."
-  - title: "metrics"
-    excerpt: "metrics metrics metrics"
   - title: "Dashboard"
     excerpt: "Performance dashboards displaying stats and providing metadata for further analytics."
   - title: "Communication"
@@ -65,13 +61,13 @@ why_songpoem:
 why_songpoem_row:
   - title: "Agile Development"
     excerpt: "
-    - Continuous improvements with no practical downtime of the application.
-    - Industry standard processes, documents, delivery and hand off with play book
+    Continuous improvements with no practical downtime of the application.
+    Industry standard processes, documents, delivery and hand off with play book
     "
   - title: "Support"
     excerpt: "We provide Lifelong Support maintain existing modules and future additions."
-  - title: "Clean Code & Tests"
-    excerpt: "We follow standing coding practices to keep the code Clean and Modular. We write **unit tests** and integration tests, maximum code coverage."
+  - title: "Code Quality"
+    excerpt: "We follow standing coding practices to keep the code Clean and Modular. We do write **unit tests** and integration tests and maintain maximum code coverage."
   - title: "Compliance"
     excerpt: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
 ---
