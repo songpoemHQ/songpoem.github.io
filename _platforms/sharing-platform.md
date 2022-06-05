@@ -1,8 +1,10 @@
 ---
 title: Sharing Economy Platfrom
+layout: single
+classes: wide
 permalink: /platform/sharing/
 feature_row:
-  - title: "Villa rental platform"
+  - title: "Villa Rental platform"
     excerpt: "Web Portal to display available villas in your city and book them or message the owner"
     url: "/platform/marketplace"
     btn_label: "Enquire"
@@ -24,6 +26,11 @@ feature_row:
     btn_class: "btn--info btn--small"
   - title: "Social Media Marketing"
     excerpt: "Marketing Marketing Marketing Marketing Marketing"
+    url: "/platform/sharing/"
+    btn_label: "Enquire"
+    btn_class: "btn--info btn--small"
+  - title: "App development"
+    excerpt: "Web and App development"
     url: "/platform/sharing/"
     btn_label: "Enquire"
     btn_class: "btn--info btn--small"
