@@ -40,11 +40,6 @@ platform_row:
     url: "/platform/sharing"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
-  - title: "Booking Portal"
-    url: "/platform/booking"
-    btn_label: "Read More"
-    btn_class: "btn--info btn--small"
-    excerpt: "To view available inventory, book, view bookings. Appointment Scheduling, Calender"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 modules_row:
