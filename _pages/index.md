@@ -19,24 +19,25 @@ technology_row:
     excerpt: "Ruby on Rails"
   - title: "Frontend Technologies"
     excerpt: "React.js, React Native, Next.js, Alpine.js, Flutter"
-platform_row:
+product_row:
   - title: "Marketplace"
     excerpt: "A multi entity Marketplace or a Large E-commerce platform"
     url: "/platform/marketplace"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
+platform_row:
   - title: "Membership"
-    excerpt: "Membership or Subscription site"
+    excerpt: "When you want a customer to stay for a long time."
     url: "/platform/membership/"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
   - title: "Gig Economy"
-    excerpt: "Gig Economy for digital or physical delivery"
+    excerpt: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
   - title: "Sharing Economy"
-    excerpt: "For Sharing Products based on Duration"
+    excerpt: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
     url: "/platform/sharing"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
@@ -72,6 +73,7 @@ why_songpoem_row:
 ---
 <!-- {% include feature_row id="intro" type="center" %} -->
 
+Solutions based on your Business Model.
 {% include feature_row id="platform_row" %}
 
 <!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
