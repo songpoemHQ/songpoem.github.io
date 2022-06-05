@@ -1,5 +1,7 @@
 ---
 title: Membership Platfrom
+layout: single
+classes: wide
 permalink: /platform/membership/
 feature_row:
   - title: "Reedem Points Platform development"
