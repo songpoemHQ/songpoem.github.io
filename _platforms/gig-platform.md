@@ -1,11 +1,11 @@
 ---
-title: Gig Economy Platfrom
+title: Gig Economy Platform
 layout: single
 classes: wide
 permalink: /platform/gig/
 feature_row:
-  - title: "Digital Gigs marketplace Development"
-    excerpt: "Web Portal to post requirements, "
+  - title: "Marketplace platform Development for Digital Gigs"
+    excerpt: "Web Portal to post requirements, see available service providers, hire, book"
     url: "/platform/marketplace"
     btn_label: "Enquire"
     btn_class: "btn--info btn--small"
@@ -14,23 +14,18 @@ feature_row:
     url: "/platform/marketplace"
     btn_label: "Enquire"
     btn_class: "btn--info btn--small"
+  - title: "Food Delivery App Development"
+    excerpt: "Find realtime delivery partner, assign delivery, update the customer. Mark completed orders."
+    url: "/platform/marketplace"
+    btn_label: "Enquire"
+    btn_class: "btn--info btn--small"
+  - title: "Grocery Delivery app Development"
+    excerpt: "Plan Grocery pickup and delivery. Android and iPhone app development. App for Driver, Customer, web app for Admin"
+    url: "/platform/marketplace"
+    btn_label: "Enquire"
+    btn_class: "btn--info btn--small"
   - title: "UX design for Gigs platform"
     excerpt: "Web, Mobile and tab UX designs"
-    url: "/platform/membership/"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "PPC ads for gig platform"
-    excerpt: "Ads for Google, Youtube, Facebook target Audience"
-    url: "/platform/membership/"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "Email Marketing for gig platform"
-    excerpt: "Email Marketing Email Marketing Email"
-    url: "/platform/membership/"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "Social Media Marketing to find gig workers"
-    excerpt: "Marketing Marketing Marketing Marketing Marketing"
     url: "/platform/membership/"
     btn_label: "Enquire"
     btn_class: "btn--info btn--small"
@@ -55,5 +50,7 @@ Food delivery app will find realtime partners. Grocery delivery app helps in sch
 Taxi Cab Rental service. set pickup and drop location.
 A customer can view nearby available cabs.
 A Driver will be able to see available bookings.
+
+Do you need help with **App Development** or **Digital Marketing** for your startup?
 
 {% include feature_row %}

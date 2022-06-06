@@ -1,5 +1,5 @@
 ---
-title: Membership Platfrom
+title: Membership Platform
 layout: single
 classes: wide
 permalink: /platform/membership/
@@ -28,6 +28,8 @@ Membership Platform is where you want to build long-term, formal relationships w
 You may charge a fee from customers or it can be free.
 
 Futher Reading.
-Robbie Kelman Bexter's book **The Forever Transaction** and **The Membership Economy**
+- Robbie Kelman Bexter's book **The Forever Transaction** and **The Membership Economy**
+
+Do you need help with **App Development** or **Digital Darking** for your startup?
 
 {% include feature_row %}

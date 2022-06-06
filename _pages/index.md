@@ -89,24 +89,17 @@ Why customers choose Songpoem Solutions
 #### FAQs
 
 What Services do you provide?  
-We provide development services inluding Backend, Frontend, Mobile, and UX.
-
-What tools and **technologies** do you use?  
- We use Elixir-lang, Phoenix framework, React.js, Next.js, Figma, React Native.  
-We do use libraries including Memcached, Redis, Oban.
-
-Can I see your code samples:  
-Yes, they are on our [Github](https://github.com/orgs/SongpoemSol/repositories)
-
-Do you provide support to our existing projects?  
-Yes, our developers can help in your existing project adding.
+We provide development services inluding Backend, Frontend, Mobile, and UX.  
+We take fresh development as well as maintenance projects.  
+Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
+Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
 
 Do you provide services in my country.  
 We have worked with clients based in US, Europe, Singapore.  
 We overlap a few hours with your timezone.  
-All our team is remotely distributed.
+Our team is Distributed and we majorly work Remotely from home or Cafe.
 
 What are your charges?  
-  Our consultation starts at just **USD 3000** per month.
+Our consultation starts at just **USD 3000** per month.
 
 Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)

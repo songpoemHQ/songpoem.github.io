@@ -1,5 +1,5 @@
 ---
-title: Booking Platfrom
+title: Booking Platform
 permalink: /platform/booking/
 ---
 

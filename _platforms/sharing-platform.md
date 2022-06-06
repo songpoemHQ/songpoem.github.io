@@ -1,5 +1,5 @@
 ---
-title: Sharing Economy Platfrom
+title: Sharing Economy Platform
 layout: single
 classes: wide
 permalink: /platform/sharing/
