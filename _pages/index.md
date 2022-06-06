@@ -89,13 +89,13 @@ Why customers choose Songpoem Solutions
 #### FAQs
 
 What Services do you provide?  
-We provide development services inluding Backend, Frontend, Mobile, and UX.  
+## We provide development services inluding Backend, Frontend, Mobile, and UX.  
 We take fresh development as well as maintenance projects.  
-Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
+#### Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
 Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
 
 Do you provide services in my country.  
-We have worked with clients based in US, Europe, Singapore.  
+##### We have worked with clients based in US, Europe, Singapore.  
 We overlap a few hours with your timezone.  
 Our team is Distributed and we majorly work Remotely from home or Cafe.
 
