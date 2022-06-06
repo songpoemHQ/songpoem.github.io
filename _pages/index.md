@@ -85,3 +85,15 @@ Solutions based on your Business Model.
 Why customers choose Songpoem Solutions
 {{ why_songpoem.excerpt }}
 {% include feature_row id="why_songpoem_row" %}
+
+#### FAQs
+
+What **technologies** do you use?
+We use Elixir-lang, Phoenix framework, React.js.
+
+Do you provide support to our existing projects?
+Yes, our developers can help in your existing project adding.
+
+What is your charges?
+Our consulting fees starts at just **USD 2000** per month for part time support. Our team works with multiple clients.
+
