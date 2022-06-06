@@ -12,16 +12,21 @@ header:
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 intro: 
   - excerpt: "We reuse already developed and well tested  modules and functionalities, that can be imported rather than building from scratch and testing again."
-technology_row:
-  - title: "Elixir"
-    excerpt: "Elixir-lang, Phoenix framework, Phoenix LiveView, AbsInThe"
-  - title: "Ruby"
-    excerpt: "Ruby on Rails"
-  - title: "Frontend Technologies"
-    excerpt: "React.js, React Native, Next.js, Alpine.js, Flutter"
+services_row:
+  - title: "Engineering"
+    excerpt: "Build Scalable apps, discussing with your stakeholders and come up with a product."
+  - title: "Strategy"
+    excerpt: "Our Innovative strategist will help you retain customers longer and add more customers."
+  - title: "Design"
+    excerpt: "Stunning visual designs keeping your end users in mind."
 product_row:
   - title: "Marketplace"
     excerpt: "A multi entity Marketplace or a Large E-commerce platform"
+    url: "/platform/marketplace"
+    btn_label: "Read More"
+    btn_class: "btn--info btn--small"
+  - title: "Booking app"
+    excerpt: "An app to view available slots and book appointment"
     url: "/platform/marketplace"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
@@ -72,6 +77,8 @@ why_songpoem_row:
     excerpt: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
 ---
 <!-- {% include feature_row id="intro" type="center" %} -->
+Our Services
+{% include feature_row id="services_row" %}
 
 Solutions based on your Business Model.
 {% include feature_row id="platform_row" %}
