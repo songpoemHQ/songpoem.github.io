@@ -30,6 +30,6 @@ You may charge a fee from customers or it can be free.
 Futher Reading.
 - Robbie Kelman Bexter's book **The Forever Transaction** and **The Membership Economy**
 
-Do you need help with **App Development** or **Digital Darking** for your startup?
+Do you need help with **App Development** or **Digital Marketing** for your startup?
 
 {% include feature_row %}
