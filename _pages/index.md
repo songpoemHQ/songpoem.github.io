@@ -26,11 +26,6 @@ product_row:
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
 platform_row:
-  - title: "Membership"
-    excerpt: "When you want a customer to stay for a long time."
-    url: "/platform/membership/"
-    btn_label: "Read More"
-    btn_class: "btn--info btn--small"
   - title: "Gig Economy"
     excerpt: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
@@ -39,6 +34,11 @@ platform_row:
   - title: "Sharing Economy"
     excerpt: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
     url: "/platform/sharing"
+    btn_label: "Read More"
+    btn_class: "btn--info btn--small"
+  - title: "Membership"
+    excerpt: "When you want a customer to stay for a long time. The necessary addons."
+    url: "/platform/membership/"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
 songpoem_modules_intro: 
@@ -59,7 +59,7 @@ why_songpoem_row:
     excerpt: "We reuse already developed and well tested Modules and Functionalities,
      that can be imported rather than building from scratch and testing again.
     "
-  - title: "Agile Development"
+  - title: "Agile"
     excerpt: "
     Continuous improvements with no practical downtime of the application.
     Industry standard processes, documents, delivery and hand off with play book
@@ -88,12 +88,18 @@ Why customers choose Songpoem Solutions
 
 #### FAQs
 
-What **technologies** do you use?
-We use Elixir-lang, Phoenix framework, React.js.
+What Services do you provide?
+We provide development services inluding Backend, Frontend, DevOps and UX development. We have tieups with Digital Marketing Service providers too.
+
+What tools and **technologies** do you use?
+We use Elixir-lang, Phoenix framework, React.js, Next.js, Figma, React Native.
+
+Can I see your code samples: Yes, they are on our [Github](https://github.com/orgs/SongpoemSol/repositories)
 
 Do you provide support to our existing projects?
 Yes, our developers can help in your existing project adding.
 
 What is your charges?
-Our consulting fees starts at just **USD 2000** per month for part time support. Our team works with multiple clients.
+Our consulting starts at just **USD 3000** per month. Our team works with multiple clients.
 
+Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
