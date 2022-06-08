@@ -4,22 +4,23 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
-<div class="feature__wrapper_2" style="display: flex; align-items: flex-start; justify-content: space-around; flex-wrap: wrap; justify-content: flex-start; padding: 20px 0 40px 0;">
+<div class="feature__wrapper_2" style="display: flex; padding: 20px 0 40px 0;">
 
 {% if include.title %}
-  <h2 class="" style="color: grey">{{ include.title }}</h2>
+  <h2 class="" style="color: darkgrey; font-size: 1.875em; font-weight: 600">{{ include.title }}</h2>
 {% endif %}
+<div class="line-items" style="display: flex; align-items: flex-start; justify-content: space-around; flex-wrap: wrap; justify-content: flex-start; padding: 20px 0 40px 0;">
 
   {% for f in feature_row %}
-    <div class="feature_w2" style="display: flex; width: 50%; padding: 0 40px 0 40px;  font-family: Arial, Helvetica, sans-serif;">
+    <div class="feature_w2" style="display: flex; width: 50%; padding: 0 40px 0 40px;  font-family: Arial, Helvetica, sans-serif; ">
       <div class="archive__item">
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__subtitle">{{ f.title }}</h2>
+            <h2 class="archive__subtitle" style="font-weight: 500; font-size: 1.2em">{{ f.title }}</h2>
           {% endif %}
 
           {% if f.description %}
-            <div class="archive__item-excerpt" style="color: darkgray">
+            <div class="archive__item-excerpt" style="color: darkgray; font-weight: 400; font-size: 1em">
               {{ f.description | markdownify }}
             </div>
           {% endif %}
@@ -49,5 +50,6 @@
       </div>
     </div>
   {% endfor %}
+</div>
 
 </div>
