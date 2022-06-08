@@ -34,17 +34,15 @@ platform_row:
   - title: "Gigs Platform"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
-    casestudy_url: "/casestudy/one"
+    casestudy_url: "/platform/gig"
   - title: "Sharing Platform"
     description: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
     url: "/platform/sharing"
-    btn_label: "Explore"
-    btn_class: "btn--info btn--small"
+    casestudy_url: "/platform/sharing"
   - title: "Membership or Subscription Platform"
     description: "A user will be a member, Can be a free member or pay a subscription fee to access premium services. The goal will be to ensure member is using the platform."
     url: "/platform/membership"
-    btn_label: "Explore"
-    btn_class: "btn--info btn--small"
+    casestudy_url: "/platform/membership"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 modules_row:
@@ -79,7 +77,7 @@ why_songpoem_row:
 
 {% include feature_row_wide id="services_row" title="Our Services" %}
 
-{% include feature_row_wide id="platform_row" title="Solutions for your Business Model." %}
+{% include feature_row_wide id="platform_row" title="Solutions for your Business Model" %}
 
 <!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
 {% include feature_row id="modules_row" %} -->
@@ -91,11 +89,14 @@ Why customers choose Songpoem Solutions
 
 #### FAQs
 
-What Services do you provide?  
+What **Engineering Services** do you provide?  
 We provide development services inluding Backend, Frontend, Mobile, and UX.  
 We take fresh development as well as maintenance projects.  
 Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
 Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
+
+What **Growth Services** do you provide?  
+We analyse your business concept to understand customers and your offerings and come up with possible strategy to reach more relevant users.
 
 Do you provide services in my country.  
 We have worked with clients based in US, Europe, Singapore.  
