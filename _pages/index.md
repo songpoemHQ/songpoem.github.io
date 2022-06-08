@@ -14,11 +14,9 @@ intro:
   - excerpt: "We reuse already developed and well tested  modules and functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Engineering"
-    excerpt: "Build Scalable apps, discussing with your stakeholders and come up with a product."
-  - title: "Strategy"
-    excerpt: "Our Innovative strategist will help you retain customers longer and add more customers."
-  - title: "Design"
-    excerpt: "Stunning visual designs keeping your end users in mind."
+    excerpt: "Build Apps for browser as well as mobile applications. Fresh App Development as well as Maintenance & Support."
+  - title: "Growth"
+    excerpt: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 product_row:
   - title: "Marketplace"
     excerpt: "A multi entity Marketplace or a Large E-commerce platform"
@@ -31,20 +29,20 @@ product_row:
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
 platform_row:
-  - title: "Gig Economy"
+  - title: "Gigs Platform"
     excerpt: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
-    btn_label: "Read More"
+    btn_label: "Explore"
     btn_class: "btn--info btn--small"
-  - title: "Sharing Economy"
+  - title: "Sharing Platform"
     excerpt: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
     url: "/platform/sharing"
-    btn_label: "Read More"
+    btn_label: "Explore"
     btn_class: "btn--info btn--small"
-  - title: "Membership"
-    excerpt: "When you want a customer to stay for a long time. The necessary addons."
-    url: "/platform/membership/"
-    btn_label: "Read More"
+  - title: "Membership or Subscription Platform"
+    excerpt: "A user will be a member, Can be a free member or pay a subscription fee to access premium services. The goal will be to ensure member is using the platform."
+    url: "/platform/membership"
+    btn_label: "Explore"
     btn_class: "btn--info btn--small"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
@@ -96,17 +94,14 @@ Why customers choose Songpoem Solutions
 #### FAQs
 
 What Services do you provide?  
-## We provide development services inluding Backend, Frontend, Mobile, and UX.  
+We provide development services inluding Backend, Frontend, Mobile, and UX.  
 We take fresh development as well as maintenance projects.  
-#### Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
+Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
 Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
 
 Do you provide services in my country.  
-##### We have worked with clients based in US, Europe, Singapore.  
+We have worked with clients based in US, Europe, Singapore.  
 We overlap a few hours with your timezone.  
-Our team is Distributed and we majorly work Remotely from home or Cafe.
-
-What are your charges?  
-Our consultation starts at just **USD 3000** per month.
+Our team is Distributed and we majorly work Remotely from
 
 Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
