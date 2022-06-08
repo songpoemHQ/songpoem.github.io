@@ -28,7 +28,7 @@ product_row:
     url: "/platform/marketplace"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
-platform_row_1:
+platform_row:
   - title: "Gigs Platform"
     excerpt: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
@@ -39,7 +39,6 @@ platform_row_1:
     url: "/platform/sharing"
     btn_label: "Explore"
     btn_class: "btn--info btn--small"
-platform_row_2:
   - title: "Membership or Subscription Platform"
     excerpt: "A user will be a member, Can be a free member or pay a subscription fee to access premium services. The goal will be to ensure member is using the platform."
     url: "/platform/membership"
@@ -80,8 +79,7 @@ Our Services
 {% include feature_row id="services_row" %}
 
 Solutions for your Business Model.
-{% include feature_row id="platform_row_1" type="left" %}
-{% include feature_row id="platform_row_2" type="left" %}
+{% include feature_row id="platform_row" %}
 
 <!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
 {% include feature_row id="modules_row" %} -->
