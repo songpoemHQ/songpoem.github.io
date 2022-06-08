@@ -1,5 +1,5 @@
 ---
-title: "We provide solutions for End to End Digital Transformation"
+title: "We help your business with End to End Digital Transformation"
 layout: splash
 permalink: /
 date: 2022-06-02T11:48:41-04:00
@@ -28,7 +28,7 @@ product_row:
     url: "/platform/marketplace"
     btn_label: "Read More"
     btn_class: "btn--info btn--small"
-platform_row:
+platform_row_1:
   - title: "Gigs Platform"
     excerpt: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
@@ -39,6 +39,7 @@ platform_row:
     url: "/platform/sharing"
     btn_label: "Explore"
     btn_class: "btn--info btn--small"
+platform_row_2:
   - title: "Membership or Subscription Platform"
     excerpt: "A user will be a member, Can be a free member or pay a subscription fee to access premium services. The goal will be to ensure member is using the platform."
     url: "/platform/membership"
@@ -78,8 +79,9 @@ why_songpoem_row:
 Our Services
 {% include feature_row id="services_row" %}
 
-Solutions based on your Business Model.
-{% include feature_row id="platform_row" %}
+Solutions for your Business Model.
+{% include feature_row id="platform_row_1" type="left" %}
+{% include feature_row id="platform_row_2" type="left" %}
 
 <!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
 {% include feature_row id="modules_row" %} -->
@@ -88,7 +90,6 @@ Solutions based on your Business Model.
 {% include feature_row id="technology_row" %} -->
 
 Why customers choose Songpoem Solutions
-{{ why_songpoem.excerpt }}
 {% include feature_row id="why_songpoem_row" %}
 
 #### FAQs
