@@ -5,16 +5,16 @@ classes: wide
 permalink: /platform/gig/
 feature_row:
   - title: "Marketplace for Digital Gigs"
-    excerpt: "Web Portal to post requirements, see available service providers, hire, book, pay, mark work as completed"
+    description: "Web Portal to post requirements, see available service providers, hire, book, pay, mark work as completed"
     enquire_url: "/platform/marketplace"
-  - title: "Taxi Booking App"
-    excerpt: "Display nearest available cab on hire to customers mobile. Android and iPhone app. App for Driver, Customer, web app for Admin"
+  - title: "Taxi Booking platform"
+    description: "Display nearest available cab on hire to customers mobile. Android and iPhone app. App for Driver, Customer, web app for Admin"
     enquire_url: "/platform/marketplace"
-  - title: "Food Delivery App"
-    excerpt: "Find realtime delivery partner, assign delivery, update the customer. Mark completed orders."
+  - title: "Food Delivery"
+    description: "Find realtime delivery partner, assign delivery, update the customer. Mark completed orders."
     enquire_url: "/platform/marketplace"
-  - title: "Grocery Delivery app"
-    excerpt: "Plan Grocery pickup and delivery. Android and iPhone app. App for Driver, Customer, web app for Admin"
+  - title: "Grocery Delivery"
+    description: "Plan Grocery pickup and delivery. Android and iPhone app. App for Driver, Customer, web app for Admin"
     enquire_url: "/platform/marketplace"
 ---
 

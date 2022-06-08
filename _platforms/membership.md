@@ -4,14 +4,14 @@ layout: single
 classes: wide
 permalink: /platform/membership/
 feature_row:
-  - title: "Reedem Points Platform development"
-    excerpt: "When you want to offer points to your users for keeping using and a reedem collected points option"
+  - title: "Reedem Points Platform"
+    description: "When you want to offer points to your users for keeping using and a reedem collected points option"
     enquire_url: "/platform/marketplace"
-  - title: "Gamification development"
-    excerpt: "Design gamification and rewards. Dashboard to view use and add/remove reedem options."
+  - title: "Gamification"
+    description: "Design gamification and rewards. Dashboard to view use and add/remove reedem options."
     enquire_url: "/platform/membership/"
   - title: "Membership model consultation"
-    excerpt: "An expert will analyze your business and come up with a membership design curated for your audience."
+    description: "An expert will analyze your business and come up with a membership design."
     enquire_url: "/platform/membership/"
 ---
 
