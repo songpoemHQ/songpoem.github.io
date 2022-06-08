@@ -1,34 +1,21 @@
 ---
-title: Gig Economy Platform
+title: Gig Economy Platforms
 layout: single
 classes: wide
 permalink: /platform/gig/
 feature_row:
-  - title: "Marketplace platform Development for Digital Gigs"
-    excerpt: "Web Portal to post requirements, see available service providers, hire, book"
-    url: "/platform/marketplace"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "Taxi Booking App Development"
-    excerpt: "Display nearest available cab on hire to customers mobile. Android and iPhone app development. App for Driver, Customer, web app for Admin"
-    url: "/platform/marketplace"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "Food Delivery App Development"
+  - title: "Marketplace for Digital Gigs"
+    excerpt: "Web Portal to post requirements, see available service providers, hire, book, pay, mark work as completed"
+    enquire_url: "/platform/marketplace"
+  - title: "Taxi Booking App"
+    excerpt: "Display nearest available cab on hire to customers mobile. Android and iPhone app. App for Driver, Customer, web app for Admin"
+    enquire_url: "/platform/marketplace"
+  - title: "Food Delivery App"
     excerpt: "Find realtime delivery partner, assign delivery, update the customer. Mark completed orders."
-    url: "/platform/marketplace"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "Grocery Delivery app Development"
-    excerpt: "Plan Grocery pickup and delivery. Android and iPhone app development. App for Driver, Customer, web app for Admin"
-    url: "/platform/marketplace"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "UX design for Gigs platform"
-    excerpt: "Web, Mobile and tab UX designs"
-    url: "/platform/membership/"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
+    enquire_url: "/platform/marketplace"
+  - title: "Grocery Delivery app"
+    excerpt: "Plan Grocery pickup and delivery. Android and iPhone app. App for Driver, Customer, web app for Admin"
+    enquire_url: "/platform/marketplace"
 ---
 
 {% include video id="HvHkmV-Aeoo" provider="youtube" %}
@@ -51,6 +38,5 @@ Taxi Cab Rental service. set pickup and drop location.
 A customer can view nearby available cabs.
 A Driver will be able to see available bookings.
 
-Do you need help with **App Development** or **Digital Marketing** for your startup?
+{% include feature_row_wide title="Our Solutions" %}
 
-{% include feature_row %}

@@ -9,7 +9,7 @@
 {% if include.title %}
   <span class="" style="color: #505050; font-size: 1.575em; font-weight: 600">{{ include.title }}</span>
 {% endif %}
-<div class="line-items" style="display: flex; align-items: flex-start; justify-content: space-around; flex-wrap: wrap; justify-content: flex-start; padding: 20px 0 40px 0;">
+<div class="line-items" style="display: flex; align-items: flex-start; justify-content: space-around; flex-wrap: wrap; justify-content: flex-start; padding: 10px">
 
   {% for f in feature_row %}
     <div class="feature_w2" style="display: flex; width: 50%; padding: 0 40px 50px 40px;  font-family: Arial, Helvetica, sans-serif; ">

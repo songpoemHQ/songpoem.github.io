@@ -1,5 +1,5 @@
 ---
-title: Sharing Economy Platform
+title: Sharing Economy Platforms
 layout: single
 classes: wide
 permalink: /platform/sharing/
@@ -38,4 +38,4 @@ So, all in all – Sharing economy is **“What is mine is yours, for a fee!”*
 
 This idea of sharing economy has changed the meaning of ownership – now access is the new ownership, because it is less expensive to have access to the goods than to own it. People have started believing in the idea that I don’t need a car, I just want to drive! People are more fascinated with the thought of having their work done than flaunting off the tools through which it was done. 
 
-{% include feature_row_wide title="Our Services" %}
+{% include feature_row_wide title="Our Solutions" %}
