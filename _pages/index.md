@@ -12,7 +12,11 @@ header:
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Engineering"
-    description: "Open app on Laptop or mobile browser. Or application for Android and iPhone. Fresh App Development and also provide Maintenance & Support for your existing project."
+    description:
+    "- Open app on Laptop or mobile browser.  
+    - Application for Android and iPhone.
+    - Fresh App Development and also provide Maintenance & Support for your existing project.   
+    - Tailormade as per requirements including API integrations with your favourite app."
   - title: "Growth"
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 product_row:
@@ -36,7 +40,7 @@ platform_row:
     url: "/platform/sharing"
     casestudy_url: "/platform/sharing"
   - title: "Membership or Subscription Platform"
-    description: "A user will be a member, Can be a free member or pay a subscription fee to access premium services. The goal will be to ensure member is using the platform."
+    description: "A user can be a free member or pay a subscription fee to access premium services. The goal is to ensure member is using the platform for a long term."
     url: "/platform/membership"
     casestudy_url: "/platform/membership"
 songpoem_modules_intro: 
@@ -85,7 +89,7 @@ why_songpoem_row:
 #### FAQs
 
 What **Engineering Services** do you provide?  
-We provide development services inluding Backend, Frontend, Mobile, and UX.  
+We provide development services inluding Backend, Frontend, Mobile App, UX, 3rd party API integration.  
 We take fresh development as well as maintenance projects.  
 Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
 Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
