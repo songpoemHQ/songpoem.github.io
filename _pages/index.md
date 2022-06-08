@@ -10,14 +10,10 @@ header:
   cta_label: "Enquire"
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
-intro: 
-  - excerpt: "We reuse already developed and well tested  modules and functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Engineering"
-    excerpt: "Build Apps for browser as well as mobile applications. Fresh App Development as well as Maintenance & Support."
     description: "Open app on Laptop or mobile browser. Or application for Android and iPhone. Fresh App Development and also provide Maintenance & Support for your existing project."
   - title: "Growth"
-    excerpt: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 product_row:
   - title: "Marketplace"
@@ -58,20 +54,20 @@ why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
   - title: "Accelerated Development"
-    excerpt: "We reuse already developed and well tested Modules and Functionalities,
+    description: "We reuse already developed and well tested Modules and Functionalities,
      that can be imported rather than building from scratch and testing again.
     "
   - title: "Agile"
-    excerpt: "
+    description: "
     Continuous improvements with no practical downtime of the application.
-    Industry standard processes, documents, delivery and hand off with play book
+    Industry standard processes, documents, delivery and hand off with play book.
     "
   - title: "Support"
-    excerpt: "We provide Lifelong Support maintain existing modules and future additions."
+    description: "We provide Lifelong Support maintain existing modules and future additions."
   - title: "Code Quality"
-    excerpt: "We follow standing coding practices to keep the code Clean and Modular. We do write **unit tests** and integration tests and maintain maximum code coverage."
+    description: "We follow standing coding practices to keep the code Clean and Modular. We write unit tests and integration tests and maintain maximum code coverage."
   - title: "Compliance"
-    excerpt: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
+    description: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
 ---
 <!-- {% include feature_row id="intro" type="center" %} -->
 
