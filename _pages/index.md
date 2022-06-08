@@ -12,8 +12,7 @@ header:
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Engineering"
-    description:
-    "- Open app on Laptop or mobile browser.  
+    description: "- Open app on Laptop or mobile browser.  
     - Application for Android and iPhone.
     - Fresh App Development and also provide Maintenance & Support for your existing project.   
     - Tailormade as per requirements including API integrations with your favourite app."
