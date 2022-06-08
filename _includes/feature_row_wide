@@ -44,6 +44,9 @@
             {% if f.casestudy_url %}
             <a href="{{ f.casestudy_url | relative_url }}" class="btn btn--inverse">Case Study</a>
             {% endif %}
+            {% if f.enquire_url %}
+            <a href="{{ f.enquire_url | relative_url }}" class="btn btn--primary">Enquire</a>
+            {% endif %}
           </div>
 
         </div>

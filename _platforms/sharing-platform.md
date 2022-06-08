@@ -5,25 +5,14 @@ classes: wide
 permalink: /platform/sharing/
 feature_row:
   - title: "Villa Rental Marketplace platform"
-    excerpt: "A web and mobile app. Customers can view available villas at preffered place and time. Book or message the owner. Owners can manage their listing and price."
-    url: "/platform/marketplace"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "UX design"
-    excerpt: "Web, Mobile and tab UX designs"
-    url: "/platform/sharing/"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "PPC ads"
-    excerpt: "Ads for Google, Youtube, Facebook to reach your target Audience"
-    url: "/platform/sharing/"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
-  - title: "Social Media Marketing"
-    excerpt: "Generate content for your page to get more Audience, followers and likes. Create awareness."
-    url: "/platform/sharing/"
-    btn_label: "Enquire"
-    btn_class: "btn--info btn--small"
+    description: "A web and mobile app. Customers can view available villas at preffered place and time. Book or message the owner. Owners can manage their listing and price."
+    enquire_url: "/platform/marketplace"
+  - title: "Cab sharing platform"
+    description: "Driver can list their journey and available seats. A customer can search and also create alerts. Message the driver and book the seats."
+    enquire_url: "/platform/sharing/"
+  - title: "Products lending platform"
+    description: "List the products you would like to rent and the fees for the duration. It can be lending books or clothes or some accessories."
+    enquire_url: "/platform/sharing/"
 ---
 
 {% include video id="tEzTOPG1JZg" provider="youtube" %}
@@ -49,6 +38,4 @@ So, all in all – Sharing economy is **“What is mine is yours, for a fee!”*
 
 This idea of sharing economy has changed the meaning of ownership – now access is the new ownership, because it is less expensive to have access to the goods than to own it. People have started believing in the idea that I don’t need a car, I just want to drive! People are more fascinated with the thought of having their work done than flaunting off the tools through which it was done. 
 
-Do you need help with **App Development** or **Digital Marketing** for your startup?
-
-{% include feature_row %}
+{% include feature_row_wide title="Our Services" %}
