@@ -15,8 +15,10 @@ intro:
 services_row:
   - title: "Engineering"
     excerpt: "Build Apps for browser as well as mobile applications. Fresh App Development as well as Maintenance & Support."
+    description: "Open app on Laptop or mobile browser. Or application for Android and iPhone. Fresh App Development and also provide Maintenance & Support for your existing project."
   - title: "Growth"
     excerpt: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
+    description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 product_row:
   - title: "Marketplace"
     excerpt: "A multi entity Marketplace or a Large E-commerce platform"
@@ -30,17 +32,17 @@ product_row:
     btn_class: "btn--info btn--small"
 platform_row:
   - title: "Gigs Platform"
-    excerpt: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
+    description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
     btn_label: "Explore"
     btn_class: "btn--info btn--small"
   - title: "Sharing Platform"
-    excerpt: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
+    description: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
     url: "/platform/sharing"
     btn_label: "Explore"
     btn_class: "btn--info btn--small"
   - title: "Membership or Subscription Platform"
-    excerpt: "A user will be a member, Can be a free member or pay a subscription fee to access premium services. The goal will be to ensure member is using the platform."
+    description: "A user will be a member, Can be a free member or pay a subscription fee to access premium services. The goal will be to ensure member is using the platform."
     url: "/platform/membership"
     btn_label: "Explore"
     btn_class: "btn--info btn--small"
@@ -76,10 +78,10 @@ why_songpoem_row:
 ---
 <!-- {% include feature_row id="intro" type="center" %} -->
 Our Services
-{% include feature_row id="services_row" %}
+{% include feature_row_wide id="services_row" %}
 
 Solutions for your Business Model.
-{% include feature_row id="platform_row" %}
+{% include feature_row_wide id="platform_row" %}
 
 <!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
 {% include feature_row id="modules_row" %} -->
