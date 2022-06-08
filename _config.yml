@@ -116,7 +116,7 @@ tag_archive:
 analytics:
   provider: "google"
   google:
-    tracking_id: "G-25WTHF8YFW"
+    tracking_id: "G-GTYGD0GH2H"
     anonymize_ip: true
 
 # Exclude from processing.
