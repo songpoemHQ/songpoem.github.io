@@ -6,6 +6,10 @@
 
 <div class="feature__wrapper_2" style="display: flex; align-items: flex-start; justify-content: space-around; flex-wrap: wrap; justify-content: flex-start; padding: 20px 0 40px 0;">
 
+{% if include.title %}
+  <h2 class="" style="color: grey">{{ include.title }}</h2>
+{% endif %}
+
   {% for f in feature_row %}
     <div class="feature_w2" style="display: flex; width: 50%; padding: 0 40px 0 40px;  font-family: Arial, Helvetica, sans-serif;">
       <div class="archive__item">
@@ -15,7 +19,7 @@
           {% endif %}
 
           {% if f.description %}
-            <div class="archive__item-excerpt">
+            <div class="archive__item-excerpt" style="color: darkgray">
               {{ f.description | markdownify }}
             </div>
           {% endif %}

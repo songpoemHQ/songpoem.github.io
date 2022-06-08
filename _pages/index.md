@@ -76,18 +76,16 @@ why_songpoem_row:
     excerpt: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
 ---
 <!-- {% include feature_row id="intro" type="center" %} -->
-Our Services
-{% include feature_row_wide id="services_row" %}
 
-Solutions for your Business Model.
-{% include feature_row_wide id="platform_row" %}
+{% include feature_row_wide id="services_row" title="Our Services" %}
+
+{% include feature_row_wide id="platform_row" title="Solutions for your Business Model." %}
 
 <!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
 {% include feature_row id="modules_row" %} -->
 
 <!-- Technologies we use
 {% include feature_row id="technology_row" %} -->
-
 Why customers choose Songpoem Solutions
 {% include feature_row id="why_songpoem_row" %}
 
