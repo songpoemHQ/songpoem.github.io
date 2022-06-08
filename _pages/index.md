@@ -34,12 +34,7 @@ platform_row:
   - title: "Gigs Platform"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
-    btn_label: "Explore"
-    tags:
-    - Digital Gigs
-    - Taxi
-    - Household service
-    btn_class: "btn--info btn--small"
+    casestudy_url: "/casestudy/one"
   - title: "Sharing Platform"
     description: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
     url: "/platform/sharing"
