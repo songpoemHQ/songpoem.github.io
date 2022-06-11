@@ -20,10 +20,10 @@ services_row:
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 platform_row:
   - title: "Marketplace"
-    description: "A multi level platform of service providers and consumers."
+    description: "A multi level platform for service providers and consumers. They can Exchange messages, transactions for business. Buy or rent the product."
     url: "/platform/marketplace"
   - title: "On Demand Service Platform"
-    description: "Gig Economy products like Uber"
+    description: "on-demand platform for gig workers like delivery, ride sharing, services"
     url: "/platform/on-demand"
   - title: "Community"
     description: "Community Management and Engagement platform. Memberships, Network. User hirerachy, premium features. Invite users, reedem points."
@@ -75,7 +75,7 @@ why_songpoem_row:
 
 <!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
 {% include feature_row_wide id="platform_row"
-title="Our platforms" %}
+title="Our Products and Platforms" %}
 
 {% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
