@@ -1,6 +1,6 @@
 ---
 title: Gig Economy
-layout: single
+layout: splash
 classes: wide
 permalink: /platform/gig/
 feature_row:

@@ -1,6 +1,6 @@
 ---
 title: Sharing Economy
-layout: single
+layout: splash
 classes: wide
 permalink: /platform/sharing/
 feature_row:

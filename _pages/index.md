@@ -28,19 +28,19 @@ platform_row:
   - title: "Community"
     description: "Community Management and Engagement platform. Memberships, Network. User hirerachy, premium features. Invite users, reedem points."
     url: "/platform/community"
-economics_row:
+economy_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
-    url: "/platform/gig"
-    casestudy_url: "/platform/gig"
+    url: "/economy/gig"
+    # casestudy_url: "/platform/gig"
   - title: "Sharing Economy"
     description: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
-    url: "/platform/sharing"
-    casestudy_url: "/platform/sharing"
+    url: "/economy/sharing"
+    # casestudy_url: "/platform/sharing"
   - title: "Membership or Subscription Platform"
     description: "A user can be a free member or pay a subscription fee to access premium services. The goal is to ensure member is using the platform for a long term."
-    url: "/platform/membership"
-    casestudy_url: "/platform/membership"
+    url: "/economy/membership"
+    # casestudy_url: "/platform/membership"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 modules_row:
@@ -74,8 +74,10 @@ why_songpoem_row:
 <!-- {% include feature_row_wide id="intro" type="center" %} -->
 
 <!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
-
 {% include feature_row_wide id="platform_row"
+title="Our platforms" %}
+
+{% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
 
 <!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.

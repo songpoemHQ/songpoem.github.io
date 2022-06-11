@@ -26,8 +26,8 @@ email: sandesh.soni@songpoem.com
 description: >- # this means to ignore newlines until "baseurl:"
   Songpoem Solutions provides you technolical assistance for end to end Digital Transformation.
   Gig Economy, Sharing Economy, Membership, Marketplace or any other Platform for startup.
-masthead_title           : Solutions for new startups.
-logo                     : https://web-work.tools/images/logo.png
+masthead_title           : Platforms for modern Startups
+logo                     : "/assets/images/sp-logo-1.jpeg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.songpoem.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: songpoemsol
