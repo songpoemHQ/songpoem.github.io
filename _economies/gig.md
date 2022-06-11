@@ -1,5 +1,5 @@
 ---
-title: Gig Economy Platforms
+title: Gig Economy
 layout: single
 classes: wide
 permalink: /platform/gig/
@@ -18,7 +18,6 @@ feature_row:
     enquire_url: "/platform/marketplace"
 ---
 
-{% include video id="HvHkmV-Aeoo" provider="youtube" %}
 
 - An Employer hires a service provider without having to invest in the needed equipments.
 - A service provider arranges the needed assets like a computer or a delivery van, bike.

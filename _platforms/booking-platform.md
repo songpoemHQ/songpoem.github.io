@@ -1,9 +1,9 @@
 ---
-title: Booking Platform
+title: "Customized Marketplace Platform for startup Idea"
+layout: splash
 permalink: /platform/booking/
 ---
 
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
 
 Book Appointments.
 View Availability.

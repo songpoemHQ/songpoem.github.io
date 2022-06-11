@@ -1,8 +1,8 @@
 ---
-title: "We help your business with End to End Digital Transformation"
+title: "Songpoem provides scalable platform for your startup Idea"
 layout: splash
 permalink: /
-date: 2022-06-02T11:48:41-04:00
+date: 2022-06-11T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -18,18 +18,17 @@ services_row:
     Tailormade as per requirements including API integrations with your favourite app.   "
   - title: "Growth"
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
-product_row:
-  - title: "Marketplace"
-    excerpt: "A multi entity Marketplace or a Large E-commerce platform"
-    url: "/platform/marketplace"
-    btn_label: "Read More"
-    btn_class: "btn--info btn--small"
-  - title: "Booking app"
-    excerpt: "An app to view available slots and book appointment"
-    url: "/platform/marketplace"
-    btn_label: "Read More"
-    btn_class: "btn--info btn--small"
 platform_row:
+  - title: "Marketplace"
+    description: "A multi level platform of service providers and consumers."
+    url: "/platform/marketplace"
+  - title: "On Demand Service Platform"
+    description: "Gig Economy products like Uber"
+    url: "/platform/on-demand"
+  - title: "Community"
+    description: "Community Management and Engagement platform. Memberships, Network. User hirerachy, premium features. Invite users, reedem points."
+    url: "/platform/community"
+economics_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
     url: "/platform/gig"
@@ -72,17 +71,18 @@ why_songpoem_row:
   - title: "Compliance"
     description: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
 ---
-<!-- {% include feature_row id="intro" type="center" %} -->
+<!-- {% include feature_row_wide id="intro" type="center" %} -->
 
-{% include feature_row_wide id="services_row" title="Our Services" %}
+<!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
 
-{% include feature_row_wide id="platform_row" title="Solutions for your Startup and Business Model" %}
+{% include feature_row_wide id="platform_row"
+title="Solutions for your Business Model" %}
 
 <!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
-{% include feature_row id="modules_row" %} -->
+{% include feature_row_wide id="modules_row" %} -->
 
 <!-- Technologies we use
-{% include feature_row id="technology_row" %} -->
+{% include feature_row_wide id="technology_row" %} -->
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
 
 #### FAQs

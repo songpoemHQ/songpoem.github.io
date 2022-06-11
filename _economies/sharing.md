@@ -1,5 +1,5 @@
 ---
-title: Sharing Economy Platforms
+title: Sharing Economy
 layout: single
 classes: wide
 permalink: /platform/sharing/
@@ -15,7 +15,6 @@ feature_row:
     enquire_url: "/platform/sharing/"
 ---
 
-{% include video id="tEzTOPG1JZg" provider="youtube" %}
 
 Do you remember using the same cycle from eldest sibling of the family to the youngest one? Or do you recall any of the memories of where we would get old books of someone in the next class and read it in summer vacations!? Have you read posters at the library saying donate old books? Do you remember wearing your elder brother’s shirt and being so happy to look like him?
 

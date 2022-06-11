@@ -1,14 +1,14 @@
 ---
-title: "Customized Marketplace Platform for startup Idea"
+title: "On Demand Platform for startup Idea"
 layout: splash
-permalink: /platform/marketplace/
+permalink: /platform/on-demand/
 offerings_row:
   - title: "Multi-Vendor"
     description: "Multiple buyers and Sellers. Admin Support."
-    url: "/platform/marketplace/multi-vendor"
+    url: "/platform/marketplace"
   - title: "Headless"
-    description: "Free to build frontend and connect via APIs or GraphQL"
-    url: "/platform/marketplace/headless"
+    description: "An Ecommerce platform. Web and Mobile app development"
+    url: "/platform/marketplace"
 feature_row:
   - title: "Dashboard"
     description: "An Ecommerce platform. Web and Mobile app development"

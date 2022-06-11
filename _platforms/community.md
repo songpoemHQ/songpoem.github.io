@@ -1,8 +1,7 @@
 ---
-title: Membership & Subscription Platform
-layout: single
-classes: wide
-permalink: /platform/membership/
+title: Community Platform
+layout: splash
+permalink: /platform/community/
 feature_row:
   - title: "Reedem Points Platform"
     description: "When you want to offer points to your users for keeping using and a reedem collected points option"
@@ -15,7 +14,6 @@ feature_row:
     enquire_url: "/platform/membership/"
 ---
 
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
 
 Membership Platform is where you want to build long-term, formal relationships with the customers.
 
