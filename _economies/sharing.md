@@ -2,7 +2,7 @@
 title: Sharing Economy
 layout: splash
 classes: wide
-permalink: /platform/sharing/
+permalink: /economy/sharing/
 feature_row:
   - title: "Villa Rental Marketplace platform"
     description: "A web and mobile app. Customers can view available villas at preffered place and time. Book or message the owner. Owners can manage their listing and price."

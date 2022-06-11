@@ -2,7 +2,7 @@
 title: Gig Economy
 layout: splash
 classes: wide
-permalink: /platform/gig/
+permalink: /economy/gig/
 feature_row:
   - title: "Marketplace for Digital Gigs"
     description: "Web Portal to post requirements, see available service providers, hire, book, pay, mark work as completed"

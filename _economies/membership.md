@@ -1,6 +1,6 @@
 ---
-title: Gig Economy
+title: Subscription Economy
 layout: splash
 classes: wide
-permalink: /platform/gig/
+permalink: /economy/subscription/
 ---

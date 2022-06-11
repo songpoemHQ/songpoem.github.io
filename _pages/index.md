@@ -37,7 +37,7 @@ economy_row:
     description: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
     url: "/economy/sharing"
     # casestudy_url: "/platform/sharing"
-  - title: "Membership or Subscription Platform"
+  - title: "Subscription Economy"
     description: "A user can be a free member or pay a subscription fee to access premium services. The goal is to ensure member is using the platform for a long term."
     url: "/economy/membership"
     # casestudy_url: "/platform/membership"
