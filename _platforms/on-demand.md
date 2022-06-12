@@ -1,5 +1,6 @@
 ---
 title: "On Demand Platform for startup Idea"
+description: "on-demand platform for Startup. For gig workers like delivery, ride sharing, services"
 layout: splash
 permalink: /platform/on-demand/
 offerings_row:

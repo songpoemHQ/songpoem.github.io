@@ -1,5 +1,6 @@
 ---
 title: "Customized Marketplace Platform for startup Idea"
+description: "Build a Marketplace Startup. Exchange messages, transactions for business. Buy or rent the product."
 layout: splash
 permalink: /platform/marketplace/
 offerings_row:
