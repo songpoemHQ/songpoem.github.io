@@ -1,5 +1,4 @@
 ---
-layout: single
 title:  "Reputation and Business"
 date:   2021-08-26 21:13:30 +0530
 
