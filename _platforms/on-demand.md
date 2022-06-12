@@ -24,9 +24,9 @@ feature_row:
     # url: "/platform/membership/"
 ---
 
-{% include feature_row_wide id="offerings_row" title="Solutions we provide" %}
+{% include feature_row_list id="offerings_row" title="Solutions we provide" %}
 
-{% include feature_row_wide%}
+{% include feature_row_list title="Features" %}
 
 # Want to build an on-demand startup?
 

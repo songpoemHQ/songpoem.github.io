@@ -18,13 +18,13 @@ feature_row:
     description: "For a Seller side"
 modules_row:
   - title: "Dashboard"
-    excerpt: "Performance dashboards displaying stats and providing metadata for further analytics."
+    description: "Performance dashboards displaying stats and providing metadata for further analytics."
   - title: "Communication"
-    excerpt: "Notifications, Chat Messages, Interaction with User"
+    description: "Notifications, Chat Messages, Interaction with User"
   - title: "Integrations"
-    excerpt: "Payment Integration, Slack, and other API integration"
+    description: "Payment Integration, Slack, and other API integration"
   - title: "Gamification"
-    excerpt: "designed for Gamification, Reward points"
+    description: "designed for Gamification, Reward points"
 ---
 
 A Marketplace is a platform where sellers and buyers meet.
