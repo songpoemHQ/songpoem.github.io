@@ -61,6 +61,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-postcss
 
 # Site Footer
 footer:
