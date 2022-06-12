@@ -63,6 +63,9 @@ plugins:
   - jekyll-archives
   - jekyll-postcss
 
+postcss:
+  cache: false
+
 # Site Footer
 footer:
   links:
