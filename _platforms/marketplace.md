@@ -9,13 +9,22 @@ offerings_row:
     description: "Free to build frontend and connect via APIs or GraphQL"
 feature_row:
   - title: "Dashboard"
-    description: "An Ecommerce platform. Web and Mobile app development"
+    description: "Admin or Seller dashboard to see a summary of performance. Recent highlights of new users or products."
   - title: "Ordering Website"
-    description: "Web, Mobile and tab UX designs"
+    description: "Web portal that can be opened from browser on laptop or mobile."
   - title: "Customer App"
-    description: "Ads for Google, Youtube, Facebook target Audience"
+    description: "Customer App"
   - title: "Vendor App"
-    description: "Shopify Shopify"
+    description: "For a Seller side"
+modules_row:
+  - title: "Dashboard"
+    excerpt: "Performance dashboards displaying stats and providing metadata for further analytics."
+  - title: "Communication"
+    excerpt: "Notifications, Chat Messages, Interaction with User"
+  - title: "Integrations"
+    excerpt: "Payment Integration, Slack, and other API integration"
+  - title: "Gamification"
+    excerpt: "designed for Gamification, Reward points"
 ---
 
 A Marketplace is a platform where sellers and buyers meet.
@@ -30,5 +39,10 @@ Sometimes it can be 3-way product. Lets explain with an example.
 
 {% include feature_row_list %}
 
+{% include feature_row_list id="modules_row" title="Features we support" %}
 
 {% include feature_row_list id="offerings_row" title="Variations we provide" %}
+
+# Want to build a marketplace?
+
+Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)

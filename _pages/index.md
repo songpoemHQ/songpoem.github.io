@@ -1,5 +1,5 @@
 ---
-title: "Songpoem provides scalable platform for your startup Idea"
+title: "Songpoem provides scalable Platform, customized for your startup Idea"
 layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
@@ -75,7 +75,7 @@ why_songpoem_row:
 
 <!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
 {% include feature_row_wide id="platform_row"
-title="Our Products and Platforms" %}
+title="Products and Customized Platforms we offer" %}
 
 {% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
