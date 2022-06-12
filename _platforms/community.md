@@ -15,12 +15,18 @@ feature_row:
 ---
 
 Membership Platform is where you want to build long-term, formal relationships with the customers.
+There can be multiple Tiers.
 
 You may charge a fee from customers or it can be free.
+
+People can post their question and answer like a forum. You can supervise more effeciently.
 
 Futher Reading.
 - Robbie Kelman Bexter's book **The Forever Transaction** and **The Membership Economy**
 
-Do you need help with **App Development** or **Digital Marketing** for your startup?
 
-{% include feature_row_wide title="Our Solutions" %}
+{% include feature_row_wide title="Modules we support" %}
+
+# Want to build a customized for your audience?
+
+Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
