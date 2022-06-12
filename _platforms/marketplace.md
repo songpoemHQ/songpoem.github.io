@@ -18,8 +18,8 @@ feature_row:
     description: "Shopify Shopify"
 ---
 
-{% include feature_row_wide id="offerings_row" title="Solutions we provide" %}
 
-{% include feature_row_wide%}
+{% include feature_row_list %}
 
 
+{% include feature_row_list id="offerings_row" title="Variations we provide" %}
