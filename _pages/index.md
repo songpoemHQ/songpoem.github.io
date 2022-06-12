@@ -39,7 +39,7 @@ economy_row:
     # casestudy_url: "/platform/sharing"
   - title: "Subscription Economy"
     description: "A user can be a free member or pay a subscription fee to access premium services. The goal is to ensure member is using the platform for a long term."
-    url: "/economy/membership"
+    url: "/economy/subscription"
     # casestudy_url: "/platform/membership"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
