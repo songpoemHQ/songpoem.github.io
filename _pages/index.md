@@ -23,13 +23,15 @@ platform_row:
     description: "A multi level platform for service providers and consumers. They can Exchange messages, transactions for business. Buy or rent the product."
     image_path: /assets/images/marketplace.png
     url: "/platform/marketplace"
-    alt: "Marketplace"
+    alt: "Marketplace Platform"
   - title: "On Demand Service Platform"
     description: "on-demand platform for gig workers like delivery, ride sharing, services"
     image_path: /assets/images/on-demand.png
     url: "/platform/on-demand"
-  - title: "Community"
+  - title: "Community Platform"
     description: "Community Management and Engagement platform. Memberships, Network. User hirerachy, premium features. Invite users, reedem points."
+    image_path: /assets/images/community.png
+    alt: "Community Platform"
     url: "/platform/community"
 economy_row:
   - title: "Gig Economy"
