@@ -19,17 +19,17 @@ services_row:
   - title: "Growth"
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 platform_row:
-  - title: "Marketplace"
-    description: "A multi level platform for service providers and consumers. They can Exchange messages, transactions for business. Buy or rent the product."
+  - title: "Marketplace Platform"
+    description: "An Online marketplace is a platform where Sellers register themselves and sell their products to clients with the help of services provided by the platform. Buy, Rent, Book, Bid, Reserve the product or service."
     image_path: /assets/images/marketplace.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
   - title: "On Demand Service Platform"
-    description: "on-demand platform for gig workers like delivery, ride sharing, services"
+    description: "A platform where customer can place requirement, platform will get it from supplier and connect the service with a local driver that can pick up and deliver the order. Food, Grocery, Cab Transportation, Repair Service is an example."
     image_path: /assets/images/on-demand.png
     url: "/platform/on-demand"
-  - title: "Community Platform"
-    description: "Community Management and Engagement platform. Memberships, Network. User hirerachy, premium features. Invite users, reedem points."
+  - title: "Online Community Platform"
+    description: "A Community is a way to reach a new audience, improve customer loyalty, gather user feedback, provide customer support, etc. User Hirerchy, premium users can get early access or premium features."
     image_path: /assets/images/community.png
     alt: "Community Platform"
     url: "/platform/community"
@@ -80,7 +80,7 @@ why_songpoem_row:
 
 <!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
 {% include feature_row_wide id="platform_row"
-title="Products and Customized Platforms we offer" %}
+title="Our Offerings" %}
 
 {% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
