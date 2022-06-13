@@ -2,6 +2,10 @@
 title: "On Demand Platform for startup Idea"
 description: "on-demand platform for Startup. For gig workers like delivery, ride sharing, services"
 layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/on-demand.png
 permalink: /platform/on-demand/
 offerings_row:
   - title: "Multi-Vendor"
