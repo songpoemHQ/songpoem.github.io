@@ -28,10 +28,12 @@ modules_row:
     description: "designed for Gamification, Reward points"
 ---
 
-A Marketplace is a platform where sellers and buyers meet.
-It can be a physical product or a digital product.
-It is not always a product but it can be service too.
-It can be an e-commerce listing clothes or a hotel listing available rooms on rent or a bus owner listing available seats in the route.
+### A Digital Marketplace
+
+A Marketplace is a platform where sellers and buyers meet.  
+- It can be a physical product or a digital product.  
+- It is not always a *product* but it can be *service* too.  
+- It can be an e-commerce listing clothes or a hotel listing available *rooms* on rent or a bus owner listing available *seats* in the route.
 
 Sometimes it can be 3-way product. Lets explain with an example.
 - A customer who orders food.

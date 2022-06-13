@@ -14,8 +14,11 @@ feature_row:
     # enquire_url: "/platform/membership/"
 ---
 
-Membership Platform is where you want to build long-term, formal relationships with the customers.
-There can be multiple Tiers.
+### A Community Platform.
+
+Membership Platform is where you want to build long-term, formal relationships with the customers.  
+There can be multiple Tiers.  
+You can reward badges for more active users.
 
 You may charge a fee from customers or it can be free.
 
