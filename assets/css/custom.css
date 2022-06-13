@@ -1,15 +1,23 @@
-@media screen and (max-device-width: 480px){
-    .feature_row_wide_element {
-      width: 100%;
-    }
-  }
 
   .feature_row_wide_element {
     display: flex; 
-    width: 50%;
     padding: 0px 40px 50px 40px;
     font-family: Arial, Helvetica, sans-serif; 
 }
+
+  @media screen and (max-width:320px) {
+    /* CSS for screens that are 320 pixels or less will be put in this section */
+    .feature_row_wide_element {
+        width: 100%;
+      }
+  }
+
+  @media screen and (min-width:640) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+    .feature_row_wide_element {
+        width: 50%;
+      }
+  }
 
 .feature_row_list_element {
     display: flex; 
