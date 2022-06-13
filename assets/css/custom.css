@@ -1,4 +1,10 @@
-.feature_row_wide_element {
+@media screen and (max-device-width: 480px){
+    .feature_row_wide_element {
+      width: 100%;
+    }
+  }
+
+  .feature_row_wide_element {
     display: flex; 
     width: 50%;
     padding: 0px 40px 50px 40px;
