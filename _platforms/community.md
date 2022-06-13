@@ -28,7 +28,7 @@ Futher Reading.
 - Robbie Kelman Bexter's book **The Forever Transaction** and **The Membership Economy**
 
 
-{% include feature_row_list title="Modules we support" %}
+{% include feature_row_wide title="Modules we support" %}
 
 # Want to build a customized for your audience?
 

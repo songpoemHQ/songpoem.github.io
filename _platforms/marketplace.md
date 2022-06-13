@@ -40,11 +40,11 @@ Sometimes it can be 3-way product. Lets explain with an example.
 - A Restaurant that cooks food.
 - A Delivery Partner that will take care of reaching restaurant and delivering it to the customer.
 
-{% include feature_row_list %}
+{% include feature_row_wide %}
 
-{% include feature_row_list id="modules_row" title="Features we support" %}
+{% include feature_row_wide id="modules_row" title="Features we support" %}
 
-{% include feature_row_list id="offerings_row" title="Variations we provide" %}
+{% include feature_row_wide id="offerings_row" title="Variations we provide" %}
 
 # Want to build a marketplace?
 

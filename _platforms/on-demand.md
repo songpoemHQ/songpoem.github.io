@@ -30,9 +30,9 @@ feature_row:
 You would need a gig worker in real-time or plan a future job.
 Sometimes you might need geo-location coordinates.
 
-{% include feature_row_list id="offerings_row" title="Solutions we provide" %}
+{% include feature_row_wide id="offerings_row" title="Solutions we provide" %}
 
-{% include feature_row_list title="Features" %}
+{% include feature_row_wide title="Features" %}
 
 # Want to build an on-demand startup?
 
