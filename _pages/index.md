@@ -26,6 +26,7 @@ platform_row:
     alt: "Marketplace"
   - title: "On Demand Service Platform"
     description: "on-demand platform for gig workers like delivery, ride sharing, services"
+    image_path: /assets/images/on-demand.png
     url: "/platform/on-demand"
   - title: "Community"
     description: "Community Management and Engagement platform. Memberships, Network. User hirerachy, premium features. Invite users, reedem points."
