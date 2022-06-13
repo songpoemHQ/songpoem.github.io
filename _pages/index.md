@@ -21,7 +21,9 @@ services_row:
 platform_row:
   - title: "Marketplace"
     description: "A multi level platform for service providers and consumers. They can Exchange messages, transactions for business. Buy or rent the product."
+    image_path: /assets/images/marketplace.png
     url: "/platform/marketplace"
+    alt: "Marketplace"
   - title: "On Demand Service Platform"
     description: "on-demand platform for gig workers like delivery, ride sharing, services"
     url: "/platform/on-demand"
