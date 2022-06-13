@@ -16,21 +16,21 @@
     <div class="feature_row_wide_element">
       <div class="archive__item">
 
-        {% if f.image_path %}
+        <div class="archive__item-body">
+          {% if f.title %}
+            <h2 class="archive__subtitle" style="font-weight: 500; font-size: 1.2em; color: #606060">{{ f.title }}</h2>
+          {% endif %}
+
+          {% if f.image_path %}
           <div class="archive__item-teaser">
             <img src="{{ f.image_path | relative_url }}"
-                 alt="{% if f.alt %}{{ f.alt }}{% endif %}" style="max-height: 200px;   object-fit: cover;
+                 alt="{% if f.alt %}{{ f.alt }}{% endif %}" style="max-height: 300px;   object-fit: contain; padding: 5px
                  ">
             {% if f.image_caption %}
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
             {% endif %}
           </div>
         {% endif %}
-
-        <div class="archive__item-body">
-          {% if f.title %}
-            <h2 class="archive__subtitle" style="font-weight: 500; font-size: 1.2em; color: #606060">{{ f.title }}</h2>
-          {% endif %}
 
           {% if f.description %}
             <div class="archive__item-excerpt" style="color: #696969; font-weight: 400; font-size: 1em">
