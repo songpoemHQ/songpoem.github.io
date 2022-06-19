@@ -35,9 +35,22 @@ modules_row:
     description: "designed for Gamification, Reward points"
 ---
 
-### A Digital Marketplace
+### Marketplace Platform.
 
-A Marketplace is a platform where sellers and buyers meet.  
+A marketplace platform is a type of online platform that allows buyers and sellers to transact with each other.   
+The platform typically provides a variety of features and functions to facilitate the transaction process, including
+- listing items for sale,
+- processing payments,
+- managing shipping and delivery.
+Marketplace platforms have become increasingly popular in recent years, as they offer a convenient and efficient way for businesses to reach a wide audience of potential customers.
+
+For buyers, marketplace platforms offer a convenient way to compare and shop for products from a variety of sellers. 
+
+For sellers, marketplace platforms provide an easy way to list and sell products, and to reach a large number of potential customers. There are a number of different marketplace platforms available, each of which offers its own unique set.
+
+Marketplace platforms typically provide a marketplace website and/or mobile app that allows businesses to list their products or services, and customers to browse and purchase items
+. Some marketplace platforms also offer additional features, such as payment processing, shipping, and customer support. Others may simply provide the marketplace website and/or mobile app, and leave the rest up to the businesses and customers themselves. 
+
 - It can be a physical product or a digital product.  
 - It is not always a *product* but it can be *service* too.  
 - It can be an e-commerce listing clothes or a hotel listing available *rooms* on rent or a bus owner listing available *seats* in the route.
