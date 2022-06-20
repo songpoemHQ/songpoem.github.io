@@ -1,5 +1,5 @@
 ---
-title: "On Demand Platform for startup Idea"
+title: "On-Demand Service Platforms"
 description: "on-demand platform for Startup. For gig workers like delivery, ride sharing, services"
 layout: splash
 header:
@@ -31,8 +31,19 @@ feature_row:
 
 ### An on-demand platform
 
-You would need a gig worker in real-time or plan a future job.
-Sometimes you might need geo-location coordinates.
+An On-Demand Service Platform is a type of software that helps businesses to connect with service providers who can offer their services on-demand. This type of platform can be used to connect businesses with service providers who can offer services such as delivery, cleaning, and repairs. On-Demand Service Platforms can help businesses to save time and money by allowing them to find the right service providers when they need them.
+
+**What is an On-Demand Service Platform?**
+An On-Demand Service Platform is a cloud-based software that allows businesses to offer their services in a pay-as-you-go model. This type of platform enables businesses to provide their services to customers on an as-needed basis, without the need for a long-term contract or upfront investment.
+
+On-Demand Service Platforms are becoming increasingly popular, as they offer a flexible and cost-effective way for businesses to provide their services. In addition, On-Demand Service Platforms offer businesses the ability to scale their services up or down, as needed, to meet customer demand.
+
+**On-demand service platforms are a great way to get started in the gig economy.** 
+They offer a flexible way to work and provide a variety of services that can be performed on-demand.
+If you're looking to get started in the gig economy, on-demand service platforms are a great way to go. On-demand service platforms offer a flexible way to work, and provide a variety of services that can be performed on-demand. You can use on-demand service platforms to find work that fits your schedule, and to get started earning money quickly and easily.
+
+To start using on-demand service platforms, simply sign up for an account with a platform that offers the services you're interested in providing. Once you've created an account, you can browse the available gigs and apply for the ones you're interested in. Once you're hired, you'll be able to start working right away, and can start earning money.
+
 
 {% include feature_row_wide id="offerings_row" title="Solutions we provide" %}
 
