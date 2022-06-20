@@ -1,23 +1,22 @@
 ---
 title: Subscription Economy
 layout: splash
-permalink: /economy/subscription/
-seo_title: "Technology Platform provider for Subscription Economy Startup Idea"
+seo_title: "Technology Platform Provider for Subscription Economy Startup Idea, Scalable"
 description: "Platform provider for Subscription Economy. Marketplace, on-Demand, Startup"
-seo_description: "A Digital Marketplace or on-demand platform for creator Economic Startup. For Content creators like podcasters, Vloggers, content writers"
+seo_description: "A Digital Marketplace or on-demand platform for Subscription Economic Startup. Scalable to drive very high traffic"
+permalink: /economy/subscription/
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/subscription-economy-wide.png
-permalink: /economy/creator/
 feature_row:
-  - title: "Platform to find assistant for creators"
-    description: "Creator would need help in Editing content, videos or polishing the podcast Audio"
-    enquire_url: "/platform/creator"
-  - title: "customized Platform to for Creator Economy startup"
-    description: "If you have an idea and need a customized platform for creators, we can build one for you."
-    enquire_url: "/platform/creator"
+  - title: "Platform to Subscription based Startup"
+    description: "Members can be free or premium. Premium services accessible only to premium members"
+    enquire_url: "/platform/subscription"
+  - title: "customized Platform to for Subscription startup"
+    description: "If you have an idea and need a customized platform, we can build one for you."
+    enquire_url: "/platform/subscription"
 ---
 An article in Forbes magazine recently identified the “subscription economy” as one of the fastest growing economic sectors. A subscription economy is defined as a business model in which customers pay a recurring fee in exchange for access to a service or product. The subscription economy has been growing steadily for the past few years, and shows no signs of slowing down.
 
@@ -36,3 +35,7 @@ There are several reasons for this trend:
 
 An Easy example of subscription is Gym membership. You do not purchase the needed equipments at home, and do not have the space needed to store it. So you take a gym membership that allows access to the gym equipments.
 Another example is Netflix.
+
+
+{% include feature_row_wide title="Our Solutions" %}
+
