@@ -5,9 +5,9 @@ description: "Platform provider for Creator Economy. Marketplace, on-Demand, Sta
 seo_description: "A Digital Marketplace or on-demand platform for creator Economic Startup. For Content creators like podcasters, Vloggers, content writers"
 layout: splash
 header:
-  overlay_color: "#fff"
+  overlay_color: "#000"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/creator-economy-wide.png
+  overlay_image: /assets/images/creator-economy-wide-blue.png
 permalink: /economy/creator/
 feature_row:
   - title: "Platform to find assistant for creators"
