@@ -1,13 +1,15 @@
 ---
 title: "How to Generate random string in elixir?"
-category: elixir
+author_profile: true
+author: Sandesh Soni
+category: Elixir
 tags:
 - elixir
 - alphanumeric string
 - random Data
 - generator
 date:   2021-09-07 10:13:30 +0530
-author: Sandesh Soni
+published: true
 ---
 
 Recently I was building an app for Banking.

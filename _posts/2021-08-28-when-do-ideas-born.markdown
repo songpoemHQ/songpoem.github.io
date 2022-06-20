@@ -10,6 +10,7 @@ read_time: true
 comments: true
 share: true
 related: true
+published: false
 ---
 
 We all know many ideas are born during shower. So we call it showerthoughts.

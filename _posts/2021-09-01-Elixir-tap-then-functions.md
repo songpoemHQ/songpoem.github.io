@@ -1,7 +1,6 @@
 ---
 title:  "When and how to use Elixir tap and then functions."
 date:   2021-09-01 10:13:30 +0530
-published: false
 author_profile: true
 author: Sandesh Soni
 category: Elixir
@@ -11,6 +10,7 @@ tags:
 - tap
 - then
 - when
+published: false
 ---
 
 

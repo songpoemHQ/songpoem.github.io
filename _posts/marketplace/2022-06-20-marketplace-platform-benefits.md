@@ -1,9 +1,9 @@
 ---
 title: "Marketplace Discussion"
+category: Marketplace
 tags:
 - marketplace
 - marketplace platform
-category: Marketplace
 author: Sandesh Soni
 date: 2022-06-20 10:00:00 + 0530
 published: true

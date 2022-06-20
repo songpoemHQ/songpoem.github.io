@@ -3,12 +3,13 @@ title: "Mocking in Elixir lang"
 date:   2021-09-02 10:15:00 +0530
 author_profile: true
 author: Sandesh Soni
+category: Elixir
 tags:
 - mox
 - mock
 - stub
 - elixir
-category: Elixir
+published: true
 ---
 
 ## Mox
