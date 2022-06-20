@@ -3,7 +3,7 @@ title:  "Message passing in Elixir processes - part 2"
 date:   2021-08-17 10:13:30 +0530
 author_profile: true
 author: Sandesh Soni
-category: elixir
+category: Elixir
 tags:
 - otp
 - message passing
