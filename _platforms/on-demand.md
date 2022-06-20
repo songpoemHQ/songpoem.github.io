@@ -1,11 +1,13 @@
 ---
-title: "On-Demand Service Platforms"
+title: "On-Demand Service Platform"
+seo_title: On-Demand Service Platform Solution Startup Idea
 description: "on-demand platform for Startup. For gig workers like delivery, ride sharing, services"
+seo_description: "On-Demand Service Platform Provider for Startup Idea. Scalable for high traffic. Technology Solution"
 layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/on-demand.png
+  overlay_image: /assets/images/on-demand-wide.png
 permalink: /platform/on-demand/
 offerings_row:
   - title: "Multi-Vendor"
