@@ -3,13 +3,16 @@ title: Creator Economy
 description: "Platform provider for Creator Economy. Marketplace, on-Demand, Startup"
 layout: splash
 header:
-  overlay_color: "#000"
+  overlay_color: "#fff"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/creator-economy.png
+  overlay_image: /assets/images/creator-economy-wide.png
 permalink: /economy/creator/
 feature_row:
   - title: "Platform to find assistant for creators"
     description: "Creator would need help in Editing content, videos or polishing the podcast Audio"
+    enquire_url: "/platform/creator"
+  - title: "customized Platform to for Creator Economy startup"
+    description: "If you have an idea and need a customized platform for creators, we can build one for you."
     enquire_url: "/platform/creator"
 ---
 
@@ -18,6 +21,7 @@ The creator economy is booming. With the rise of platforms like YouTube, Patreon
 **What is the Creator Economy?**
 The creator economy is a term that refers to the growing trend of people making a living through online content creation. 
 This can include things like YouTube videos, podcasts, blogging, and social media. It’s a way for people to use their creativity and passion to make a living, without having to go through traditional channels.
+Not just these, People can make money by charging subscription fee for their newsletter.
 
 The creator economy is still in its early days, but it’s already having a big impact. For one thing, it’s helping to democratize the creative industry. In the past, if you wanted to be a writer or musician, you needed to get lucky and be discovered by the right people. But now, anyone with a computer and an internet connection can reach a global audience.
 
