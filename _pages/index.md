@@ -46,6 +46,9 @@ economy_row:
     description: "A user can be a free member or pay a subscription fee to access premium services. The goal is to ensure member is using the platform for a long term."
     url: "/economy/subscription"
     # casestudy_url: "/platform/membership"
+  - title: Creator Economy
+    description: "Creators are able to make a living doing what they love - creating content. Whether it’s vlogging, gaming, or music, there’s a creator out there for everyone. And with the ability to directly connect with fans, the creator economy is only going to continue to grow."
+    url: "/economy/creator"
 songpoem_modules_intro: 
   - excerpt: "We cover various modules such as"
 modules_row:
