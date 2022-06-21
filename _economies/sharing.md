@@ -1,8 +1,12 @@
 ---
 title: Sharing Economy
-layout: splash
-classes: wide
 permalink: /economy/sharing/
+description: "Sharing economy is peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term. We provide platform for you Sharing Economy Startup Idea and concept. Customized and Scaled for very high traffic."
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/sharing-economy-wide.png
 feature_row:
   - title: "Villa Rental Marketplace platform"
     description: "A web and mobile app. Customers can view available villas at preffered place and time. Book or message the owner. Owners can manage their listing and price."

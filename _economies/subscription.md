@@ -2,8 +2,8 @@
 title: Subscription Economy
 layout: splash
 seo_title: "Technology Platform Provider for Subscription Economy Startup Idea, Scalable"
-description: "Platform provider for Subscription Economy. Marketplace, on-Demand, Startup"
-seo_description: "A Digital Marketplace or on-demand platform for Subscription Economic Startup. Scalable to drive very high traffic"
+description_old: "Platform provider for Subscription Economy. Marketplace, on-Demand, Startup"
+description: "A Digital Marketplace or on-demand platform for Subscription Economic Startup. Scalable to drive very high traffic"
 permalink: /economy/subscription/
 layout: splash
 header:
