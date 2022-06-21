@@ -25,6 +25,23 @@
   padding: 0px 20px 0px 20px;
 } 
 
+.feature_row_wide span.title {
+  color: #505050;
+   font-size: 1.275em;
+  font-weight: 400;
+}
+
+.feature_row_wide .line-items {
+  display: flex; align-items: flex-start; justify-content: space-around; flex-wrap: wrap; justify-content: flex-start; margin-top: 10px;
+}
+
+.feature_row_wide .ctas {
+  display: flex; 
+  align-items: flex-start; 
+  justify-content: space-between;
+  padding: 1em 2em;
+}
+
 .feature_row_list_element {
     display: flex; 
     padding: 0px 40px 50px 40px;

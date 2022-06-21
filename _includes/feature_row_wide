@@ -4,13 +4,13 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
-<div class="" style="display: flex; flex-direction: column;">
+<div class="feature_row_wide" style="display: flex; flex-direction: column; margin-top: 10px;">
 
 {% if include.title %}
-  <span class="" style="color: #505050; font-size: 1.275em; font-weight: 400; margin-top: 10px;">{{ include.title }}</span>
+  <span class="title">{{ include.title }}</span>
 {% endif %}
 
-<div class="line-items" style="display: flex; align-items: flex-start; justify-content: space-around; flex-wrap: wrap; justify-content: flex-start; padding: 10px">
+<div class="line-items">
 
   {% for f in feature_row %}
     <div class="feature_row_wide_element">
@@ -50,7 +50,7 @@
           
           {% endif %}
           
-          <div class="" style="display: flex; align-items: flex-start; justify-content: space-between">
+          <div class="ctas">
             {% if f.url %}
             <a href="{{ f.url | relative_url }}" class="btn btn--info">Explore</a>
             {% endif %}
