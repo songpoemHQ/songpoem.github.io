@@ -1,5 +1,8 @@
 ---
+seo_title: "Customized and Scalable Platform software provider for your Startup. Quickly build MVP."
 title: "Songpoem provides scalable Platform, customized for your startup Idea"
+seo_description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. We quickly build MVP so you completely focus on Product. Whitelabel with completely your branding. Marketplace platform, on-demand platform, customized platform. We have solutions for trending startup concepts. Gig Economy, Subscription Economy and more."
+description: "Marketplace and on-demand Platform provider."
 layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
