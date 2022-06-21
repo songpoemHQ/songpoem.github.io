@@ -69,3 +69,9 @@ Sometimes it can be 3-way product. Lets explain with an example.
 # Want to build a marketplace?
 
 Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
+
+
+## Related Blogs.
+{% for post in site.categories.marketplace %}
+  <a href="{{post.url}}">{{ post.title }}</a>
+{% endfor %}
