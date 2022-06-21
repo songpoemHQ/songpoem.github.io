@@ -1,5 +1,5 @@
 ---
-title: "Marketplace Discussion"
+title: "Benefits of using a Marketplace Platform"
 category: Marketplace
 tags:
 - marketplace
