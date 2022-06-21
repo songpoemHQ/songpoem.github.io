@@ -33,7 +33,7 @@
         {% endif %}
 
           {% if f.description %}
-            <div class="archive__item-excerpt" style="color: #696969; font-weight: 400; font-size: 1em">
+            <div class="description">
               {{ f.description | markdownify }}
             </div>
           {% endif %}
