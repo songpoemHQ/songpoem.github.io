@@ -1,5 +1,5 @@
 ---
-title: "3 Ways to Boost Your Marketplace Sales"
+title: "How to Boost Your Marketplace Sales"
 category: Marketplace
 tags:
 - marketplace
@@ -7,7 +7,7 @@ tags:
 - marketplace sales
 - marketplace strategy
 author: Sandesh Soni
-date: 2022-06-21 10:00:00 + 0530
+date: 2022-06-21 10:05:00 + 0530
 published: true
 ---
 
@@ -23,5 +23,6 @@ Here are a few tips for strategy.
 - Make sure to post regularly and include compelling content that will interest your target customers. 
 -  Create a blog A blog is another great way to reach potential customers and promote your business. Be sure to post interesting and informative content that will capture the attention of your readers.
 
-And lastly, provide excellent customer service. If you take care of your customers and give them a positive experience, they're more likely to come back and make more purchases.
+And lastly, provide excellent customer service. 
+If you take care of your customers and give them a positive experience, they're more likely to come back and make more purchases.
 
