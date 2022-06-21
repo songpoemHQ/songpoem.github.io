@@ -1,8 +1,8 @@
 ---
 title: "On-Demand Service Platform"
 seo_title: On-Demand Service Platform Solution Startup Idea
-description: "on-demand platform for Startup. For gig workers like delivery, ride sharing, services"
-seo_description: "On-Demand Service Platform Provider for Startup Idea. Scalable for high traffic. Technology Solution"
+description2: "on-demand platform for Startup. For gig workers like delivery, ride sharing, services"
+description: "On-Demand Service Platform Provider for Startup Idea. Scalable for high traffic. Technology Solution"
 layout: splash
 header:
   overlay_color: "#000"
