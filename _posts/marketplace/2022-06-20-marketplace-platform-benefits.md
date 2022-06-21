@@ -1,5 +1,5 @@
 ---
-title: "Benefits of using a Marketplace Platform"
+title: "What is a Marketplace Platform"
 category: Marketplace
 tags:
 - marketplace
