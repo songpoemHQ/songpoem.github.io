@@ -3,6 +3,9 @@ title: An Introduction to the Sharing Economy.
 category: Sharing Economy
 tags:
   - sharing economy
+keywords:
+  - sharing
+  - sharing economy
 author: Sandesh Soni
 date: 2022-06-20 10:31:00 + 0530
 published: true
