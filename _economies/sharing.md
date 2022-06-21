@@ -42,3 +42,12 @@ So, all in all – Sharing economy is **“What is mine is yours, for a fee!”*
 This idea of sharing economy has changed the meaning of ownership – now access is the new ownership, because it is less expensive to have access to the goods than to own it. People have started believing in the idea that I don’t need a car, I just want to drive! People are more fascinated with the thought of having their work done than flaunting off the tools through which it was done. 
 
 {% include feature_row_wide title="Our Solutions" %}
+
+# Want to build a Sharing Economy startup?
+
+Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
+
+## Related Blogs.
+{% for post in site.categories["Sharing Economy"] %}
+  <a href="{{post.url}}">{{ post.title }}</a>
+{% endfor %}
