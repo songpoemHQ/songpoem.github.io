@@ -72,6 +72,6 @@ Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpo
 
 
 ## Related Blogs.
-{% for post in site.categories.marketplace %}
+{% for post in site.categories["Marketplace"] %}
   <a href="{{post.url}}">{{ post.title }}</a>
 {% endfor %}
