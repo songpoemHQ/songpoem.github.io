@@ -54,6 +54,11 @@ platform_row:
     url: "/platform/on-demand"
   - title: "Online Community Platform"
     description: "A Community is a way to reach a new audience, improve customer loyalty, gather user feedback, provide customer support, etc. User Hirerchy, premium users can get early access or premium features."
+    points:
+      - Design Gamification
+      - Embedded on your website.
+      - User Hirerchy. Access based on type of user.
+      - Messages and Interaction with users.
     image_path: /assets/images/community.png
     alt: "Community Platform"
     url: "/platform/community"
