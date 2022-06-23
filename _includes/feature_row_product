@@ -40,11 +40,12 @@
 
         {% if f.points %}
         <div class="description">
-          {% for f in feature_row %}
+          {% for point in f.points %}
           <p class="point">
-              {{ f }}
+              {{ point }}
           </p>
         {% endfor %}
+        </div>
         {% endif %}
 
         <div class="ctas">
