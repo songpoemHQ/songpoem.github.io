@@ -98,7 +98,7 @@ why_songpoem_row:
 <!-- {% include feature_row_wide id="intro" type="center" %} -->
 
 <!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
-{% include feature_row_wide id="platform_row"
+{% include feature_row_product id="platform_row"
 title="Our Offerings" %}
 
 {% include feature_row_wide id="economy_row"

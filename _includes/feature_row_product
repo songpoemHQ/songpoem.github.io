@@ -1,0 +1,55 @@
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
+
+<div class="feature_row_container">
+
+{% if include.title %}
+  <span class="title">{{ include.title }}</span>
+{% endif %}
+
+<div class="line-items">
+
+  {% for f in feature_row %}
+    <div class="feature_row_product">
+      
+      
+      {% if f.image_path %}
+      <div class="teaser">
+        <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" style="height: 300px;   object-fit: contain;">
+        {% if f.image_caption %}
+        <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+        {% endif %}
+      </div>        
+      {% endif %}
+      
+      <div class="content">
+        {% if f.title %}
+            <div class="title">
+              {{ f.title }}
+            </div>
+         {% endif %}
+
+        <div class="description">
+              {% if f.description %}
+              {{ f.description | markdownify }}
+              {% endif %}
+          </div>
+            
+          <div class="ctas">
+              {% if f.url %}
+              <a href="{{ f.url | relative_url }}" class="btn btn--info">Explore</a>
+              {% endif %}
+              {% if f.casestudy_url %}
+              <a href="{{ f.casestudy_url | relative_url }}" class="btn btn--inverse">Case Study</a>
+              {% endif %}
+              {% if f.enquire_url %}
+              <a href="{{ f.enquire_url | relative_url }}" class="btn btn--primary">Enquire</a>
+              {% endif %}
+          </div>
+        
+        </div>
+        </div>
+</div>
