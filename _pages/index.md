@@ -36,7 +36,7 @@ services_row:
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 platform_row:
   - title: "Marketplace Platform"
-     points:
+    points:
       - Ordering Website, Mobile App.  
       - List Products and Services.  
       - High traffic Support.
