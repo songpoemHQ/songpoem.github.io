@@ -38,8 +38,9 @@ platform_row:
   - title: "Marketplace Platform"
     points:
       - Ordering Website, Vendor App, Customer App, Admin Dashboard. 
-      - List Products and Services.  
-      - High traffic Support.
+      - List Products and Services.
+      - Messages, Notifications.
+      - Integrations, Payment and other API
     image_path: /assets/images/marketplace.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
