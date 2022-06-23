@@ -45,7 +45,11 @@ platform_row:
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
   - title: "On Demand Service Platform"
-    description: "A platform where customer can place requirement, platform will get it from supplier and connect the service with a local driver that can pick up and deliver the order. Food, Grocery, Cab Transportation, Repair Service is an example."
+    points:
+      - Mobile App for Buyer, Seller, Delivery partner.
+      - Scheduling, Partner Assignment
+      - Admin Dashboard
+      - Integrations, Payment and other API
     image_path: /assets/images/on-demand.png
     url: "/platform/on-demand"
   - title: "Online Community Platform"
