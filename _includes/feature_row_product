@@ -39,13 +39,13 @@
         {% endif %}
 
         {% if f.points %}
-        <div class="description">
+        <ul class="points">
           {% for point in f.points %}
-          <p class="point">
+          <li class="point">
               {{ point }}
-          </p>
+          </li>
         {% endfor %}
-        </div>
+        </ul>
         {% endif %}
 
         <div class="ctas">

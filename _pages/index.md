@@ -37,7 +37,7 @@ services_row:
 platform_row:
   - title: "Marketplace Platform"
     points:
-      - Ordering Website, Mobile App.  
+      - Ordering Website, Vendor App, Customer App, Admin Dashboard. 
       - List Products and Services.  
       - High traffic Support.
     image_path: /assets/images/marketplace.png

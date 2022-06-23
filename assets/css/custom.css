@@ -133,6 +133,12 @@
     .feature_row_container .description {
       font-size: 1em;
       font-weight: 400;
-      font-size: 1.2em;
+      color: #606060
+    }
+    .feature_row_container ul.points {
+      list-style-type: square;
+      font-size: 0.75em;
+      margin: 0;
+      padding: 0;
       color: #606060
     }
