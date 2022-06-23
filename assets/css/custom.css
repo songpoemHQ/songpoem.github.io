@@ -97,7 +97,9 @@
 
     .feature_row_container .content {
       display: flex;
+      flex: 2;
       flex-direction: column;
+      padding-left: 2em;
     }
 
     .feature_row_container .title {
@@ -109,12 +111,10 @@
     }
 
     .feature_row_container .teaser {
+      display: flex;
+      flex: 1;
       max-height: 300px;
       width: 30%;
-    }
-
-    .feature_row_container .content {
-      display: flex;
     }
 
     .feature_row_container .description {
