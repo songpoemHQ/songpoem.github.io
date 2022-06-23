@@ -1,6 +1,6 @@
 ---
 seo_title: "Customized and Scalable Platform software provider for your Startup. Quickly build MVP."
-title: "We provide Digital Platforms for your Business"
+title: "We provide Scalable Platforms for your Business"
 description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. We quickly build MVP so you completely focus on Product. Whitelabel with completely your branding. Marketplace platform, on-demand platform, customized platform. We provide solutions for trending startup concepts. Gig Economy, Subscription Economy and more."
 description_2: "Marketplace and on-demand Platform provider."
 keywords:
@@ -99,7 +99,7 @@ why_songpoem_row:
 
 <!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
 {% include feature_row_product id="platform_row"
-title="Our Offerings, customised for your startup requirements." %}
+title="Our Offerings: Tailormade Software, Platforms and Products for Business and Startups" %}
 
 {% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
