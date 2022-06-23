@@ -36,7 +36,14 @@ services_row:
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 platform_row:
   - title: "Marketplace Platform"
-    description: "An Online marketplace is a platform where Sellers register themselves and sell their products to clients with the help of services provided by the platform. Buy, Rent, Book, Bid, Reserve the product or service."
+    description: "Buyer and Seller.  
+    
+    - Ordering Website, Mobile App.  
+    - List Products and Services.  
+
+
+    - High traffic Support.
+"
     image_path: /assets/images/marketplace.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
