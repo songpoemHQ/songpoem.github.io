@@ -77,15 +77,20 @@
       width: 100%;
       padding: 1em;
     }
+
+    .feature_row_product .teaser {
+      width: 100%;
+    }
   }
 
   @media screen and (min-width:640px) {
     .feature_row_product {
       display: flex;
       flex-direction: row;
-      margin-top: 1em;
       width: 100%;
       padding: 1em;
+      margin-top: 0.5em;
+      margin-bottom: 1.5em;
     }
 
   }
@@ -110,11 +115,17 @@
       color: #606060
     }
 
+    .feature_row_container span.container-title {
+      padding: 1em 0em;
+      font-weight: 500;
+      font-size: 1em;
+      color: #606070
+    }
+   
     .feature_row_container .teaser {
       display: flex;
       flex: 1;
       max-height: 300px;
-      width: 30%;
     }
 
     .feature_row_container .description {
