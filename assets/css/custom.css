@@ -84,6 +84,9 @@
 
 
   .feature_row_container {
+    display: flex;
+    flex-direction: row;
+
     .title {
       color: darkblue;
       padding: 1em 0em;
@@ -94,6 +97,10 @@
 
   .teaser {
     max-height: 300px;;
+  }
+
+  .content {
+    display: flex;
   }
 
   .description {
