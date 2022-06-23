@@ -23,8 +23,8 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/startups-wide.png
-  cta_label: "Enquire"
-  cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
+  # cta_label: "Enquire"
+  # cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Engineering"
