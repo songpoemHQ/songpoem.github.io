@@ -5,6 +5,10 @@ seo_title: "Technology Platform Provider for Subscription Economy Startup Idea, 
 description_old: "Platform provider for Subscription Economy. Marketplace, on-Demand, Startup"
 description: "A Digital Marketplace or on-demand platform for Subscription Economic Startup. Scalable to drive very high traffic"
 permalink: /economy/subscription/
+keywords:
+  - Subscription Economy
+  - Subscription Economy Software
+  - Subscription Economy Platform
 layout: splash
 header:
   overlay_color: "#000"

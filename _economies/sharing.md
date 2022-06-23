@@ -2,6 +2,10 @@
 title: Sharing Economy
 permalink: /economy/sharing/
 description: "Sharing economy is peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term. We provide platform for you Sharing Economy Startup Idea and concept. Customized and Scaled for very high traffic."
+keywords:
+  - Sharing Economy
+  - Sharing Economy Software
+  - Sharing Economy Platform
 layout: splash
 header:
   overlay_color: "#000"

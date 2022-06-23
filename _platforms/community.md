@@ -1,6 +1,14 @@
 ---
 title: Community Platform
 description: "membership related platform. Users, Groups, connections, Network. Wall for content and posts user subscribe to. Special previlage possible like Early Access."
+keywords:
+  - community
+  - platform
+  - community platform
+  - community software
+  - community software
+  - membership economy
+  - gamification software
 layout: splash
 permalink: /platform/community/
 header:

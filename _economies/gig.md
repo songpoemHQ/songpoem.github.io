@@ -3,6 +3,12 @@ title: Gig Economy
 layout: splash
 classes: wide
 permalink: /economy/gig/
+keywords:
+  - Gig
+  - Gig Economy
+  - solution for Gig Economy
+  - Gig economy startup
+  - Platform for Gig economy
 feature_row:
   - title: "Marketplace for Digital Gigs"
     description: "Web Portal to post requirements, see available service providers, hire, book, pay, mark work as completed"

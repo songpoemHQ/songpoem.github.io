@@ -1,8 +1,21 @@
 ---
 seo_title: "Customized and Scalable Platform software provider for your Startup. Quickly build MVP."
-title: "Songpoem provides scalable Platform, customized for your startup Idea"
+title: "Songpoem provides scalable Platform, customized for your Business"
 description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. We quickly build MVP so you completely focus on Product. Whitelabel with completely your branding. Marketplace platform, on-demand platform, customized platform. We provide solutions for trending startup concepts. Gig Economy, Subscription Economy and more."
 description_2: "Marketplace and on-demand Platform provider."
+keywords:
+  - marketplace
+  - on demand
+  - platform
+  - solution
+  - startup
+  - scalable
+  - software
+  - network effect
+  - atomic network
+  - gig economy
+  - creator economy
+  - sharing economy
 layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00

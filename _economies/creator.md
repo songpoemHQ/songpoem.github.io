@@ -3,6 +3,14 @@ title: Creator Economy
 seo_title: Platform provider for Creator Economy Startup Idea
 description: "Platform provider for Creator Economy. Marketplace, on-Demand, Startup"
 description: "A Digital Marketplace or on-demand platform for creator Economic Startup. For Content creators like podcasters, Vloggers, content writers"
+keywords:
+  - Creator
+  - Creator marketplace
+  - solution for Creator
+  - Creator startup
+  - Creator software
+  - Creators network effect
+  - creator economy
 layout: splash
 header:
   overlay_color: "#000"

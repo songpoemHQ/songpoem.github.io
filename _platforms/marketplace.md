@@ -1,6 +1,12 @@
 ---
 title: "Marketplace Platform for your Startup Idea"
 description: "Build a Marketplace Startup. Exchange messages, transactions for business. Buy or rent the product."
+keywords:
+  - marketplace
+  - platform
+  - marketplace platform
+  - multi vendor platform
+  - marketplace software
 layout: splash
 header:
   overlay_color: "#000"
