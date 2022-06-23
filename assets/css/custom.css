@@ -118,8 +118,8 @@
     }
 
     .feature_row_container span.container-title {
-      padding: 1em 0em;
-      font-weight: 500;
+      padding: 0.5em;
+      font-weight: 400;
       font-size: 1em;
       color: #606070
     }
