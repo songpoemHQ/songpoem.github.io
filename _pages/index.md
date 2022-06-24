@@ -36,19 +36,23 @@ services_row:
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 platform_row:
   - title: "Marketplace Platform"
+    description: "A marketplace platform is an online platform that allows buyers and sellers to transact with each other. Sellers register themselves and list their products or services. Buyers browse, add to cart, place order."
     points:
       - Ordering Website, Vendor App, Customer App, Admin Dashboard. 
-      - List Products and Services.
+      - User Groups and Admin Levels
+      - CMS, Product Templates
       - Messages, Notifications.
+      - Advanced Search
       - Integrations, Payment and other API
     image_path: /assets/images/marketplace.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
   - title: "On Demand Service Platform"
+    description: "A platform where customer can place requirement, platform will get it from supplier and connect the service with a local driver that can pick up and deliver the order. Food, Grocery, Cab Transportation, Repair Service is an example."
     points:
       - Mobile App for Buyer, Seller, Delivery partner.
       - Scheduling, Partner Assignment
-      - Admin Dashboard
+      - Admin Dashboard Website Portal
       - Integrations, Payment and other API
     image_path: /assets/images/on-demand.png
     url: "/platform/on-demand"
