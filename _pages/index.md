@@ -53,7 +53,7 @@ platform_row:
       - Admin Dashboard, Website Portal
       - Integrations, Payment and other API
       - Starts from $2999
-    image_path: /assets/images/on-demand.png
+    image_path: /assets/images/ondemand-platform-abstract.png
     url: "/platform/on-demand"
   - title: "Online Community Platform"
     description: "A Community is a way to reach a new audience, improve customer loyalty, gather user feedback, provide customer support, etc. User Hirerchy, premium users can get early access or premium features."
