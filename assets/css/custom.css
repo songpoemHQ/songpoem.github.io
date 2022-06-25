@@ -59,7 +59,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
 }
 
 @media screen and (min-width:768px) {
-  .feature_row_wide_element,  .feature_row_product {
+  .feature_row_product {
       display: flex;
       flex-direction: row;
       width: 100%;
@@ -67,6 +67,14 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
       border-bottom: none;
       }
 
+      .feature_row_wide_element {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        padding: 1em;
+        border-bottom: none;
+        }
+  
       .feature_row_container span.container-title {
          text-align: left;
          padding: 1em 0em;
@@ -79,6 +87,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
   .feature_row_wide_element {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
   }
 
   .feature_row_container .content {
