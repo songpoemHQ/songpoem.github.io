@@ -121,12 +121,23 @@ why_songpoem_row:
     description: "We follow standing coding practices to keep the code Clean and Modular. We write unit tests and integration tests and maintain maximum code coverage."
   - title: "Compliance"
     description: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
+faq_row:
+  - q: What **Engineering Services** do you provide?  
+    a: We provide development services inluding Backend, Frontend, Mobile App, UX, 3rd party API integration.  
+    We take fresh development as well as maintenance projects.  
+    Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
+    Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
+  - q: What **Growth Services** do you provide?  
+    a: We analyse your business concept to understand customers and your offerings and come up with possible strategy to reach more relevant users.
+    - q: Do you provide services in my country.  
+    - a: We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone.  
+    Our team is Distributed and we majorly work Remotely.
 ---
 <!-- {% include feature_row_wide id="intro" type="center" %} -->
 
 <!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
 {% include feature_row_product id="platform_row"
-title="Our Offerings:" %}
+title="Our Offerings" %}
 
 {% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
@@ -138,20 +149,6 @@ title="Solutions for your Business Model" %}
 {% include feature_row_wide id="technology_row" %} -->
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
 
-#### FAQs
-
-What **Engineering Services** do you provide?  
-We provide development services inluding Backend, Frontend, Mobile App, UX, 3rd party API integration.  
-We take fresh development as well as maintenance projects.  
-Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
-Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
-
-What **Growth Services** do you provide?  
-We analyse your business concept to understand customers and your offerings and come up with possible strategy to reach more relevant users.
-
-Do you provide services in my country.  
-We have worked with clients based in US, Europe, Singapore.  
-We overlap a few hours with your timezone.  
-Our team is Distributed and we majorly work Remotely from
+{% include feature_row_wide title="FAQs" %}
 
 Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)

@@ -2,12 +2,25 @@
   padding: 0;
 }
 
-div.feature_row_container .line-items>div:nth-of-type(odd) {
+div.faq-container .line-items, div.feature_row_container .line-items>div:nth-of-type(odd) {
   background: #55acee0f;
 }
-div.feature_row_container .line-items>div:nth-of-type(even) {
+div.faq-container .line-items, div.feature_row_container .line-items>div:nth-of-type(even) {
   background: #e9dcbe4d;
 }
+
+div.faq-container .faq {
+  padding: 1em;
+}
+div.faq-container .faq-question {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+div.faq-container .faq-question {
+  font-weight: 400;
+  font-size: 1em;
+}
+
 
 .feature_row_wide_container, .feature_row_container {
   display: flex;
