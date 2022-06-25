@@ -12,12 +12,16 @@ div.faq-container .line-items, div.feature_row_container .line-items>div:nth-of-
 div.faq-container .faq {
   padding: 1em;
 }
+
+div.faq-container .faq p {
+  margin: 0;
+}
 div.faq-container .faq .faq-question {
-  font-weight: 400;
-  font-size: 1.5em;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 div.faq-container .faq .faq-answer {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 1em;
 }
 
