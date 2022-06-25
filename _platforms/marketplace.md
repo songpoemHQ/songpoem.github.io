@@ -74,7 +74,8 @@ Sometimes it can be 3-way product. Lets explain with an example.
 
 # Want to build a marketplace?
 
-Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
+
+{% include feature_cta %}
 
 
 ## Related Blogs.

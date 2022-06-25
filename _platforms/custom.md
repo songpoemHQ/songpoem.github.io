@@ -1,6 +1,6 @@
 ---
 title: Custom Platform
-description: "A Customized Platform. Caching, Concurrency, Job Processing"
+description: "A Custom Platform Development"
 keywords:
   - Custom Platform
   - Custom Software
@@ -22,3 +22,11 @@ feature_row:
     description: "An expert will analyze your business and come up with a membership design."
     # enquire_url: "/platform/membership/"
 ---
+
+When you need specific features that needs seperate permissioning and grouping, We can build you A custom Platform.
+
+After understanding your audience and requirements, We can completely architect what you might need.
+
+Our Software Architects will understand and build to scale.
+
+{% include feature_cta %}

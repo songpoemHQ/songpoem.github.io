@@ -10,10 +10,14 @@
 {% assign url = "mailto:sandesh.soni@songpoem.com" %}
 {% endif %}
 
+{% if include.description %}
+{% assign description = include.description %}
+{% else %}
+{% assign description = "Book a free 30 minutes Consultation call." %}
+{% endif %}
+
 <div class="cta_container">
-  {% if include.description %}
-  {{ include.description }}
-  {% endif %}
+  {{ description }}
 
   <a href="{{ url }}" class="btn btn--info">{{ title }}</a>
 

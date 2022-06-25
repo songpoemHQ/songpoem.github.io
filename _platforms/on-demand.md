@@ -59,5 +59,5 @@ To start using on-demand service platforms, simply sign up for an account with a
 
 # Want to build an on-demand startup?
 
-Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
+{% include feature_cta %}
 
