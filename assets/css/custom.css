@@ -70,6 +70,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
       .feature_row_wide_container .line-items {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
       }
       .feature_row_wide_container .line-items .feature_row_element {
         display: flex;
