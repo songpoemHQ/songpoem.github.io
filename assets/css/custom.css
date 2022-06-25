@@ -20,14 +20,14 @@
   padding: 1em;
   max-height: 300px;
   justify-content: space-around;
+  align-self: center;
 }
 
 .feature_row_container span.container-title {
   padding: 0.5em;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1.5em;
   color: #606070;
-   text-align: center;
 }
 
 @media screen and (max-width:425px) {
@@ -40,27 +40,12 @@
       margin-bottom: 1.5em; 
       border-bottom: solid #7a8288 1px;
       }
+
+      .feature_row_container span.container-title {
+         text-align: center;
+      }
  
-    .feature_row_container span.container-title {
-      padding: 0.5em;
-      font-weight: 500;
-      font-size: 1.2em;
-      color: #606070;
-       text-align: center;
-    }
   }
-
-
-@media screen and (min-width:426px) {
-  .feature_row_product {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 1em;
-    margin-top: 0.5em;
-    margin-bottom: 1.5em;
-  }
-
 
   .feature_row_wide_element {
     display: flex;
