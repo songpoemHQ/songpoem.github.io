@@ -129,26 +129,22 @@ faq_row:
     Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
   - q: What **Growth Services** do you provide?  
     a: We analyse your business concept to understand customers and your offerings and come up with possible strategy to reach more relevant users.
-    - q: Do you provide services in my country.  
-    - a: We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone.  
+  - q: Do you provide services in my country.  
+    a: We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone.  
     Our team is Distributed and we majorly work Remotely.
 ---
 <!-- {% include feature_row_wide id="intro" type="center" %} -->
 
-<!-- {% include feature_row_wide id="services_row" title="Our Services" %} -->
+
 {% include feature_row_product id="platform_row"
 title="Our Offerings" %}
 
 {% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
 
-<!-- We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again.
-{% include feature_row_wide id="modules_row" %} -->
 
-<!-- Technologies we use
-{% include feature_row_wide id="technology_row" %} -->
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
 
-{% include feature_row_wide title="FAQs" %}
+{% include feature_row_faqs title="FAQs" %}
 
 Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
