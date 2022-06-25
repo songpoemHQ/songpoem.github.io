@@ -1,10 +1,14 @@
 .feature_row_product {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   padding: 1em;
   margin-top: 1em;
   margin-bottom: 2em;
+}
+
+div.feature_row_product>div:nth-of-type(odd) {
+  background: #e0e0e0;
 }
 
 .feature_row_container {
@@ -38,7 +42,7 @@
       padding: 1em;
       margin-top: 0.5em;
       margin-bottom: 1.5em; 
-      border-bottom: solid #7a8288 1px;
+      border-bottom: solid #e9dcbe 1px;
       }
 
       .feature_row_container span.container-title {
