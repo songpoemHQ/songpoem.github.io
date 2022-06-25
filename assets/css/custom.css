@@ -1,5 +1,5 @@
 #main {
-  padding: none;
+  padding: 0;
 }
 
 div.feature_row_container .line-items>div:nth-of-type(odd) {
@@ -32,7 +32,7 @@ div.feature_row_container .line-items>div:nth-of-type(even) {
   align-self: center;
 }
 
-.feature_row_container span.container-title {
+.feature_row_wide_container span.container-title, .feature_row_container span.container-title {
     padding: 0.5em;
     font-weight: 600;
     font-size: 1.5em;
@@ -68,7 +68,7 @@ div.feature_row_container .line-items>div:nth-of-type(even) {
     padding-left: 2em;
   }
 
-  .feature_row_wide span.title, .feature_row_container span.title {
+  .feature_row_wide_container span.title, .feature_row_container span.title {
     color: darkblue;
     padding: 1em 0em;
     font-weight: 700;
