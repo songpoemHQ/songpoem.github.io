@@ -51,6 +51,7 @@ div.faq-container .faq .faq-answer {
 }
 
 div.faq-container span.container-title, .feature_row_wide_container span.container-title, .feature_row_container span.container-title {
+    display: flex;
     padding: 0.5em;
     font-weight: 600;
     font-size: 1.5em;

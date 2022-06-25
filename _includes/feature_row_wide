@@ -15,7 +15,7 @@
                 <div class="feature_row_element">
 
                   {% if f.title %}
-                  <span class="container-title">{{ f.title }}</span>
+                  <span class="title">{{ f.title }}</span>
                   {% endif %}
 
                     {% if f.description %}
