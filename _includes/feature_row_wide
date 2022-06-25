@@ -16,7 +16,7 @@
                 <div class="feature_row_element">
 
                   {% if f.title %}
-                  <h2 class="container-title">{{ f.title }}</h2>
+                  <span class="container-title">{{ f.title }}</span>
                   {% endif %}
 
                   {% if f.image_path %}
