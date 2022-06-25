@@ -1,29 +1,20 @@
-{% if include.id %}
-{% assign feature_row = page[include.id] %}
-{% else %}
-{% assign feature_row = page.cta %}
-{% endif %}
-
 {% if include.title %}
-{% assign title = page[include.title] %}
+{% assign title = include.title %}
 {% else %}
 {% assign title = "Book Now" %}
 {% endif %}
 
 {% if include.url %}
-{% assign url = page[include.url] %}
+{% assign url = include.url %}
 {% else %}
 {% assign url = "mailto:sandesh.soni@songpoem.com" %}
 {% endif %}
 
-{% if include.description %}
-{% assign description = page[include.description] %}
-{% else %}
-{% assign description = "Book a free 30 minutes Consultation call." %}
-{% endif %}
-
 <div class="cta_container">
-  {{ description }}
+  {% if include.description %}
+  {{ include.description }}
+  {% endif %}
+
   <a href="{{ url }}" class="btn btn--info">{{ title }}</a>
 
 </div>
