@@ -66,11 +66,10 @@ platform_row:
     alt: "Community Platform"
     url: "/platform/community"
   - title: "Custom Platform Development"
-    description: "You have a new Platform Concept and want it developed from scratch"
+    description: "You have a new Concept and want a customized platform developed from scratch"
     points:
-      - Users, Groups, Product or Service
-      - Authorization, File Uploads, Permissioning, Cloud based
-      - Messages, Notification
+      - Backend, Frontend, REST Api, GraphQL
+      - Technology - Elixir, Phoenix Framework, Reactjs, Flutter
       - High traffic scalable
       - Starts from $2999
     image_path: /assets/images/custom-platform-abstract.png
