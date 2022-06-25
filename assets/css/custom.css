@@ -30,6 +30,7 @@ div.faq-container .faq .faq-answer {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  border-bottom: solid #e9dcbe 1px;
 }
 
 .feature_row_product {
