@@ -28,7 +28,7 @@
   color: #606070 text-align: center;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:426px) {
   .feature_row_product {
     display: flex;
     flex-direction: row;
