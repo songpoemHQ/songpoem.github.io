@@ -39,21 +39,20 @@ platform_row:
     description: "A marketplace platform is an online platform that allows buyers and sellers to transact with each other. Sellers register themselves and list their products or services. Buyers browse, add to cart, place order."
     points:
       - Ordering Website, Vendor App, Customer App, Admin Dashboard. 
-      - User Groups and Admin Levels
       - CMS, Product Templates
-      - Messages, Notifications.
-      - Advanced Search
+      - Messages, Notifications, Advanced Search.
       - Integrations, Payment and other API
-    image_path: /assets/images/marketplace.png
+      - Starts from $1999
+    image_path: /assets/images/marketplace-abstract.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
   - title: "On Demand Service Platform"
     description: "A platform where customer can place requirement, platform will get it from supplier and connect the service with a local driver that can pick up and deliver the order. Food, Grocery, Cab Transportation, Repair Service is an example."
     points:
       - Mobile App for Buyer, Seller, Delivery partner.
-      - Scheduling, Partner Assignment
-      - Admin Dashboard Website Portal
+      - Admin Dashboard, Website Portal
       - Integrations, Payment and other API
+      - Starts from $2999
     image_path: /assets/images/on-demand.png
     url: "/platform/on-demand"
   - title: "Online Community Platform"
@@ -63,9 +62,21 @@ platform_row:
       - Embedded on your website.
       - User Hirerchy. Access based on type of user.
       - Messages and Interaction with users.
-    image_path: /assets/images/community.png
+    image_path: /assets/images/community-abstract.png
     alt: "Community Platform"
     url: "/platform/community"
+  - title: "Custom Platform Development"
+    description: "You have a new Platform Concept and want it developed from scratch"
+    points:
+      - Users, Groups, Product or Service
+      - Authorization, File Uploads, Permissioning, Cloud based
+      - Messages, Notification
+      - High traffic scalable
+      - Starts from $2999
+    image_path: /assets/images/custom-platform-abstract.png
+    alt: "Custom Platform Development"
+    url: "/platform/custom"
+
 economy_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
