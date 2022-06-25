@@ -122,19 +122,13 @@ why_songpoem_row:
   - title: "Compliance"
     description: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
 faq_row:
-  - question: What **Engineering Services** do you provide?  
-    answer: We provide development services inluding Backend, Frontend, Mobile App, UX, 3rd party API integration.  
-    We take fresh development as well as maintenance projects.  
-    Our primary tech stack is Elixir-lang, Phoenix framework, Ruby on Rails, React.js, Next.js, Figma, React Native.  
-    Our code samples. [Github](https://github.com/orgs/SongpoemSol/repositories)
-  - question: What **Growth Services** do you provide?  
-    answer: We analyse your business concept to understand customers and your offerings and come up with possible strategy to reach more relevant users.
-  - question: Do you provide services in my country.  
-    answer: We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone.  
-    Our team is Distributed and we majorly work Remotely.
+  - question: "What **Engineering Services** do you provide?"  
+    answer:  "Frontend, Mobile App, UX, 3rd party API integration."  
+  - question: "What **Growth Services** do you provide?  "
+    answer: "We analyse your business concept to understand customers and your offerings and come up with possible strategy to reach more relevant users."
+  - question: "Do you provide services in my country. " 
+    answer: "We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone. Our team is Distributed and we majorly work Remotely."
 ---
-<!-- {% include feature_row_wide id="intro" type="center" %} -->
-
 
 {% include feature_row_product id="platform_row"
 title="Our Offerings" %}
