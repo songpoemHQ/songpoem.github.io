@@ -17,6 +17,7 @@
   width: 100%;
   display: flex;
   flex: 1;
+  padding: 1em;
   max-height: 300px;
   justify-content: space-around;
 }
@@ -25,8 +26,30 @@
   padding: 0.5em;
   font-weight: 500;
   font-size: 1em;
-  color: #606070 text-align: center;
+  color: #606070;
+   text-align: center;
 }
+
+@media screen and (max-width:425px) {
+    .feature_row_product {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1em;
+      margin-top: 0.5em;
+      margin-bottom: 1.5em; 
+      border-bottom: solid #7a8288 1px;
+      }
+ 
+    .feature_row_container span.container-title {
+      padding: 0.5em;
+      font-weight: 500;
+      font-size: 1.2em;
+      color: #606070;
+       text-align: center;
+    }
+  }
+
 
 @media screen and (min-width:426px) {
   .feature_row_product {
