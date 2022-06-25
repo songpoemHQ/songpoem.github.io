@@ -91,6 +91,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
+    flex-direction: column;
   }
 
   .feature_row_container .content {
