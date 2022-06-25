@@ -1,3 +1,6 @@
+#main {
+  padding: none;
+}
 
 div.feature_row_container .line-items>div:nth-of-type(odd) {
   background: #55acee0f;
@@ -14,11 +17,9 @@ div.feature_row_container .line-items>div:nth-of-type(even) {
 
 .feature_row_product {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
-  padding: 1em;
-  margin-top: 1em;
-  margin-bottom: 2em;
+  padding: 2em;
   border-bottom: solid #e9dcbe 1px;
 }
 .feature_row_product .teaser {
@@ -32,25 +33,25 @@ div.feature_row_container .line-items>div:nth-of-type(even) {
 }
 
 .feature_row_container span.container-title {
-  padding: 0.5em;
-  font-weight: 500;
-  font-size: 1.5em;
-  color: #606070;
+    padding: 0.5em;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #606070;
+    background: #f3f3f3;
+    text-align: center;
 }
 
-@media screen and (min-width:425px) {
+@media screen and (min-width:768px) {
     .feature_row_product {
       display: flex;
       flex-direction: row;
       width: 100%;
-      padding: 1em;
-      margin-top: 0.5em;
-      margin-bottom: 1.5em; 
+      padding: 2em;
       border-bottom: none;
       }
 
       .feature_row_container span.container-title {
-         text-align: center;
+         text-align: left;
       }
  
   }
