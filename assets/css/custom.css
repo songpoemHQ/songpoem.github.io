@@ -50,6 +50,20 @@ div.faq-container .faq .faq-answer {
   align-self: center;
 }
 
+.cta_container {
+  display: flex;
+  flex: 1;
+  padding: 4em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta_container .title {
+  display: flex;
+  flex: 1;
+  padding: 1em;
+}
+
 div.faq-container span.container-title, .feature_row_wide_container span.container-title, .feature_row_container span.container-title {
     display: flex;
     padding: 0.5em;

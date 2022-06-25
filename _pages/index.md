@@ -141,4 +141,4 @@ title="Solutions for your Business Model" %}
 
 {% include feature_row_faqs title="FAQs" %}
 
-Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
+{% include feature_cta title="Book Now" description="Book a free 60 minutes Consultation call." %}
