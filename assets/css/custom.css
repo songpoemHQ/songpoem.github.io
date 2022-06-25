@@ -9,7 +9,7 @@ div.feature_row_container .line-items>div:nth-of-type(even) {
   background: #e9dcbe4d;
 }
 
-.feature_row_container {
+.feature_row_wide_container, .feature_row_container {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
@@ -42,7 +42,7 @@ div.feature_row_container .line-items>div:nth-of-type(even) {
 }
 
 @media screen and (min-width:768px) {
-    .feature_row_product {
+  .feature_row_wide_element,  .feature_row_product {
       display: flex;
       flex-direction: row;
       width: 100%;
@@ -68,7 +68,7 @@ div.feature_row_container .line-items>div:nth-of-type(even) {
     padding-left: 2em;
   }
 
-  .feature_row_container .title {
+  .feature_row_wide span.title, .feature_row_container span.title {
     color: darkblue;
     padding: 1em 0em;
     font-weight: 700;
