@@ -29,4 +29,4 @@ After understanding your audience and requirements, We can completely architect 
 
 Our Software Architects will understand and build to scale.
 
-{% include feature_cta %}
+{% include feature_cta title="Want to build a Custom Platform? Book a free 30 minutes consultation call" %}

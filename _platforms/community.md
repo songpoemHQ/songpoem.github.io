@@ -45,6 +45,5 @@ Futher Reading.
 
 {% include feature_row_wide title="Modules we support" %}
 
-# Want to build a customized for your audience?
+{% include feature_cta title="Want to build a Community Platform? Book a free 30 minutes consultation call" %}
 
-Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
