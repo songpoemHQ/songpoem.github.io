@@ -65,16 +65,6 @@ platform_row:
     image_path: /assets/images/community-platform-abstract.png
     alt: "Community Platform"
     url: "/platform/community"
-  - title: "Custom Platform Development"
-    description: "You have a new Concept and want a customized platform developed from scratch"
-    points:
-      - Backend, Frontend, REST Api, GraphQL
-      - Technology - Elixir, Phoenix Framework, Reactjs, Flutter
-      - High traffic scalable
-      - Starts from $2999
-    image_path: /assets/images/custom-platform-abstract.png
-    alt: "Custom Platform Development"
-    url: "/platform/custom"
   - title: "Online Gaming Platform"
     description: "Do you need a browser based small online multiplayer Game or Quizz to keep your users engaged?"
     points:
@@ -85,6 +75,16 @@ platform_row:
     image_path: /assets/images/online-gaming-platform-abstract.png
     alt: "Online Gaming Platform"
     url: "/platform/online-gaming"
+  - title: "Custom Platform Development"
+    description: "You have a new Concept and want a customized platform developed from scratch"
+    points:
+      - Backend, Frontend, REST Api, GraphQL
+      - Technology - Elixir, Phoenix Framework, Reactjs, Flutter
+      - High traffic scalable
+      - Starts from $2999
+    image_path: /assets/images/custom-platform-abstract.png
+    alt: "Custom Platform Development"
+    url: "/platform/custom"
 
 economy_row:
   - title: "Gig Economy"
