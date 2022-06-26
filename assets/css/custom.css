@@ -33,8 +33,7 @@ div.faq-container .faq .faq-answer {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  border-bottom: solid #e9dcbe 1px;
-  padding-top: 2em;
+  padding-top: 5em;
 }
 
 .feature_row_product {
@@ -96,23 +95,15 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
         display: flex;
         flex-direction: column;
         width: 50%;
-        padding: 1em;
-        }
-  
-      .feature_row_container span.container-title {
-         text-align: left;
-         padding: 1em 0em;
-         font-weight: 700;
-         font-size: 1.2em;
+        padding: 0em 2em;
       }
- 
-  }
-
-  .feature_row_wide_container .feature_row_element {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0em 2em;
-    flex-direction: column;
+    }
+    
+    .feature_row_wide_container .feature_row_element {
+      display: flex;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0em 2em;
+      flex-direction: column;
   }
 
   .feature_row_container .content {
@@ -128,6 +119,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     font-size: 1.2em;
     color: #606060;
     border-bottom: 1px solid #e9dcbe;
+    padding-bottom: 0.5em;
   }
 
 
