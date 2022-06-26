@@ -43,7 +43,7 @@ platform_row:
       - Messages, Notifications, Advanced Search, Filters.
       - Integrations, Payment and other API
       - Starts from $1999
-    image_path: /assets/images/marketplace-abstract.png
+    image_path: /assets/images/marketplace-platform-abstract.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
   - title: "On Demand Service Platform"
