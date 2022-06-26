@@ -4,9 +4,12 @@
 
 div.faq-container .line-items>div:nth-of-type(odd), div.feature_row_container .line-items>div:nth-of-type(odd) {
   background: #55acee0f;
+  border-bottom: solid #155e960f 1px;
+
 }
 div.faq-container .line-items>div:nth-of-type(even), div.feature_row_container .line-items>div:nth-of-type(even) {
   background: #e9dcbe4d;
+  border-bottom: solid #c791134d 1px;
 }
 
 div.faq-container .faq {
@@ -31,6 +34,7 @@ div.faq-container .faq .faq-answer {
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: solid #e9dcbe 1px;
+  padding-top: 2em;
 }
 
 .feature_row_product {
@@ -107,7 +111,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
   .feature_row_wide_container .feature_row_element {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2em;
+    padding: 0em 2em;
     flex-direction: column;
   }
 
@@ -118,11 +122,12 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     padding-left: 2em;
   }
 
-  .feature_row_product .content h2.title,   .feature_row_element h2.title {
-    padding: 1em 0em;
+  .feature_row_product .content h2.title,   .feature_row_element h3.title {
+    /* padding: 0em 2em; */
     font-weight: 600;
     font-size: 1.2em;
-    color: #606060
+    color: #606060;
+    border-bottom: 1px solid #e9dcbe;
   }
 
 
