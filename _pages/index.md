@@ -62,7 +62,7 @@ platform_row:
       - Embedded on your website.
       - User Hirerchy. Access based on type of user.
       - Messages and Interaction with users.
-    image_path: /assets/images/community-abstract.png
+    image_path: /assets/images/community-platform-abstract.png
     alt: "Community Platform"
     url: "/platform/community"
   - title: "Custom Platform Development"
