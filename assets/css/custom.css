@@ -110,6 +110,13 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
       flex-direction: column;
   }
 
+  .feature_row_element .image {
+    display: flex;
+    flex: 1;
+    height: 4em;
+    align-items: center;
+  }
+
   .feature_row_container .content {
     display: flex;
     flex: 2;

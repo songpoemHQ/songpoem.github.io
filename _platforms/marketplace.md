@@ -28,8 +28,10 @@ feature_row:
     description: "Web portal that can be opened from browser on laptop or mobile."
   - title: "Customer App"
     description: "Customer App"
+    image_path: /assets/images/icons/mobile.png
   - title: "Vendor App"
     description: "For a Seller side"
+    image_path: /assets/images/icons/mobile.png
 modules_row:
   - title: "Dashboard"
     description: "Performance dashboards displaying stats and providing metadata for further analytics."
