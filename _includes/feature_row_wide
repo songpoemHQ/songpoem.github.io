@@ -16,7 +16,7 @@
 
                   {% if f.image_path %}
                   <div class="image">
-                    <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+                    <img class="icon" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
                   </div>
                   {% endif %}
 

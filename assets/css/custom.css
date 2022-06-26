@@ -115,6 +115,10 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     flex: 1;
     height: 4em;
     align-items: center;
+    justify-content: space-around;
+  }
+  .feature_row_element .image img.icon {
+    max-height: 5em;
   }
 
   .feature_row_container .content {

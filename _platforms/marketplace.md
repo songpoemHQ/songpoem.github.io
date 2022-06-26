@@ -26,6 +26,7 @@ feature_row:
     description: "Admin or Seller dashboard to see a summary of performance. Recent highlights of new users or products."
   - title: "Ordering Website"
     description: "Web portal that can be opened from browser on laptop or mobile."
+    image_path: /assets/images/icons/mobile-tablet-monitor.png
   - title: "Customer App"
     description: "Customer App"
     image_path: /assets/images/icons/mobile.png
