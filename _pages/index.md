@@ -76,10 +76,11 @@ platform_row:
     alt: "Custom Platform Development"
     url: "/platform/custom"
   - title: "Online Gaming Platform"
-    description: "You have a multiplayer Game Concept or Online Gamified Realtime Quizz"
+    description: "Do you need a browser based small online multiplayer Game or Quizz to keep your users engaged?"
     points:
-      - Multiplayer Game, Quizz Based Online Game
-      - Realtime Score.
+      - Multiplayer Game, Quizz.
+      - Browser based, no need to Download.
+      - Realtime Score, Winners, small Tournament.
       - Starts from $2999
     image_path: /assets/images/online-gaming-platform-abstract.png
     alt: "Online Gaming Platform"
