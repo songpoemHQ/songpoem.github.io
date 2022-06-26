@@ -72,10 +72,7 @@ Sometimes it can be 3-way product. Lets explain with an example.
 
 {% include feature_row_wide id="implementation_options" title="Implementation Options" %}
 
-# Want to build a marketplace?
-
-
-{% include feature_cta %}
+{% include feature_cta title="Want to build a Marketplace? Book a free 30 minutes consultation call" %}
 
 
 ## Related Blogs.

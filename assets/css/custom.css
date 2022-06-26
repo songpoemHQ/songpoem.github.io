@@ -33,7 +33,7 @@ div.faq-container .faq .faq-answer {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .feature_row_product {
@@ -59,6 +59,10 @@ div.faq-container .faq .faq-answer {
   padding: 4em;
   justify-content: space-around;
   align-items: center;
+  color: white;
+  font-weight: 800;
+  background: rgb(17,12,106);
+  background: linear-gradient(4deg, rgba(17,12,106,1) 0%, rgba(20,20,181,1) 42%, rgba(0,212,255,1) 100%);
 }
 
 .cta_container .title {
