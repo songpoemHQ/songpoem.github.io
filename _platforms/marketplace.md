@@ -16,11 +16,11 @@ header:
   # cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 permalink: /platform/marketplace/
-offerings_row:
-  - title: "Multi-Vendor"
-    description: "Multiple buyers and Sellers. Admin Support."
+implementation_options:
+  - title: "Connected"
+    description: "The Core drives back-end. The frontend, cart, search, checkout functionality are all carried out by same server engine."
   - title: "Headless"
-    description: "Free to build frontend and connect via APIs or GraphQL"
+    description: "Develop a Bespoke marketplace site using our marketplace and connect through core APIs or GraphQL"
 feature_row:
   - title: "Dashboard"
     description: "Admin or Seller dashboard to see a summary of performance. Recent highlights of new users or products."
@@ -70,7 +70,7 @@ Sometimes it can be 3-way product. Lets explain with an example.
 
 {% include feature_row_wide id="modules_row" title="Features we support" %}
 
-{% include feature_row_wide id="offerings_row" title="Variations we provide" %}
+{% include feature_row_wide id="implementation_options" title="Implementation Options" %}
 
 # Want to build a marketplace?
 

@@ -36,11 +36,11 @@ services_row:
     description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
 platform_row:
   - title: "Marketplace Platform"
-    description: "A marketplace platform is an online platform that allows buyers and sellers to transact with each other. Sellers register themselves and list their products or services. Buyers browse, add to cart, place order."
+    description: "An online platform that allows Shoppers and Sellers to transact with each other. Sellers register themselves and list their products or services. Shoppers Browse, Add to Cart, place order, Checkout."
     points:
-      - Ordering Website, Vendor App, Customer App, Admin Dashboard. 
-      - CMS, Product Templates
-      - Messages, Notifications, Advanced Search.
+      - Ordering Website, Vendor App, Customer App
+      - CMS, Dashboard and Reports
+      - Messages, Notifications, Advanced Search, Filters.
       - Integrations, Payment and other API
       - Starts from $1999
     image_path: /assets/images/marketplace-abstract.png
@@ -50,7 +50,7 @@ platform_row:
     description: "A platform where customer can place requirement, platform will get it from supplier and connect the service with a local driver that can pick up and deliver the order. Food, Grocery, Cab Transportation, Repair Service is an example."
     points:
       - Mobile App for Buyer, Seller, Delivery partner.
-      - Admin Dashboard, Website Portal
+      - Dashboard, and Reports
       - Integrations, Payment and other API
       - Starts from $2999
     image_path: /assets/images/ondemand-platform-abstract.png
