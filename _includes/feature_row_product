@@ -29,7 +29,7 @@
       <div class="content">
 
         {% if f.title %}
-        <div class="title"> {{ f.title }} </div>
+        <h2 class="title"> {{ f.title }} </h2>
         {% endif %}
 
         {% if f.description %}

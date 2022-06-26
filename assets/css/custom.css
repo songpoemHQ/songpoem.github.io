@@ -118,10 +118,9 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     padding-left: 2em;
   }
 
-  .feature_row_wide_container span.title, .feature_row_container span.title {
-    color: darkblue;
+  .feature_row_product .content h2.title,   .feature_row_element h2.title {
     padding: 1em 0em;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.2em;
     color: #606060
   }
