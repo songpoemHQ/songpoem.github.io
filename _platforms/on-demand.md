@@ -57,6 +57,6 @@ To start using on-demand service platforms, simply sign up for an account with a
 
 {% include feature_row_wide title="Features" %}
 
-{% include feature_cta title="Want to build an on-demand startup? Book a free 30 minutes consultation call" %}
+{% include feature_cta description="Want to build an on-demand startup? Book a free 30 minutes consultation call" %}
 
 

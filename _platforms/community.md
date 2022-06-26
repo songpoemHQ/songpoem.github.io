@@ -45,5 +45,5 @@ Futher Reading.
 
 {% include feature_row_wide title="Modules we support" %}
 
-{% include feature_cta title="Want to build a Community Platform? Book a free 30 minutes consultation call" %}
+{% include feature_cta description="Want to build a Community Platform? Book a free 30 minutes consultation call" %}
 

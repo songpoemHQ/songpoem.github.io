@@ -19,6 +19,6 @@
 <div class="cta_container">
   {{ description }}
 
-  <a href="{{ url }}" class="btn btn--info">{{ title }}</a>
+  <a href="{{ url }}" class="btn btn--primary">{{ title }}</a>
 
 </div>

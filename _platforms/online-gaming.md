@@ -26,4 +26,4 @@ We use Phoenix LiveView.
 
 Previously We built an Online Tetris that can be played in Browser.
 
-{% include feature_cta title="Want to build an Online Gaming Platform? Book a free 30 minutes consultation call" %}
+{% include feature_cta description="Want to build an Online Gaming Platform? Book a free 30 minutes consultation call" %}
