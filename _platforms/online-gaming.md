@@ -6,7 +6,7 @@ keywords:
   - Gaming Software
   - Gaming App Development
 layout: splash
-permalink: /platform/gaming/
+permalink: /platform/online-gaming/
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
@@ -20,10 +20,9 @@ feature_row:
     # enquire_url: "/platform/membership/"
 ---
 
-When you need specific features that needs seperate permissioning and grouping, We can build you A custom Platform.
-
+You have a multiplayer Game Concept or Online Gamified Realtime Quizz
 We use Phoenix LiveView.
 
 Previously We built an Online Tetris that can be played in Browser.
 
-{% include feature_cta description="Want to build an Online Gaming Platform? Book a free 30 minutes consultation call" %}
+{% include feature_cta description="Want to build an Online Gaming or Quizz Platform? Book a free 30 minutes consultation call" %}

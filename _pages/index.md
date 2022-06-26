@@ -75,6 +75,15 @@ platform_row:
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
     url: "/platform/custom"
+  - title: "Online Gaming Platform"
+    description: "You have a multiplayer Game Concept or Online Gamified Realtime Quizz"
+    points:
+      - Multiplayer Game, Quizz Based Online Game
+      - Realtime Score.
+      - Starts from $2999
+    image_path: /assets/images/online-gaming-platform-abstract.png
+    alt: "Online Gaming Platform"
+    url: "/platform/online-gaming"
 
 economy_row:
   - title: "Gig Economy"
@@ -139,6 +148,6 @@ title="Solutions for your Business Model" %}
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
 
-{% include feature_row_faqs title="FAQs" %}
+<!-- {% include feature_row_faqs title="FAQs" %} -->
 
 {% include feature_cta title="Book Now" description="Book a free 60 minutes Consultation call." %}
