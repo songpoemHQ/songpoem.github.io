@@ -52,7 +52,29 @@ Types of Marketplaces
 - Seat Booking. Event or a seat in Bus travelling to destination.
 - Rental Marketplace
 
+Modules we have pre-built
+- Shopper
+- Seller
+- Authentication
+- Authorization
+- Users
+- Products or Services
+- Checkout
+- Cart
+- Email Notifications
+- Push Notifications
+- Marketing Analytics
+- Reports
 
+Supported features
+- Caching
+- Cron jobs
+- Job Processer
+- Message Queue
+
+Business features
+- Advetisements
+- Importing list of products by CSV
 
 {% include feature_row_wide title="What you get" %}
 
