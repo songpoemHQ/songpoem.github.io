@@ -35,10 +35,18 @@ services_row:
     image_path: /assets/images/marketplace-platform-abstract.png
     url: "/platform/legacy"
     alt: "Custom Software Development"
- - title: "Modernization of Legacy Systems"
+  - title: "Modernization of Legacy Systems"
     description: "Want to add new business logic to your system for a massively heavy web traffic without loosing the old customers?"
     points:
       - legacy systems
+  - title: "Distributed System Development"
+    description: "Group of computers share load so that the system can cater more users."
+    points:
+      - A cluster of Nodes for Scaling.
+      - Same centre or distributed Geographically.
+    image_path: /assets/images/marketplace-platform-abstract.png
+    url: "/platform/legacy"
+    alt: "Custom Software Development"
 platform_row:
   - title: "Marketplace Platform"
     description: "An online platform that allows Shoppers and Sellers to transact with each other. Sellers register themselves and list their products or services. Shoppers Browse, Add to Cart, place order, Checkout."
