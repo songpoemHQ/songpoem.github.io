@@ -1,21 +1,18 @@
 ---
-seo_title: "Customized and Scalable Platform software provider for your Startup. Quickly build MVP."
-title: "We provide Scalable Platform for your Business and Startup"
-description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. We quickly build MVP so you completely focus on Product. Whitelabel with completely your branding. Marketplace platform, on-demand platform, customized platform. We provide solutions for trending startup concepts. Gig Economy, Subscription Economy and more."
+seo_title: "Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
+title: "We provides Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
+description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Creative & Sound Digital Transformation Solutions for High Traffic Businesses."
 description_2: "Marketplace and on-demand Platform provider."
 keywords:
-  - marketplace
-  - on demand
+  - digital transformation
+  - scalable
   - platform
   - solution
   - startup
-  - scalable
-  - software
+  - customized software
   - network effect
   - atomic network
-  - gig economy
-  - creator economy
-  - sharing economy
+  - bespoke software
 layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
@@ -27,13 +24,21 @@ header:
   # cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
-  - title: "Engineering"
+  - title: "Custom Software Development"
     description: "Open app on Laptop or mobile browser.   
     Application for Android and iPhone.   
-    Fresh App Development and also provide Maintenance & Support for your existing project.    
-    Tailormade as per requirements including API integrations with your favourite app.   "
-  - title: "Growth"
-    description: "Our Innovative strategist will work to grow your business and revenue. Retain old customers longer and add new customers."
+    Fresh App Development. Tailormade as per requirements including API integrations with your favourite app."
+    points:
+      - Web, Mobile, UX
+      - We use Elixir lang, Reactjs, Flutter.
+      - Starts from $1999
+    image_path: /assets/images/marketplace-platform-abstract.png
+    url: "/platform/legacy"
+    alt: "Custom Software Development"
+ - title: "Modernization of Legacy Systems"
+    description: "Want to add new business logic to your system for a massively heavy web traffic without loosing the old customers?"
+    points:
+      - legacy systems
 platform_row:
   - title: "Marketplace Platform"
     description: "An online platform that allows Shoppers and Sellers to transact with each other. Sellers register themselves and list their products or services. Shoppers Browse, Add to Cart, place order, Checkout."
@@ -140,8 +145,8 @@ faq_row:
     answer: "We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone. Our team is Distributed and we majorly work Remotely."
 ---
 
-{% include feature_row_product id="platform_row"
-title="Our Offerings" %}
+{% include feature_row_product id="services_row"
+title="Our Capabilities" %}
 
 {% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
