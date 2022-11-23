@@ -129,7 +129,7 @@ faq_row:
     answer: "We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone. Our team is Distributed and we majorly work Remotely."
 ---
 
-{% include feature_row_product id="services_row"
+{% include feature_row_wide id="services_row"
 title="Our Capabilities" %}
 
 {% include feature_row_wide id="economy_row"
