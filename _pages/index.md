@@ -1,7 +1,8 @@
 ---
 seo_title: "Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
-title: "We provide Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
+title: "We provide Digital Transformation Solutions for High Traffic Businesses."
 description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Creative & Sound Digital Transformation Solutions for High Traffic Businesses."
+excerpt: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Creative & Sound Digital Transformation Solutions for High Traffic Businesses."
 description_2: "Marketplace and on-demand Platform provider."
 keywords:
   - digital transformation
@@ -17,7 +18,7 @@ layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
 header:
-  overlay_color: "#000"
+  overlay_color: "#fff"
   overlay_filter: "0.5"
   overlay_image: /assets/images/startups-wide.png
   # cta_label: "Enquire"
@@ -73,6 +74,16 @@ platform_row:
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
     url: "/platform/custom"
+  - title: "Messaging platform"
+    description: "Text message functionality."
+    points:
+      - Realtime Replies
+      - View which users are Online.
+      - Helpdesk, Chatbot or any kind of Service.
+      - Messages and Interaction with users.
+    image_path: /assets/images/community-platform-abstract.png
+    alt: "Messaging Platform"
+    url: "/platform/community"
 economy_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
@@ -127,7 +138,7 @@ faq_row:
     answer: "We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone. Our team is Distributed and we majorly work Remotely."
 ---
 
-{% include feature_row_list id="services_row"
+{% include feature_row_wide id="services_row"
 title="Our Capabilities" %}
 
 {% include feature_row_wide id="platform_row"
