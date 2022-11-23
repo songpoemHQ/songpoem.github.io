@@ -42,13 +42,6 @@ services_row:
       - Beautiful UI
       - easily move users to new system in batches
     image_path: /assets/images/marketplace-platform-abstract.png
-  - title: "Distributed System Development"
-    description: "Group of computers share load so that the system can cater more users."
-    points:
-      - A cluster of Nodes for Scaling.
-      - Same centre or distributed Geographically.
-    image_path: /assets/images/marketplace-platform-abstract.png
-    url: "/platform/legacy"
     alt: "Custom Software Development"
 platform_row:
   - title: "Marketplace Platform"
@@ -62,15 +55,6 @@ platform_row:
     image_path: /assets/images/marketplace-platform-abstract.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
-  - title: "On Demand Service Platform"
-    description: "A platform where customer can place requirement, platform will get it from supplier and connect the service with a local driver that can pick up and deliver the order. Food, Grocery, Cab Transportation, Repair Service is an example."
-    points:
-      - Mobile App for Buyer, Seller, Delivery partner.
-      - Dashboard, and Reports
-      - Integrations, Payment and other API
-      - Starts from $2999
-    image_path: /assets/images/ondemand-platform-abstract.png
-    url: "/platform/on-demand"
   - title: "Online Community Platform"
     description: "A Community is a way to reach a new audience, improve customer loyalty, gather user feedback, provide customer support, etc. User Hirerchy, premium users can get early access or premium features."
     points:
@@ -81,16 +65,6 @@ platform_row:
     image_path: /assets/images/community-platform-abstract.png
     alt: "Community Platform"
     url: "/platform/community"
-  - title: "Online Gaming Platform"
-    description: "Do you need a browser based small online multiplayer Game or Quizz to keep your users engaged?"
-    points:
-      - Multiplayer Game, Quizz.
-      - Browser based, no need to Download.
-      - Realtime Score, Winners, small Tournament.
-      - Starts from $2999
-    image_path: /assets/images/online-gaming-platform-abstract.png
-    alt: "Online Gaming Platform"
-    url: "/platform/online-gaming"
   - title: "Custom Platform Development"
     description: "You have a new Concept and want a customized platform developed from scratch"
     points:
@@ -101,7 +75,6 @@ platform_row:
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
     url: "/platform/custom"
-
 economy_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
