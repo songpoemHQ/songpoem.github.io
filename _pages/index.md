@@ -18,8 +18,8 @@ layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
 header:
-  overlay_color: "#fff"
-  overlay_filter: "0.5"
+  overlay_color: "#ff8c00"
+  overlay_filter: "0.8"
   overlay_image: /assets/images/startups-wide.png
   # cta_label: "Enquire"
   # cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
@@ -33,16 +33,16 @@ services_row:
       - Web, Mobile, UX
       - We use Elixir lang, Reactjs, Flutter.
       - Starts from $1999
-    image_path: /assets/images/marketplace-platform-abstract.png
+    image_path: /assets/images/warli-custom-development.png
     url: "/platform/legacy"
     alt: "Custom Software Development"
   - title: "Modernization of Legacy Systems"
     description: "Want to add new business logic to your system for a massively heavy web traffic without loosing the old customers?"
     points:
-      - legacy systems
+      - Legacy systems
       - Beautiful UI
-      - easily move users to new system in batches
-    image_path: /assets/images/marketplace-platform-abstract.png
+      - Easily move Users to new system
+    image_path: /assets/images/warli-legacy-modernization.png
     alt: "Custom Software Development"
 platform_row:
   - title: "Marketplace Platform"
