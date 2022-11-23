@@ -127,11 +127,11 @@ faq_row:
     answer: "We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone. Our team is Distributed and we majorly work Remotely."
 ---
 
-{% include feature_row id="services_row"
+{% include feature_row_list id="services_row"
 title="Our Capabilities" %}
 
 {% include feature_row_wide id="platform_row"
-title="Pre-Baked Solutions" %}
+title="Pre-Baked Solutions we offer" %}
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
