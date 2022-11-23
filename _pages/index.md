@@ -132,7 +132,7 @@ faq_row:
 {% include feature_row_product id="services_row"
 title="Our Capabilities" %}
 
-{% include feature_row_wide id="platform_row"
+{% include feature_row_wide id="economy_row"
 title="Solutions for your Business Model" %}
 
 
