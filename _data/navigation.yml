@@ -5,9 +5,9 @@ main:
   #   url: /year-archive/
   # - title: "Categories"
   #   url: /categories/
-  - title: "Knowledge Centre"
+  - title: "Case Studies"
     url: /blog/
-  - title: "Case studies"
+  - title: "Knowledge Centre"
     url: /blog/
   - title: "Schedule a Call"
     url: /team/
