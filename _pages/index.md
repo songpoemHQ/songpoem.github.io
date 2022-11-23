@@ -51,7 +51,6 @@ platform_row:
       - CMS, Dashboard and Reports
       - Messages, Notifications, Advanced Search, Filters.
       - Integrations, Payment and other API
-      - Starts from $1999
     image_path: /assets/images/marketplace-platform-abstract.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
@@ -65,13 +64,12 @@ platform_row:
     image_path: /assets/images/community-platform-abstract.png
     alt: "Community Platform"
     url: "/platform/community"
-  - title: "Custom Platform Development"
-    description: "You have a new Concept and want a customized platform developed from scratch"
+  - title: "SaaS"
+    description: "You have a SaaS Concept and want a customized platform developed from scratch"
     points:
       - Backend, Frontend, REST Api, GraphQL
       - Technology - Elixir, Phoenix Framework, Reactjs, Flutter
       - High traffic scalable
-      - Starts from $2999
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
     url: "/platform/custom"
@@ -132,8 +130,8 @@ faq_row:
 {% include feature_row_wide id="services_row"
 title="Our Capabilities" %}
 
-{% include feature_row_wide id="economy_row"
-title="Solutions for your Business Model" %}
+{% include feature_row_wide id="platform_row"
+title="Pre-Baked Solutions" %}
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
