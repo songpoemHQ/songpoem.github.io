@@ -1,0 +1,46 @@
+{% if include.id %}
+{% assign supported_modules = page[include.id] %}
+{% else %}
+{% assign supported_modules = page.supported_modules %}
+{% endif %}
+
+{% if include.title %}
+{% assign title = include.title %}
+{% else %}
+{% assign title = "Supported Modules" %}
+{% endif %}
+
+
+<div class="supported_modules_container">
+  <span class="container-title">{{ title }}</span>
+  
+  <ul class="container">
+    {% for m in supported_modules %}
+        <li class="point">
+            {{ m.title }}
+        </li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+
+
+      {% if f.image_path %}
+      <div class="teaser">
+        <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+        {% if f.image_caption %}
+        <span class="archive__item-caption">
+          {{ f.image_caption | markdownify | remove: "
+          <p>" | remove: "</p>
+          " }}
+        </span>
+        {% endif %}
+      </div>
+      {% endif %}
+
+
+
+
+    </div>
+      {% endfor %}
+  </div>
+</div>

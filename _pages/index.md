@@ -1,6 +1,6 @@
 ---
 seo_title: "Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
-title: "We provides Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
+title: "We provide Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
 description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Creative & Sound Digital Transformation Solutions for High Traffic Businesses."
 description_2: "Marketplace and on-demand Platform provider."
 keywords:
@@ -25,10 +25,10 @@ header:
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Custom Software Development"
-    description: "Open app on Laptop or mobile browser.   
-    Application for Android and iPhone.   
+    description: "Open app on Laptop or on Mobile.   
     Fresh App Development. Tailormade as per requirements including API integrations with your favourite app."
     points:
+      - Cloud Based.
       - Web, Mobile, UX
       - We use Elixir lang, Reactjs, Flutter.
       - Starts from $1999
@@ -39,6 +39,9 @@ services_row:
     description: "Want to add new business logic to your system for a massively heavy web traffic without loosing the old customers?"
     points:
       - legacy systems
+      - Beautiful UI
+      - easily move users to new system in batches
+    image_path: /assets/images/marketplace-platform-abstract.png
   - title: "Distributed System Development"
     description: "Group of computers share load so that the system can cater more users."
     points:
@@ -156,7 +159,7 @@ faq_row:
 {% include feature_row_product id="services_row"
 title="Our Capabilities" %}
 
-{% include feature_row_wide id="economy_row"
+{% include feature_row_wide id="platform_row"
 title="Solutions for your Business Model" %}
 
 
