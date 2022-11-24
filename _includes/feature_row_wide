@@ -20,10 +20,10 @@
       {% endif %}
 
       {% if f.image_name %}
-      {% assign prefix = "/assets/images/" %}
+      {% assign prefix = '/assets/images/' %}
       {% assign image_path = {{ prefix | appeand: f.image_name }} %}
       {% else %}
-      {% assign image_path = "/assets/images/warli-default.png" %}
+      {% assign image_path = {{ prefix | appeand: 'warli-default.png' }} %}
       {% endif %}
 
       <div class="image">
