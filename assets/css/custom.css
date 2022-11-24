@@ -109,6 +109,11 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
       padding: 2em 1em 0em 1em;
       flex-direction: column;
     }
+
+    .feature_row_wide_container .feature_row_element h4, h3 {
+      margin: 0 0;
+    }
+
     .feature_row_wide_container .feature_row_element .box {
       border: 1px solid orange;
       background: #fff;
@@ -119,11 +124,12 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     display: flex;
     flex: 1;
     height: 10em;
+    padding: 1em;
     align-items: center;
     justify-content: space-around;
   }
   .feature_row_element .box .image img.mascot {
-    height: 9em;
+    height: 8em;
   }
 
   .feature_row_container .box .content {
