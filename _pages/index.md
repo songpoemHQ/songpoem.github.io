@@ -45,32 +45,37 @@ services_row:
     image_path: /assets/images/warli-legacy-modernization.png
     alt: "Custom Software Development"
 feature_row:
-  - title: "Marketplace Platform"
-    description: "An online platform that allows Shoppers and Sellers to transact with each other. Sellers register themselves and list their products or services. Shoppers Browse, Add to Cart, place order, Checkout."
+  - title: "Cart"
+    description: "e-commerce like. Shoppers Browse, Add to Cart, place order, Checkout."
     points:
-      - Ordering Website, Vendor App, Customer App
-      - CMS, Dashboard and Reports
-      - Messages, Notifications, Advanced Search, Filters.
-      - Integrations, Payment and other API
+      - Browse, View, Add to Cart.
+      - Product and Service Management
+      - Dashboard and Reports
     image_path: /assets/images/marketplace-platform-abstract.png
     url: "/platform/marketplace"
     alt: "Marketplace Platform"
-  - title: "Online Community Platform"
-    description: "A Community is a way to reach a new audience, improve customer loyalty, gather user feedback, provide customer support, etc. User Hirerchy, premium users can get early access or premium features."
+  - title: "Content Interaction"
+    description: "Content and Context"
     points:
-      - Design Gamification
-      - Embedded on your website.
-      - User Hirerchy. Access based on type of user.
-      - Messages and Interaction with users.
+      - create Posts
+      - Like, Comment
+      - moderate
     image_path: /assets/images/community-platform-abstract.png
     alt: "Community Platform"
     url: "/platform/community"
-  - title: "SaaS"
-    description: "You have a SaaS Concept and want a customized platform developed from scratch"
+  - title: "Subscription and Membership"
+    description: "Users need a membership"
     points:
-      - Backend, Frontend, REST Api, GraphQL
-      - Technology - Elixir, Phoenix Framework, Reactjs, Flutter
-      - High traffic scalable
+      - Features based on Membership Role
+      - Multiple Tiers
+    image_path: /assets/images/custom-platform-abstract.png
+    alt: "Custom Platform Development"
+    url: "/platform/custom"
+  - title: "Gamification"
+    description: "Gamify to make users return"
+    points:
+      - Points based on activity
+      - Gamify
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
     url: "/platform/custom"
@@ -80,8 +85,6 @@ feature_row:
       - Realtime Replies
       - encrypted
       - View which users are Online.
-      - Helpdesk, Chatbot or any kind of Service.
-      - Messages and Interaction with users.
     image_path: /assets/images/community-platform-abstract.png
     alt: "Messaging Platform"
     url: "/platform/community"
@@ -94,7 +97,7 @@ feature_row:
     alt: "Messaging Platform"
     url: "/platform/community"
   - title: "Geo Location"
-    description: "Message functionality. Text, Audio"
+    description: "Geographic Location"
     points:
       - Geographic location
       - coordinates.
@@ -159,7 +162,7 @@ faq_row:
 title="Our Capabilities" %}
 
 {% include feature_row_wide id="feature_row"
-title="Solutions we can add in your System" %}
+title="Features we can easily implement in your System" %}
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}

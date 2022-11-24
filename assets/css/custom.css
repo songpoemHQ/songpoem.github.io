@@ -118,7 +118,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     justify-content: space-around;
   }
   .feature_row_element .image img.mascot {
-    max-height: 5em;
+    height: 10em;
   }
 
   .feature_row_container .content {

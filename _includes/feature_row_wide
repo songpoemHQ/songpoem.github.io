@@ -14,15 +14,15 @@
     {% for f in feature_row %}
                 <div class="feature_row_element">
                   
-                  {% if f.image_path %}
-                  <div class="image">
-                    <img class="mascot" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
-                  </div>
-                  {% endif %}
-
                   {% if f.title %}
                     <h3 class="title">{{ f.title }}</h3>
-                    {% endif %}
+                  {% endif %}
+
+                  {% if f.image_path %}
+                    <div class="image">
+                      <img class="mascot" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+                    </div>
+                  {% endif %}
 
 
                   {% if f.description %}
