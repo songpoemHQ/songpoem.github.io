@@ -51,8 +51,7 @@ feature_row:
       - Browse, View, Add to Cart.
       - Product and Service Management
       - Dashboard and Reports
-    image_path: /assets/images/marketplace-platform-abstract.png
-    url: "/platform/marketplace"
+    image_name: warli-marketplace.png
     alt: "Marketplace Platform"
   - title: "Content Interaction"
     description: "Content and Context"
@@ -60,7 +59,6 @@ feature_row:
       - create Posts
       - Like, Comment
       - moderate
-    image_path: /assets/images/community-platform-abstract.png
     alt: "Community Platform"
     url: "/platform/community"
   - title: "Subscription and Membership"

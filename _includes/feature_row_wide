@@ -4,6 +4,12 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
+{% if include.image_name %}
+    {% assign image_path = "/assets/images/{{ page[include.image_name]}}" %}
+{% else %}
+    {% assign image_path = "/assets/images/default-warli.png" %}
+{% endif %}
+
 <div class="feature_row_wide_container">
 
     {% if include.title %}
@@ -18,11 +24,9 @@
                     <h3 class="title">{{ f.title }}</h3>
                   {% endif %}
 
-                  {% if f.image_path %}
-                    <div class="image">
-                      <img class="mascot" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
-                    </div>
-                  {% endif %}
+                  <div class="image">
+                    <img class="mascot" src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+                  </div>
 
 
                   {% if f.description %}
