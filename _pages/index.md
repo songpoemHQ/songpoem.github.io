@@ -26,24 +26,22 @@ header:
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Custom Software Development"
-    description: "Open app on Laptop or on Mobile.   
-    Fresh App Development. Tailormade as per requirements including API integrations with your favourite app."
+    description: "Tailormade as per Requirements."
     points:
       - Cloud Based.
-      - Web, Mobile, UX
-      - We use Elixir lang, Reactjs, Flutter.
+      - Web, Mobile App, UX
       - Starts from $1999
     image_name: warli-custom-development.png
     url: "/platform/legacy"
     alt: "Custom Software Development"
   - title: "Modernization of Legacy Systems"
-    description: "Want to add new business logic to your system for a massively heavy web traffic without loosing the old customers?"
+    description: "Developers afraid to touch old codebase and you need to completely Revamp? Scale and Expand"
     points:
-      - Legacy systems
-      - Beautiful UI
-      - Easily move Users to new system
+      - Rebuild Legacy systems
+      - Beautiful and Easy User Interface.
+      - move Users to new system
     image_name: warli-legacy-modernization.png
-    alt: "Custom Software Development"
+    alt: "Modernization of Legacy System"
 feature_row:
   - title: "Cart"
     # description: "e-commerce like. Shoppers Browse, Add to Cart, place order, Checkout."
@@ -88,9 +86,15 @@ feature_row:
     points:
       - Geographic location
       - coordinates.
-    image_path: /assets/images/community-platform-abstract.png
     alt: "Geographic Platform"
-    # url: "/platform/community"    
+  - title: "Payment Gateway"
+    # description: "Geographic Location"
+    points:
+      - Integration of Payment Gateways
+      - Standard, Non-standard, 3d secure.
+    image_name: warli-payment.png
+    alt: "Geographic Platform"
+    # url: "/platform/community"   
 economy_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
@@ -149,7 +153,7 @@ faq_row:
 title="Our Capabilities" %}
 
 {% include feature_row_wide id="feature_row"
-title="Features that can be implemented in your System" %}
+title="We are good at implementating" %}
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
