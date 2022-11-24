@@ -33,7 +33,7 @@ services_row:
       - Web, Mobile, UX
       - We use Elixir lang, Reactjs, Flutter.
       - Starts from $1999
-    image: warli-custom-development.png
+    image_name: warli-custom-development.png
     url: "/platform/legacy"
     alt: "Custom Software Development"
   - title: "Modernization of Legacy Systems"
@@ -42,7 +42,7 @@ services_row:
       - Legacy systems
       - Beautiful UI
       - Easily move Users to new system
-    image: warli-legacy-modernization.png
+    image_name: warli-legacy-modernization.png
     alt: "Custom Software Development"
 feature_row:
   - title: "Cart"
@@ -60,7 +60,6 @@ feature_row:
       - Like, Comment
       - moderate
     alt: "Community Platform"
-    url: "/platform/community"
   - title: "Subscription and Membership"
     description: "Users need a membership"
     points:
@@ -68,7 +67,6 @@ feature_row:
       - Multiple Tiers
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
-    url: "/platform/custom"
   - title: "Gamification"
     description: "Gamify to make users return"
     points:
@@ -76,16 +74,14 @@ feature_row:
       - Gamify
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
-    url: "/platform/custom"
   - title: "Messaging"
     description: "Message functionality. Text, Audio"
     points:
       - Realtime Replies
       - encrypted
       - View which users are Online.
-    image_path: /assets/images/community-platform-abstract.png
+    image_name: warli-messaging.png
     alt: "Messaging Platform"
-    url: "/platform/community"
   - title: "Real-Time capabilities"
     description: "Message functionality. Text, Audio"
     points:
