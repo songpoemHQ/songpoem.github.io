@@ -16,6 +16,11 @@
     <div class="feature_row_element">
 
       <div class="box">
+
+        <div class="image">
+          <img class="mascot" src="{{ image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+        </div>
+
         {% if f.title %}
         <h3 class="title text-center">{{ f.title }}</h3>
         {% endif %}
@@ -26,9 +31,6 @@
         {% assign image_path = "warli-default.png" | prepend: "/assets/images/" %}
         {% endif %}
 
-        <div class="image">
-          <img class="mascot" src="{{ image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
-        </div>
 
 
         {% if f.description %}

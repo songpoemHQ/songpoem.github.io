@@ -99,7 +99,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
         display: flex;
         flex-direction: column;
         width: 50%;
-        padding: 0em 4em;
+        padding: 3em 2em 1em 2em;
       }
     }
     
@@ -118,12 +118,12 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
   .feature_row_element .box .image {
     display: flex;
     flex: 1;
-    height: 4em;
+    height: 10em;
     align-items: center;
     justify-content: space-around;
   }
   .feature_row_element .box .image img.mascot {
-    height: 10em;
+    height: 9em;
   }
 
   .feature_row_container .box .content {
