@@ -34,6 +34,19 @@
         </ul>
         {% endif %}
 
+      </div>
+      
+      <div class="rhs">
+        {% if f.image_name %}
+        {% assign image_path = f.image_name | prepend: "/assets/images/" %}
+        {% else %}
+        {% assign image_path = "warli-default.png" | prepend: "/assets/images/" %}
+        {% endif %}
+        
+        <div class="image">
+          <img class="mascot" src="{{ image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+        </div>
+
         <div class="ctas">
           {% if f.url %}
           <a href="{{ f.url | relative_url }}" class="btn btn--info">Learn More</a>
@@ -42,18 +55,6 @@
           {% endif %} {% if f.enquire_url %}
           <a href="{{ f.enquire_url | relative_url }}" class="btn btn--primary">Enquire</a>
           {% endif %}
-        </div>
-      </div>
-
-      <div class="rhs">
-        {% if f.image_name %}
-        {% assign image_path = f.image_name | prepend: "/assets/images/" %}
-        {% else %}
-        {% assign image_path = "warli-default.png" | prepend: "/assets/images/" %}
-        {% endif %}
-
-        <div class="image">
-          <img class="mascot" src="{{ image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
         </div>
       </div>
 

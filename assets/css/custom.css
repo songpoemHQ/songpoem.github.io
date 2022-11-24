@@ -195,18 +195,21 @@ div.faq-container span.container-title,
   display: flex;
   width: 100%;
   padding: 2em;
+  background: #fff;
 }
 
 
 .feature_row_broad .lhs {
   display: flex;
-  flex: 3;
-  background: #fff;
+  flex: 2;
+  flex-direction: column;
+  padding: 1em;
 }
 
 .feature_row_broad .rhs {
   display: flex;
   flex: 1
+  padding: 1em;
 }
 
 .feature_row_product .description {
