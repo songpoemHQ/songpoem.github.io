@@ -2,12 +2,15 @@
   padding: 0;
 }
 
-div.faq-container .line-items>div:nth-of-type(odd), div.feature_row_container .line-items>div:nth-of-type(odd) {
+div.faq-container .line-items>div:nth-of-type(odd),
+div.feature_row_container .line-items>div:nth-of-type(odd) {
   background: #55acee0f;
   border-bottom: solid #155e960f 1px;
 
 }
-div.faq-container .line-items>div:nth-of-type(even), div.feature_row_container .line-items>div:nth-of-type(even) {
+
+div.faq-container .line-items>div:nth-of-type(even),
+div.feature_row_container .line-items>div:nth-of-type(even) {
   background: #e9dcbe4d;
   border-bottom: solid #c791134d 1px;
 }
@@ -19,17 +22,20 @@ div.faq-container .faq {
 div.faq-container .faq p {
   margin: 0;
 }
+
 div.faq-container .faq .faq-question {
   font-weight: 500;
   font-size: 1.2em;
 }
+
 div.faq-container .faq .faq-answer {
   font-weight: 400;
   font-size: 1em;
 }
 
 
-.feature_row_wide_container, .feature_row_container {
+.feature_row_wide_container,
+.feature_row_container {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
@@ -43,6 +49,7 @@ div.faq-container .faq .faq-answer {
   padding: 2em;
   border-bottom: solid #e9dcbe 1px;
 }
+
 .feature_row_product .teaser {
   width: 100%;
   display: flex;
@@ -61,8 +68,8 @@ div.faq-container .faq .faq-answer {
   align-items: center;
   color: white;
   font-weight: 800;
-  background: rgb(17,12,106);
-  background: linear-gradient(4deg, rgba(17,12,106,1) 0%, rgba(20,20,181,1) 42%, rgba(0,212,255,1) 100%);
+  background: rgb(17, 12, 106);
+  background: linear-gradient(4deg, rgba(17, 12, 106, 1) 0%, rgba(20, 20, 181, 1) 42%, rgba(0, 212, 255, 1) 100%);
 }
 
 .cta_container .title {
@@ -71,97 +78,127 @@ div.faq-container .faq .faq-answer {
   padding: 1em;
 }
 
-div.faq-container span.container-title, .feature_row_wide_container span.container-title, .feature_row_container span.container-title {
-    display: flex;
-    padding: 0.5em;
-    font-weight: 600;
-    font-size: 1.5em;
-    color: #606070;
-    background: #f3f3f3;
-    text-align: center;
+div.faq-container span.container-title,
+.feature_row_wide_container span.container-title,
+.feature_row_container span.container-title {
+  display: flex;
+  padding: 0.5em;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #606070;
+  background: #f3f3f3;
+  text-align: center;
 }
 
-@media screen and (min-width:768px) {
+
+@media screen and (min-width:1024px) {
   .feature_row_product {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      padding: 2em;
-      border-bottom: none;
-      }
-
-      .feature_row_wide_container .line-items {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      .feature_row_wide_container .line-items .feature_row_element {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        padding: 3em 2em 1em 2em;
-      }
-    }
-    
-    .feature_row_wide_container .feature_row_element {
-      display: flex;
-      font-family: Arial, Helvetica, sans-serif;
-      padding: 2em 1em 0em 1em;
-      flex-direction: column;
-    }
-
-    .feature_row_wide_container .feature_row_element ul {
-      list-style-type: square;
-    }
-
-    .feature_row_wide_container .feature_row_element h4 {
-      margin: 0 0;
-    }
-
-    .feature_row_wide_container .feature_row_element .box {
-      border: 1px solid orange;
-      background: #fff;
-  }
-
-
-  .feature_row_element .box .image {
     display: flex;
-    flex: 1;
-    height: 10em;
-    padding: 1em;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .feature_row_element .box .image img.mascot {
-    height: 8em;
+    flex-direction: row;
+    width: 100%;
+    padding: 2em;
+    border-bottom: none;
   }
 
-  .feature_row_container .box .content {
+  .feature_row_wide_container .line-items {
     display: flex;
-    flex: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .feature_row_wide_container .line-items .feature_row_element {
+    display: flex;
     flex-direction: column;
-    padding-left: 2em;
+    width: 33%;
+    padding: 3em 2em 1em 2em;
+  }
+}
+
+
+@media screen and (min-width:769px) and (max-device-width:1024px) {
+  .feature_row_product {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 2em;
+    border-bottom: none;
   }
 
-  .feature_row_product .content h2.title,   .feature_row_element h3.title {
-    /* padding: 0em 2em; */
-    font-weight: 600;
-    font-size: 1.2em;
-    color: #606060;
-    border-bottom: 1px solid #e9dcbe;
-    padding-bottom: 0.5em;
+  .feature_row_wide_container .line-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
-
-
-  .feature_row_product .description {
-    font-size: 1em;
-    font-weight: 400;
-    color: #606060
+  .feature_row_wide_container .line-items .feature_row_element {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 3em 2em 1em 2em;
   }
+}
 
-  .feature_row_product .box ul.points {
-    list-style-type: square;
-    font-size: 1em;
-    color: #606060
-  }
+.feature_row_wide_container .feature_row_element {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2em 1em 0em 1em;
+  flex-direction: column;
+}
+
+.feature_row_wide_container .feature_row_element ul {
+  list-style-type: square;
+}
+
+.feature_row_wide_container .feature_row_element h4 {
+  margin: 0 0;
+}
+
+.feature_row_wide_container .feature_row_element .box {
+  border: 1px solid orange;
+  background: #fff;
+}
+
+
+.feature_row_element .box .image {
+  display: flex;
+  flex: 1;
+  height: 10em;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.feature_row_element .box .image img.mascot {
+  height: 8em;
+}
+
+.feature_row_container .box .content {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  padding-left: 2em;
+}
+
+.feature_row_product .content h2.title,
+.feature_row_element h3.title {
+  /* padding: 0em 2em; */
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #606060;
+  border-bottom: 1px solid #e9dcbe;
+  padding-bottom: 0.5em;
+}
+
+
+
+.feature_row_product .description {
+  font-size: 1em;
+  font-weight: 400;
+  color: #606060
+}
+
+.feature_row_product .box ul.points {
+  list-style-type: square;
+  font-size: 1em;
+  color: #606060
+}
