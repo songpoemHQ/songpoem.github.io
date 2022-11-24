@@ -62,19 +62,19 @@ div.faq-container .faq .faq-answer {
 
 .cta_container {
   display: flex;
-  flex: 1;
+  flex: 3;
   padding: 4em;
   justify-content: space-around;
   align-items: center;
   color: white;
   font-weight: 800;
-  background: orange;
+  background: fff;
   background: linear-gradient(4deg, rgba(17, 12, 106, 1) 0%, rgba(20, 20, 181, 1) 42%, rgba(0, 212, 255, 1) 100%);
 }
 
 .cta_container .title {
   display: flex;
-  flex: 1;
+  flex: 2;
   padding: 1em;
 }
 
