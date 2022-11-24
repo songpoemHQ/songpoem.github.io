@@ -106,22 +106,27 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     .feature_row_wide_container .feature_row_element {
       display: flex;
       font-family: Arial, Helvetica, sans-serif;
-      padding: 0em 4em;
+      padding: 2em 1em 0em 1em;
       flex-direction: column;
+    }
+    .feature_row_wide_container .feature_row_element .box {
+      border: 1px solid orange;
+      background: #fff;
   }
 
-  .feature_row_element .image {
+
+  .feature_row_element .box .image {
     display: flex;
     flex: 1;
     height: 4em;
     align-items: center;
     justify-content: space-around;
   }
-  .feature_row_element .image img.mascot {
+  .feature_row_element .box .image img.mascot {
     height: 10em;
   }
 
-  .feature_row_container .content {
+  .feature_row_container .box .content {
     display: flex;
     flex: 2;
     flex-direction: column;
@@ -145,7 +150,7 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
     color: #606060
   }
 
-  .feature_row_product ul.points {
+  .feature_row_product .box ul.points {
     list-style-type: square;
     font-size: 1em;
     color: #606060
