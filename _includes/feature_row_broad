@@ -8,7 +8,7 @@
 <div class="feature_row_wide_container">
 
   {% if include.title %}
-  <span class="container-title">{{ include.title }}</span>
+  <span class="container-title text-center">{{ include.title }}</span>
   {% endif %}
 
   <div class="line-items">
