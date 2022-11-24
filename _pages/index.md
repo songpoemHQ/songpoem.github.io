@@ -18,11 +18,11 @@ layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
 header:
-  overlay_color: "#ff8c00"
+  overlay_color: "#fff"
   overlay_filter: "0.8"
   overlay_image: /assets/images/startups-wide.png
-  # cta_label: "Enquire"
-  # cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
+  cta_label: "Discuss my Project"
+  cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Custom Software Development"
