@@ -37,8 +37,8 @@ services_row:
   - title: "Modernization of Legacy Systems"
     description: "Developers afraid to touch old codebase and you need to completely Revamp? Scale and Expand"
     points:
-      - Rebuild Legacy systems
-      - Beautiful and Easy User Interface.
+      - Rebuild, on-Premise to Cloud.
+      - Pretty and Easy User Interface.
       - move Users to new system
     image_name: warli-legacy-modernization.png
     alt: "Modernization of Legacy System"
@@ -46,40 +46,36 @@ feature_row:
   - title: "Cart"
     # description: "e-commerce like. Shoppers Browse, Add to Cart, place order, Checkout."
     points:
-      - Browse, View, Add to Cart.
-      - Product and Service Management
-      - Dashboard and Reports
+      - View, Browse, Filter Products and Categories.
+      - Add to Cart and Checkout
     image_name: warli-marketplace.png
     alt: "Marketplace Platform"
   - title: "Subscription and Membership"
     # description: "Users need a membership"
     points:
-      - Features based on Role
-      - Multiple Tiers
-    image_path: /assets/images/custom-platform-abstract.png
-    alt: "Custom Platform Development"
-  - title: "Gamification"
-    # description: "Gamify to make users return"
-    points:
-      - Points based on activity
-      - Gamify
+      - Role Based Access Control
+      - Multiple Tiers. Account of User, Entity
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
   - title: "Messaging"
     # description: "Message functionality. Text, Audio"
     points:
-      - Realtime Replies
-      - encrypted
-      - View which users are Online.
+      - View which Users are Online.
+      - Send and Receieve Messages & Notifications.
     image_name: warli-messaging.png
     alt: "Messaging Platform"
-  - title: "Real-Time capabilities"
-    # description: "Message functionality. Text, Audio"
+  - title: "API Integration"
     points:
-      - Realtime updates
-      - Helpdesk, Chatbot or any kind of Service.
+      - GraphQL and REST APIs
+      - Wire the Connections. Build App consuming APIs
+    image_name: warli-api-integration.png
+    alt: "API Integrations"
+  - title: "Real-Time capabilities"
+    points:
+      - Realtime Updates
+      - Presence. View Online Entities.
     image_path: /assets/images/community-platform-abstract.png
-    alt: "Messaging Platform"
+    alt: "Realtime Features"
     # url: "/platform/community"
   - title: "Geo Location"
     # description: "Geographic Location"
@@ -160,4 +156,4 @@ title="We are good at implementating" %}
 
 <!-- {% include feature_row_faqs title="FAQs" %} -->
 
-{% include feature_cta title="Book Now" description="Book a free 60 minutes Consultation call." %}
+<!-- {% include feature_cta title="Book Now" description="Book a free 60 minutes Consultation call." %} -->
