@@ -100,10 +100,7 @@ div.faq-container span.container-title,
   }
 
   .feature_row_wide_container .line-items .feature_row_element {
-    display: flex;
-    flex-direction: row;
     width: 33%;
-    padding: 1em 1em 0em 1em;
   }
 }
 
@@ -194,7 +191,23 @@ div.faq-container span.container-title,
   padding-bottom: 0.5em;
 }
 
+.feature_row_broad {
+  display: flex;
+  width: 100%;
+  padding: 2em;
+}
 
+
+.feature_row_broad .lhs {
+  display: flex;
+  flex: 3;
+  background: #fff;
+}
+
+.feature_row_broad .rhs {
+  display: flex;
+  flex: 1
+}
 
 .feature_row_product .description {
   font-size: 1em;
