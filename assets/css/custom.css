@@ -92,13 +92,6 @@ div.faq-container span.container-title,
 
 
 @media screen and (min-width:1025px) {
-  .feature_row_product {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 1em;
-    border-bottom: none;
-  }
 
   .feature_row_wide_container .line-items {
     display: flex;
@@ -116,13 +109,6 @@ div.faq-container span.container-title,
 
 
 @media screen and (min-width:481px) and (max-device-width:1024px) {
-  .feature_row_product {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 1em;
-    border-bottom: none;
-  }
 
   .feature_row_wide_container .line-items {
     display: flex;
@@ -139,22 +125,16 @@ div.faq-container span.container-title,
 }
 
 @media screen and (max-width:480px) {
-  .feature_row_product {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 1em;
-    border-bottom: none;
-  }
-
+  
   .feature_row_wide_container .line-items {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
-
+  
   .feature_row_wide_container .line-items .feature_row_element {
     display: flex;
+    width: 100%;
     flex-direction: column;
     padding: 1em 1em 0em 1em;
   }

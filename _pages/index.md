@@ -53,17 +53,10 @@ feature_row:
       - Dashboard and Reports
     image_name: warli-marketplace.png
     alt: "Marketplace Platform"
-  - title: "Content and Interaction"
-    # description: "Content and Context"
-    points:
-      - create and View Post
-      - Like, Comment
-      - Moderate
-    alt: "Community Platform"
   - title: "Subscription and Membership"
     # description: "Users need a membership"
     points:
-      - Features based on Membership Role
+      - Features based on Role
       - Multiple Tiers
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
@@ -129,9 +122,8 @@ why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
   - title: "Accelerated Development"
-    description: "We reuse already developed and well tested Modules and Functionalities,
-     that can be imported rather than building from scratch and testing again.
-    "
+    description: "We understand Business Requirements and convert it into code. In iterations."
+    image_name: warli-support.png
   - title: "Agile"
     description: "
     Continuous improvements with no practical downtime of the application.
@@ -140,9 +132,8 @@ why_songpoem_row:
     image_name: warli-agile.png
   - title: "Support"
     description: "We provide Lifelong Support maintain existing modules and future additions."
-    image_name: warli-support.png
   - title: "Code Quality"
-    description: "We follow standing coding practices to keep the code Clean and Modular. We write unit tests and integration tests and maintain maximum code coverage."
+    description: "We follow standing coding practices to keep the code Clean and Modular. Unit Tests"
   - title: "Compliance"
     description: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
 faq_row:
