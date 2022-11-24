@@ -110,6 +110,10 @@ div.faq-container span.container-title, .feature_row_wide_container span.contain
       flex-direction: column;
     }
 
+    .feature_row_wide_container .feature_row_element ul {
+      list-style-type: square;
+    }
+
     .feature_row_wide_container .feature_row_element h4 {
       margin: 0 0;
     }
