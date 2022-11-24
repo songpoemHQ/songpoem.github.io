@@ -1,8 +1,8 @@
 ---
 seo_title: "Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
-title: "We provide Digital Transformation Solutions for High Traffic Businesses."
+title: "Software Engineering and Support System."
 description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Creative & Sound Digital Transformation Solutions for High Traffic Businesses."
-excerpt: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Custom software development as well as modernization of legacy systems"
+excerpt: "Songpoem Solutions provides Digital Transformation Solutions for High Traffic Businesses."
 description_2: "Marketplace and on-demand Platform provider."
 keywords:
   - digital transformation

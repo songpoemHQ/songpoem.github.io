@@ -104,7 +104,6 @@ div.faq-container span.container-title,
     flex-direction: row;
     width: 33%;
     padding: 1em 1em 0em 1em;
-    border: 1px solid pink;
   }
 }
 
@@ -118,8 +117,7 @@ div.faq-container span.container-title,
   }
 
   .feature_row_wide_container .line-items .feature_row_element {
-    width: 48%;
-    border: 1px solid burlywood;
+    width: 49%;
   }
 }
 
@@ -133,7 +131,6 @@ div.faq-container span.container-title,
   
   .feature_row_wide_container .line-items .feature_row_element {
     width: 100%;
-    border: 1px solid gray;
   }
 }
 
@@ -141,7 +138,6 @@ div.faq-container span.container-title,
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
-  border: 1px solid green;
   padding: 1em 1em 0em 1em;
   flex-direction: column;
 }
