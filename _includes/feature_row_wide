@@ -33,7 +33,7 @@
 
                     {% if f.points %}
                     <ul class="points">
-                      {% for point in points %}
+                      {% for point in f.points %}
                       <li> {{ point }} </li>
                       {% endfor %}
                     </ul>
