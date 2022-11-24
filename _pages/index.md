@@ -2,7 +2,7 @@
 seo_title: "Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
 title: "We provide Digital Transformation Solutions for High Traffic Businesses."
 description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Creative & Sound Digital Transformation Solutions for High Traffic Businesses."
-excerpt: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Creative & Sound Digital Transformation Solutions for High Traffic Businesses."
+excerpt: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Custom software development as well as modernization of legacy systems"
 description_2: "Marketplace and on-demand Platform provider."
 keywords:
   - digital transformation
@@ -46,7 +46,7 @@ services_row:
     alt: "Custom Software Development"
 feature_row:
   - title: "Cart"
-    description: "e-commerce like. Shoppers Browse, Add to Cart, place order, Checkout."
+    # description: "e-commerce like. Shoppers Browse, Add to Cart, place order, Checkout."
     points:
       - Browse, View, Add to Cart.
       - Product and Service Management
@@ -61,21 +61,21 @@ feature_row:
       - moderate
     alt: "Community Platform"
   - title: "Subscription and Membership"
-    description: "Users need a membership"
+    # description: "Users need a membership"
     points:
       - Features based on Membership Role
       - Multiple Tiers
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
   - title: "Gamification"
-    description: "Gamify to make users return"
+    # description: "Gamify to make users return"
     points:
       - Points based on activity
       - Gamify
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
   - title: "Messaging"
-    description: "Message functionality. Text, Audio"
+    # description: "Message functionality. Text, Audio"
     points:
       - Realtime Replies
       - encrypted
@@ -83,21 +83,21 @@ feature_row:
     image_name: warli-messaging.png
     alt: "Messaging Platform"
   - title: "Real-Time capabilities"
-    description: "Message functionality. Text, Audio"
+    # description: "Message functionality. Text, Audio"
     points:
       - Realtime updates
       - Helpdesk, Chatbot or any kind of Service.
     image_path: /assets/images/community-platform-abstract.png
     alt: "Messaging Platform"
-    url: "/platform/community"
+    # url: "/platform/community"
   - title: "Geo Location"
-    description: "Geographic Location"
+    # description: "Geographic Location"
     points:
       - Geographic location
       - coordinates.
     image_path: /assets/images/community-platform-abstract.png
     alt: "Geographic Platform"
-    url: "/platform/community"    
+    # url: "/platform/community"    
 economy_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
@@ -156,7 +156,7 @@ faq_row:
 title="Our Capabilities" %}
 
 {% include feature_row_wide id="feature_row"
-title="Features we can easily implement in your System" %}
+title="Features that can be implemented in your System" %}
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
