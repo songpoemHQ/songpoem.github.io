@@ -44,7 +44,7 @@ services_row:
       - Easily move Users to new system
     image_path: /assets/images/warli-legacy-modernization.png
     alt: "Custom Software Development"
-platform_row:
+feature_row:
   - title: "Marketplace Platform"
     description: "An online platform that allows Shoppers and Sellers to transact with each other. Sellers register themselves and list their products or services. Shoppers Browse, Add to Cart, place order, Checkout."
     points:
@@ -74,16 +74,33 @@ platform_row:
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
     url: "/platform/custom"
-  - title: "Messaging platform"
-    description: "Text message functionality."
+  - title: "Messaging"
+    description: "Message functionality. Text, Audio"
     points:
       - Realtime Replies
+      - encrypted
       - View which users are Online.
       - Helpdesk, Chatbot or any kind of Service.
       - Messages and Interaction with users.
     image_path: /assets/images/community-platform-abstract.png
     alt: "Messaging Platform"
     url: "/platform/community"
+  - title: "Real-Time capabilities"
+    description: "Message functionality. Text, Audio"
+    points:
+      - Realtime updates
+      - Helpdesk, Chatbot or any kind of Service.
+    image_path: /assets/images/community-platform-abstract.png
+    alt: "Messaging Platform"
+    url: "/platform/community"
+  - title: "Geo Location"
+    description: "Message functionality. Text, Audio"
+    points:
+      - Geographic location
+      - coordinates.
+    image_path: /assets/images/community-platform-abstract.png
+    alt: "Geographic Platform"
+    url: "/platform/community"    
 economy_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
@@ -141,8 +158,8 @@ faq_row:
 {% include feature_row_wide id="services_row"
 title="Our Capabilities" %}
 
-{% include feature_row_wide id="platform_row"
-title="Pre-Baked Solutions we offer" %}
+{% include feature_row_wide id="feature_row"
+title="Solutions we can add in your System" %}
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
