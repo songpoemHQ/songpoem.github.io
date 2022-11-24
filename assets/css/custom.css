@@ -156,6 +156,7 @@ div.faq-container span.container-title,
 .feature_row_wide_container .feature_row_element .box {
   border: 2px solid orange;
   background: #fff;
+  padding: 1em;
 }
 
 
@@ -163,9 +164,16 @@ div.faq-container span.container-title,
   display: flex;
   flex: 1;
   height: 10em;
-  padding: 1em;
+  padding: 0.5em;
   align-items: center;
   justify-content: space-around;
+
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .feature_row_element .box .image img.mascot {
