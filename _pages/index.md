@@ -53,12 +53,12 @@ feature_row:
       - Dashboard and Reports
     image_name: warli-marketplace.png
     alt: "Marketplace Platform"
-  - title: "Content Interaction"
-    description: "Content and Context"
+  - title: "Content and Interaction"
+    # description: "Content and Context"
     points:
-      - create Posts
+      - create and View Post
       - Like, Comment
-      - moderate
+      - Moderate
     alt: "Community Platform"
   - title: "Subscription and Membership"
     # description: "Users need a membership"
@@ -154,7 +154,7 @@ faq_row:
     answer: "We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone. Our team is Distributed and we majorly work Remotely."
 ---
 
-{% include feature_row_wide id="services_row"
+{% include feature_row_broad id="services_row"
 title="Our Capabilities" %}
 
 {% include feature_row_wide id="feature_row"
