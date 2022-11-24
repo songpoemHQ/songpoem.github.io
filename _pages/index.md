@@ -137,8 +137,10 @@ why_songpoem_row:
     Continuous improvements with no practical downtime of the application.
     Industry standard processes, documents, delivery and hand off with play book.
     "
+    image_name: warli-agile.png
   - title: "Support"
     description: "We provide Lifelong Support maintain existing modules and future additions."
+    image_name: warli-support.png
   - title: "Code Quality"
     description: "We follow standing coding practices to keep the code Clean and Modular. We write unit tests and integration tests and maintain maximum code coverage."
   - title: "Compliance"
