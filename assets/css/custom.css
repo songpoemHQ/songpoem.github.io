@@ -196,7 +196,7 @@ div.faq-container span.container-title,
   width: 100%;
   padding: 2em;
   background: #fff;
-  marging-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 .feature_row_product ul.points {
@@ -213,7 +213,7 @@ div.faq-container span.container-title,
 
 .feature_row_broad .rhs {
   display: flex;
-  flex: 1
+  flex: 1;
   flex-direction: column;
   padding: 1em;
 }

@@ -17,7 +17,7 @@
 
       <div class="lhs">
         {% if f.title %}
-        <h3 class="title text-center">{{ f.title }}</h3>
+        <h3 class="title">{{ f.title }}</h3>
         {% endif %}
 
         {% if f.description %}
