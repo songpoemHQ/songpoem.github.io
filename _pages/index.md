@@ -33,7 +33,7 @@ services_row:
       - Web, Mobile, UX
       - We use Elixir lang, Reactjs, Flutter.
       - Starts from $1999
-    image_path: /assets/images/warli-custom-development.png
+    image: warli-custom-development.png
     url: "/platform/legacy"
     alt: "Custom Software Development"
   - title: "Modernization of Legacy Systems"
@@ -42,7 +42,7 @@ services_row:
       - Legacy systems
       - Beautiful UI
       - Easily move Users to new system
-    image_path: /assets/images/warli-legacy-modernization.png
+    image: warli-legacy-modernization.png
     alt: "Custom Software Development"
 feature_row:
   - title: "Cart"

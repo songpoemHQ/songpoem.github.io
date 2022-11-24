@@ -5,9 +5,9 @@
 {% endif %}
 
 {% if include.image_name %}
-    {% assign image_path = "/assets/images/{{ page[include.image_name]}}" %}
+    {% assign image_path = "/assets/images/{{ include.image_name }}" %}
 {% else %}
-    {% assign image_path = "/assets/images/default-warli.png" %}
+    {% assign image_path = "/assets/images/warli-default.png" %}
 {% endif %}
 
 <div class="feature_row_wide_container">
