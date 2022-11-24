@@ -91,12 +91,12 @@ div.faq-container span.container-title,
 }
 
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1025px) {
   .feature_row_product {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 2em;
+    padding: 1em;
     border-bottom: none;
   }
 
@@ -115,12 +115,12 @@ div.faq-container span.container-title,
 }
 
 
-@media screen and (min-width:769px) and (max-device-width:1024px) {
+@media screen and (min-width:481px) and (max-device-width:1024px) {
   .feature_row_product {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 2em;
+    padding: 1em;
     border-bottom: none;
   }
 
@@ -134,7 +134,7 @@ div.faq-container span.container-title,
     display: flex;
     flex-direction: column;
     width: 50%;
-    padding: 3em 2em 1em 2em;
+    padding: 2em 1em 0em 1em;
   }
 }
 
@@ -154,7 +154,7 @@ div.faq-container span.container-title,
 }
 
 .feature_row_wide_container .feature_row_element .box {
-  border: 1px solid orange;
+  border: 2px solid orange;
   background: #fff;
 }
 
