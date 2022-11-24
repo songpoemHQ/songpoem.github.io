@@ -20,7 +20,7 @@
       {% endif %}
 
       {% if f.image_name %}
-      {% assign image_path = "/assets/images/"{{ f.image_name }} %}
+      {% assign image_path = {{'/assets/images/' | appeand: f.image_name }} %}
       {% else %}
       {% assign image_path = "/assets/images/warli-default.png" %}
       {% endif %}
