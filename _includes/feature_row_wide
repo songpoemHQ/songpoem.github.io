@@ -1,60 +1,61 @@
 {% if include.id %}
-  {% assign feature_row = page[include.id] %}
+{% assign feature_row = page[include.id] %}
 {% else %}
-  {% assign feature_row = page.feature_row %}
+{% assign feature_row = page.feature_row %}
 {% endif %}
 
-{% if include.image_name %}
-    {% assign image_path = "/assets/images/{{ include.image_name }}" %}
-{% else %}
-    {% assign image_path = "/assets/images/warli-default.png" %}
-{% endif %}
 
 <div class="feature_row_wide_container">
 
-    {% if include.title %}
-    <span class="container-title">{{ include.title }}</span>
-    {% endif %}
+  {% if include.title %}
+  <span class="container-title">{{ include.title }}</span>
+  {% endif %}
 
   <div class="line-items">
     {% for f in feature_row %}
-                <div class="feature_row_element">
-                  
-                  {% if f.title %}
-                    <h3 class="title">{{ f.title }}</h3>
-                  {% endif %}
+    <div class="feature_row_element">
 
-                  <div class="image">
-                    <img class="mascot" src="{{ image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
-                  </div>
+      {% if f.title %}
+      <h3 class="title">{{ f.title }}</h3>
+      {% endif %}
 
+      {% if f.image_name %}
+      {% assign image_path = "/assets/images/{{ f.image_name }}" %}
+      {% else %}
+      {% assign image_path = "/assets/images/warli-default.png" %}
+      {% endif %}
 
-                  {% if f.description %}
-                      <div class="description">
-                        {{ f.description | markdownify }}
-                      </div>
-                    {% endif %}
-
-                    {% if f.points %}
-                    <ul class="points">
-                      {% for point in f.points %}
-                      <li> {{ point }} </li>
-                      {% endfor %}
-                    </ul>
-                  {% endif %}
+      <div class="image">
+        <img class="mascot" src="{{ image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+      </div>
 
 
-                    <div class="ctas">
-                      {% if f.url %}
-                      <a href="{{ f.url | relative_url }}" class="btn btn--info">Learn More</a>
-                      {% endif %} {% if f.casestudy_url %}
-                      <a href="{{ f.casestudy_url | relative_url }}" class="btn btn--inverse">Case Study</a>
-                      {% endif %} {% if f.enquire_url %}
-                      <a href="{{ f.enquire_url | relative_url }}" class="btn btn--primary">Enquire</a>
-                      {% endif %}
-                    </div>
+      {% if f.description %}
+      <div class="description">
+        {{ f.description | markdownify }}
+      </div>
+      {% endif %}
 
-                </div>
-  {% endfor %}
-</div>
+      {% if f.points %}
+      <ul class="points">
+        {% for point in f.points %}
+        <li> {{ point }} </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+
+      <div class="ctas">
+        {% if f.url %}
+        <a href="{{ f.url | relative_url }}" class="btn btn--info">Learn More</a>
+        {% endif %} {% if f.casestudy_url %}
+        <a href="{{ f.casestudy_url | relative_url }}" class="btn btn--inverse">Case Study</a>
+        {% endif %} {% if f.enquire_url %}
+        <a href="{{ f.enquire_url | relative_url }}" class="btn btn--primary">Enquire</a>
+        {% endif %}
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
 </div>
