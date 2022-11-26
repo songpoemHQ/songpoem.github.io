@@ -42,6 +42,14 @@ services_row:
       - move Users to new system
     image_name: warli-legacy-modernization.png
     alt: "Modernization of Legacy System"
+  - title: "IOT and Embedded System"
+    description: "IOT using Elixir Nerves"
+    points:
+      - Fleet of IOT Devices
+      - Industry 4.0
+      - Secure Communication
+    image_name: warli-legacy-modernization.png
+    alt: "Modernization of Legacy System"
 feature_row:
   - title: "Cart"
     # description: "e-commerce like. Shoppers Browse, Add to Cart, place order, Checkout."
