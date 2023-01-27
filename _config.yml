@@ -21,18 +21,17 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 
 
-title: Songpoem Solutions
+title: Scalekrew
 email: sandesh.soni@songpoem.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Songpoem Solutions provides platform.
-  Membership, Marketplace, Subscription or any other Customized Platform for your Startup and MVP.
-masthead_title           : Songpoem Solutions
+  Scale Solutions. We help you Scale your Business using Technology
+masthead_title           : Scalekrew
 logo                     : "/assets/images/sp-logo-1.jpeg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.songpoem.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: songpoemsol
-github_username:  songpoemsol
-facebook_username: songpoemsol
+url: "https://www.scalekrew.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: scalekrew
+github_username:  scalekrew
+facebook_username: scalekrew
 
 # Build settings
 markdown: kramdown
@@ -72,16 +71,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/songpoemsol"
+      url: "https://twitter.com/scalekrew"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-li-square"
-      url: "https://linkedin.com/company/songpoemsol"
+      url: "https://linkedin.com/company/scalekrew"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/songpoemsol"
+      url: "https://github.com/scalekrew"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/songpoemsol"
+      url: "https://instagram.com/scalekrew"
 
   # Collections
 collections:
