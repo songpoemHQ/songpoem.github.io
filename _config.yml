@@ -22,11 +22,11 @@ locale                   : "en-US"
 
 
 title: Scalekrew
-email: sandesh.soni@songpoem.com
+email: sandesh.soni@scalekrew.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Scale Solutions. We help you Scale your Business using Technology
+  Scale Solutions. We help you Scale Business using Technology
 masthead_title           : Scalekrew
-logo                     : "/assets/images/sp-logo-1.jpeg"
+logo                     : "/assets/images/scalekrew-logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.scalekrew.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: scalekrew

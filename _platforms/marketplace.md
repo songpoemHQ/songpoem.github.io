@@ -13,7 +13,7 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/marketplace.png
   # cta_label: "Enquire"
-  # cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
+  # cta_url: "mailto:sandesh.soni@scalekrew.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 permalink: /platform/marketplace/
 implementation_options:

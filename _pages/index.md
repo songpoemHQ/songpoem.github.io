@@ -1,19 +1,20 @@
 ---
-seo_title: "Creative & Scalable Digital Transformation Solutions for High Traffic Businesses."
-title: "Software Engineering and Support System."
-description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Creative & Sound Digital Transformation Solutions for High Traffic Businesses."
-excerpt: "Songpoem Solutions provides Digital Transformation Solutions for High Traffic Businesses."
+seo_title: "Cloud Based Platform and Solutions that are easy to Scale"
+title: "Cloud Based Solutions that are easy to Scale"
+description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Digital Transformation"
+excerpt: "Scalekrew provides Scaleable Platform for Businesses."
 description_2: "Marketplace and on-demand Platform provider."
 keywords:
-  - digital transformation
+  - scale
   - scalable
   - platform
-  - solution
+  - digital transformation
+  - tech-solutions
   - startup
-  - customized software
-  - network effect
-  - atomic network
-  - bespoke software
+  - customized-software
+  - network-effect
+  - atomic-network
+  - bespoke-software
 layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
@@ -22,7 +23,7 @@ header:
   overlay_filter: "0.8"
   overlay_image: /assets/images/startups-wide.png
   cta_label: "Discuss my Project"
-  cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
+  cta_url: "mailto:sandesh.soni@scalekrew.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
   - title: "Custom Software Development"

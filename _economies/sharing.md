@@ -49,7 +49,7 @@ This idea of sharing economy has changed the meaning of ownership – now access
 
 # Want to build a Sharing Economy startup?
 
-Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@songpoem.com)
+Book a free 30 minutes Consultation call.  [Book Now](mailto:sandesh.soni@scalekrew.com)
 
 ## Related Blogs.
 {% for post in site.categories["Sharing Economy"] %}
