@@ -1,8 +1,8 @@
 ---
 seo_title: "Cloud Based Scalable Tech Solutions"
-title: "Unlock Your Business's Potential with High-Performance, Cloud based Scalable Tech Solutions"
+title: "Unlock Your Business's Potential with High-Performance, Scalable Tech Solutions"
 description: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
-excerpt: "Unlock Your Business's Potential with High-Performance,  Cloud based Scalable Tech Solutions"
+excerpt: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 description_2: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 keywords:
   - scale
@@ -26,15 +26,22 @@ header:
   cta_url: "mailto:sandesh.soni@scalekrew.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
-  - title: "Custom Software Development"
+  - title: "Product Engineering"
     description: "Tailormade as per Requirements."
     points:
       - Cloud Based.
       - Web, Mobile App, UX
-      - Starts from $1999
     image_name: warli-custom-development.png
     url: "/platform/legacy"
     alt: "Custom Software Development"
+  - title: "Digital Platform Development"
+    description: "Digital Platform"
+    points:
+      - Fleet of IOT Devices
+      - Industry 4.0
+      - Secure Communication
+    image_name: warli-legacy-modernization.png
+    alt: "Digital Platforms"
   - title: "Modernization of Legacy Systems"
     description: "Developers afraid to touch old codebase and you need to completely Revamp? Scale and Expand"
     points:
@@ -42,14 +49,7 @@ services_row:
       - Pretty and Easy User Interface.
       - move Users to new system
     image_name: warli-legacy-modernization.png
-    alt: "Modernization of Legacy System"
-  - title: "IOT and Embedded System"
-    description: "IOT using Elixir Nerves"
-    points:
-      - Fleet of IOT Devices
-      - Industry 4.0
-      - Secure Communication
-    image_name: warli-legacy-modernization.png
+    url: "/platform/legacy"
     alt: "Modernization of Legacy System"
 feature_row:
   - title: "Cart"

@@ -24,7 +24,7 @@ locale                   : "en-US"
 title: Scalekrew
 email: sandesh.soni@scalekrew.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Scale Solutions. We help you Scale Business using Technology
+  Scalekrew offers high-performance, cloud-based solutions to help businesses unlock their full potential. Our scalable tech solutions can handle any level of traffic and user activity, ensuring your website is always fast and reliable. Contact us today to take your business to the next level.
 masthead_title           : Scalekrew
 logo                     : "/assets/images/scalekrew-logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
