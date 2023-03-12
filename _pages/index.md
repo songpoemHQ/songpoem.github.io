@@ -1,9 +1,9 @@
 ---
-seo_title: "Cloud Based Platform and Solutions that are easy to Scale"
-title: "Cloud Based Solutions that are easy to Scale"
-description: "Technology and Software Solutions. Customized and Scalable Platform provider for your Startup. Digital Transformation"
-excerpt: "Scalekrew provides Scaleable Platform for Businesses."
-description_2: "Marketplace and on-demand Platform provider."
+seo_title: "Cloud Based Scalable Tech Solutions"
+title: "Unlock Your Business's Potential with High-Performance, Cloud based Scalable Tech Solutions"
+description: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
+excerpt: "Unlock Your Business's Potential with High-Performance,  Cloud based Scalable Tech Solutions"
+description_2: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 keywords:
   - scale
   - scalable
