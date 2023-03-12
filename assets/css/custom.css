@@ -11,7 +11,7 @@ div.feature_row_container .line-items>div:nth-of-type(odd) {
 
 div.faq-container .line-items>div:nth-of-type(even),
 div.feature_row_container .line-items>div:nth-of-type(even) {
-  background: #e9dcbe4d;
+  background: red;
   border-bottom: solid #c791134d 1px;
 }
 
@@ -148,7 +148,7 @@ div.faq-container span.container-title,
 }
 
 .feature_row_wide_container .feature_row_element .box {
-  border: 2px solid orange;
+  border: 2px solid red;
   background: #fff;
   padding: 1em;
 }
