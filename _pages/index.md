@@ -1,6 +1,6 @@
 ---
 seo_title: "Cloud Based Scalable Tech Solutions"
-title: "Unlock Your Business's Potential with High-Performance, Scalable Tech Solutions"
+title: "Scale Your Business with High-Performance, Customized Tech Solutions and AI"
 description: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 excerpt: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 description_2: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
@@ -8,6 +8,7 @@ keywords:
   - scale
   - scalable
   - platform
+  - Artificial Intelligence
   - digital transformation
   - tech-solutions
   - startup
@@ -34,6 +35,15 @@ services_row:
     image_name: warli-custom-development.png
     url: "/platform/legacy"
     alt: "Custom Software Development"
+  - title: "Artificial Intelligence"
+    description: "Tailormade AI solutions for Business"
+    points:
+      - AI
+      - speech recognition, face recognition
+      - generative models, LLM
+    image_name: warli-custom-development.png
+    url: "/platform/legacy"
+    alt: "Artificial Intelligence Development"
   - title: "Digital Platform Development"
     description: "Digital Platform"
     points:
