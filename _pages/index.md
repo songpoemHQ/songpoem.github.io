@@ -1,21 +1,19 @@
 ---
-seo_title: "Cloud Based Scalable Tech Solutions"
-title: "Scale Your Business with High-Performance, Customized Tech Solutions and AI"
-description: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
-excerpt: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
+seo_title: "Scale with Scalekrew's resources from India - Erlang, Elixir, Rust, go, React"
+title: "Scale Your Crew with Scalekrew"
+description: "We provide contract Software Developer resource that are hard to find. Well trained Resources from India and Africa."
+excerpt: "We provide contract based Software Engineers that are hard to find. Proficient in Erlang, Elixir, Rust, React js, React Rative, Ruby on Rails, SAP, Cloud"
 description_2: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 keywords:
-  - scale
-  - scalable
+  - on-demand
   - platform
   - Artificial Intelligence
   - digital transformation
-  - tech-solutions
-  - startup
-  - customized-software
-  - network-effect
-  - atomic-network
   - bespoke-software
+  - Erlang
+  - Elixir
+  - Rust
+  - React Native
 layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
@@ -27,7 +25,7 @@ header:
   cta_url: "mailto:sandesh.soni@scalekrew.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
-  - title: "Product Engineering"
+  - title: "Staff Augmentation"
     description: "Tailormade as per Requirements."
     points:
       - Cloud Based.
@@ -62,54 +60,29 @@ services_row:
     url: "/platform/legacy"
     alt: "Modernization of Legacy System"
 feature_row:
-  - title: "Cart"
+  - title: "Erlang and Elixir"
     # description: "e-commerce like. Shoppers Browse, Add to Cart, place order, Checkout."
     points:
-      - View, Browse, Filter Products and Categories.
-      - Add to Cart and Checkout
+      - GraphQL
+      - Phoenix Framework, Phoenix Liveview
+      - Distributed Systems
+      - Riak
     image_name: warli-marketplace.png
     alt: "Marketplace Platform"
-  - title: "Subscription and Membership"
+  - title: "Reactjs and Nextjs"
     # description: "Users need a membership"
     points:
-      - Role Based Access Control
+      - Frontend
+    image_path: /assets/images/custom-platform-abstract.png
+    alt: "Custom Platform Development"
+  - title: "React Native"
+    # description: "Users need a membership"
+    points:
+      - Mobile
       - Multiple Tiers. Account of User, Entity
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
-  - title: "Messaging"
-    # description: "Message functionality. Text, Audio"
-    points:
-      - View which Users are Online.
-      - Send and Receieve Messages & Notifications.
-    image_name: warli-messaging.png
-    alt: "Messaging Platform"
-  - title: "API Integration"
-    points:
-      - GraphQL and REST APIs
-      - Wire the Connections. Build App consuming APIs
-    image_name: warli-api-integration.png
-    alt: "API Integrations"
-  - title: "Real-Time capabilities"
-    points:
-      - Realtime Updates
-      - Presence. View Online Entities.
-    image_path: /assets/images/community-platform-abstract.png
-    alt: "Realtime Features"
-    # url: "/platform/community"
-  - title: "Geo Location"
-    # description: "Geographic Location"
-    points:
-      - Geographic location
-      - coordinates.
-    alt: "Geographic Platform"
-  - title: "Payment Gateway"
-    # description: "Geographic Location"
-    points:
-      - Integration of Payment Gateways
-      - Standard, Non-standard, 3d secure.
-    image_name: warli-payment.png
-    alt: "Geographic Platform"
-    # url: "/platform/community"   
+
 economy_row:
   - title: "Gig Economy"
     description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
