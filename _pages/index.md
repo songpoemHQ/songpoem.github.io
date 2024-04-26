@@ -1,8 +1,8 @@
 ---
-seo_title: "Scale with Scalekrew's resources from India - Erlang, Elixir, Rust, go, React"
-title: "Scale Your Crew with Scalekrew"
-description: "We provide contract Software Developer resource that are hard to find. Well trained Resources from India and Africa."
-excerpt: "We provide contract based Software Engineers that are hard to find. Proficient in Erlang, Elixir, Rust, React js, React Rative, Ruby on Rails, SAP, Cloud"
+seo_title: "Songpoem Labs, Software development services from India - Erlang, Elixir, Phoenix Liveview, Rust, Golang, React, GenAI, PETAL"
+title: "Lets compose Success Together"
+description: "Songpoem Labs, Software development services from India - Erlang, Elixir, Phoenix Liveview, Rust, Golang, React, GenAI, PETAL"
+excerpt: "Songpoem Labs, Software development services from India - Erlang, Elixir, Phoenix Liveview, Rust, Golang, React, GenAI, PETAL"
 description_2: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 keywords:
   - on-demand
@@ -22,17 +22,16 @@ header:
   overlay_filter: "0.8"
   overlay_image: /assets/images/startups-wide.png
   cta_label: "Discuss my Project"
-  cta_url: "mailto:sandesh.soni@scalekrew.com&subject=enquiry&body=Wehomepage"
+  cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
-  - title: "Staff Augmentation"
+  - title: "GenAI"
     description: "Tailormade as per Requirements."
     points:
-      - Cloud Based.
-      - Web, Mobile App, UX
+      - Generative AI
     image_name: warli-custom-development.png
     url: "/platform/legacy"
-    alt: "Custom Software Development"
+    alt: "Generati AI"
   - title: "Artificial Intelligence"
     description: "Tailormade AI solutions for Business"
     points:

@@ -7,7 +7,7 @@
 {% if include.url %}
 {% assign url = include.url %}
 {% else %}
-{% assign url = "mailto:sandesh.soni@scalekrew.com" %}
+{% assign url = "mailto:sandesh.soni@songpoem.com" %}
 {% endif %}
 
 {% if include.description %}

@@ -21,17 +21,17 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 
 
-title: Scalekrew
-email: sandesh.soni@scalekrew.com
+title: Songpoem Labs
+email: sandesh.soni@songpoem.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Scalekrew offers high-performance, cloud-based solutions to help businesses unlock their full potential. Our scalable tech solutions can handle any level of traffic and user activity, ensuring your website is always fast and reliable. Contact us today to take your business to the next level.
-masthead_title           : Scalekrew
-logo                     : "/assets/images/scalekrew-logo.png"
+  Lets Compose Success Together.
+masthead_title           : Songpoem Labs
+logo                     : "/assets/images/songpoemlabs-logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.scalekrew.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: scalekrew
-github_username:  scalekrew
-facebook_username: scalekrew
+url: "https://www.songpoem.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: songpoemlabs
+github_username:  songpoemlabs
+facebook_username: songpoemlabs
 
 # Build settings
 markdown: kramdown
@@ -71,16 +71,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/scalekrew"
+      url: "https://twitter.com/songpoemlabs"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-li-square"
-      url: "https://linkedin.com/company/scalekrew"
+      url: "https://linkedin.com/company/songpoemlabs"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/scalekrew"
+      url: "https://github.com/songpoemlabs"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/scalekrew"
+      url: "https://instagram.com/songpoemlabs"
 
   # Collections
 collections:

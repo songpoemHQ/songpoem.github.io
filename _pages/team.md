@@ -3,7 +3,7 @@ title: Team
 permalink: /team/
 ---
 
-scalekrew Solutions provides you A Customized **Platform** if you are looking for
+songpoem Solutions provides you A Customized **Platform** if you are looking for
 - A Marketplace, Large E-commerce, Booking Portal
 - Membership or Subscription site
 - Gig Economy, Sharing Economy Product
@@ -21,7 +21,7 @@ Tools and Technologies we use
 - Elixir lang, Phoenix Framework, Ruby on Rails, Figma, git, github, gitlab.
 - React.js, Alpine.js, Next.js, TailwindCSS, Flutter, React Native.
 
-Why customers choose scalekrew Solutions.
+Why customers choose songpoem Solutions.
 - Our applications are designed for high visitor traffic. 
 - Our applications are optimized for SEO.
 - Our Code is Clean and Modular. 
