@@ -21,11 +21,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 
 
-title: Songpoem Labs
+masthead_title           : Songpoem Labs
+title: Songpoem Solutions LLP
 email: sandesh.soni@songpoem.com
 description: >- # this means to ignore newlines until "baseurl:"
   Lets Compose Success Together.
-masthead_title           : Songpoem Solutions LLP
 logo                     : "/assets/images/songpoemlabs-logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.songpoem.com" # the base hostname & protocol for your site, e.g. http://example.com
