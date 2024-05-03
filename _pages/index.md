@@ -25,30 +25,22 @@ header:
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
-  - title: "GenAI"
-    description: "Tailormade as per Requirements."
+  - title: "Custom Software Development"
+    description: "From concept to execution, we create tailored software solutions that align perfectly with your business objectives."
     points:
-      - Generative AI
+      - Tailormade
+      - Custom Software Development
     image_name: warli-custom-development.png
     url: "/platform/legacy"
     alt: "Generati AI"
-  - title: "Artificial Intelligence"
-    description: "Tailormade AI solutions for Business"
+  - title: "Web and Mobile Development"
+    description: "Our team designs and develops engaging and responsive websites that captivate your audience and drive results. Feature-rich applications that elevate user experiences."
     points:
-      - AI
-      - speech recognition, face recognition
-      - generative models, LLM
+      - Web
+      - Mobile
     image_name: warli-custom-development.png
     url: "/platform/legacy"
     alt: "Artificial Intelligence Development"
-  - title: "Digital Platform Development"
-    description: "Digital Platform"
-    points:
-      - Fleet of IOT Devices
-      - Industry 4.0
-      - Secure Communication
-    image_name: warli-legacy-modernization.png
-    alt: "Digital Platforms"
   - title: "Modernization of Legacy Systems"
     description: "Developers afraid to touch old codebase and you need to completely Revamp? Scale and Expand"
     points:
@@ -112,8 +104,8 @@ modules_row:
 why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:
-  - title: "Accelerated Development"
-    description: "We understand Business Requirements and convert it into code. In iterations."
+  - title: "Artistic Innovation"
+    description: "We believe in infusing creativity into every project, ensuring that our solutions not only function flawlessly but also inspire and engage."
     image_name: warli-support.png
   - title: "Agile"
     description: "
@@ -125,8 +117,8 @@ why_songpoem_row:
     description: "We provide Lifelong Support maintain existing modules and future additions."
   - title: "Code Quality"
     description: "We follow standing coding practices to keep the code Clean and Modular. Unit Tests"
-  - title: "Compliance"
-    description: "Data quality, enterprise security, adherence to global compliances - whatever relevant to your area."
+  - title: "Global Reach, Local Expertise"
+    description: "With coding centers in India, we offer cost-effective solutions without compromising on quality or innovation."
 faq_row:
   - question: "What **Engineering Services** do you provide?"  
     answer:  "Frontend, Mobile App, UX, 3rd party API integration."  
@@ -144,6 +136,10 @@ title="We are good at implementating" %}
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
+
+<!-- **Ready to transform your business with our artistic tech solutions? Contact us today for a consultation.** -->
+
+
 
 <!-- {% include feature_row_faqs title="FAQs" %} -->
 
