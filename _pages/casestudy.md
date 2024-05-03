@@ -3,7 +3,7 @@ title: Case Studies
 layout: collection
 # layout: categories
 permalink: /casestudies/
-collection: casestudy
+collection: casestudies
 entries_layout: grid
 classes: wide
 ---
