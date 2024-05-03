@@ -1,7 +1,7 @@
 ---
 title: Case Studies
-# layout: collection
-layout: categories
+# layout: casestudies
+# layout: categories
 permalink: /casestudies/
 collection: casestudies
 entries_layout: grid
