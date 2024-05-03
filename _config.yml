@@ -84,7 +84,7 @@ footer:
 
   # Collections
 collections:
-  portfolio:
+  casestudy:
     output: true
     permalink: /:collection/:path/
 

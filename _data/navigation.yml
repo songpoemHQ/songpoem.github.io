@@ -6,8 +6,8 @@ main:
   # - title: "Categories"
   #   url: /categories/
   - title: "Case Studies"
-    url: /case-studies/
-  - title: "Knowledge Centre"
+    url: /casestudies/
+  - title: "Blog"
     url: /blog/
   - title: "Schedule a Call"
     url: /team/
