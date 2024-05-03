@@ -1,7 +1,7 @@
 ---
 seo_title: "Songpoem Labs, Software development services from India - Erlang, Elixir, Phoenix Liveview, Rust, Golang, React, GenAI, PETAL"
-title: "Lets compose Success Together"
-description: "Songpoem Labs, Software development services from India - Erlang, Elixir, Phoenix Liveview, Rust, Golang, React, GenAI, PETAL"
+title: "Delivering Business Solutions with an Artistic touch"
+description: "At Songpoem Labs, we are dedicated to delivering business solutions with an artistic touch. Our focus on emerging technologies and innovative approaches sets us apart in the IT services landscape."
 excerpt: "Songpoem Labs, Software development services from India - Erlang, Elixir, Phoenix Liveview, Rust, Golang, React, GenAI, PETAL"
 description_2: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 keywords:
