@@ -30,8 +30,8 @@ services_row:
       - Tailormade
       - Custom Software Development
     image_name: warli-custom-development.png
-    url: "/platform/legacy"
-    alt: "Generati AI"
+    url: "services/custom-software-development"
+    alt: "Custom Software Development"
   - title: "Web and Mobile Development"
     description: "Our team designs and develops engaging and responsive websites that captivate your audience and drive results. Feature-rich applications that elevate user experiences."
     points:
