@@ -2,9 +2,11 @@
 title:  "Enthu"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 date:   2024-04-03 10:13:30 +0530
+type: portfolio
 author_profile: false
 author: Sandesh Soni
-# category: elixir
+layout: single
+share: true
 tags:
 - otp
 - message passing
