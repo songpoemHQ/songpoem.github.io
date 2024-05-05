@@ -47,7 +47,7 @@ services_row:
       - Pretty and Easy User Interface.
       - move Users to new system
     image_name: warli-legacy-modernization.png
-    url: "/services/modernazition-of-legacy-systems/"
+    url: "/services/modernization-of-legacy-systems/"
     alt: "Modernization of Legacy System"
 feature_row:
   - title: "Erlang and Elixir"
