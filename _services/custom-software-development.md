@@ -10,6 +10,7 @@ keywords:
   - membership economy
   - gamification software
 layout: splash
+type: service
 permalink: /services/custom-software-development/
 header:
   overlay_color: "#000"

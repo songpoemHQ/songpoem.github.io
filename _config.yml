@@ -87,7 +87,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-
+  service:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -112,6 +114,12 @@ defaults:
   - scope:
       path: "_portfolio"
       type: portfolio
+    values:
+      layout: single
+      author_profile: false
+  - scope:
+      path: "_services"
+      type: service
     values:
       layout: single
       author_profile: false
