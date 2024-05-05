@@ -10,7 +10,7 @@ permalink: /services/web-mobile-development/
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/on-demand.png
+  overlay_image: /assets/images/bg-texture2.png
 feature_row:
   - title: "Web and Mobile Development. 1"
     description: "When you want to offer points to your users for keeping using and a reedem collected points option"
