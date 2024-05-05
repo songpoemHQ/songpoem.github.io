@@ -1,9 +1,9 @@
 ---
 title: Case Studies
 # layout: casestudies
-# layout: categories
+layout: collection
 permalink: /casestudies/
-collection: casestudies
+collection: portfolio
 entries_layout: grid
 classes: wide
 ---
