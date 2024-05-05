@@ -110,8 +110,8 @@ defaults:
       author_profile: true
   # _platforms
   - scope:
-      path: "_platforms"
-      type: pages
+      path: "_portfolio"
+      type: portfolio
     values:
       layout: single
       author_profile: false
