@@ -1,14 +1,9 @@
 ---
-title: custom-software-development
+title: Custom Software Development
 description: "membership related platform. Users, Groups, connections, Network. Wall for content and posts user subscribe to. Special previlage possible like Early Access."
 keywords:
   - community
   - platform
-  - community platform
-  - community software
-  - community software
-  - membership economy
-  - gamification software
 layout: splash
 type: service
 permalink: /services/custom-software-development/

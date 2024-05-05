@@ -1,6 +1,6 @@
 ---
-title: web-mobile-development
-description: "Web and Mobile app development"
+title: Web and Mobile App Development
+description: "Backend, Frontend, Hybrid Apps, Plugins, Browser Extension"
 keywords:
   - web development
   - mobile development
@@ -23,7 +23,7 @@ feature_row:
     # enquire_url: "/platform/membership/"
 ---
 
-### Web and Mobile Development.
+### Backend, Frontend, Hybrid Apps, Plugins, Browser Extension.
 
 At Songpoem Labs, we specialize in delivering cutting-edge web and mobile app solutions powered by GraphQL, an efficient and powerful query language for APIs. Our expertise spans the full spectrum of development technologies, including GraphQL for seamless data querying and manipulation, as well as hybrid mobile app development for versatile and cost-effective solutions.
 
