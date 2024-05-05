@@ -106,18 +106,10 @@ why_songpoem_row:
   - title: "Artistic Innovation"
     description: "We believe in infusing creativity into every project, ensuring that our solutions not only function flawlessly but also inspire and engage."
     image_name: warli-support.png
-  - title: "Agile"
-    description: "
-    Continuous improvements with no practical downtime of the application.
-    Industry standard processes, documents, delivery and hand off with play book.
-    "
-    image_name: warli-agile.png
-  - title: "Support"
-    description: "We provide Lifelong Support maintain existing modules and future additions."
+  - title: "Lifelong Support"
+    description: "We provide Lifelong Support as regular updates, troubleshooting assistance, and personalized consultations."
   - title: "Code Quality"
-    description: "We follow standing coding practices to keep the code Clean and Modular. Unit Tests"
-  - title: "Global Reach, Local Expertise"
-    description: "With coding centers in India, we offer cost-effective solutions without compromising on quality or innovation."
+    description: "We follow coding standards and methodologies practiced in the industry. This makes it easy to onboard new person."
 faq_row:
   - question: "What **Engineering Services** do you provide?"  
     answer:  "Frontend, Mobile App, UX, 3rd party API integration."  
@@ -142,4 +134,4 @@ title="We are good at implementating" %}
 
 <!-- {% include feature_row_faqs title="FAQs" %} -->
 
-<!-- {% include feature_cta title="Book Now" description="Book a free 60 minutes Consultation call." %} -->
+{% include feature_cta title="Book Now" description="Book a free 60 minutes Consultation call." %}
