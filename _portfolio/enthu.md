@@ -1,6 +1,6 @@
 ---
 title:  "Enthu"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+excerpt: "Project Enthu stands as a testament to our ability to transform limitations into opportunities. By decoupling our client's e-commerce platform from a single-country, single-gateway model to a flexible, multi-market solution, we enabled them to unlock new revenue streams and enter diverse geolocations. Our strategic approach not only expanded their market reach but also simplified compliance management, making regulatory hurdles a thing of the past. Enthu showcases our commitment to driving business growth through innovative IT solutions, empowering our clients to thrive in a global marketplace."
 date:   2024-04-03 10:13:30 +0530
 type: portfolio
 author_profile: false
