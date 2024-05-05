@@ -38,8 +38,8 @@ services_row:
       - Web
       - Mobile
     image_name: warli-custom-development.png
-    url: "/platform/legacy"
-    alt: "Artificial Intelligence Development"
+    url: "/services/web-mobile-development/"
+    alt: "Web and Mobile Development"
   - title: "Modernization of Legacy Systems"
     description: "Developers afraid to touch old codebase and you need to completely Revamp? Scale and Expand"
     points:
@@ -47,7 +47,7 @@ services_row:
       - Pretty and Easy User Interface.
       - move Users to new system
     image_name: warli-legacy-modernization.png
-    url: "/platform/legacy"
+    url: "/services/modernazition-of-legacy-systems/"
     alt: "Modernization of Legacy System"
 feature_row:
   - title: "Erlang and Elixir"
