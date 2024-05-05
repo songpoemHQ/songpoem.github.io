@@ -4,7 +4,7 @@ title: Case Studies
 layout: collection
 permalink: /casestudies/
 collection: portfolio
-entries_layout: grid
+# entries_layout: grid
 classes: wide
 ---
 
