@@ -24,31 +24,35 @@ header:
   cta_url: "mailto:sandesh.soni@songpoem.com&subject=enquiry&body=Wehomepage"
   excerpt: "We reuse already developed and well tested Modules and Functionalities, that can be imported rather than building from scratch and testing again."
 services_row:
-  - title: "Custom Software Development"
-    description: "From concept to execution, we create tailored software solutions that align perfectly with your business objectives."
+  - title: "Erlang and Elixir Development"
+    description: "Build scalable, fault-tolerant, and real-time applications using Erlang/Elixir."
     points:
-      - Tailormade
-      - Custom Software Development
-    image_name: warli-custom-development.png
-    url: "services/custom-software-development"
-    alt: "Custom Software Development"
-  - title: "Web and Mobile Development"
-    description: "Our team designs and develops engaging and responsive websites that captivate your audience and drive results. Feature-rich applications that elevate user experiences."
+    - Develop backend systems, messaging platforms, and distributed applications.
+    - Leverage OTP for concurrency, fault tolerance, and scalability.
+    - Ensure high performance, low latency, and resilience in applications.
+  - title: "Real-time Communication Platforms"
+    description: "Build interactive and reliable platforms for real-time messaging, video conferencing, and collaborative workflows."
     points:
-      - Web
-      - Mobile
-    image_name: warli-custom-development.png
-    url: "/services/web-mobile-development/"
-    alt: "Web and Mobile Development"
-  - title: "Modernization of Legacy Systems"
-    description: "Developers afraid to touch old codebase and you need to completely Revamp? Scale and Expand"
+    - Develop messaging systems with low latency and high reliability using Erlang/Elixir.
+    - Enable collaborative workflows with shared document editing, task management, etc.
+  - title: "AI-Powered Solutions"
+    description: "Specializing in real-time AI applications using Erlang and Elixir, we deliver solutions that combine responsiveness with intelligent decision-making."
     points:
-      - Rebuild, on-Premise to Cloud.
-      - Pretty and Easy User Interface.
-      - move Users to new system
+      - Develop AI-driven chatbots, recommendation engines, and personalized content delivery systems.
+      - Utilize Erlang's concurrency model for handling simultaneous user interactions and Elixir's scalability for data processing.
+      - Implement machine learning algorithms for predictive maintenance, anomaly detection, and optimization.
+      - Ensure low-latency responses and fault tolerance for critical real-time applications.
     image_name: warli-legacy-modernization.png
     url: "/services/modernization-of-legacy-systems/"
     alt: "Modernization of Legacy System"
+  - title: "Web3 Blockchain Development"
+    description: "Exploring the potential of blockchain technology, we develop decentralized applications (DApps)"
+    points:
+    - Design and deploy blockchain networks using platforms like Ethereum, Hyperledger, and Corda.
+    - Develop smart contracts for automated transactions, digital asset management, and secure agreements.
+    - Enable traceability, transparency, and trust in supply chains through blockchain implementation.
+    - Explore tokenization, decentralized finance (DeFi), and non-fungible tokens (NFTs) for innovative use cases.
+    - Implement Web3 protocols for identity management, data privacy, and secure transactions.
 feature_row:
   - title: "Erlang and Elixir"
     # description: "e-commerce like. Shoppers Browse, Add to Cart, place order, Checkout."
