@@ -1,29 +1,31 @@
 ---
-title: Custom Software Development
+title: Erlang and Elixir Development
 description: "membership related platform. Users, Groups, connections, Network. Wall for content and posts user subscribe to. Special previlage possible like Early Access."
 keywords:
-  - community
-  - platform
+  - Elixir
+  - Erlang
+  - Phoenix framework
+  - Phoenix Liveview
 layout: splash
 type: service
-permalink: /services/custom-software-development/
+permalink: /services/elixir-and-erlang-development/
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/bg-texture2.png
 feature_row:
-  - title: "Custom Software Development. 1"
+  - title: "Erlang and Elixir Development. 1"
     description: "When you want to offer points to your users for keeping using and a reedem collected points option"
     # enquire_url: "/platform/marketplace"
-  - title: "Custom Software Development. 2"
+  - title: "Erlang and Elixir Development. 2"
     description: "Design gamification and rewards. Dashboard to view use and add/remove reedem options."
     # enquire_url: "/platform/membership/"
-  - title: "Custom Software Development. 3"
+  - title: "Erlang and Elixir Development. 3"
     description: "An expert will analyze your business and come up with a membership design."
     # enquire_url: "/platform/membership/"
 ---
 
-## Custom Software Development.
+## Erlang and Elixir Development.
 
 At Songpoem Labs, we specialize in crafting bespoke software solutions tailored to meet the unique needs and challenges of our clients. Our custom software development services encompass the entire software development lifecycle, from conceptualization and design to implementation, testing, deployment, and ongoing support.
 

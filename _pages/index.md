@@ -1,18 +1,17 @@
 ---
-seo_title: "Songpoem Labs, Software development services from India - Erlang, Elixir, Phoenix Liveview, Rust, Golang, React, GenAI, PETAL"
+seo_title: "Songpoem Labs - Delivering Artistic Business Solutions."
 title: "Delivering Business Solutions with an Artistic touch"
-description: "At Songpoem Labs, we are dedicated to delivering business solutions with an artistic touch. Our focus on emerging technologies and innovative approaches sets us apart in the IT services landscape."
-excerpt: "At Songpoem, We provide software development services in Erlang, Elixir, Phoenix Liveview, Rust, Golang, React, GenAI, PETAL stack"
+description: "Explore how Songpoem Labs combines creativity with technology to deliver innovative business solutions.."
+excerpt: "Explore how Songpoem Labs combines creativity with technology to deliver innovative business solutions."
 description_2: "We develop high-performance, scalable systems that can handle large amounts of traffic and user activity without slowing down or crashing."
 keywords:
   - on-demand
-  - Artificial Intelligence
-  - digital transformation
-  - bespoke-software
+  - Erlang_development
+  - Elixir_development
+  - AI_solutions
+  - Web3_blockchain_development.
   - Erlang
   - Elixir
-  - Rust
-  - React Native
 layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
@@ -26,6 +25,9 @@ header:
 services_row:
   - title: "Erlang and Elixir Development"
     description: "Build scalable, fault-tolerant, and real-time applications using Erlang/Elixir."
+    image_name: elixir-development-songpoem.png
+    url: "/services/elixir-and-erlang-development/"
+    alt: "AI-powered solutions at Songpoem Labs."
     points:
     - Develop backend systems, messaging platforms, and distributed applications.
     - Leverage OTP for concurrency, fault tolerance, and scalability.
@@ -35,18 +37,22 @@ services_row:
     points:
     - Develop messaging systems with low latency and high reliability using Erlang/Elixir.
     - Enable collaborative workflows with shared document editing, task management, etc.
+    alt: "Real-time platform by Songpoem Labs."
   - title: "AI-Powered Solutions"
     description: "Specializing in real-time AI applications using Erlang and Elixir, we deliver solutions that combine responsiveness with intelligent decision-making."
+    url: "/services/ai-powered-solutions/"
+    alt: "AI-powered solutions at Songpoem Labs."
+    image_name: ai-powered-solutions.png
     points:
       - Develop AI-driven chatbots, recommendation engines, and personalized content delivery systems.
       - Utilize Erlang's concurrency model for handling simultaneous user interactions and Elixir's scalability for data processing.
       - Implement machine learning algorithms for predictive maintenance, anomaly detection, and optimization.
       - Ensure low-latency responses and fault tolerance for critical real-time applications.
-    image_name: warli-legacy-modernization.png
-    url: "/services/modernization-of-legacy-systems/"
-    alt: "Modernization of Legacy System"
   - title: "Web3 Blockchain Development"
     description: "Exploring the potential of blockchain technology, we develop decentralized applications (DApps)"
+    url: "/services/web3-blockchain-development/"
+    alt: "Web3 Blockchain development solutions at Songpoem Labs."
+    image_name: blockchain-solutions.png
     points:
     - Design and deploy blockchain networks using platforms like Ethereum, Hyperledger, and Corda.
     - Develop smart contracts for automated transactions, digital asset management, and secure agreements.
