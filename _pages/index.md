@@ -132,8 +132,8 @@ faq_row:
 {% include feature_row_broad id="services_row"
 title="Our Capabilities" %}
 
-{% include feature_row_wide id="feature_row"
-title="We are good at implementating" %}
+<!-- {% include feature_row_wide id="feature_row"
+title="We are good at implementating" %} -->
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
@@ -144,4 +144,4 @@ title="We are good at implementating" %}
 
 <!-- {% include feature_row_faqs title="FAQs" %} -->
 
-{% include feature_cta title="Book Now" description="Book a free 60 minutes Consultation call." %}
+{% include feature_cta title="Book Now" description="Book a free 30 minutes Consultation call." %}
