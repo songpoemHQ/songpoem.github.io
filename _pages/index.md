@@ -25,7 +25,7 @@ header:
 services_row:
   - title: "Erlang and Elixir Development"
     description: "Build scalable, fault-tolerant, and real-time applications using Erlang/Elixir."
-    image_name: elixir-development-songpoem.png
+    image_name: songpoem-elixir.jpg
     url: "/services/elixir-and-erlang-development/"
     alt: "AI-powered solutions at Songpoem Labs."
     points:
@@ -42,7 +42,7 @@ services_row:
     description: "Specializing in real-time AI applications using Erlang and Elixir, we deliver solutions that combine responsiveness with intelligent decision-making."
     url: "/services/ai-powered-solutions-development-services/"
     alt: "AI-powered solutions at Songpoem Labs."
-    image_name: ai-powered-solutions.png
+    image_name: songpoem-elixir.jpg
     points:
       - Develop AI-driven chatbots, recommendation engines, and personalized content delivery systems.
       - Utilize Erlang's concurrency model for handling simultaneous user interactions and Elixir's scalability for data processing.
@@ -52,7 +52,7 @@ services_row:
     description: "Exploring the potential of blockchain technology, we develop decentralized applications (DApps)"
     url: "/services/blockchain-development-services/"
     alt: "Web3 Blockchain development solutions at Songpoem Labs."
-    image_name: blockchain-solutions.png
+    image_name: songpoem-elixir.jpg
     points:
     - Design and deploy blockchain networks using platforms like Ethereum, Hyperledger, and Corda.
     - Develop smart contracts for automated transactions, digital asset management, and secure agreements.
