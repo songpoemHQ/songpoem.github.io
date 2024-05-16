@@ -32,15 +32,15 @@ services_row:
     - Develop backend systems, messaging platforms, and distributed applications.
     - Leverage OTP for concurrency, fault tolerance, and scalability.
     - Ensure high performance, low latency, and resilience in applications.
-  - title: "Real-time Communication Platforms"
-    description: "Build interactive and reliable platforms for real-time messaging, video conferencing, and collaborative workflows."
-    points:
-    - Develop messaging systems with low latency and high reliability using Erlang/Elixir.
-    - Enable collaborative workflows with shared document editing, task management, etc.
-    alt: "Real-time platform by Songpoem Labs."
+  # - title: "Real-time Communication Platforms"
+  #   description: "Build interactive and reliable platforms for real-time messaging, video conferencing, and collaborative workflows."
+  #   points:
+  #   - Develop messaging systems with low latency and high reliability using Erlang/Elixir.
+  #   - Enable collaborative workflows with shared document editing, task management, etc.
+  #   alt: "Real-time platform by Songpoem Labs."
   - title: "AI-Powered Solutions"
     description: "Specializing in real-time AI applications using Erlang and Elixir, we deliver solutions that combine responsiveness with intelligent decision-making."
-    url: "/services/ai-powered-solutions/"
+    url: "/services/ai-powered-solutions-development-services/"
     alt: "AI-powered solutions at Songpoem Labs."
     image_name: ai-powered-solutions.png
     points:
@@ -48,9 +48,9 @@ services_row:
       - Utilize Erlang's concurrency model for handling simultaneous user interactions and Elixir's scalability for data processing.
       - Implement machine learning algorithms for predictive maintenance, anomaly detection, and optimization.
       - Ensure low-latency responses and fault tolerance for critical real-time applications.
-  - title: "Web3 Blockchain Development"
+  - title: "Blockchain Development"
     description: "Exploring the potential of blockchain technology, we develop decentralized applications (DApps)"
-    url: "/services/web3-blockchain-development/"
+    url: "/services/blockchain-development-services/"
     alt: "Web3 Blockchain development solutions at Songpoem Labs."
     image_name: blockchain-solutions.png
     points:
