@@ -21,10 +21,9 @@
         {% assign image_path = "/assets/images/warli-default.png" %}
         {% endif %}
 
-        <div class="image">
-          <img class="mascot" src="{{ image_path }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" title="{% if f.title %}{{ f.title }}{% endif %}" />
-        </div>
-
+        <div class="image" style="display: inline-block; max-width: 100%; height: auto;">
+            <img class="mascot" src="{{ image_path }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" title="{% if f.title %}{{ f.title }}{% endif %}" style="max-width: 100%; height: auto;" />
+          </div>
       </div>
 
     </div>

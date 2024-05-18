@@ -134,9 +134,9 @@ ecosystem_row:
   - title: "SEAP"
     image_path: /assets/images/ecosystem/logo-seap.png
     alt: "SEAP Pune"
-  - title: "STPI"
-    image_path: /assets/images/ecosystem/stpi.png
-    alt: "STPI"
+  # - title: "STPI"
+  #   image_path: /assets/images/ecosystem/stpi.png
+  #   alt: "STPI"
 ---
 
 {% include feature_row_broad id="services_row"
