@@ -127,6 +127,16 @@ faq_row:
     answer: "We analyse your business concept to understand customers and your offerings and come up with possible strategy to reach more relevant users."
   - question: "Do you provide services in my country. " 
     answer: "We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone. Our team is Distributed and we majorly work Remotely."
+ecosystem_row:
+  - title: "Tie Delhi"
+    image_path: /assets/images/ecosystem/tie-delhi.png
+    alt: "TiE Delhi"
+  - title: "SEAP"
+    image_path: /assets/images/ecosystem/seap-pune.png
+    alt: "SEAP Pune"
+  - title: "STPI"
+    image_path: /assets/images/ecosystem/stpi.png
+    alt: "STPI"
 ---
 
 {% include feature_row_broad id="services_row"
@@ -137,6 +147,9 @@ title="We are good at implementating" %} -->
 
 
 {% include feature_row_wide id="why_songpoem_row" title="Why customers choose Songpoem Solutions" %}
+
+{% include image_row_list id="ecosystem_row" title="COMMUNITIES WE ARE IN" %}
+
 
 <!-- **Ready to transform your business with our artistic tech solutions? Contact us today for a consultation.** -->
 

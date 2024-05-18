@@ -1,0 +1,34 @@
+{% if include.id %}
+  {% assign image_row_list = page[include.id] %}
+{% else %}
+  {% assign image_row_list = page.feature_row %}
+{% endif %}
+
+<div class="image_row_wide_container">
+
+  {% if include.title %}
+  <span class="text-center container-title">{{ include.title }}</span>
+  {% endif %}
+
+  <div class="line-items">
+    {% for f in image_row_list %}
+    <div class="image_row_element">
+
+      <div class="box">
+        {% if f.image_name %}
+        {% assign image_name = f.image_name %}
+        {% else %}
+        {% assign image_name = "/assets/images/warli-default.png" %}
+        {% endif %}
+        {% assign image_path = image_name %}
+
+        <div class="image">
+          <img class="mascot" src="{{ image_path }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+        </div>
+
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
+</div>
