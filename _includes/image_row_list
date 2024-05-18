@@ -15,15 +15,14 @@
     <div class="image_row_element">
 
       <div class="box">
-        {% if f.image_name %}
-        {% assign image_name = f.image_name %}
+        {% if f.image_path %}
+        {% assign image_path = f.image_path %}
         {% else %}
-        {% assign image_name = "/assets/images/warli-default.png" %}
+        {% assign image_path = "/assets/images/warli-default.png" %}
         {% endif %}
-        {% assign image_path = image_name %}
 
         <div class="image">
-          <img class="mascot" src="{{ image_path }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+          <img class="mascot" src="{{ image_path }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" title="{% if f.title %}{{ f.title }}{% endif %}" />
         </div>
 
       </div>
