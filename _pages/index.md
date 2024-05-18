@@ -117,6 +117,8 @@ why_songpoem_row:
     description: "Enjoy lifelong support with regular updates, expert troubleshooting, and personalized consultations."
   - title: "Code Quality"
     description: "We adhere to industry best practices and standards. This commitment ensures that your projects are built on a foundation of clean, efficient, and scalable code."
+  - title: "Community Engagement"
+    description: "We give back to society by organizing meetups, including Elixir Pune Meetup and Elixir Bengaluru Meetup."
 faq_row:
   - question: "What **Engineering Services** do you provide?"  
     answer:  "Frontend, Mobile App, UX, 3rd party API integration."  
