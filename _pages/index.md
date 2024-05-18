@@ -132,7 +132,7 @@ ecosystem_row:
     image_path: /assets/images/ecosystem/tie-delhi-logo.avif
     alt: "TiE Delhi"
   - title: "SEAP"
-    image_path: /assets/images/ecosystem/seap-pune.png
+    image_path: /assets/images/ecosystem/logo-seap.png
     alt: "SEAP Pune"
   - title: "STPI"
     image_path: /assets/images/ecosystem/stpi.png
