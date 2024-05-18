@@ -116,7 +116,7 @@ why_songpoem_row:
   - title: "Lifelong Support"
     description: "Enjoy lifelong support with regular updates, expert troubleshooting, and personalized consultations."
   - title: "Code Quality"
-    description: "We follow coding standards and methodologies practiced in the industry. This makes it easy to onboard new person."
+    description: "We adhere to industry best practices and standards. This commitment ensures that your projects are built on a foundation of clean, efficient, and scalable code."
 faq_row:
   - question: "What **Engineering Services** do you provide?"  
     answer:  "Frontend, Mobile App, UX, 3rd party API integration."  
