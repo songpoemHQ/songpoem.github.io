@@ -129,7 +129,7 @@ faq_row:
     answer: "We have worked with clients based in US, Europe,     Singapore. We overlap a few hours with your timezone. Our team is Distributed and we majorly work Remotely."
 ecosystem_row:
   - title: "Tie Delhi"
-    image_path: /assets/images/ecosystem/tie-delhi.png
+    image_path: /assets/images/ecosystem/tie-delhi-logo.avif
     alt: "TiE Delhi"
   - title: "SEAP"
     image_path: /assets/images/ecosystem/seap-pune.png
