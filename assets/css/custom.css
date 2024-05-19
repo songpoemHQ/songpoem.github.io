@@ -4,14 +4,14 @@
 }
 
 /* FAQ and Feature Row Styling */
-div.faq-container .line-items>div:nth-of-type(odd),
-div.feature-row .line-items>div:nth-of-type(odd) {
+div.faq-container .line-items > div:nth-of-type(odd),
+div.feature-row .line-items > div:nth-of-type(odd) {
   background: #55acee0f;
   border-bottom: solid #155e960f 1px;
 }
 
-div.faq-container .line-items>div:nth-of-type(even),
-div.feature-row .line-items>div:nth-of-type(even) {
+div.faq-container .line-items > div:nth-of-type(even),
+div.feature-row .line-items > div:nth-of-type(even) {
   background: red;
   border-bottom: solid #c791134d 1px;
 }
@@ -93,7 +93,7 @@ div.faq-container span.container-title,
 }
 
 /* Media Queries for Responsive Design */
-@media screen and (min-width:1025px) {
+@media screen and (min-width: 1025px) {
   .feature-row-wide .line-items {
     display: flex;
     flex-direction: row;
@@ -105,7 +105,7 @@ div.faq-container span.container-title,
   }
 }
 
-@media screen and (min-width:481px) and (max-width:1024px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   .feature-row-wide .line-items {
     display: flex;
     flex-direction: row;
@@ -117,7 +117,7 @@ div.faq-container span.container-title,
   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .feature-row-wide .line-items {
     display: flex;
     flex-direction: column;
@@ -177,6 +177,15 @@ div.faq-container span.container-title,
 .feature-row-wide .feature-row-element .ctas a {
   display: inline-block;
   margin-top: 0.5em;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.feature-row-wide .feature-row-element .ctas a:hover {
+  background-color: #0056b3;
 }
 
 /* Feature Row Content */

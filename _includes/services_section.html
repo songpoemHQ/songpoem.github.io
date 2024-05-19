@@ -1,0 +1,23 @@
+<div class="services-section">
+  <h2>{{ include.title }}</h2>
+  <div class="line-items">
+    {% for service in page[include.id] %}
+    <div class="feature-row-element">
+      <div class="box">
+        {% assign image_path = service.image_name | prepend: "/assets/images/" %}
+        <div class="image">
+          <img src="{{ image_path }}" alt="{{ service.alt }}" />
+        </div>
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.description }}</p>
+        <ul>
+          {% for point in service.points %}
+          <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+        <a href="{{ service.url }}" class="btn btn--info">Learn More</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
