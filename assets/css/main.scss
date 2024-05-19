@@ -2,35 +2,103 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* Custom styles */
 body {
-  @apply bg-gray-50 text-gray-800;
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  background-color: #f9fafb; /* Light background for better readability */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-bold;
-}
-
-.container-title {
-  @apply text-center text-2xl font-semibold text-gray-700 bg-gray-100 py-2 my-4;
-}
-
-.services-section, .why-choose-us, .memberships-section, .case-studies-section {
-  @apply my-8 p-4 bg-white shadow-md rounded-lg;
-}
-
-.line-items {
-  @apply flex flex-wrap gap-4;
-}
-
-.service-element, .why-element, .membership-element, .case-study-element {
-  @apply flex-1 min-w-72 bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:-translate-y-2;
-}
-
-.service-element img, .membership-element img, .case-study-element img {
-  @apply w-full h-auto rounded-lg;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn {
-  @apply bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-700;
+  @apply bg-primary-color text-white font-bold py-2 px-4 rounded;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #e5e7eb; /* Light border for a subtle card look */
+  border-radius: 0.5rem; /* Rounded corners for a modern look */
+  background-color: #ffffff; /* White background for card */
+  padding: 1rem; /* Padding inside card */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for hover effect */
+}
+
+.header, .footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.header a, .footer a {
+  color: var(--accent-color);
+}
+
+.header a:hover, .footer a:hover {
+  color: var(--secondary-color);
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem; /* Space between image and content */
+}
+
+.services-section {
+  padding: 2rem 0; /* Spacing for section */
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.services-section .grid-container {
+  gap: 1.5rem; /* Space between grid items */
+}
+
+.services-section .card {
+  padding: 1.5rem; /* Increased padding for card content */
+  text-align: center; /* Centered text */
+}
+
+.services-section .card img {
+  margin-bottom: 1rem; /* Space between image and text */
+  max-height: 150px; /* Limit image height */
+}
+
+.services-section .card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.services-section .card p {
+  font-size: 1rem;
+  color: #4b5563; /* Slightly darker text color for readability */
+  margin-bottom: 1.5rem; /* Space below text */
+}
+
+.services-section .card .btn {
+  display: inline-block;
+  margin-top: 1rem; /* Space above button */
 }
