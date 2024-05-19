@@ -53,10 +53,10 @@ services_row:
 why_songpoem:
   - title: "Artistic Innovation"
     description: "Infuse creativity into every project to ensure solutions not only perform flawlessly but also inspire and engage."
-    image_name: artistic-innovation.webp
+    image_name: "artistic-innovation.webp"
   - title: "Lifelong Support"
     description: "Enjoy lifelong support with regular updates, expert troubleshooting, and personalized consultations."
-    image_name: lifelong-support.png.webp
+    image_name: "lifelong-support.webp"
   - title: "Code Quality"
     description: "Adhering to industry best practices and standards ensures your projects are built on a foundation of clean, efficient, and scalable code."
   - title: "Community Engagement"
