@@ -25,7 +25,7 @@ header:
 services_row:
   - title: "Advanced Erlang and Elixir Development"
     description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
-    icon: /assets/icons/songpoem-elixir.jpg
+    icon: /assets/icons/elixir-development.webp
     url: "/services/elixir-and-erlang-development/"
     alt: "Elixir and Erlang development at Songpoem Labs."
     points:
@@ -34,7 +34,7 @@ services_row:
       - Build scalable distributed applications
   - title: "Cutting-Edge AI-Powered Solutions"
     description: "Specializing in real-time AI applications, we deliver solutions combining responsiveness with intelligent decision-making."
-    icon: /assets/icons/songpoem-elixir.jpg
+    icon: /assets/icons/ai-solutions.webp
     url: "/services/ai-powered-solutions-development-services/"
     alt: "AI-powered solutions at Songpoem Labs."
     points:
@@ -43,7 +43,7 @@ services_row:
       - Enhance user experience with AI
   - title: "Innovative Blockchain Development"
     description: "Explore blockchain technology potential by developing decentralized applications (DApps)."
-    icon: /assets/icons/songpoem-elixir.jpg
+    icon: /assets/icons/blockchain-development.webp
     url: "/services/blockchain-development-services/"
     alt: "Web3 Blockchain development solutions at Songpoem Labs."
     points:
@@ -53,9 +53,10 @@ services_row:
 why_songpoem:
   - title: "Artistic Innovation"
     description: "Infuse creativity into every project to ensure solutions not only perform flawlessly but also inspire and engage."
-    image_name: warli-support.png
+    image_name: artistic-innovation.webp
   - title: "Lifelong Support"
     description: "Enjoy lifelong support with regular updates, expert troubleshooting, and personalized consultations."
+    image_name: lifelong-support.png.webp
   - title: "Code Quality"
     description: "Adhering to industry best practices and standards ensures your projects are built on a foundation of clean, efficient, and scalable code."
   - title: "Community Engagement"
