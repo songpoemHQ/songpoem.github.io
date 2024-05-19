@@ -48,5 +48,5 @@ Our approach to custom software development is characterized by collaboration, i
 
 Empower your business with a custom software solution that reflects your vision, meets your requirements, and drives growth. 
 
-{% include feature_cta description="Contact us today to discuss your project and learn how we can bring your ideas to life." %}
+{% include cta_section description="Contact us today to discuss your project and learn how we can bring your ideas to life." %}
 

@@ -82,7 +82,7 @@ Business features
 
 {% include feature_row_wide id="implementation_options" title="Implementation Options" %}
 
-{% include feature_cta description="Want to build a Marketplace? Book a free 30 minutes consultation call" %}
+{% include cta_section description="Want to build a Marketplace? Book a free 30 minutes consultation call" %}
 
 
 ## Related Blogs.
