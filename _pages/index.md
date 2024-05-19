@@ -76,10 +76,22 @@ potential_partners_row:
   - title: "Potential Partners"
     image_path: /assets/images/partners/amazon.png
     alt: "AWS Cloud"
+featured_case_studies:
+  - title: "Project Enthu"
+    description: "A dynamic project management tool leveraging Elixir and Phoenix."
+    image_name: enthu-case-study.jpg
+    url: "/portfolio/enthu/"
+    alt: "Project Enthu"
+  - title: "Inkle"
+    description: "A social networking platform powered by Elixir."
+    image_name: inkle-case-study.jpg
+    url: "/portfolio/inkle/"
+    alt: "Inkle"
 ---
 
 {% include services_section id="services_row" title="Our Capabilities" %}
 {% include why_choose_us id="why_songpoem_row" title="Why customers choose Songpoem Labs" %}
 {% include memberships_section id="memberships_row" title="Communities we are a part of" %}
 {% include memberships_section id="potential_partners_row" title="Potential Partners" %}
+{% include case_studies_section id="featured_case_studies" title="Our Featured Case Studies" %}
 {% include cta_section title="Book Now" description="Book a free 30 minutes Consultation call." %}

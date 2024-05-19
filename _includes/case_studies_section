@@ -1,0 +1,15 @@
+<div class="case-studies-section">
+    <h2>{{ include.title }}</h2>
+    <div class="line-items">
+        {% for case_study in page[include.id] %}
+        <div class="case-study-element">
+            <div class="box">
+                <img src="{{ case_study.image_name | prepend: '/assets/images/' }}" alt="{{ case_study.alt }}">
+                <h3>{{ case_study.title }}</h3>
+                <p>{{ case_study.description }}</p>
+                <a href="{{ case_study.url }}" class="btn btn--info">Read More</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
