@@ -1,61 +1,36 @@
 {% if include.id %}
-{% assign feature_row = page[include.id] %}
+  {% assign image_row_list = page[include.id] %}
 {% else %}
-{% assign feature_row = page.feature_rows %}
+  {% assign image_row_list = page.feature_row %}
 {% endif %}
 
-
-<div class="feature_row_wide_container">
+<div class="image-row-wide feature-row-wide">
 
   {% if include.title %}
-  <span class="container-title text-center">{{ include.title }}</span>
+  <span class="text-center container-title">{{ include.title }}</span>
   {% endif %}
 
   <div class="line-items">
-    {% for f in feature_row %}
-    <div class="feature-row-broad">
+    {% for f in image_row_list %}
+    <div class="image-row-element feature-row-element">
 
-      <div class="feature-row-content">
-        {% if f.title %}
-        <h3 class="title">{{ f.title }}</h3>
-        {% endif %}
-
-        {% if f.description %}
-        <div class="description">
-          {{ f.description | markdownify }}
-        </div>
-        {% endif %}
-
-        {% if f.points %}
-        <ul class="points">
-          {% for point in f.points %}
-          <li> {{ point }} </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-
-      </div>
-      
-      <div class="feature-row-image">
-        {% if f.image_name %}
-        {% assign image_path = f.image_name | prepend: "/assets/images/" %}
+      <div class="box">
+        {% if f.image_path %}
+        {% assign image_path = f.image_path %}
         {% else %}
-        {% assign image_path = "warli-default.png" | prepend: "/assets/images/" %}
+        {% assign image_path = "/assets/images/warli-default.png" %}
         {% endif %}
-        
+
         <div class="image">
-          <img class="mascot" src="{{ image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" />
+          <img class="mascot" src="{{ image_path }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" title="{% if f.title %}{{ f.title }}{% endif %}" />
         </div>
 
         <div class="ctas">
           {% if f.url %}
           <a href="{{ f.url | relative_url }}" class="btn btn--info">Learn More</a>
-          {% endif %} {% if f.casestudy_url %}
-          <a href="{{ f.casestudy_url | relative_url }}" class="btn btn--inverse">Case Study</a>
-          {% endif %} {% if f.enquire_url %}
-          <a href="{{ f.enquire_url | relative_url }}" class="btn btn--primary">Enquire</a>
           {% endif %}
         </div>
+
       </div>
 
     </div>
