@@ -39,7 +39,7 @@ services_row:
   #   - Enable collaborative workflows with shared document editing, task management, etc.
   #   alt: "Real-time platform by Songpoem Labs."
   - title: "Cutting-Edge AI-Powered Solutions:"
-    description: "Specializing in real-time AI applications using Erlang and Elixir, we deliver solutions that combine responsiveness with intelligent decision-making."
+    description: "Specializing in real-time AI applications, we deliver solutions that combine responsiveness with intelligent decision-making."
     url: "/services/ai-powered-solutions-development-services/"
     alt: "AI-powered solutions at Songpoem Labs."
     image_name: songpoem-elixir.jpg
@@ -80,33 +80,6 @@ feature_row:
     image_path: /assets/images/custom-platform-abstract.png
     alt: "Custom Platform Development"
 
-economy_row:
-  - title: "Gig Economy"
-    description: "In Gig economy, temporary, flexible jobs are commonplace and companies tend to hire independent contractors and freelancers instead of full-time employees."
-    url: "/economy/gig"
-    # casestudy_url: "/platform/gig"
-  - title: "Sharing Economy"
-    description: "A peer-to-peer (P2P) based activity of providing, or sharing access to goods and services, usually short term."
-    url: "/economy/sharing"
-    # casestudy_url: "/platform/sharing"
-  - title: "Subscription Economy"
-    description: "A user can be a free member or pay a subscription fee to access premium services. The goal is to ensure member is using the platform for a long term."
-    url: "/economy/subscription"
-    # casestudy_url: "/platform/membership"
-  - title: Creator Economy
-    description: "Creators are able to make a living doing what they love - creating content. Whether it’s vlogging, gaming, or music, there’s a creator out there for everyone. And with the ability to directly connect with fans, the creator economy is only going to continue to grow."
-    url: "/economy/creator"
-songpoem_modules_intro: 
-  - excerpt: "We cover various modules such as"
-modules_row:
-  - title: "Dashboard"
-    excerpt: "Performance dashboards displaying stats and providing metadata for further analytics."
-  - title: "Communication"
-    excerpt: "Notifications, Chat Messages, Interaction with User"
-  - title: "Integrations"
-    excerpt: "Payment Integration, Slack, and other API integration"
-  - title: "Gamification"
-    excerpt: "designed for Gamification, Reward points"
 why_songpoem:
   - excerpt: "Why customers choose Songpoem Solutions."
 why_songpoem_row:

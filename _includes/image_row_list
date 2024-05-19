@@ -4,25 +4,25 @@
   {% assign image_row_list = page.feature_row %}
 {% endif %}
 
-<div class="image_row_wide_container feature_row_wide_container">
+<div class="image-row-wide feature-row-wide">
 
   {% if include.title %}
   <span class="text-center container-title">{{ include.title }}</span>
   {% endif %}
 
-  <div class="line-items" style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <div class="line-items">
     {% for f in image_row_list %}
-    <div class="image_row_element" style="flex: 1 0 21%; box-sizing: border-box; padding: 10px;">
+    <div class="image-row-element feature-row-element">
 
-      <div class="box" style="text-align: center;">
+      <div class="box">
         {% if f.image_path %}
         {% assign image_path = f.image_path %}
         {% else %}
         {% assign image_path = "/assets/images/warli-default.png" %}
         {% endif %}
 
-        <div class="image" style="display: inline-block; max-width: 100%; height: auto;">
-          <img class="mascot" src="{{ image_path }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" title="{% if f.title %}{{ f.title }}{% endif %}" style="max-width: 100%; max-height: 100px; height: auto;" />
+        <div class="image">
+          <img class="mascot" src="{{ image_path }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}" title="{% if f.title %}{{ f.title }}{% endif %}" />
         </div>
 
       </div>

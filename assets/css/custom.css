@@ -1,20 +1,22 @@
+/* Main Container Padding Reset */
 #main {
   padding: 0;
 }
 
+/* FAQ and Feature Row Styling */
 div.faq-container .line-items>div:nth-of-type(odd),
-div.feature_row_container .line-items>div:nth-of-type(odd) {
+div.feature-row .line-items>div:nth-of-type(odd) {
   background: #55acee0f;
   border-bottom: solid #155e960f 1px;
-
 }
 
 div.faq-container .line-items>div:nth-of-type(even),
-div.feature_row_container .line-items>div:nth-of-type(even) {
+div.feature-row .line-items>div:nth-of-type(even) {
   background: red;
   border-bottom: solid #c791134d 1px;
 }
 
+/* FAQ Styling */
 div.faq-container .faq {
   padding: 1em;
 }
@@ -33,16 +35,15 @@ div.faq-container .faq .faq-answer {
   font-size: 1em;
 }
 
-
-.feature_row_wide_container,
-.feature_row_container {
+/* Feature Row Containers */
+.feature-row, .feature-row-wide {
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 5em;
 }
 
-.feature_row_product {
+.feature-row-product {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -50,7 +51,7 @@ div.faq-container .faq .faq-answer {
   border-bottom: solid #e9dcbe 1px;
 }
 
-.feature_row_product .teaser {
+.feature-row-product .teaser {
   width: 100%;
   display: flex;
   flex: 1;
@@ -60,7 +61,8 @@ div.faq-container .faq .faq-answer {
   align-self: center;
 }
 
-.cta_container {
+/* CTA Container */
+.cta-container {
   display: flex;
   flex: 3;
   padding: 4em;
@@ -68,19 +70,19 @@ div.faq-container .faq .faq-answer {
   align-items: center;
   color: white;
   font-weight: 800;
-  background: fff;
   background: linear-gradient(4deg, rgba(17, 12, 106, 1) 0%, rgba(20, 20, 181, 1) 42%, rgba(0, 212, 255, 1) 100%);
 }
 
-.cta_container .title {
+.cta-container .title {
   display: flex;
   flex: 2;
   padding: 1em;
 }
 
+/* Container Titles */
 div.faq-container span.container-title,
-.feature_row_wide_container span.container-title,
-.feature_row_container span.container-title {
+.feature-row span.container-title,
+.feature-row-wide span.container-title {
   display: flex;
   padding: 0.5em;
   font-weight: 600;
@@ -90,48 +92,45 @@ div.faq-container span.container-title,
   text-align: center;
 }
 
-
+/* Media Queries for Responsive Design */
 @media screen and (min-width:1025px) {
-
-  .feature_row_wide_container .line-items {
+  .feature-row-wide .line-items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .feature_row_wide_container .line-items .feature_row_element {
+  .feature-row-wide .line-items .feature-row-element {
     width: 33%;
   }
 }
 
-
 @media screen and (min-width:481px) and (max-width:1024px) {
-
-  .feature_row_wide_container .line-items {
+  .feature-row-wide .line-items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .feature_row_wide_container .line-items .feature_row_element {
+  .feature-row-wide .line-items .feature-row-element {
     width: 49%;
   }
 }
 
 @media screen and (max-width:480px) {
-  
-  .feature_row_wide_container .line-items {
+  .feature-row-wide .line-items {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
-  
-  .feature_row_wide_container .line-items .feature_row_element {
+
+  .feature-row-wide .line-items .feature-row-element {
     width: 100%;
   }
 }
 
-.feature_row_wide_container .feature_row_element {
+/* Feature Row Elements */
+.feature-row-wide .feature-row-element {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
@@ -139,29 +138,41 @@ div.faq-container span.container-title,
   flex-direction: column;
 }
 
-.feature_row_wide_container .feature_row_element ul {
+.feature-row-wide .feature-row-element ul {
   list-style-type: square;
 }
 
-.feature_row_wide_container .feature_row_element h4 {
+.feature-row-wide .feature-row-element h4 {
   margin: 0 0;
 }
 
-.feature_row_wide_container .feature_row_element .box {
+.feature-row-wide .feature-row-element .box {
   border: 2px solid red;
   background: #fff;
   padding: 1em;
+  text-align: center;
 }
 
+.feature-row-wide .feature-row-element .image {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
 
-.feature_row_element .box .image {
+.feature-row-wide .feature-row-element .image img.mascot {
+  max-width: 100%;
+  max-height: 100px;
+  height: auto;
+}
+
+/* Image Styling */
+.feature-row-element .box .image {
   display: flex;
   flex: 1;
   height: 10em;
   padding: 0.5em;
   align-items: center;
   justify-content: space-around;
-
   user-drag: none;
   -webkit-user-drag: none;
   user-select: none;
@@ -170,20 +181,16 @@ div.faq-container span.container-title,
   -ms-user-select: none;
 }
 
-.feature_row_element .box .image img.mascot {
-  height: 8em;
-}
-
-.feature_row_container .box .content {
+/* Feature Row Content */
+.feature-row .box .content {
   display: flex;
   flex: 2;
   flex-direction: column;
   padding-left: 2em;
 }
 
-.feature_row_product .content h2.title,
-.feature_row_element h3.title {
-  /* padding: 0em 2em; */
+.feature-row-product .content h2.title,
+.feature-row-element h3.title {
   font-weight: 600;
   font-size: 1.2em;
   color: #606060;
@@ -191,41 +198,62 @@ div.faq-container span.container-title,
   padding-bottom: 0.5em;
 }
 
-.feature_row_broad {
+.feature-row-broad {
   display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 2em;
   background: #fff;
   margin-bottom: 1em;
 }
 
-.feature_row_broad ul.points {
+.feature-row-broad ul.points {
   list-style-type: square;
   font-size: 1em;
 }
 
-.feature_row_broad .lhs {
+.feature-row-broad .feature-row-content {
   display: flex;
   flex: 2;
   flex-direction: column;
   padding: 1em;
 }
 
-.feature_row_broad .rhs {
+.feature-row-broad .feature-row-image {
   display: flex;
   flex: 1;
   flex-direction: column;
   padding: 1em;
 }
 
-.feature_row_product .description {
+.feature-row-product .description {
   font-size: 1em;
   font-weight: 400;
-  color: #606060
+  color: #606060;
 }
 
-.feature_row_product .box ul.points {
+.feature-row-product .box ul.points {
   list-style-type: square;
   font-size: 1em;
-  color: #606060
+  color: #606060;
+}
+
+@media (min-width: 768px) {
+  .feature-row-broad {
+    flex-direction: row;
+  }
+
+  .feature-row-broad .feature-row-content,
+  .feature-row-broad .feature-row-image {
+    width: 50%;
+  }
+
+  .ctas {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .ctas a {
+    margin-right: 10px;
+  }
 }
