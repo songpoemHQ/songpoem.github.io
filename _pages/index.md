@@ -75,11 +75,10 @@ potential_partners_row:
     alt: "MongoDB"
   - title: "Potential Partners"
     image_path: /assets/images/partners/amazon.png
-    alt: "Amazon"
+    alt: "AWS Cloud"
 ---
 
 {% include services_section id="services_row" title="Our Capabilities" %}
-{% include skills_section id="feature_row" title="We are good at implementing" %}
 {% include why_choose_us id="why_songpoem_row" title="Why customers choose Songpoem Labs" %}
 {% include memberships_section id="memberships_row" title="Communities we are a part of" %}
 {% include memberships_section id="potential_partners_row" title="Potential Partners" %}
