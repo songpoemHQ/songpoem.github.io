@@ -71,10 +71,10 @@ memberships_row:
     alt: "SEAP Pune"
 potential_partners_row:
   - title: "MongoDB"
-    image_path: /assets/images/partners/mongodb.png
+    # image_path: /assets/images/partners/mongodb.png
     alt: "MongoDB"
   - title: "AWS Cloud"
-    image_path: /assets/images/partners/aws.png
+    # image_path: /assets/images/partners/aws.png
     alt: "AWS Cloud"
 featured_case_studies:
   - title: "Enthu"
@@ -91,22 +91,22 @@ events_row:
   - title: "BeamBasket (Elixir News)"
     description: "Stay updated with the latest news and insights from the Elixir community."
     url: "https://x.com/BeamBasket"
-    image_name: beambasket-twitter.jpg
+    # image_name: beambasket-twitter.jpg
     alt: "BeamBasket Twitter"
   - title: "BeamBasket YouTube Channel"
     description: "Watch live coding workshops and guest speaker sessions on Elixir."
     url: "https://www.youtube.com/@beambasket"
-    image_name: beambasket-youtube.jpg
+    # image_name: beambasket-youtube.jpg
     alt: "BeamBasket YouTube"
   - title: "Elixir Bengaluru Meetup"
     description: "Join the Elixir community in Bengaluru for discussions and events."
     url: "https://www.meetup.com/elixir-bangalore/"
-    image_name: elixir-bengaluru.jpg
+    # image_name: elixir-bengaluru.jpg
     alt: "Elixir Bengaluru Meetup"
   - title: "Elixir Pune Meetup"
     description: "Connect with Elixir enthusiasts in Pune through regular meetups."
     url: "https://www.meetup.com/elixir-pune/"
-    image_name: elixir-pune.jpg
+    # image_name: elixir-pune.jpg
     alt: "Elixir Pune Meetup"
 ---
 
