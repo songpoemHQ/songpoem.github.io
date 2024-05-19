@@ -1,10 +1,14 @@
-<div class="memberships-section">
+<div class="section memberships-section">
     <h2>{{ include.title }}</h2>
     <div class="grid-container">
         {% for member in include.id %}
         <div class="card">
-            <img src="{{ member.image_path | relative_url }}" alt="{{ member.alt }}">
-            <h3>{{ member.title }}</h3>
+            <div class="card-image">
+                <img src="{{ member.image_path | relative_url }}" alt="{{ member.alt }}">
+            </div>
+            <div class="card-content">
+                <h3>{{ member.title }}</h3>
+            </div>
         </div>
         {% endfor %}
     </div>

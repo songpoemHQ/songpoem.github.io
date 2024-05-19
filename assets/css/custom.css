@@ -9,11 +9,13 @@
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  padding: 0 2rem; /* Add padding for the body */
 }
 
 .header, .footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  padding: 1rem 0; /* Add padding to header and footer */
 }
 
 .header a, .footer a {
@@ -28,9 +30,10 @@ body {
   background-color: var(--primary-color);
   color: white;
   font-weight: bold;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem; /* Increase padding for buttons */
   border-radius: 0.25rem;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 1rem; /* Add margin top to separate button from content */
 }
 
 .btn:hover {
@@ -42,6 +45,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  margin: 2rem 0; /* Add margin to separate grid sections */
 }
 
 .card {
@@ -50,6 +54,7 @@ body {
   border-radius: 0.5rem; /* Rounded corners for a modern look */
   background-color: #ffffff; /* White background for card */
   overflow: hidden; /* Ensure content does not overflow the card */
+  padding: 1.5rem; /* Add padding inside card */
 }
 
 .card:hover {
@@ -106,4 +111,13 @@ body {
   margin-bottom: 1.5rem;
   color: var(--primary-color);
   text-align: center;
+}
+
+/* Additional Spacing for Sections */
+.section {
+  padding: 4rem 0; /* Add padding to separate sections */
+}
+
+.section h2 {
+  margin-bottom: 2rem; /* Space below section titles */
 }

@@ -1,13 +1,18 @@
-<div class="why-choose-us">
+<div class="section why-choose-us">
     <h2>{{ include.title }}</h2>
     <div class="grid-container">
         {% for reason in include.id %}
         <div class="card">
             {% if reason.image_name %}
-            <img src="{{ reason.image_name | prepend: " /assets/images/" | relative_url }}" alt="{{ reason.title }}">
+            <div class="card-image">
+                <img src="{{ reason.image_name | prepend: " /assets/images/" | relative_url }}"
+                    alt="{{ reason.title }}">
+            </div>
             {% endif %}
-            <h3>{{ reason.title }}</h3>
-            <p>{{ reason.description }}</p>
+            <div class="card-content">
+                <h3>{{ reason.title }}</h3>
+                <p>{{ reason.description }}</p>
+            </div>
         </div>
         {% endfor %}
     </div>

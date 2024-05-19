@@ -1,4 +1,4 @@
-<div class="services-section">
+<div class="section services-section">
   <h2>{{ include.title }}</h2>
   <div class="grid-container">
     {% for service in include.id %}
