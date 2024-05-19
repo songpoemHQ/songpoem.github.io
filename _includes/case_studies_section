@@ -3,7 +3,7 @@
     <div class="grid-container">
         {% for case_study in include.id %}
         <div class="card">
-            <img src="{{ case_study.image_name | prepend: " /assets/images/" | relative_url }}"
+            <img src="{{ case_study.image_name | prepend: " /assets/images/casestudy/" | relative_url }}"
                 alt="{{ case_study.title }}">
             <h3>{{ case_study.title }}</h3>
             <p>{{ case_study.description }}</p>

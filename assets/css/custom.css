@@ -27,19 +27,13 @@ body {
 }
 
 .btn {
-  background-color: var(--primary-color);
-  color: white;
-  font-weight: bold;
-  padding: 0.75rem 1.5rem; /* Increase padding for buttons */
-  border-radius: 0.25rem;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-top: 1rem; /* Add margin top to separate button from content */
+  @apply bg-blue-600 text-white font-bold py-2 px-4 rounded shadow transition-transform;
 }
 
 .btn:hover {
-  background-color: var(--accent-color);
-  transform: translateY(-2px);
+  @apply bg-blue-700 shadow-lg transform -translate-y-1;
 }
+
 
 .grid-container {
   display: grid;

@@ -63,8 +63,8 @@ why_songpoem:
     description: "We give back to society by organizing meetups, including Elixir Pune Meetup and Elixir Bengaluru Meetup."
     image_name: "community-engagement.webp"
 memberships_row:
-  - title: "TiE Delhi"
-    image_path: /assets/images/ecosystem/tie-delhi-logo.avif
+  - title: "TiE Pune, Mumbai and Delhi Chapters"
+    image_path: /assets/images/ecosystem/tie-global-logo.png
     alt: "TiE Delhi"
   - title: "SEAP"
     image_path: /assets/images/ecosystem/logo-seap.png
@@ -74,11 +74,11 @@ potential_partners_row:
     image_path: /assets/images/partners/mongodb.png
     alt: "MongoDB"
   - title: "AWS Cloud"
-    image_path: /assets/images/partners/amazon.png
+    image_path: /assets/images/partners/aws.png
     alt: "AWS Cloud"
 featured_case_studies:
-  - title: "Project Enthu"
-    description: "Live Interactive Classes, Academic & Non-Academic Courses for all Age Groups."
+  - title: "Enthu"
+    description: "Live Interactive Classes and Courses for all Age Groups."
     image_name: enthu-case-study.svg
     url: "/portfolio/enthu/"
     alt: "Project Enthu"
