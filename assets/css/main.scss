@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #e5e7eb; /* Light border for a subtle card look */
   border-radius: 0.5rem; /* Rounded corners for a modern look */
   background-color: #ffffff; /* White background for card */
-  padding: 1rem; /* Padding inside card */
+  overflow: hidden; /* Ensure content does not overflow the card */
 }
 
 .card:hover {
@@ -41,24 +41,44 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for hover effect */
 }
 
-.header, .footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; /* Padding inside card image */
 }
 
-.header a, .footer a {
-  color: var(--accent-color);
-}
-
-.header a:hover, .footer a:hover {
-  color: var(--secondary-color);
-}
-
-.image {
-  display: block;
+.card-image img {
   max-width: 100%;
-  height: auto;
-  margin-bottom: 1rem; /* Space between image and content */
+  max-height: 150px; /* Limit image height */
+}
+
+.card-content {
+  padding: 1rem; /* Padding inside card content */
+  text-align: center; /* Centered text */
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #4b5563; /* Slightly darker text color for readability */
+  margin-bottom: 1rem; /* Space below text */
+}
+
+.service-points {
+  list-style-type: disc;
+  text-align: left; /* Align points to the left */
+  padding-left: 1.5rem; /* Indent points list */
+  margin-bottom: 1rem; /* Space below points */
+}
+
+.service-points li {
+  margin-bottom: 0.5rem; /* Space between points */
 }
 
 .services-section {
@@ -70,35 +90,4 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.5rem;
   color: var(--primary-color);
   text-align: center;
-}
-
-.services-section .grid-container {
-  gap: 1.5rem; /* Space between grid items */
-}
-
-.services-section .card {
-  padding: 1.5rem; /* Increased padding for card content */
-  text-align: center; /* Centered text */
-}
-
-.services-section .card img {
-  margin-bottom: 1rem; /* Space between image and text */
-  max-height: 150px; /* Limit image height */
-}
-
-.services-section .card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: var(--primary-color);
-}
-
-.services-section .card p {
-  font-size: 1rem;
-  color: #4b5563; /* Slightly darker text color for readability */
-  margin-bottom: 1.5rem; /* Space below text */
-}
-
-.services-section .card .btn {
-  display: inline-block;
-  margin-top: 1rem; /* Space above button */
 }

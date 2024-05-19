@@ -1,15 +1,13 @@
 <div class="events-section">
-  <h2>{{ include.title }}</h2>
-  <div class="line-items">
-    {% for event in page[include.id] %}
-      <div class="event-element">
-        <div class="box">
-          <img src="{{ event.image_name | prepend: '/assets/images/' }}" alt="{{ event.alt }}">
-          <h3>{{ event.title }}</h3>
-          <p>{{ event.description }}</p>
-          <a href="{{ event.url }}" class="btn btn--info">Learn More</a>
+    <h2>{{ include.title }}</h2>
+    <div class="grid-container">
+        {% for event in include.id %}
+        <div class="card">
+            <img src="{{ event.image_name | prepend: " /assets/images/" | relative_url }}" alt="{{ event.title }}">
+            <h3>{{ event.title }}</h3>
+            <p>{{ event.description }}</p>
+            <a href="{{ event.url }}" class="btn">Learn More</a>
         </div>
-      </div>
-    {% endfor %}
-  </div>
+        {% endfor %}
+    </div>
 </div>

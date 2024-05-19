@@ -1,14 +1,10 @@
 <div class="memberships-section">
     <h2>{{ include.title }}</h2>
-    <div class="line-items">
-        {% for membership in page[include.id] %}
-        <div class="image-row-element">
-            <div class="box">
-                <div class="image">
-                    <img src="{{ membership.image_path }}" alt="{{ membership.alt }}" />
-                </div>
-                <h3>{{ membership.title }}</h3>
-            </div>
+    <div class="grid-container">
+        {% for member in include.id %}
+        <div class="card">
+            <img src="{{ member.image_path | relative_url }}" alt="{{ member.alt }}">
+            <h3>{{ member.title }}</h3>
         </div>
         {% endfor %}
     </div>
