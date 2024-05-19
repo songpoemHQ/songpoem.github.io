@@ -61,6 +61,7 @@ why_songpoem:
     description: "Adhering to industry best practices and standards ensures your projects are built on a foundation of clean, efficient, and scalable code."
   - title: "Community Engagement"
     description: "We give back to society by organizing meetups, including Elixir Pune Meetup and Elixir Bengaluru Meetup."
+    image_name: "community-engagement.webp"
 memberships_row:
   - title: "TiE Delhi"
     image_path: /assets/images/ecosystem/tie-delhi-logo.avif
@@ -77,13 +78,13 @@ potential_partners_row:
     alt: "AWS Cloud"
 featured_case_studies:
   - title: "Project Enthu"
-    description: "A dynamic project management tool leveraging Elixir and Phoenix."
-    image_name: enthu-case-study.jpg
+    description: "Live Interactive Classes, Academic & Non-Academic Courses for all Age Groups."
+    image_name: enthu-case-study.svg
     url: "/portfolio/enthu/"
     alt: "Project Enthu"
   - title: "Inkle"
-    description: "A social networking platform powered by Elixir."
-    image_name: inkle-case-study.jpg
+    description: "US accounting and tax automation for startups"
+    image_name: inkle-case-study.svg
     url: "/portfolio/inkle/"
     alt: "Inkle"
 events_row:

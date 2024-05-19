@@ -5,7 +5,7 @@
         <div class="card">
             {% if reason.image_name %}
             <div class="card-image">
-                <img src="{{ reason.image_name | prepend: " /assets/images/" | relative_url }}"
+                <img src="{{ reason.image_name | prepend: "/assets/images/" | relative_url }}"
                     alt="{{ reason.title }}">
             </div>
             {% endif %}
