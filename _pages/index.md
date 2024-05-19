@@ -25,7 +25,7 @@ header:
 services_row:
   - title: "Advanced Erlang and Elixir Development"
     description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
-    image_name: songpoem-elixir.jpg
+    icon: /assets/icons/songpoem-elixir.jpg
     url: "/services/elixir-and-erlang-development/"
     alt: "Elixir and Erlang development at Songpoem Labs."
     points:
@@ -34,25 +34,23 @@ services_row:
       - Build scalable distributed applications
   - title: "Cutting-Edge AI-Powered Solutions"
     description: "Specializing in real-time AI applications, we deliver solutions combining responsiveness with intelligent decision-making."
+    icon: /assets/icons/songpoem-elixir.jpg
     url: "/services/ai-powered-solutions-development-services/"
     alt: "AI-powered solutions at Songpoem Labs."
-    image_name: songpoem-elixir.jpg
     points:
       - Implement intelligent automation
       - Develop predictive analytics
       - Enhance user experience with AI
   - title: "Innovative Blockchain Development"
     description: "Explore blockchain technology potential by developing decentralized applications (DApps)."
+    icon: /assets/icons/songpoem-elixir.jpg
     url: "/services/blockchain-development-services/"
     alt: "Web3 Blockchain development solutions at Songpoem Labs."
-    image_name: songpoem-elixir.jpg
     points:
       - Secure transaction systems
       - Develop decentralized applications (DApps)
       - Implement smart contracts
 why_songpoem:
-  - excerpt: "Why customers choose Songpoem Solutions."
-why_songpoem_row:
   - title: "Artistic Innovation"
     description: "Infuse creativity into every project to ensure solutions not only perform flawlessly but also inspire and engage."
     image_name: warli-support.png
@@ -70,10 +68,10 @@ memberships_row:
     image_path: /assets/images/ecosystem/logo-seap.png
     alt: "SEAP Pune"
 potential_partners_row:
-  - title: "Potential Partners"
+  - title: "MongoDB"
     image_path: /assets/images/partners/mongodb.png
     alt: "MongoDB"
-  - title: "Potential Partners"
+  - title: "AWS Cloud"
     image_path: /assets/images/partners/amazon.png
     alt: "AWS Cloud"
 featured_case_studies:
@@ -110,10 +108,10 @@ events_row:
     alt: "Elixir Pune Meetup"
 ---
 
-{% include services_section id="services_row" title="Our Capabilities" %}
-{% include why_choose_us id="why_songpoem_row" title="Why customers choose Songpoem Labs" %}
-{% include memberships_section id="memberships_row" title="Communities we are a part of" %}
-{% include memberships_section id="potential_partners_row" title="Potential Partners" %}
-{% include case_studies_section id="featured_case_studies" title="Our Featured Case Studies" %}
-{% include events_section id="events_row" title="Our Events & Workshops" %}
+{% include services_section id=page.services_row title="Our Capabilities" %}
+{% include why_choose_us id=page.why_songpoem title="Why customers choose Songpoem Labs" %}
+{% include memberships_section id=page.memberships_row title="Communities we are a part of" %}
+{% include memberships_section id=page.potential_partners_row title="Potential Partners" %}
+{% include case_studies_section id=page.featured_case_studies title="Our Featured Case Studies" %}
+{% include events_section id=page.events_row title="Our Events & Workshops" %}
 {% include cta_section title="Book Now" description="Book a free 30 minutes Consultation call." %}
