@@ -13,9 +13,9 @@
 
   <div class="line-items">
     {% for f in feature_row %}
-    <div class="feature_row_broad">
+    <div class="feature-row-broad">
 
-      <div class="lhs">
+      <div class="feature-row-content">
         {% if f.title %}
         <h3 class="title">{{ f.title }}</h3>
         {% endif %}
@@ -36,7 +36,7 @@
 
       </div>
       
-      <div class="rhs">
+      <div class="feature-row-image">
         {% if f.image_name %}
         {% assign image_path = f.image_name | prepend: "/assets/images/" %}
         {% else %}

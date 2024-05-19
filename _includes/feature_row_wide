@@ -13,7 +13,7 @@
 
   <div class="line-items">
     {% for f in feature_row %}
-    <div class="feature_row_element">
+    <div class="feature-row-element">
 
       <div class="box">
 

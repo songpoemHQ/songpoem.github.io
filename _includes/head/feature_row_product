@@ -4,7 +4,7 @@
 {% assign feature_row = page.feature_row %}
 {% endif %}
 
-<div class="feature_row_container">
+<div class="feature-row">
   {% if include.title %}
   <span class="container-title">{{ include.title }}</span>
   {% endif %}
