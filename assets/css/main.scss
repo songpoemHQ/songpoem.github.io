@@ -1,10 +1,36 @@
-@charset "utf-8";
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
-@import "custom.css";
+
+/* Custom styles */
+body {
+  @apply bg-gray-50 text-gray-800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+.container-title {
+  @apply text-center text-2xl font-semibold text-gray-700 bg-gray-100 py-2 my-4;
+}
+
+.services-section, .why-choose-us, .memberships-section, .case-studies-section {
+  @apply my-8 p-4 bg-white shadow-md rounded-lg;
+}
+
+.line-items {
+  @apply flex flex-wrap gap-4;
+}
+
+.service-element, .why-element, .membership-element, .case-study-element {
+  @apply flex-1 min-w-72 bg-white rounded-lg shadow-lg p-4 transition-transform transform hover:-translate-y-2;
+}
+
+.service-element img, .membership-element img, .case-study-element img {
+  @apply w-full h-auto rounded-lg;
+}
+
+.btn {
+  @apply bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-700;
+}

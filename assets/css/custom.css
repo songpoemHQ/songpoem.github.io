@@ -1,174 +1,79 @@
-/* General Improvements */
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
-/* Hero Section */
-.hero-section {
-  text-align: center;
-  padding: 2em 1em;
-}
-
-.hero-section .cta-primary {
-  margin-top: 1em;
-  padding: 0.75em 1.5em;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.hero-section .cta-secondary {
-  margin-top: 1em;
-  padding: 0.75em 1.5em;
-  background-color: #6c757d;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-/* Services, Skills, Why Choose Us, and Membership Sections */
-.services-section, .skills-section, .why-choose-us, .memberships-section, .cta-section {
-  padding: 2em 1em;
-}
-
-.services-section h2, .skills-section h2, .why-choose-us h2, .memberships-section h2, .cta-section h2 {
-  margin-bottom: 1em;
-  font-size: 2em;
-  text-align: center;
-}
-
-.feature-row-element {
-  margin-bottom: 2em;
-}
-
-.feature-row-element .box {
-  padding: 1em;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.feature-row-element .image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-  margin-bottom: 1em;
-}
-
-.feature-row-element .ctas a {
-  display: inline-block;
-  margin-top: 0.5em;
-  padding: 10px 20px;
-  text-decoration: none;
-  background-color: #007bff;
-  color: white;
-  border-radius: 5px;
-}
-
-.feature-row-element .ctas a:hover {
-  background-color: #0056b3;
-}
-
-/* Community Section */
-.memberships-section .image-row-element {
-  display: inline-block;
-  margin: 0.5em;
-  text-align: center;
-}
-
-.memberships-section .image img {
-  max-width: 100px;
-  height: auto;
-  margin-bottom: 0.5em;
-}
-
-/* Footer */
-.page__footer-follow {
-  padding: 1em;
-  background-color: #f3f3f3;
-  text-align: center;
-}
-
-.page__footer-follow .social-icons {
-  list-style: none;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
   padding: 0;
 }
 
-.page__footer-follow .social-icons li {
-  display: inline;
-  margin: 0 0.5em;
+.container-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f3f3f3;
+  color: #606070;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
-.page__footer-follow .social-icons a {
-  color: #333;
+.services-section, .why-choose-us, .memberships-section, .case-studies-section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.line-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.service-element, .why-element, .membership-element, .case-study-element {
+  flex: 1 1 calc(33.333% - 1rem);
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-element:hover, .why-element:hover, .membership-element:hover, .case-study-element:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-element img, .membership-element img, .case-study-element img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
   text-decoration: none;
-}
-
-.page__footer-follow .social-icons a:hover {
-  color: #007bff;
-}
-
-.page__footer-copyright {
-  padding: 1em;
-  background-color: #ddd;
+  color: #fff;
+  background: #007BFF;
   text-align: center;
+  transition: background 0.3s;
+  margin-top: 1rem;
 }
 
-/* Media Queries for Responsive Design */
-@media screen and (min-width: 1025px) {
-  .services-section .line-items,
-  .skills-section .line-items,
-  .why-choose-us .line-items,
-  .memberships-section .line-items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+.btn:hover {
+  background: #0056b3;
+}
 
-  .services-section .feature-row-element,
-  .skills-section .feature-row-element,
-  .why-choose-us .feature-row-element,
-  .memberships-section .image-row-element {
-    width: 33%;
+@media (max-width: 1024px) {
+  .service-element, .why-element, .membership-element, .case-study-element {
+    flex: 1 1 calc(49% - 1rem);
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
-  .services-section .line-items,
-  .skills-section .line-items,
-  .why-choose-us .line-items,
-  .memberships-section .line-items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .services-section .feature-row-element,
-  .skills-section .feature-row-element,
-  .why-choose-us .feature-row-element,
-  .memberships-section .image-row-element {
-    width: 49%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .services-section .line-items,
-  .skills-section .line-items,
-  .why-choose-us .line-items,
-  .memberships-section .line-items {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .services-section .feature-row-element,
-  .skills-section .feature-row-element,
-  .why-choose-us .feature-row-element,
-  .memberships-section .image-row-element {
-    width: 100%;
+@media (max-width: 768px) {
+  .service-element, .why-element, .membership-element, .case-study-element {
+    flex: 1 1 100%;
   }
 }
