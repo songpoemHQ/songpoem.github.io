@@ -87,6 +87,27 @@ featured_case_studies:
     image_name: inkle-case-study.jpg
     url: "/portfolio/inkle/"
     alt: "Inkle"
+events_row:
+  - title: "BeamBasket (Elixir News)"
+    description: "Stay updated with the latest news and insights from the Elixir community."
+    url: "https://x.com/BeamBasket"
+    image_name: beambasket-twitter.jpg
+    alt: "BeamBasket Twitter"
+  - title: "BeamBasket YouTube Channel"
+    description: "Watch live coding workshops and guest speaker sessions on Elixir."
+    url: "https://www.youtube.com/@beambasket"
+    image_name: beambasket-youtube.jpg
+    alt: "BeamBasket YouTube"
+  - title: "Elixir Bengaluru Meetup"
+    description: "Join the Elixir community in Bengaluru for discussions and events."
+    url: "https://www.meetup.com/elixir-bangalore/"
+    image_name: elixir-bengaluru.jpg
+    alt: "Elixir Bengaluru Meetup"
+  - title: "Elixir Pune Meetup"
+    description: "Connect with Elixir enthusiasts in Pune through regular meetups."
+    url: "https://www.meetup.com/elixir-pune/"
+    image_name: elixir-pune.jpg
+    alt: "Elixir Pune Meetup"
 ---
 
 {% include services_section id="services_row" title="Our Capabilities" %}
@@ -94,4 +115,5 @@ featured_case_studies:
 {% include memberships_section id="memberships_row" title="Communities we are a part of" %}
 {% include memberships_section id="potential_partners_row" title="Potential Partners" %}
 {% include case_studies_section id="featured_case_studies" title="Our Featured Case Studies" %}
+{% include events_section id="events_row" title="Our Events & Workshops" %}
 {% include cta_section title="Book Now" description="Book a free 30 minutes Consultation call." %}

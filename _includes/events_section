@@ -1,0 +1,15 @@
+<div class="events-section">
+  <h2>{{ include.title }}</h2>
+  <div class="line-items">
+    {% for event in page[include.id] %}
+      <div class="event-element">
+        <div class="box">
+          <img src="{{ event.image_name | prepend: '/assets/images/' }}" alt="{{ event.alt }}">
+          <h3>{{ event.title }}</h3>
+          <p>{{ event.description }}</p>
+          <a href="{{ event.url }}" class="btn btn--info">Learn More</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
