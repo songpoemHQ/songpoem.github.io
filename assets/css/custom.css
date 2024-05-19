@@ -1,180 +1,65 @@
-/* Main Container Padding Reset */
-#main {
-  padding: 0;
+/* General Improvements */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-/* FAQ and Feature Row Styling */
-div.faq-container .line-items > div:nth-of-type(odd),
-div.feature-row .line-items > div:nth-of-type(odd) {
-  background: #55acee0f;
-  border-bottom: solid #155e960f 1px;
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 2em 1em;
 }
 
-div.faq-container .line-items > div:nth-of-type(even),
-div.feature-row .line-items > div:nth-of-type(even) {
-  background: red;
-  border-bottom: solid #c791134d 1px;
-}
-
-/* FAQ Styling */
-div.faq-container .faq {
-  padding: 1em;
-}
-
-div.faq-container .faq p {
-  margin: 0;
-}
-
-div.faq-container .faq .faq-question {
-  font-weight: 500;
-  font-size: 1.2em;
-}
-
-div.faq-container .faq .faq-answer {
-  font-weight: 400;
-  font-size: 1em;
-}
-
-/* Feature Row Containers */
-.feature-row, .feature-row-wide {
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 5em;
-}
-
-.feature-row-product {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  padding: 1em;
-  border-bottom: solid #e9dcbe 1px;
-}
-
-.feature-row-product .teaser {
-  width: 100%;
-  display: flex;
-  flex: 1;
-  padding: 1em;
-  max-height: 300px;
-  justify-content: space-around;
-  align-self: center;
-}
-
-/* CTA Container */
-.cta-container {
-  display: flex;
-  flex: 3;
-  padding: 4em;
-  justify-content: space-around;
-  align-items: center;
+.hero-section .cta-primary {
+  margin-top: 1em;
+  padding: 0.75em 1.5em;
+  background-color: #007bff;
   color: white;
-  font-weight: 800;
-  background: linear-gradient(4deg, rgba(17, 12, 106, 1) 0%, rgba(20, 20, 181, 1) 42%, rgba(0, 212, 255, 1) 100%);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
-.cta-container .title {
-  display: flex;
-  flex: 2;
-  padding: 1em;
+.hero-section .cta-secondary {
+  margin-top: 1em;
+  padding: 0.75em 1.5em;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
-/* Container Titles */
-div.faq-container span.container-title,
-.feature-row span.container-title,
-.feature-row-wide span.container-title {
-  display: flex;
-  padding: 0.5em;
-  font-weight: 600;
-  font-size: 1.5em;
-  color: #606070;
-  background: #f3f3f3;
+/* Services, Skills, Why Choose Us, and Membership Sections */
+.services-section, .skills-section, .why-choose-us, .memberships-section, .cta-section {
+  padding: 2em 1em;
+}
+
+.services-section h2, .skills-section h2, .why-choose-us h2, .memberships-section h2, .cta-section h2 {
+  margin-bottom: 1em;
+  font-size: 2em;
   text-align: center;
 }
 
-/* Media Queries for Responsive Design */
-@media screen and (min-width: 1025px) {
-  .feature-row-wide .line-items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .feature-row-wide .line-items .feature-row-element {
-    width: 33%;
-  }
+.feature-row-element {
+  margin-bottom: 2em;
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
-  .feature-row-wide .line-items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .feature-row-wide .line-items .feature-row-element {
-    width: 49%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .feature-row-wide .line-items {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .feature-row-wide .line-items .feature-row-element {
-    width: 100%;
-  }
-}
-
-/* Feature Row Elements */
-.feature-row-wide .feature-row-element {
-  display: flex;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-  padding: 1em 1em 0em 1em;
-}
-
-.feature-row-wide .feature-row-element ul {
-  list-style-type: square;
-}
-
-.feature-row-wide .feature-row-element h4 {
-  margin: 0 0;
-}
-
-.feature-row-wide .feature-row-element .box {
-  border: 2px solid red;
-  background: #fff;
+.feature-row-element .box {
   padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
   text-align: center;
 }
 
-.feature-row-wide .feature-row-element .image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.feature-row-element .image img {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
   margin-bottom: 1em;
 }
 
-.feature-row-wide .feature-row-element .image img.mascot {
-  max-width: 100%;
-  max-height: 100px;
-  height: auto;
-}
-
-.feature-row-wide .feature-row-element .ctas {
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-}
-
-.feature-row-wide .feature-row-element .ctas a {
+.feature-row-element .ctas a {
   display: inline-block;
   margin-top: 0.5em;
   padding: 10px 20px;
@@ -184,83 +69,106 @@ div.faq-container span.container-title,
   border-radius: 5px;
 }
 
-.feature-row-wide .feature-row-element .ctas a:hover {
+.feature-row-element .ctas a:hover {
   background-color: #0056b3;
 }
 
-/* Feature Row Content */
-.feature-row .box .content {
-  display: flex;
-  flex: 2;
-  flex-direction: column;
-  padding-left: 2em;
+/* Community Section */
+.memberships-section .image-row-element {
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
 }
 
-.feature-row-product .content h2.title,
-.feature-row-element h3.title {
-  font-weight: 600;
-  font-size: 1.2em;
-  color: #606060;
-  border-bottom: 1px solid #e9dcbe;
-  padding-bottom: 0.5em;
+.memberships-section .image img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 0.5em;
 }
 
-.feature-row-broad {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 2em;
-  background: #fff;
-  margin-bottom: 1em;
-}
-
-.feature-row-broad ul.points {
-  list-style-type: square;
-  font-size: 1em;
-}
-
-.feature-row-broad .feature-row-content {
-  display: flex;
-  flex: 2;
-  flex-direction: column;
+/* Footer */
+.page__footer-follow {
   padding: 1em;
+  background-color: #f3f3f3;
+  text-align: center;
 }
 
-.feature-row-broad .feature-row-image {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
+.page__footer-follow .social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.page__footer-follow .social-icons li {
+  display: inline;
+  margin: 0 0.5em;
+}
+
+.page__footer-follow .social-icons a {
+  color: #333;
+  text-decoration: none;
+}
+
+.page__footer-follow .social-icons a:hover {
+  color: #007bff;
+}
+
+.page__footer-copyright {
   padding: 1em;
+  background-color: #ddd;
+  text-align: center;
 }
 
-.feature-row-product .description {
-  font-size: 1em;
-  font-weight: 400;
-  color: #606060;
-}
-
-.feature-row-product .box ul.points {
-  list-style-type: square;
-  font-size: 1em;
-  color: #606060;
-}
-
-@media (min-width: 768px) {
-  .feature-row-broad {
+/* Media Queries for Responsive Design */
+@media screen and (min-width: 1025px) {
+  .services-section .line-items,
+  .skills-section .line-items,
+  .why-choose-us .line-items,
+  .memberships-section .line-items {
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  .feature-row-broad .feature-row-content,
-  .feature-row-broad .feature-row-image {
-    width: 50%;
+  .services-section .feature-row-element,
+  .skills-section .feature-row-element,
+  .why-choose-us .feature-row-element,
+  .memberships-section .image-row-element {
+    width: 33%;
   }
+}
 
-  .ctas {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .services-section .line-items,
+  .skills-section .line-items,
+  .why-choose-us .line-items,
+  .memberships-section .line-items {
+    display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
-  .ctas a {
-    margin-right: 10px;
+  .services-section .feature-row-element,
+  .skills-section .feature-row-element,
+  .why-choose-us .feature-row-element,
+  .memberships-section .image-row-element {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services-section .line-items,
+  .skills-section .line-items,
+  .why-choose-us .line-items,
+  .memberships-section .line-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .services-section .feature-row-element,
+  .skills-section .feature-row-element,
+  .why-choose-us .feature-row-element,
+  .memberships-section .image-row-element {
+    width: 100%;
   }
 }
