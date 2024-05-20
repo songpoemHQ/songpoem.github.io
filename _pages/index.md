@@ -76,17 +76,6 @@ potential_partners_row:
   - title: "AWS Cloud"
     # image_path: /assets/images/partners/aws.png
     alt: "AWS Cloud"
-featured_case_studies:
-  - title: "Enthu"
-    description: "Live Interactive Classes and Courses for all Age Groups."
-    image_name: enthu-case-study.svg
-    url: "/portfolio/enthu/"
-    alt: "Project Enthu"
-  - title: "Inkle"
-    description: "US accounting and tax automation for startups"
-    image_name: inkle-case-study.svg
-    url: "/portfolio/inkle/"
-    alt: "Inkle"
 events_row:
   - title: "BeamBasket (Elixir News)"
     description: "Stay updated with the latest news and insights from the Elixir community."

@@ -2,6 +2,10 @@
 title:  "Inkle"
 excerpt: "Project Inkle"
 # date:   2024-04-03 10:13:30 +0530
+featured: true
+image_name: inkle-case-study.svg
+url: "/portfolio/inkle/"
+alt: "Inkle"
 share: true
 tags:
 - elixir

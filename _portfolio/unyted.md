@@ -3,6 +3,9 @@ title:  "Unyted"
 excerpt: "Unyted Learnings LLC"
 # date:   2024-04-03 10:13:30 +0530
 share: true
+featured: true
+alt: "Project Unyted"
+url: "/portfolio/unyted/"
 tags:
 - elixir
 - e-learning
