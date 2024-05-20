@@ -21,34 +21,6 @@ header:
   cta_label: "Discuss my Project"
   cta_url: "mailto:sandesh.soni@songpoem.com?subject=enquiry&body=Wehomepage"
   excerpt: "Reuse well-tested modules and functionalities, avoiding the need to build from scratch."
-services_row:
-  - title: "Erlang and Elixir Development"
-    description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
-    icon: /assets/icons/elixir-development.webp
-    url: "/services/elixir-and-erlang-development/"
-    alt: "Elixir and Erlang development at Songpoem Labs."
-    points:
-      - Create robust backend systems
-      - Develop dynamic messaging platforms
-      - Build scalable distributed applications
-  - title: "AI-Powered Solutions"
-    description: "Specializing in real-time AI applications, we deliver solutions combining responsiveness with intelligent decision-making."
-    icon: /assets/icons/ai-solutions.webp
-    url: "/services/ai-powered-solutions-development-services/"
-    alt: "AI-powered solutions at Songpoem Labs."
-    points:
-      - Implement intelligent automation
-      - Develop predictive analytics
-      - Enhance user experience with AI
-  - title: "Blockchain Development"
-    description: "Develop decentralized applications (DApps) and secure transaction systems using blockchain technology."
-    icon: /assets/icons/blockchain-development.webp
-    url: "/services/blockchain-development-services/"
-    alt: "Web3 Blockchain development solutions at Songpoem Labs."
-    points:
-      - Secure transaction systems
-      - Develop decentralized applications (DApps)
-      - Implement smart contracts
 why_songpoem:
   - title: "Artistic Innovation"
     description: "Infusing creativity into every project, ensuring our solutions not only perform flawlessly but also inspire and engage."
@@ -99,7 +71,7 @@ events_row:
     alt: "Elixir Pune Meetup"
 ---
 
-{% include services_section id=page.services_row title="Our Capabilities" %}
+{% include services_section id="services_row" title="Our Capabilities" %}
 {% include why_choose_us id=page.why_songpoem title="Why customers choose Songpoem Labs" %}
 {% include memberships_section id=page.memberships_row title="Communities we are a part of" %}
 {% include memberships_section id=page.potential_partners_row title="Potential Partners" %}
