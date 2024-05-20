@@ -1,14 +1,19 @@
 <div class="case-studies-section">
-    <h2>{{ include.title }}</h2>
-    <div class="grid-container">
-        {% for case_study in include.id %}
-        <div class="card">
-            <img src="{{ case_study.image_name | prepend: "/assets/images/casestudy/" | relative_url }}"
-                alt="{{ case_study.title }}">
-            <h3>{{ case_study.title }}</h3>
-            <p>{{ case_study.description }}</p>
-            <a href="{{ case_study.url }}" class="btn">Read More</a>
+    <h2 class="section-title">{{ include.title }}</h2>
+    <div class="case-studies-list">
+        {% for case_study in site.data.case_studies %}
+        <div class="case-study-item">
+            <img src="{{ case_study.image }}" alt="{{ case_study.alt }}" class="case-study-image">
+            <h3 class="case-study-title">{{ case_study.title }}</h3>
+            <p class="case-study-description">{{ case_study.description }}</p>
+            <a href="{{ case_study.url }}" class="btn btn-primary">Learn More</a>
         </div>
         {% endfor %}
+    </div>
+    <div class="all-case-studies-link">
+        <p>
+            For more details on our projects, check out our
+            <a href="/case-studies/" class="text-blue-600 hover:underline">Case Studies</a>.
+        </p>
     </div>
 </div>

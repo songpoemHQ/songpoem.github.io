@@ -1,9 +1,8 @@
 ---
 seo_title: "Songpoem Labs - Artistic Business Solutions"
 title: "Delivering Business Solutions with an Artistic Touch"
-description: "Explore how Songpoem Labs blends creativity and technology to deliver cutting-edge business solutions. We specialize in Erlang/Elixir development, AI solutions, and blockchain technology."
-excerpt: "Combining creativity with technology to deliver innovative business solutions."
-description_2: "High-performance, scalable systems for handling large traffic and user activity seamlessly."
+description: "Explore how Songpoem Labs blends creativity with advanced technology to deliver innovative solutions in Elixir development, AI, and blockchain. Our high-performance, scalable systems handle large traffic and user activity seamlessly."
+excerpt: "Combining Creativity and Technology for Cutting-Edge Solutions."
 keywords:
   - on-demand solutions
   - Erlang development
@@ -23,7 +22,7 @@ header:
   cta_url: "mailto:sandesh.soni@songpoem.com?subject=enquiry&body=Wehomepage"
   excerpt: "Reuse well-tested modules and functionalities, avoiding the need to build from scratch."
 services_row:
-  - title: "Advanced Erlang and Elixir Development"
+  - title: "Erlang and Elixir Development"
     description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
     icon: /assets/icons/elixir-development.webp
     url: "/services/elixir-and-erlang-development/"
@@ -32,7 +31,7 @@ services_row:
       - Create robust backend systems
       - Develop dynamic messaging platforms
       - Build scalable distributed applications
-  - title: "Cutting-Edge AI-Powered Solutions"
+  - title: "AI-Powered Solutions"
     description: "Specializing in real-time AI applications, we deliver solutions combining responsiveness with intelligent decision-making."
     icon: /assets/icons/ai-solutions.webp
     url: "/services/ai-powered-solutions-development-services/"
@@ -41,8 +40,8 @@ services_row:
       - Implement intelligent automation
       - Develop predictive analytics
       - Enhance user experience with AI
-  - title: "Innovative Blockchain Development"
-    description: "Explore blockchain technology potential by developing decentralized applications (DApps)."
+  - title: "Blockchain Development"
+    description: "Develop decentralized applications (DApps) and secure transaction systems using blockchain technology."
     icon: /assets/icons/blockchain-development.webp
     url: "/services/blockchain-development-services/"
     alt: "Web3 Blockchain development solutions at Songpoem Labs."
@@ -52,15 +51,16 @@ services_row:
       - Implement smart contracts
 why_songpoem:
   - title: "Artistic Innovation"
-    description: "Infuse creativity into every project to ensure solutions not only perform flawlessly but also inspire and engage."
+    description: "Infusing creativity into every project, ensuring our solutions not only perform flawlessly but also inspire and engage."
     image_name: "artistic-innovation.webp"
-  - title: "Lifelong Support"
-    description: "Enjoy lifelong support with regular updates, expert troubleshooting, and personalized consultations."
-    image_name: "lifelong-support.webp"
   - title: "Code Quality"
     description: "Adhering to industry best practices and standards ensures your projects are built on a foundation of clean, efficient, and scalable code."
+    image_name: "lifelong-support.webp"
+  - title: "Lifelong Support"
+    description: "Enjoy ongoing support with regular updates, expert troubleshooting, and personalized consultations."
+    image_name: "lifelong-support.webp"
   - title: "Community Engagement"
-    description: "We give back to society by organizing meetups, including Elixir Pune Meetup and Elixir Bengaluru Meetup."
+    description: "Giving back to society by organizing meetups, including Elixir Pune Meetup and Elixir Bengaluru Meetup."
     image_name: "community-engagement.webp"
 memberships_row:
   - title: "TiE Pune, Mumbai and Delhi Chapters"

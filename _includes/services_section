@@ -14,7 +14,7 @@
           <li>{{ point }}</li>
           {% endfor %}
         </ul>
-        <a href="{{ service.url }}" class="btn">Learn More</a>
+        <a href="{{ service.url }}" class="btn btn-secondary">Learn More</a>
       </div>
     </div>
     {% endfor %}
