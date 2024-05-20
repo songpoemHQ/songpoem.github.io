@@ -1,15 +1,17 @@
 ---
 title: "Blockchain Development"
 description: "Develop decentralized applications (DApps) and secure transaction systems using blockchain technology."
-icon: "blockchain-development.webp"
-image_name: "/assets/images/songpoem-blockchain.jpg"
-url: "/services/blockchain-development-services/"
-alt: "Web3 Blockchain development solutions at Songpoem Labs."
-layout: service
 points:
   - Secure transaction systems
   - Develop decentralized applications (DApps)
   - Implement smart contracts
+url: "/services/blockchain-development-services/"
+icon: "blockchain-development.webp"
+image_name: "/assets/images/songpoem-blockchain.jpg"
+alt: "Web3 Blockchain development solutions at Songpoem Labs."
+layout: single
+featured: true
+
 ---
 ## Blockchain Development
 
