@@ -1,9 +1,10 @@
 <div class="case-studies-section">
     <h2 class="section-title">{{ include.title }}</h2>
     <div class="case-studies-list">
-        {% for case_study in site.data.case_studies %}
+        {% for case_study in site.portfolio %}
         <div class="case-study-item">
-            <img src="{{ case_study.image }}" alt="{{ case_study.alt }}" class="case-study-image">
+            <img src="{{ case_study.image_name | prepend: site.baseurl }}" alt="{{ case_study.alt }}"
+                class="case-study-image">
             <h3 class="case-study-title">{{ case_study.title }}</h3>
             <p class="case-study-description">{{ case_study.description }}</p>
             <a href="{{ case_study.url }}" class="btn btn-primary">Learn More</a>
@@ -13,7 +14,7 @@
     <div class="all-case-studies-link">
         <p>
             For more details on our projects, check out our
-            <a href="/case-studies/" class="text-blue-600 hover:underline">Case Studies</a>.
+            <a href="{{ '/casestudies/' | relative_url }}" class="text-blue-600 hover:underline">Case Studies</a>.
         </p>
     </div>
 </div>
