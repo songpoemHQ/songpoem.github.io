@@ -2,7 +2,7 @@
 title: "Erlang and Elixir Development"
 description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
 image_name: "/assets/images/songpoem-elixir.jpg"
-icon: "/assets/images/elixir-icon.png"
+icon: "elixir-development.webp"
 url: "/services/elixir-and-erlang-development/"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: service

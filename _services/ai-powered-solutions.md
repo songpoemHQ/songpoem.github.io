@@ -2,7 +2,7 @@
 title: "AI-Powered Solutions"
 description: "Deliver real-time AI applications that combine responsiveness with intelligent decision-making."
 image_name: "/assets/images/songpoem-ai.jpg"
-icon: "/assets/images/ai-icon.png"
+icon: "ai-solutions.webp"
 url: "/services/ai-powered-solutions-development-services/"
 alt: "AI-powered solutions at Songpoem Labs."
 layout: service
