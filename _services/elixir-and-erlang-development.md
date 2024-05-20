@@ -20,3 +20,8 @@ Our Erlang and Elixir development services help you build scalable, fault-tolera
 - Create robust backend systems
 - Develop dynamic messaging platforms
 - Build scalable distributed applications
+
+### Technology
+- Elixir
+- GraphQL using AbsInThe
+- Phoenix framework
