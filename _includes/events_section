@@ -3,10 +3,10 @@
     <div class="grid-container">
         {% for event in include.id %}
         <div class="card">
-            <img src="{{ event.image_name | prepend: " /assets/images/" | relative_url }}" alt="{{ event.title }}">
+            <!-- <img src="{{ event.image_name | prepend: " /assets/images/" | relative_url }}" alt="{{ event.title }}"> -->
             <h3>{{ event.title }}</h3>
             <p>{{ event.description }}</p>
-            <a href="{{ event.url }}" class="btn">Learn More</a>
+            <a href="{{ event.url }}" class="btn btn-secondary">Learn More</a>
         </div>
         {% endfor %}
     </div>

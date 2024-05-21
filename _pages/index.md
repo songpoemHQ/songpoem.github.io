@@ -50,25 +50,17 @@ potential_partners_row:
     alt: "AWS Cloud"
 events_row:
   - title: "BeamBasket (Elixir News)"
-    description: "Stay updated with the latest news and insights from the Elixir community."
+    description: "Stay updated with the latest news and insights from the Elixir community through BeamBasket on Twitter. Follow us for regular updates, industry news, and expert opinions on everything Elixir."
     url: "https://x.com/BeamBasket"
-    # image_name: beambasket-twitter.jpg
-    alt: "BeamBasket Twitter"
   - title: "BeamBasket YouTube Channel"
-    description: "Watch live coding workshops and guest speaker sessions on Elixir."
+    description: "Explore the BeamBasket YouTube Channel for live coding workshops, guest speaker sessions, and in-depth tutorials on Elixir. Our channel features experts from around the world sharing their knowledge and skills."
     url: "https://www.youtube.com/@beambasket"
-    # image_name: beambasket-youtube.jpg
-    alt: "BeamBasket YouTube"
   - title: "Elixir Bengaluru Meetup"
-    description: "Join the Elixir community in Bengaluru for discussions and events."
+    description: "We organize the Elixir Bengaluru Meetup, bringing together local Elixir enthusiasts for discussions, events, and collaborative projects."
     url: "https://www.meetup.com/elixir-bangalore/"
-    # image_name: elixir-bengaluru.jpg
-    alt: "Elixir Bengaluru Meetup"
   - title: "Elixir Pune Meetup"
-    description: "Connect with Elixir enthusiasts in Pune through regular meetups."
+    description: "As organizers of the Elixir Pune Meetup, we host regular meetups, share experiences."
     url: "https://www.meetup.com/elixir-pune/"
-    # image_name: elixir-pune.jpg
-    alt: "Elixir Pune Meetup"
 ---
 
 {% include services_section id="services_row" title="Our Capabilities" %}
