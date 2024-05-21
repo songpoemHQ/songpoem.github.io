@@ -7,11 +7,17 @@ image_name: inkle-case-study.svg
 url: "/portfolio/inkle/"
 alt: "Inkle"
 share: true
+stack:
+- Elixir
+- Phoenix framework
+- React.js
+- TailwindCSS
 tags:
-- elixir
+- fintech
+- requirements analysis
 ---
 
-Simplified data collection.
+We conducted requirements analysis to understand their needs and propose the most effective and feasible solutions.
 
 
 Intuitive Admin Dashboard.

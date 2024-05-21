@@ -6,12 +6,15 @@ share: true
 featured: true
 image_name: inkle-case-study.svg
 alt: "Enthu"
+stack:
+- Elixir
+- AbsInThe
+- Phoenix framework
+- Event Bus
 tags:
-- otp
-- message passing
-- mailbox
-- elixir
-- syntax
+- edtech
+- paymentgateway
+- integration
 ---
 
 
