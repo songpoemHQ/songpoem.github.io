@@ -1,12 +1,13 @@
 ---
-title:  "Enthu"
+client_name: "Enthuziastic Learning"
+title:  "Live Interactive Classes, Academic & Non-Academic Courses for all Age Groups ."
 excerpt: "Project Enthu stands as a testament to our ability to transform limitations into opportunities. By decoupling our client's e-commerce platform from a single-country, single-gateway model to a flexible, multi-market solution, we enabled them to unlock new revenue streams and enter diverse geolocations. Our strategic approach not only expanded their market reach but also simplified compliance management, making regulatory hurdles a thing of the past. Enthu showcases our commitment to driving business growth through innovative IT solutions, empowering our clients to thrive in a global marketplace."
 # date:   2024-04-03 10:13:30 +0530
 share: true
 featured: true
 image_name: inkle-case-study.svg
 alt: "Enthu"
-stack:
+technology:
 - Elixir
 - AbsInThe
 - Phoenix framework

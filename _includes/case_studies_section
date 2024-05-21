@@ -6,15 +6,16 @@
         <div class="case-study-item">
             <img src="{{ case_study.image_name | prepend: "/assets/images/casestudies/" | relative_url }}"
                 alt="{{ case_study.alt }}" class="case-study-image">
+            <h4 class="case-study-title">{{ case_study.client_name }}</h3>
             <h3 class="case-study-title">{{ case_study.title }}</h3>
-            <p class="case-study-description">{{ case_study.description }}</p>
-            {% if case_study.stack %}
-            <p><strong>Stack:</strong> {{ case_study.stack | join: ", " }}</p>
+                <p class="case-study-description">{{ case_study.description }}</p>
+            {% if case_study.technology %}
+            <p><strong>Technology:</strong> {{ case_study.stack | join: ", " }}</p>
             {% endif %}
             {% if case_study.tags %}
             <p><strong>Tags:</strong>
                 {% for tag in case_study.tags %}
-                #{{ tag }}{% if forloop.last == false %}, {% endif %}
+                #{{ tag }}{% if forloop.last == false %}  {% endif %}
                 {% endfor %}
             </p>
             {% endif %}
