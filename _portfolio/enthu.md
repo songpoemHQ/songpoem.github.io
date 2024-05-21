@@ -5,7 +5,7 @@ excerpt: "Project Enthu stands as a testament to our ability to transform limita
 # date:   2024-04-03 10:13:30 +0530
 share: true
 featured: true
-image_name: inkle-case-study.svg
+image_name: enthu-case-study.svg
 alt: "Enthu"
 technology:
 - Elixir

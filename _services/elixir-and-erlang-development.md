@@ -7,7 +7,7 @@ points:
   - Build scalable distributed applications
 url: "/services/elixir-and-erlang-development/"
 image_name: "/assets/images/songpoem-elixir.jpg"
-icon: "elixir-development.webp"
+icon: "elixir-development.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: single
 featured: true

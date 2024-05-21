@@ -6,7 +6,7 @@ points:
   - Develop decentralized applications (DApps)
   - Implement smart contracts
 url: "/services/blockchain-development-services/"
-icon: "blockchain-development.webp"
+icon: "blockchain-development.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: single
