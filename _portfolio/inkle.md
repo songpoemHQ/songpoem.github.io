@@ -15,7 +15,8 @@ technology:
 - TailwindCSS
 tags:
 - fintech
-- requirements analysis
+- requirements_analysis
+- chargebee_integration
 ---
 
 We conducted requirements analysis to understand their needs and propose the most effective and feasible solutions.
