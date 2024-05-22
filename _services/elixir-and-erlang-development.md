@@ -10,7 +10,7 @@ image_name: "/assets/images/songpoem-elixir.jpg"
 icon: "elixir-development.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: single
-featured: true
+score: 85
 ---
 ## Erlang and Elixir Development
 

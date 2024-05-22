@@ -13,6 +13,7 @@ technology:
 - Phoenix framework
 - React.js
 - TailwindCSS
+- Figma
 tags:
 - fintech
 - requirements_analysis

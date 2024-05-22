@@ -6,7 +6,8 @@ keywords:
   - mobile development
 layout: splash
 type: service
-permalink: /services/web-mobile-development/
+score: 64
+url: /services/web-mobile-development/
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

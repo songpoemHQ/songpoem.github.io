@@ -1,8 +1,9 @@
 <div class="section services-section">
   <h2>{{ include.title }}</h2>
   <div class="grid-container">
-    {% for service in site.services %}
-    {% if service.featured %}
+    {% assign sorted_services = site.services | sort: 'score' | reverse %}
+    {% assign top_services = sorted_services | slice: 0, 3 %}
+    {% for service in top_services %}
     <div class="card">
       <div class="card-image">
         <img src="{{ service.icon | prepend: "/assets/icons/" | relative_url }}" alt="{{ service.title }}">
@@ -18,7 +19,8 @@
         <a href="{{ service.url }}" class="btn btn-secondary">Learn More</a>
       </div>
     </div>
-    {% endif %}
     {% endfor %}
   </div>
 </div>
+
+

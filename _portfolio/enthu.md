@@ -12,6 +12,7 @@ technology:
 - AbsInThe
 - Phoenix framework
 - Event Bus
+- Figma
 tags:
 - edtech
 - paymentgateway

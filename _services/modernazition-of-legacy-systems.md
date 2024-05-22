@@ -1,12 +1,15 @@
 ---
 title: Modernization of Legacy Systems
 description: "Upgradation of Legacy Systems"
+score: 65
+url: /services/modernization-of-legacy-systems/
 keywords:
   - modernization
   - mobile development
+points:
+  - on-premise to cloud
 layout: splash
 type: service
-permalink: /services/modernization-of-legacy-systems/
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

@@ -10,7 +10,7 @@ image_name: "/assets/images/songpoem-ai.jpg"
 icon: "ai-solutions.png"
 alt: "AI-powered solutions at Songpoem Labs."
 layout: single
-featured: true
+score: 75
 ---
 ## AI-Powered Solutions
 
