@@ -3,7 +3,9 @@ module.exports = {
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/**/*.md',
-    './_pages/**/*.md',
+    './_pages/**/*.html',
+    './_portfolio/**/*.md',
+    './_services/**/*.md',
     './index.html'
   ],
   theme: {

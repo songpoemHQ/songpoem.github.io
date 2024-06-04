@@ -1,13 +1,9 @@
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/dirt"; // skin
-@import "minimal-mistakes"; // main partials
+// @import "minimal-mistakes/skins/dirt"; // skinny
+// @import "minimal-mistakes"; // main partials ok
 
-// Tailwind base styles
+// Tailwind CSS
 @import "tailwindcss/base";
-
-// Tailwind component styles
 @import "tailwindcss/components";
-
-// Tailwind utility styles
 @import "tailwindcss/utilities";

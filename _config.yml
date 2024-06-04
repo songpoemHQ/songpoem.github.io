@@ -42,6 +42,8 @@ plugins:
   - jekyll-remote-theme
   - jekyll-paginate
 
+sass:
+  style: compressed
 
 postcss:
   cache: false
@@ -115,3 +117,4 @@ analytics:
   google:
     tracking_id: "G-GTYGD0GH2H"
     anonymize_ip: true
+
