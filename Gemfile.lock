@@ -53,6 +53,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-postcss (0.5.0)
     jekyll-remote-theme (0.4.3)
       addressable (~> 2.0)
@@ -111,6 +112,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed (~> 0.12)
   jekyll-include-cache
+  jekyll-paginate
   jekyll-postcss
   jekyll-remote-theme
   jemoji (~> 0.12.0)

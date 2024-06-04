@@ -21,6 +21,7 @@ else
 end
 
 group :jekyll_plugins do
+  gem "jekyll-paginate"
   gem "kramdown", "~> 2.4.0"
   gem "kramdown-parser-gfm"
   gem "terminal-table", "~> 2.0.0"
