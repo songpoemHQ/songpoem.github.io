@@ -70,3 +70,5 @@ events_row:
 {% include case_studies_section id=page.featured_case_studies title="Our Featured Case Studies" %}
 {% include events_section id=page.events_row title="Our Events & Workshops" %}
 {% include cta_section title="Book Now" description="Book a free 30 minutes Consultation call." %}
+<!-- {% include highlighted_events %} -->
+

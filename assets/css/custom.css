@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --primary-color: #1e3a8a;
   --secondary-color: #f1f5f9;
@@ -6,16 +10,29 @@
   --text-color: #1f2937;
 }
 
+.notification-bar {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-size: 1em;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--text-color);
-  padding: 0 2rem; /* Add padding for the body */
+  padding: 0 2rem;
 }
 
 .header, .footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 1rem 0; /* Add padding to header and footer */
+  padding: 1rem 0;
 }
 
 .header a, .footer a {
@@ -34,43 +51,42 @@ body {
   @apply bg-blue-700 shadow-lg transform -translate-y-1;
 }
 
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  margin: 2rem 0; /* Add margin to separate grid sections */
+  margin: 2rem 0;
 }
 
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
-  border: 1px solid #e5e7eb; /* Light border for a subtle card look */
-  border-radius: 0.5rem; /* Rounded corners for a modern look */
-  background-color: #ffffff; /* White background for card */
-  overflow: hidden; /* Ensure content does not overflow the card */
-  padding: 1.5rem; /* Add padding inside card */
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 1.5rem;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for hover effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem; /* Padding inside card image */
+  padding: 1rem;
 }
 
 .card-image img {
   max-width: 100%;
-  max-height: 150px; /* Limit image height */
+  max-height: 150px;
 }
 
 .card-content {
-  padding: 1rem; /* Padding inside card content */
-  text-align: center; /* Centered text */
+  padding: 1rem;
+  text-align: center;
 }
 
 .card-content h3 {
@@ -81,23 +97,23 @@ body {
 
 .card-content p {
   font-size: 1rem;
-  color: #4b5563; /* Slightly darker text color for readability */
-  margin-bottom: 1rem; /* Space below text */
+  color: #4b5563;
+  margin-bottom: 1rem;
 }
 
 .service-points {
   list-style-type: disc;
-  text-align: left; /* Align points to the left */
-  padding-left: 1.5rem; /* Indent points list */
-  margin-bottom: 1rem; /* Space below points */
+  text-align: left;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .service-points li {
-  margin-bottom: 0.5rem; /* Space between points */
+  margin-bottom: 0.5rem;
 }
 
 .services-section {
-  padding: 2rem 0; /* Spacing for section */
+  padding: 2rem 0;
 }
 
 .services-section h2 {
@@ -107,11 +123,10 @@ body {
   text-align: center;
 }
 
-/* Additional Spacing for Sections */
 .section {
-  padding: 4rem 0; /* Add padding to separate sections */
+  padding: 4rem 0;
 }
 
 .section h2 {
-  margin-bottom: 2rem; /* Space below section titles */
+  margin-bottom: 2rem;
 }

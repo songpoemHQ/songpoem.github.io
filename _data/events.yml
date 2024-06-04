@@ -1,0 +1,77 @@
+events:
+  - start_date: 2024-05-15
+    end_date: 2024-05-15
+    time: "morning"
+    title: "AWS Summit"
+    location: "City A"
+    link: ""
+    highlight: true
+    description: "Attending AWS Summit to learn about the latest in cloud technology."
+    images: []
+    detailed_description: ""
+
+  - start_date: 2024-05-15
+    end_date: 2024-05-15
+    time: "evening"
+    title: "Founders Meetup"
+    location: "City A"
+    link: ""
+    highlight: true
+    description: "Meeting with founders to discuss new startup ideas."
+    images: []
+    detailed_description: ""
+
+  - start_date: 2024-05-18
+    end_date: 2024-05-18
+    time: ""
+    title: "Elixir Meetup in Bengaluru"
+    location: "Bengaluru"
+    link: "https://example.com/elixir-meetup"
+    highlight: true
+    description: "Organizing an Elixir meetup in Bengaluru."
+    images: []
+    detailed_description: ""
+
+  - start_date: 2024-05-20
+    end_date: 2024-05-20
+    time: ""
+    title: "SEAP Workshop"
+    location: "City B"
+    link: ""
+    highlight: false
+    description: "Attending a workshop organized by SEAP."
+    images: []
+    detailed_description: ""
+
+  - start_date: 2024-05-29
+    end_date: 2024-05-29
+    time: ""
+    title: "XYZ Summit"
+    location: "City C"
+    link: ""
+    highlight: false
+    description: "Attending the XYZ Summit."
+    images: []
+    detailed_description: ""
+
+  - start_date: 2024-06-12
+    end_date: 2024-06-12
+    time: ""
+    title: "GitHub Constellation"
+    location: "City D"
+    link: "https://example.com/github-constellation"
+    highlight: true
+    description: "Our crew is attending GitHub Constellation."
+    images: []
+    detailed_description: ""
+
+  - start_date: 2024-06-20
+    end_date: 2024-06-20
+    time: ""
+    title: "TiEcon"
+    location: "City E"
+    link: ""
+    highlight: true
+    description: "Our crew is attending TiEcon."
+    images: []
+    detailed_description: ""
