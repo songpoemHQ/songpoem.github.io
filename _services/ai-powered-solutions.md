@@ -7,7 +7,7 @@ points:
   - Enhance user experience with AI
 url: "/services/ai-powered-solutions-development-services/"
 image_name: "/assets/images/songpoem-ai.jpg"
-icon: "ai-solutions.png"
+icon: "songpoem-ai-solutions.png"
 alt: "AI-powered solutions at Songpoem Labs."
 layout: single
 score: 75
