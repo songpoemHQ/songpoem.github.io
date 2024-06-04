@@ -16,12 +16,13 @@ else
   gem "jekyll-archives"
   # gem 'jekyll-include-cache'
   gem "jemoji", "~> 0.12.0"
-  gem "jekyll-postcss"
-
+  # gem "jekyll-postcss"
+  # gem 'jekyll-postcss-v2', '~> 1.0', '>= 1.0.2'
 end
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
+  gem 'jekyll-tailwindcss', '~> 0.2.0'
   gem "kramdown", "~> 2.4.0"
   gem "kramdown-parser-gfm"
   gem "terminal-table", "~> 2.0.0"

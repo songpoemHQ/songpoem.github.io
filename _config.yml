@@ -1,5 +1,5 @@
 # Site settings
-minimal_mistakes_skin: "dirt"
+# minimal_mistakes_skin: "dirt"
 locale: "en-US"
 
 masthead_title: Songpoem Labs
@@ -38,15 +38,16 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
-  - jekyll-postcss
+  # - jekyll-postcss
   - jekyll-remote-theme
   - jekyll-paginate
 
 sass:
+  sass_dir: _sass
   style: compressed
 
-postcss:
-  cache: false
+# postcss:
+#   cache: false
 
 # Site Footer
 footer:
