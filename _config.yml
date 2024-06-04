@@ -40,6 +40,7 @@ plugins:
   - jekyll-archives
   # - jekyll-postcss
   - jekyll-remote-theme
+  - jekyll-tailwindcss
   - jekyll-paginate
 
 sass:
