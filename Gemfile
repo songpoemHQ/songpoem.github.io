@@ -11,11 +11,13 @@ if env == 'production'
   gem "terminal-table", "~> 1.4"
 else
   gem "jekyll", "~> 4.2.2"
+  gem "jekyll-remote-theme"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-archives"
   gem 'jekyll-include-cache'
   gem "jemoji", "~> 0.12.0"
   gem "jekyll-postcss"
+
 end
 
 group :jekyll_plugins do
