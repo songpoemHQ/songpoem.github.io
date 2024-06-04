@@ -14,7 +14,7 @@ else
   gem "jekyll-remote-theme"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-archives"
-  gem 'jekyll-include-cache'
+  # gem 'jekyll-include-cache'
   gem "jemoji", "~> 0.12.0"
   gem "jekyll-postcss"
 
@@ -24,6 +24,9 @@ group :jekyll_plugins do
   gem "kramdown", "~> 2.4.0"
   gem "kramdown-parser-gfm"
   gem "terminal-table", "~> 2.0.0"
+
+  # gem "github-pages"
+  gem "jekyll-include-cache"
 end
 
 gem "webrick", "~> 1.7"

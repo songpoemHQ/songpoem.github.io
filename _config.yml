@@ -16,7 +16,7 @@ facebook_username: songpoemlabs
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 permalink: /blog/:categories/:slug/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
@@ -39,6 +39,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-archives
   - jekyll-postcss
+  - jekyll-remote-theme
+
 
 postcss:
   cache: false
