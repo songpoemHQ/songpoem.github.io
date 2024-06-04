@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 :root {
   --primary-color: #1e3a8a;
   --secondary-color: #f1f5f9;
@@ -6,24 +10,24 @@
   --text-color: #1f2937;
 }
 
+.notification-bar {
+  @apply bg-red-100 text-red-800 p-2 text-center fixed w-full top-0 left-0 z-50 text-base;
+}
+
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  padding: 0 2rem; /* Add padding for the body */
+  @apply bg-white text-gray-900 px-8;
 }
 
 .header, .footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  padding: 1rem 0; /* Add padding to header and footer */
+  @apply bg-blue-900 text-gray-100 py-4;
 }
 
 .header a, .footer a {
-  color: var(--accent-color);
+  @apply text-blue-500;
 }
 
 .header a:hover, .footer a:hover {
-  color: var(--secondary-color);
+  @apply text-gray-100;
 }
 
 .btn {
@@ -34,84 +38,55 @@ body {
   @apply bg-blue-700 shadow-lg transform -translate-y-1;
 }
 
-
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0; /* Add margin to separate grid sections */
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8;
 }
 
 .card {
-  transition: transform 0.3s, box-shadow 0.3s;
-  border: 1px solid #e5e7eb; /* Light border for a subtle card look */
-  border-radius: 0.5rem; /* Rounded corners for a modern look */
-  background-color: #ffffff; /* White background for card */
-  overflow: hidden; /* Ensure content does not overflow the card */
-  padding: 1.5rem; /* Add padding inside card */
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for hover effect */
+  @apply transition-transform transform border border-gray-300 rounded-lg bg-white overflow-hidden p-6 hover:translate-y-1 hover:shadow-lg;
 }
 
 .card-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem; /* Padding inside card image */
+  @apply flex justify-center items-center p-4;
 }
 
 .card-image img {
-  max-width: 100%;
-  max-height: 150px; /* Limit image height */
+  @apply max-w-full max-h-40;
 }
 
 .card-content {
-  padding: 1rem; /* Padding inside card content */
-  text-align: center; /* Centered text */
+  @apply p-4 text-center;
 }
 
 .card-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--primary-color);
+  @apply text-xl mb-2 text-blue-900;
 }
 
 .card-content p {
-  font-size: 1rem;
-  color: #4b5563; /* Slightly darker text color for readability */
-  margin-bottom: 1rem; /* Space below text */
+  @apply text-base text-gray-600 mb-4;
 }
 
 .service-points {
-  list-style-type: disc;
-  text-align: left; /* Align points to the left */
-  padding-left: 1.5rem; /* Indent points list */
-  margin-bottom: 1rem; /* Space below points */
+  @apply list-disc text-left pl-6 mb-4;
 }
 
 .service-points li {
-  margin-bottom: 0.5rem; /* Space between points */
+  @apply mb-2;
 }
 
 .services-section {
-  padding: 2rem 0; /* Spacing for section */
+  @apply py-8;
 }
 
 .services-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: var(--primary-color);
-  text-align: center;
+  @apply text-2xl mb-6 text-blue-900 text-center;
 }
 
 /* Additional Spacing for Sections */
 .section {
-  padding: 4rem 0; /* Add padding to separate sections */
+  @apply py-16;
 }
 
 .section h2 {
-  margin-bottom: 2rem; /* Space below section titles */
+  @apply mb-8;
 }
