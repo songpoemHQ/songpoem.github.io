@@ -2,11 +2,11 @@ events:
   - start_date: 2024-05-15
     end_date: 2024-05-15
     time: "morning"
-    title: "AWS Summit"
-    location: "City A"
+    title: "Bharat Health Tech Summit"
+    location: "Pune"
     link: ""
     highlight: true
-    description: "Attending AWS Summit to learn about the latest in cloud technology."
+    description: "Attending PHTC to learn about the latest in health-tech industry."
     images: []
     detailed_description: ""
 
@@ -16,19 +16,19 @@ events:
     title: "Founders Meetup"
     location: "City A"
     link: ""
-    highlight: true
+    highlight: false
     description: "Meeting with founders to discuss new startup ideas."
     images: []
     detailed_description: ""
 
-  - start_date: 2024-05-18
-    end_date: 2024-05-18
+  - start_date: 2024-06-11
+    end_date: 2024-06-11
     time: ""
-    title: "Elixir Meetup in Bengaluru"
+    title: "Organising Erlang and Elixir Meetup in Bengaluru"
     location: "Bengaluru"
-    link: "https://example.com/elixir-meetup"
+    link: "https://meetup.com/elixir-bangalore/events/298773015/"
     highlight: true
-    description: "Organizing an Elixir meetup in Bengaluru."
+    description: "Organizing this meetup to bring together devs under a roof and get introduced."
     images: []
     detailed_description: ""
 
@@ -36,9 +36,9 @@ events:
     end_date: 2024-05-20
     time: ""
     title: "SEAP Workshop"
-    location: "City B"
+    location: "Pune"
     link: ""
-    highlight: false
+    highlight: true
     description: "Attending a workshop organized by SEAP."
     images: []
     detailed_description: ""
@@ -60,7 +60,7 @@ events:
     title: "GitHub Constellation"
     location: "City D"
     link: "https://example.com/github-constellation"
-    highlight: true
+    highlight: false
     description: "Our crew is attending GitHub Constellation."
     images: []
     detailed_description: ""

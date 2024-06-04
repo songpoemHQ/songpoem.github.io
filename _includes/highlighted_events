@@ -1,8 +1,8 @@
 <div class="section highlighted-events">
-  <h2>Highlighted Events</h2>
-  <div class="events-grid">
+  <h2>Events our Team Attended</h2>
+  <div class="grid-container">
     {% assign highlighted_events = site.data.events.events | where: 'highlight', true | sort: 'start_date' %}
-    {% for event in highlighted_events limit: 3 %}
+    {% for event in highlighted_events limit: 2 %}
     <div class="event-card">
       <h3>{{ event.title }}</h3>
       <p>{{ event.start_date }}{% if event.end_date != event.start_date %} to {{ event.end_date }}{% endif %}</p>
