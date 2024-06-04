@@ -1,0 +1,23 @@
+{% assign today = 'now' | date: "%Y-%m-%d" %}
+{% assign current_event = null %}
+{% assign next_event = null %}
+
+{% for event in site.data.events.events %}
+  {% if event.start_date <= today and event.end_date >= today %}
+    {% assign current_event = event %}
+  {% elsif event.start_date > today %}
+    {% if next_event == null or event.start_date < next_event.start_date %}
+      {% assign next_event = event %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if current_event %}
+  <div id="notification-bar" class="notification-bar">
+    <p>Current Event: {{ current_event.title }} - {{ current_event.start_date }}{% if current_event.end_date != current_event.start_date %} to {{ current_event.end_date }}{% endif %}</p>
+  </div>
+{% elsif next_event %}
+  <div id="notification-bar" class="notification-bar">
+    <p>Next Event: {{ next_event.title }} - {{ next_event.start_date }}{% if next_event.end_date != next_event.start_date %} to {{ next_event.end_date }}{% endif %}</p>
+  </div>
+{% endif %}
