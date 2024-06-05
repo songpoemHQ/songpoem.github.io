@@ -9,8 +9,13 @@ url: "/services/elixir-and-erlang-development/"
 image_name: "/assets/images/songpoem-elixir.jpg"
 icon: "songpoem-elixir-development.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
-layout: single
+layout: splash
 score: 85
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/bg-texture2.png
+
 ---
 ## Erlang and Elixir Development
 

@@ -9,8 +9,12 @@ url: "/services/ai-powered-solutions-development-services/"
 image_name: "/assets/images/songpoem-ai.jpg"
 icon: "songpoem-ai-solutions.png"
 alt: "AI-powered solutions at Songpoem Labs."
-layout: single
+layout: splash
 score: 75
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/bg-texture2.png
 ---
 ## AI-Powered Solutions
 

@@ -1,0 +1,10 @@
+# _data/til.yml
+
+- date: 2024-06-02
+  topic: "Attention is all you need"
+  description: "Learned about the paper by Google. There are 3 types of transformers. encode, decode, both."
+  resource: "https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf"
+
+- date: 2024-06-01
+  topic: "SLM - Small Language Model"
+  description: "Small language model for relatively smaller need. Its very costly to train data.."

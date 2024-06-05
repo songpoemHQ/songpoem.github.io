@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: splash
 title: "Events we attended, organised"
 permalink: /events/
 ---
@@ -10,7 +10,7 @@ permalink: /events/
     <h3>{{ event.title }}</h3>
     <p>{{ event.start_date }}{% if event.end_date != event.start_date %} to {{ event.end_date }}{% endif %}</p>
     <p>{{ event.description }}</p>
-    <a href="{{ event.url }}" class="btn btn-secondary">View Complete Details</a>
+    <!-- <a href="{{ event.url }}" class="btn btn-secondary">View Complete Details</a> -->
   </div>
   {% endfor %}
 </div>

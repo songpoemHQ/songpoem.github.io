@@ -9,8 +9,12 @@ url: "/services/blockchain-development-services/"
 icon: "songpoem-blockchain-solutions.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
-layout: single
+layout: splash
 score: 71
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+  overlay_image: /assets/images/bg-texture2.png
 ---
 ## Blockchain Development
 

@@ -1,6 +1,11 @@
 <div class="case-studies-section">
     <div class="section case-studies">
-        <h2 class="section-title">{{ include.title }}</h2>
+        <h2 class="section-title">{{ include.title }}
+
+
+            <a href="{{ '/portfolio/' | relative_url }}" class="btn ml-2">View All</a>
+
+        </h2>
         <div class="grid-container">
 
             {% for case_study in site.portfolio %}
@@ -25,12 +30,6 @@
             </div>
             {% endif %}
             {% endfor %}
-        </div>
-        <div class="all-case-studies-link">
-            <p>
-                For more details on our projects, check out our
-                <a href="{{ '/portfolio/' | relative_url }}" class="text-blue-600 hover:underline">Case Studies</a>.
-            </p>
         </div>
     </div>
 </div>
