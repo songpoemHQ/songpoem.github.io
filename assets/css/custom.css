@@ -124,12 +124,37 @@ body {
 
 /* Additional Spacing for Sections */
 .section {
-  padding: 4rem 0; /* Add padding to separate sections */
+  padding: 2rem 0; /* Add padding to separate sections */
 }
 
 .section h2 {
   margin-bottom: 2rem; /* Space below section titles */
 }
+
+.til-section {
+  @apply py-8 px-4 lg:px-16 bg-gray-50;
+}
+
+.til-entry {
+  @apply mb-8 p-4 bg-white shadow-md rounded-lg;
+}
+
+.til-date {
+  @apply text-lg font-semibold text-gray-700;
+}
+
+.til-topic {
+  @apply text-xl font-bold text-primary-color mt-2;
+}
+
+.til-description {
+  @apply text-base text-gray-600 mt-2;
+}
+
+.til-resource {
+  @apply text-blue-600 hover:underline mt-2;
+}
+
 
 /* Flexbox for service cards on larger screens */
 @media (min-width: 768px) {

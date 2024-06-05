@@ -66,10 +66,23 @@ events_row:
 {% include services_section id="services_row" title="Our Capabilities" %}
 {% include why_choose_us id=page.why_songpoem title="Why customers choose Songpoem Labs" %}
 {% include memberships_section id=page.memberships_row title="Communities we are a part of" %}
-{% include memberships_section id=page.potential_partners_row title="Potential Partners" %}
-{% include case_studies_section id=page.featured_case_studies title="Our Featured Case Studies" %}
+<!-- {% include memberships_section id=page.potential_partners_row title="Potential Partners" %} -->
+{% include case_studies_section id=page.featured_case_studies title="Case Studies" %}
 {% include events_section id=page.events_row title="Our Events & Workshops" %}
 {% include highlighted_events %}
 
-{% include cta_section title="Book Now" description="Book a free 30 minutes Consultation call." %}
+ <h2 class="text-2xl font-bold mb-4">Recent TIL (Today I Learned)
+  <a href="{{ '/tils/' | relative_url }}" class="btn ml-2">View All</a>
+ </h2>
+  {% assign latest_til = site.data.tils | sort: 'date' | last %}
+  <div class="til-entry p-4 bg-white shadow-md rounded-lg mb-8">
+    <p class="til-topic text-2xl font-bold text-primary-color mt-2">
+    [{{ latest_til.date | date: "%B %d, %Y" }}] - {{ latest_til.topic }}</p>
+    <div class="til-description text-base text-gray-600 mt-2">{{ latest_til.description }}</div>
+    {% if latest_til.resource %}
+    <a href="{{ latest_til.resource }}" class="til-resource text-blue-600 hover:underline mt-2">Read more</a>
+    {% endif %}
+  </div>
+
+{% include cta_section title="Speak to us" description="Book a free 30 minutes Consultation call." %}
 
