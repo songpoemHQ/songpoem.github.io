@@ -1,8 +1,8 @@
 ---
 seo_title: "Songpoem Labs - Artistic Business Solutions"
-title: "Delivering Business Solutions with an Artistic Touch"
+title: "Lets Compose Success"
 description: "Explore how Songpoem Labs blends creativity with advanced technology to deliver innovative solutions in Elixir development, AI, and blockchain. Our high-performance, scalable systems handle large traffic and user activity seamlessly."
-excerpt: "Combining Creativity and Technology for Cutting-Edge Solutions."
+excerpt: "Empowering Your Business with High-Performance Tech Solutions. That's our Melody and Rhythm."
 keywords:
   - on-demand solutions
   - Erlang development
