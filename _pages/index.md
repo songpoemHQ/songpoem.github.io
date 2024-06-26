@@ -22,18 +22,15 @@ header:
   cta_url: "mailto:sandesh.soni@songpoem.com?subject=enquiry&body=Wehomepage"
   excerpt: "Reuse well-tested modules and functionalities, avoiding the need to build from scratch."
 why_songpoem:
-  - title: "Artistic Innovation"
-    description: "Infusing creativity into every project, ensuring our solutions not only perform flawlessly but also inspire and engage."
-    image_name: "artistic-innovation.webp"
   - title: "Code Quality"
     description: "Adhering to industry best practices and standards ensures your projects are built on a foundation of clean, efficient, and scalable code."
-    image_name: "lifelong-support.webp"
+    image_name: "songpoem-Quality-Assurance.jpeg"
   - title: "Lifelong Support"
     description: "Enjoy ongoing support with regular updates, expert troubleshooting, and personalized consultations."
-    image_name: "lifelong-support.webp"
+    image_name: "songpoem-Lifelong-support.jpg"
   - title: "Community Engagement"
     description: "Giving back to society by organizing meetups, including Elixir Pune Meetup and Elixir Bengaluru Meetup."
-    image_name: "community-engagement.webp"
+    image_name: "songpoem-Community-engagement.jpeg"
 memberships_row:
   - title: "TiE Pune, Mumbai and Delhi Chapters"
     image_path: /assets/images/ecosystem/tie-global-logo.png
