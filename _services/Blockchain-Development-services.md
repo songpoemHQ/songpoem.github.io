@@ -1,10 +1,9 @@
 ---
-title: "Blockchain Development"
+title: "dApps Development"
 description: "Develop decentralized applications (DApps) and secure transaction systems using blockchain technology."
 points:
+  - custom ERC-20 Token
   - Secure transaction systems
-  - Develop decentralized applications (DApps)
-  - Implement smart contracts
 url: "/services/blockchain-development-services/"
 icon: "songpoem-blockchain-solutions.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"
@@ -21,6 +20,8 @@ header:
 Our blockchain development services help you explore the potential of blockchain technology by developing decentralized applications (DApps) and secure transaction systems.
 
 ### Key Services:
+- custom ERC-20 Token
 - Secure transaction systems
-- Develop decentralized applications (DApps)
-- Implement smart contracts
+
+## Programming Languages
+Solana, Rust
