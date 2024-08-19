@@ -2,13 +2,12 @@
 seo_title: "Songpoem Labs - Artistic Business Solutions"
 title: "Lets Compose Success"
 description: "Explore how Songpoem Labs blends creativity with advanced technology to deliver innovative solutions in Elixir development, AI, and blockchain. Our high-performance, scalable systems handle large traffic and user activity seamlessly."
-excerpt: "Empowering Your Business with High-Performance Tech Solutions. That's our Melody and Rhythm."
+excerpt: "Making your business web3 ready."
 keywords:
   - on-demand solutions
-  - Erlang development
-  - Elixir development
+  - web3
   - AI solutions
-  - Web3 blockchain development
+  - blockchain development
   - Erlang
   - Elixir
 layout: splash
@@ -61,6 +60,8 @@ events_row:
 ---
 
 {% include services_section id="services_row" title="Our Capabilities" %}
+
+
 {% include why_choose_us id=page.why_songpoem title="Why customers choose Songpoem Labs" %}
 {% include memberships_section id=page.memberships_row title="Communities we are a part of" %}
 <!-- {% include memberships_section id=page.potential_partners_row title="Potential Partners" %} -->

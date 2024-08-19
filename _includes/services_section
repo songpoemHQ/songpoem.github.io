@@ -1,8 +1,33 @@
 <div class="section services-section">
+  <h2> Web3 Development Services</h2>
+  <div class="grid-container">
+    {% assign web3_services = site.services | where: 'category', 'web3' %}
+    {% assign sorted_services = web3_services | sort: 'score' | reverse %}
+    {% assign top_services = sorted_services | slice: 0, 4 %}
+    {% for service in top_services %}
+    <div class="card">
+      <div class="card-image">
+        <img src="{{ service.icon | prepend: "/assets/icons/" | relative_url }}" alt="{{ service.title }}">
+      </div>
+      <div class="card-content">
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.description }}</p>
+        <ul class="service-points">
+          {% for point in service.points %}
+          <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+        <a href="{{ service.url }}" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
   <h2>{{ include.title }}</h2>
   <div class="grid-container">
-    {% assign sorted_services = site.services | sort: 'score' | reverse %}
-    {% assign top_services = sorted_services | slice: 0, 3 %}
+    {% assign web2_services = site.services | where: 'category', 'web2' %}
+    {% assign sorted_services = web2_services | sort: 'score' | reverse %}
+    {% assign top_services = sorted_services | slice: 0, 4 %}
     {% for service in top_services %}
     <div class="card">
       <div class="card-image">

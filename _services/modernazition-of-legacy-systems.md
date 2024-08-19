@@ -3,12 +3,14 @@ title: Modernization of Legacy Systems
 description: "Upgradation of Legacy Systems"
 score: 65
 url: /services/modernization-of-legacy-systems/
+icon: "songpoem-elixir-development.jpeg"
 keywords:
   - modernization
   - mobile development
 points:
   - on-premise to cloud
 layout: splash
+category: web2
 type: service
 header:
   overlay_color: "#000"

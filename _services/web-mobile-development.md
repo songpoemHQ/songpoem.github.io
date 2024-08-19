@@ -7,7 +7,9 @@ keywords:
 layout: splash
 type: service
 score: 64
+category: web2
 url: /services/web-mobile-development/
+icon: "songpoem-elixir-development.jpeg"
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

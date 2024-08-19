@@ -10,7 +10,8 @@ image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-elixir-development.jpeg"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
-score: 85
+score: 68
+category: web2
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

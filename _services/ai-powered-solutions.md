@@ -1,5 +1,5 @@
 ---
-title: "AI-Powered Solutions"
+title: "Gen AI Implementation"
 description: "Deliver real-time AI applications that combine responsiveness with intelligent decision-making."
 points:
   - Implement intelligent automation
@@ -10,7 +10,8 @@ image_name: "/assets/images/songpoem-ai.jpg"
 icon: "songpoem-ai-solutions.png"
 alt: "AI-powered solutions at Songpoem Labs."
 layout: splash
-score: 75
+score: 71
+category: web2
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
