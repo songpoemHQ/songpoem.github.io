@@ -1,6 +1,10 @@
 ---
 title: "Erlang and Elixir Development"
 description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
+capabilities:
+  - Ruby to Elixir
+  - Phoenix LiveView Implementation
+  - Upgrade Elixir
 points:
   - Create robust backend systems
   - Develop dynamic messaging platforms

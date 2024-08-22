@@ -1,6 +1,9 @@
 ---
 title: "Gen AI Implementation"
 description: "Deliver real-time AI applications that combine responsiveness with intelligent decision-making."
+capabilities:
+  - Implement AI using GPT
+  - Chatbot Integration
 points:
   - Implement intelligent automation
   - Develop predictive analytics

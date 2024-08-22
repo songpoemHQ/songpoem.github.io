@@ -1,9 +1,13 @@
 ---
-title: "Fungible Tokens"
+title: "Blockchain Development"
 description: "Develop decentralized applications (DApps) and secure transaction systems using blockchain technology."
+capabilities:
+  - Secure tokens with ERC3643
+  - NFT using ERC741
+  - Tokenization with ERC20
 points:
-  - ERC20 Standard
-  - Secure transaction systems
+  - Hyperledger
+  - Enterprise grade B2B
 url: "/services/blockchain-development-services/"
 icon: "songpoem-blockchain-solutions.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"
@@ -16,12 +20,12 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/bg-texture2.png
 ---
-## Blockchain Development
+## Hyperledger Fabric Development
 
 Our blockchain development services help you explore the potential of blockchain technology by developing decentralized applications (DApps) and secure transaction systems.
 
 ### Key Services:
-- custom ERC-20 Token
+- Hyperledger
 - Secure transaction systems
 
 ## Programming Languages
