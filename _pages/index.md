@@ -1,8 +1,18 @@
 ---
 seo_title: "Songpoem Labs - Artistic Business Solutions"
 title: "Lets Compose Success"
-description: "Explore how Songpoem Labs blends creativity with advanced technology to deliver innovative solutions in Elixir development, AI, and blockchain. Our high-performance, scalable systems handle large traffic and user activity seamlessly."
-excerpt: "Making your business web3 ready."
+description: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
+A poem is a few words organized in a way that has a powerful meaning.
+New songs keep coming, just like new challenges and opportunities.
+
+At Songpoem Labs, we believe in boosting business productivity through the art of programming.
+Lets compose succes"
+excerpt: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
+A poem is a few words organized in a way that has a powerful meaning.
+New songs keep coming, just like new challenges and opportunities.
+
+At Songpoem Labs, we believe in boosting business productivity through the art of programming.
+Let's compose succes"
 keywords:
   - on-demand solutions
   - web3
