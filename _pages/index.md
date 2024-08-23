@@ -7,12 +7,7 @@ New songs keep coming, just like new challenges and opportunities.
 
 At Songpoem Labs, we believe in boosting business productivity through the art of programming.
 Lets compose succes"
-excerpt: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
-A poem is a few words organized in a way that has a powerful meaning.
-New songs keep coming, just like new challenges and opportunities.
-
-At Songpoem Labs, we believe in boosting business productivity through the art of programming.
-Let's compose success!"
+excerpt: "Guided by our slogan, 'Lets compose success,' we deliver reliable solutions tailored to our clients' needs. We focus on quality and practicality, aiming to meet and often exceed expectations. #letscomposesuccess"
 keywords:
   - on-demand solutions
   - web3
