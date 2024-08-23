@@ -15,7 +15,6 @@
           {% for capability in service.capabilities %}
           <div class="card-box">
             {{ capability }}
-            <a href="{{ service.url }}" class="btn btn-secondary">Learn More</a>
           </div>
           {% endfor %}
         </div>
