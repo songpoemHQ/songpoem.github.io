@@ -1,6 +1,6 @@
 ---
-seo_title: "Songpoem Labs - Artistic Business Solutions"
-title: "Lets Compose Success"
+seo_title: "Songpoem Labs - We believe in boosting business productivity through the art of programming."
+title: "At Songpoem Labs, we believe in boosting business productivity through the art of programming."
 description: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
 A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.
@@ -12,7 +12,7 @@ A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.
 
 At Songpoem Labs, we believe in boosting business productivity through the art of programming.
-Let's compose succes"
+Let's compose success!"
 keywords:
   - on-demand solutions
   - web3
