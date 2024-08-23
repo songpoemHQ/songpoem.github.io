@@ -1,9 +1,9 @@
 ---
-title: "Gen AI Implementation"
+title: "Artificial Intelligence"
 description: "Deliver real-time AI applications that combine responsiveness with intelligent decision-making."
 capabilities:
-  - Implement AI using GPT
-  - Chatbot Integration
+  - Gen AI Implementation
+  - AI based Chatbot
 points:
   - Implement intelligent automation
   - Develop predictive analytics

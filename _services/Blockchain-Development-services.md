@@ -2,12 +2,14 @@
 title: "Blockchain Development"
 description: "Develop decentralized applications (DApps) and secure transaction systems using blockchain technology."
 capabilities:
+  - Blockchain Consulting & Strategy
   - Real World Asset Tokenization
   - NFT creations
 points:
   - ERC20
   - ERC741
   - ERC3643
+  - Hyperledger
 url: "/services/blockchain-development-services/"
 icon: "songpoem-blockchain-solutions.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"

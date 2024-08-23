@@ -4,7 +4,7 @@ description: "Build scalable, fault-tolerant, real-time applications using Erlan
 capabilities:
   - Ruby to Elixir
   - Phoenix LiveView Implementation
-  - Upgrade Elixir
+  - Upgrade Elixir packages
 points:
   - Create robust backend systems
   - Develop dynamic messaging platforms
