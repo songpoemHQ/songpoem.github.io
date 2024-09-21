@@ -2,8 +2,9 @@
 title: "Tracebility solutions using Blockchain"
 description: "With blockchain, supply chain companies can document production updates to a single shared ledger, which provides complete data visibility and a single source of truth."
 capabilities:
-  - Supply chain
-  - Track and trace
+  - Tracibility
+  - Transparency
+  - Risk Mitigation
 points:
   - Supply chain
   - Track and trace

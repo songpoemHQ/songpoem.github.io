@@ -1,12 +1,11 @@
 ---
-title: "Blockchain Development"
-description: "Develop decentralized applications (DApps) and secure transaction systems using blockchain technology."
+title: "Asset Tokenization using Blockchain"
+description: "Convert ownership rights of real-world assets into digital tokens that can be managed, sold, and traded on a blockchain."
 capabilities:
-  - Blockchain Consulting & Strategy
-  - Real World Asset Tokenization
-  - NFT creations
+  - Tokenization
+  - Smart Contracts
 points:
-  - ERC20
+  - Tokenization
   - ERC741
   - ERC3643
   - Hyperledger
