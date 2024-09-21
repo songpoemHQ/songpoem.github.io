@@ -74,18 +74,6 @@ events_row:
 {% include events_section id=page.events_row title="Our Events & Workshops" %}
 {% include highlighted_events %}
 
- <h2 class="text-2xl font-bold mb-4">Recent TIL (Today I Learned)
-  <a href="{{ '/blog/' | relative_url }}" class="btn ml-2">View All</a>
- </h2>
-  {% assign latest_blog = site.data.blog | sort: 'date' | last %}
-  <div class="til-entry p-4 bg-white shadow-md rounded-lg mb-8">
-    <p class="til-topic text-2xl font-bold text-primary-color mt-2">
-    [{{ latest_blog.date | date: "%B %d, %Y" }}] - {{ latest_blog.topic }}</p>
-    <div class="til-description text-base text-gray-600 mt-2">{{ latest_blog.description }}</div>
-    {% if latest_blog.resource %}
-    <a href="{{ latest_til.latest_blog }}" class="til-resource text-blue-600 hover:underline mt-2">Read more</a>
-    {% endif %}
-  </div>
 
 {% include cta_section title="Speak to us" description="Book a free 30 minutes Consultation call." %}
 
