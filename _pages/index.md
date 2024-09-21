@@ -1,20 +1,21 @@
 ---
-seo_title: "Songpoem Labs - We believe in boosting business productivity through the art of programming."
-title: "At Songpoem Labs, we believe in boosting business productivity through the art of programming."
+seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs"
+title: "Empowering Businesses with Tech Solutions Aligned to Market Trends."
 description: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
 A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.
 
-At Songpoem Labs, we believe in boosting business productivity through the art of programming.
-Lets compose succes"
-excerpt: "Guided by our slogan, 'Lets compose success,' we deliver reliable solutions tailored to our clients' needs. We focus on quality and practicality, aiming to meet and often exceed expectations. #letscomposesuccess"
+At Songpoem Labs, we believe in boosting business productivity through the art of programming. Lets compose succes"
+excerpt: "Songpoem Labs is a remote technology company helping businesses stay aligned with market trends. #letscomposesuccess"
 keywords:
-  - on-demand solutions
-  - web3
-  - AI solutions
-  - blockchain development
-  - Erlang
-  - Elixir
+  - business solutions
+  - compliance solutions
+  - competitive advantage
+  - digital transformation
+  - regulatory compliance
+  - AI-driven business solutions
+  - custom software development
+  - innovation in business tech
 layout: splash
 permalink: /
 date: 2022-06-11T11:48:41-04:00
@@ -22,7 +23,7 @@ header:
   overlay_color: "#fff"
   overlay_filter: "0.8"
   overlay_image: /assets/images/bg-texture.png
-  cta_label: "Discuss my Project"
+  cta_label: "Explore Our Insights on the Future of Business Tech"
   cta_url: "mailto:sandesh.soni@songpoem.com?subject=enquiry&body=Wehomepage"
   excerpt: "Reuse well-tested modules and functionalities, avoiding the need to build from scratch."
 why_songpoem:
@@ -75,15 +76,15 @@ events_row:
 {% include highlighted_events %}
 
  <h2 class="text-2xl font-bold mb-4">Recent TIL (Today I Learned)
-  <a href="{{ '/tils/' | relative_url }}" class="btn ml-2">View All</a>
+  <a href="{{ '/blog/' | relative_url }}" class="btn ml-2">View All</a>
  </h2>
-  {% assign latest_til = site.data.tils | sort: 'date' | last %}
+  {% assign latest_blog = site.data.blog | sort: 'date' | last %}
   <div class="til-entry p-4 bg-white shadow-md rounded-lg mb-8">
     <p class="til-topic text-2xl font-bold text-primary-color mt-2">
-    [{{ latest_til.date | date: "%B %d, %Y" }}] - {{ latest_til.topic }}</p>
-    <div class="til-description text-base text-gray-600 mt-2">{{ latest_til.description }}</div>
-    {% if latest_til.resource %}
-    <a href="{{ latest_til.resource }}" class="til-resource text-blue-600 hover:underline mt-2">Read more</a>
+    [{{ latest_blog.date | date: "%B %d, %Y" }}] - {{ latest_blog.topic }}</p>
+    <div class="til-description text-base text-gray-600 mt-2">{{ latest_blog.description }}</div>
+    {% if latest_blog.resource %}
+    <a href="{{ latest_til.latest_blog }}" class="til-resource text-blue-600 hover:underline mt-2">Read more</a>
     {% endif %}
   </div>
 
