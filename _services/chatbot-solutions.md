@@ -1,8 +1,8 @@
 ---
-title: "Artificial Intelligence"
-description: "Deliver real-time AI applications that combine responsiveness with intelligent decision-making."
+title: "Chatbot for Scale"
+description: "Deliver real-time responses using AI in conversational format"
 capabilities:
-  - Gen AI Implementation
+  - Conversational flows
   - AI based Chatbot
 points:
   - Implement intelligent automation
