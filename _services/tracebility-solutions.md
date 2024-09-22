@@ -2,7 +2,7 @@
 title: "Tracebility solutions using Blockchain"
 description: "With blockchain, supply chain companies can document production updates to a single shared ledger, which provides complete data visibility and a single source of truth."
 capabilities:
-  - Tracibility
+  - Traceability
   - Transparency
   - Risk Mitigation
 points:
@@ -15,7 +15,7 @@ image_name: "/assets/images/songpoem-blockchain.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
 category: web3
-score: 55
+score: 65
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

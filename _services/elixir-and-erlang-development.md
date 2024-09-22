@@ -2,9 +2,8 @@
 title: "Erlang and Elixir Development"
 description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
 capabilities:
-  - Ruby to Elixir
-  - Phoenix LiveView Implementation
-  - Upgrade Elixir packages
+  - Scalibility
+  - Concurrency
 points:
   - Create robust backend systems
   - Develop dynamic messaging platforms
@@ -14,7 +13,7 @@ image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-elixir-development.jpeg"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
-score: 68
+score: 62
 category: web2
 header:
   overlay_color: "#000"
