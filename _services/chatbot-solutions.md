@@ -13,7 +13,7 @@ image_name: "/assets/images/songpoem-ai.jpg"
 icon: "songpoem-ai-solutions.png"
 alt: "AI-powered solutions at Songpoem Labs."
 layout: splash
-score: 71
+score: 46
 category: web2
 header:
   overlay_color: "#000"

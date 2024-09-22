@@ -1,32 +1,26 @@
 ---
-title: "Tracebility solutions using Blockchain"
-description: "With blockchain, supply chain companies can document production updates to a single shared ledger, which provides complete data visibility and a single source of truth."
-capabilities:
-  - Tracibility
-  - Transparency
-  - Risk Mitigation
+title: "Reward points management"
+description: "powered by blockchain"
 points:
-  - Supply chain
-  - Track and trace
-  - producer and consumer
+  - ERC741, ERC721 standard
 url: "/services/blockchain-development-services/"
 icon: "songpoem-blockchain-solutions.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
 category: web3
-score: 55
+score: 65
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/bg-texture2.png
 ---
-## Hyperledger Fabric Development
+## Blockchain Development
 
 Our blockchain development services help you explore the potential of blockchain technology by developing decentralized applications (DApps) and secure transaction systems.
 
 ### Key Services:
-- Hyperledger
+- custom ERC-20 Token
 - Secure transaction systems
 
 ## Programming Languages
