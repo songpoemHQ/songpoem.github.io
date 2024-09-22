@@ -11,14 +11,14 @@
       <div class="card-content">
         <h3>{{ service.title }}</h3>
         <p>{{ service.description }}</p>
-        <ul class="capabilities-container text-left">
+        <ul class="service-points text-left">
           {% for capability in service.capabilities %}
           <li class="">
             {{ capability }}
           </li>
           {% endfor %}
         </ul>
-        <div class="link"><a>Read use cases</a></div>
+        <div class="link"><a href="{{ service.url }}">Read use cases</a></div>
       </div>
     </div>
     {% endfor %}

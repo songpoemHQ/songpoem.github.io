@@ -63,7 +63,7 @@ body {
   border-radius: 0.5rem; /* Rounded corners for a modern look */
   background-color: #ffffff; /* White background for card */
   overflow: hidden; /* Ensure content does not overflow the card */
-  padding: 1.5rem; /* Add padding inside card */
+  padding: 1rem; /* Add padding inside card */
 }
 
 .card:hover {
@@ -75,7 +75,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem; /* Padding inside card image */
+  padding: 0.5rem; /* Padding inside card image */
 }
 
 .card-image img {
@@ -101,7 +101,7 @@ body {
 }
 
 .service-points {
-  list-style-type: disc;
+  list-style-type: square;
   text-align: left; /* Align points to the left */
   padding-left: 1.5rem; /* Indent points list */
   margin-bottom: 1rem; /* Space below points */

@@ -1,11 +1,11 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs"
-title: "Stay Ahead, Be Tech-Ready, Compose Success."
+title: "Be Tech-ready for trends that consumers are adopting."
 description: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
 A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.
 At Songpoem Labs, we believe in boosting business productivity through the art of programming. Lets compose succes"
-excerpt: "We are a remote technology company helping you stay aligned with market trends. #letscomposesuccess"
+excerpt: "We are a remote technology company helping you stay aligned with market trends and compliances. #letscomposesuccess"
 keywords:
   - business solutions
   - compliance solutions
