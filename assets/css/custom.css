@@ -64,6 +64,10 @@
   .services-section .card, .why-choose-us .card {
     flex: 1 1 calc(50% - 1.5rem); /* Two cards per row */
   }
+
+  .card {
+    flex: 1 1 calc(50% - 1.5rem); /* Two cards per row */
+  }
 }
 
 /* Single column for mobile */

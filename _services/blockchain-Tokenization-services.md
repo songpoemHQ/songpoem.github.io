@@ -2,8 +2,8 @@
 title: "Tokenization"
 description: "Convert ownership rights of real-world assets into digital tokens that can be managed, sold, and traded on a blockchain."
 capabilities:
-  - Tokenization
-  - Smart Contracts
+  - RWA Tokenization
+  - ERC standards
 points:
   - Tokenization
   - ERC741

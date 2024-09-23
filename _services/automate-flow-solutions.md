@@ -1,5 +1,5 @@
 ---
-title: "Automation Solutions"
+title: "Automation"
 description: "With robotic process automation (RPA) tools automate repeative tasks."
 capabilities:
   - UiPath

@@ -1,6 +1,6 @@
 ---
 title: "Reward Points"
-description: "Revolutionize your loyalty programs with blockchain-powered reward points solutions, providing transparency, security, and interoperability for modern customers."
+description: "Revolutionize your loyalty programs with blockchain-powered reward points solutions for modern customers."
 capabilities:
   - Blockchain-powered loyalty programs
   - Tokenized reward points

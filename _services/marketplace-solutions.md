@@ -1,6 +1,6 @@
 ---
 title: "Marketplace"
-description: "Develop scalable, secure, and feature-rich marketplace platforms with Songpoem Labs' custom solutions, designed to meet the needs of modern buyers and sellers."
+description: "scalable, secure, and feature-rich marketplace platforms designed to meet the needs of modern buyers and sellers."
 capabilities:
   - Multi-vendor Platforms
   - Payment Integration

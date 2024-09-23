@@ -1,6 +1,6 @@
 ---
 title: "Bot Engine"
-description: "Leverage our custom-built bot engine to automate processes and interactions on your website, mobile app, or custom logic systems."
+description: "Leverage our custom-built bot engine to automate processes and interactions"
 capabilities:
   - Conversational Messages
   - Mobile App Integration
