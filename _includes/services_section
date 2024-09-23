@@ -18,6 +18,11 @@
           <li>{{ capability }}</li>
           {% endfor %}
         </ul>
+        <div class="mt-auto pt-4 text-left">
+          <span>Use cases</span>
+          <a href="{{ service.url }}" class="mr-2 text-blue-600">Read</a>
+          <a href="" class="text-blue-600">Download</a>
+        </div>
       </div>
     </div>
     {% endfor %}
