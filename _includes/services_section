@@ -1,34 +1,35 @@
 <div class="section services-section">
-  <h2> Solutions we provide</h2>
+  <h2>Solutions we provide</h2>
   <div class="grid-container">
     {% assign sorted_services = site.services | sort: 'score' | reverse %}
     {% assign top_services = sorted_services | slice: 0, 6 %}
     {% for service in top_services %}
-    <div class="card">
-      <div class="card-image">
-        <img src="{{ service.icon | prepend: "/assets/icons/" | relative_url }}" alt="{{ service.title }}">
+
+    <!-- Full-height flex container to ensure links stick to the bottom -->
+    <div class="card relative p-4 flex flex-col h-full border rounded-lg shadow-lg">
+
+      <div class="card-image mb-4">
+        <img src="{{ service.icon | prepend: '/assets/icons/' | relative_url }}" alt="{{ service.title }}">
       </div>
-      <div class="card-content">
-        <h3>{{ service.title }}</h3>
-        <p>{{ service.description }}</p>
+
+      <!-- Flex-grow content area ensures it takes available space -->
+      <div class="card-content flex-grow">
+        <h3 class="text-lg font-semibold">{{ service.title }}</h3>
+        <p class="antialiased">{{ service.description }}</p>
         <ul class="service-points text-left">
           {% for capability in service.capabilities %}
-          <li class="">
-            {{ capability }}
-          </li>
+          <li>{{ capability }}</li>
           {% endfor %}
         </ul>
-        <div class="link">
-          use cases
-          <a href="{{ service.url }}">Read</a>
-          <a href="">Download</a>
-        </div>
+      </div>
+
+      <!-- Links should stick to the bottom now -->
+      <div class="mt-auto pt-4 text-left">
+        <span>Use cases</span>
+        <a href="{{ service.url }}" class="mr-2 text-blue-600">Read</a>
+        <a href="" class="text-blue-600">Download</a>
       </div>
     </div>
+
     {% endfor %}
-  </div>
-
-
 </div>
-
-
