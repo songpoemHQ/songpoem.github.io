@@ -1,5 +1,5 @@
 ---
-title: "Erlang and Elixir Development"
+title: "Erlang and Elixir"
 description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
 capabilities:
   - Scalibility

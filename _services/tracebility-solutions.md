@@ -1,5 +1,5 @@
 ---
-title: "Traceability Solutions using Blockchain"
+title: "Traceability"
 description: "Empower your business with blockchain-powered traceability solutions that enhance transparency, efficiency, and accountability across your supply chain."
 capabilities:
   - Supply Chain Transparency

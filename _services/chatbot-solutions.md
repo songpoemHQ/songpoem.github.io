@@ -1,76 +1,61 @@
 ---
-title: "Chatbot Solutions"
-description: "Deliver real-time, AI-powered responses and automate conversations with our advanced chatbot solutions, tailored to your business needs."
+title: "Bot Engine"
+description: "Leverage our custom-built bot engine to automate processes and interactions on your website, mobile app, or custom logic systems."
 capabilities:
-  - Conversational AI
-  - Automated Customer Support
-  - Natural Language Processing (NLP)
-  - Integration with Business Systems
+  - Conversational Messages
+  - Mobile App Integration
+  - Custom Logic Implementation
 points:
-  - Real-time AI responses
-  - Multi-channel integration (web, mobile, social)
-  - Natural Language Understanding
+  - Flexible bot engine
+  - Multi-platform integration
+  - Customizable workflows
 url: "/services/chatbot-solutions/"
-icon: "songpoem-blockchain-solutions.png"
-image_name: "/assets/images/songpoem-chatbot.jpg"
-alt: "Chatbot development solutions at Songpoem Labs."
+icon: "songpoem-bot-engine.png"
+image_name: "/assets/images/songpoem-bot-engine.jpg"
+alt: "Bot engine solutions at Songpoem Labs."
 layout: splash
-category: AI
-score: 46
+category: automation
+score: 80
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/bg-texture2.png
 ---
 
-## Use Cases for Chatbot Solutions
+## Use Cases for Our Bot Engine
 
-### 1. Customer Support Automation
-Implement AI-powered chatbots to handle common customer queries, such as FAQs, order status, and troubleshooting. This enables businesses to provide 24/7 support, reducing the need for human agents and improving response times.
+### 1. Website Automation
+Our bot engine can automate processes on your website, such as user onboarding, form submissions, or handling routine inquiries. The engine is customizable to suit your business logic and can be easily integrated with existing systems.
 
-### 2. Lead Generation & Qualification
-Chatbots can engage with potential customers by asking qualifying questions, capturing relevant information, and directing hot leads to sales teams. This improves conversion rates by offering personalized interactions at scale.
+### 2. Mobile App Integration
+Integrate the bot engine into your mobile apps to create seamless customer journeys, automate interactions, and improve efficiency. Whether it’s handling user requests or automating app workflows, the bot engine adapts to your needs.
 
-### 3. E-commerce Assistance
-Use chatbots to assist customers during the online shopping process. Chatbots can help users find products, recommend items based on preferences, and process orders, creating a seamless shopping experience.
+### 3. Custom Logic and Workflows
+Our bot engine is highly flexible and can be used to implement custom workflows tailored to your specific business requirements. Automate tasks like data collection, scheduling, and customer support without the need for AI-based technologies.
 
-### 4. Appointment Scheduling
-Chatbots can handle the scheduling of appointments for services like healthcare, beauty, or consulting. They integrate with calendars and ensure customers receive real-time confirmations without human intervention.
-
-### 5. Feedback & Surveys
-Deploy chatbots to collect customer feedback and run surveys. Chatbots can interact in a conversational format, leading to higher engagement rates compared to traditional survey methods.
+### 4. E-commerce and Customer Engagement
+Automate customer interactions, order tracking, or personalized user flows on your e-commerce platform using the bot engine. You can handle queries, provide product recommendations, or offer support without relying on AI.
 
 ---
 
-## How AI-Powered Chatbots Enhance Business Operations
+## Key Features of Our Bot Engine Solutions
 
-Chatbots powered by AI and Natural Language Processing (NLP) provide businesses with scalable solutions to handle thousands of interactions simultaneously. By understanding and responding to customer inquiries in natural language, chatbots can:
-
-- **Increase Efficiency:** Automate repetitive tasks such as answering FAQs and processing orders.
-- **Enhance Customer Experience:** Provide personalized responses and fast resolutions to customer queries, improving satisfaction.
-- **Reduce Operational Costs:** Minimize the need for human agents in basic customer support, reducing labor costs while maintaining quality service.
-- **Boost Engagement:** Chatbots can engage users across multiple platforms, including websites, mobile apps, and social media, ensuring consistent brand interaction.
-
----
-
-## Key Features of Our Chatbot Solutions
-
-- **Multi-channel Integration:** Seamlessly integrate your chatbot across web, mobile, and social media platforms for a unified customer experience.
-- **Natural Language Understanding (NLU):** Leverage NLP and AI to understand and process customer queries in natural language.
-- **Personalization:** Tailor responses based on user behavior and preferences, creating a personalized experience for each interaction.
-- **24/7 Availability:** Ensure your business is always available to customers, even outside of regular working hours.
-- **Easy Integration:** Chatbots can integrate with your existing CRM, e-commerce, and customer support systems for enhanced functionality.
+- **Non-AI Driven**: A rule-based, customizable engine that works without the need for AI, allowing for more control and specific logic implementation.
+- **Multi-platform Integration**: Use the bot engine on websites, mobile apps, or other digital platforms, ensuring consistent performance across channels.
+- **Custom Workflows**: Tailor the bot's behavior to fit your unique requirements, whether it's for automation, data handling, or customer engagement.
+- **Scalable Infrastructure**: Our bot engine is designed to scale with your business, from small websites to large enterprise-level platforms.
+- **Real-time Interactions**: Ensure instant processing of user requests and workflows with real-time engagement.
 
 ---
 
-## Why Choose Songpoem Labs for Chatbot Solutions?
+## Why Choose Songpoem Labs for Bot Engine Solutions?
 
-At Songpoem Labs, we specialize in building advanced AI-powered chatbot solutions tailored to your business needs. From customer support automation to personalized lead generation, our chatbots are designed to enhance your customer interactions and drive business efficiency.
+At Songpoem Labs, we provide robust bot engine solutions that enable businesses to automate processes without the complexity of AI. Our flexible, rule-based engine allows you to create custom workflows tailored to your needs, ensuring a streamlined experience for users on your website, mobile app, or other platforms.
 
-Our team of experienced developers uses the latest in conversational AI and Natural Language Processing (NLP) technologies to deliver solutions that not only improve user engagement but also reduce operational costs. Whether you’re looking to automate your support systems or increase sales through personalized interactions, Songpoem Labs has the solution.
+Our bot engine is designed for scalability and ease of use, offering seamless integration with existing systems while reducing operational costs and improving efficiency. Whether you need to automate interactions or build custom logic, Songpoem Labs has the solution.
 
 ---
 
 ## Call to Action
 
-Ready to explore how chatbots can transform your business? [Contact Us](/contact) or [Download the Chatbot Use Case Guide](/chatbot-use-case-guide).
+Ready to automate your workflows? [Contact Us](/contact) or [Download the Bot Engine Use Case Guide](/bot-engine-use-case-guide).

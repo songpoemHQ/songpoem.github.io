@@ -1,5 +1,5 @@
 ---
-title: "Asset Tokenization using Blockchain"
+title: "Tokenization"
 description: "Convert ownership rights of real-world assets into digital tokens that can be managed, sold, and traded on a blockchain."
 capabilities:
   - Tokenization
