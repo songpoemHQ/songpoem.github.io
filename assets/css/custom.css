@@ -1,182 +1,78 @@
-:root {
-  --primary-color: #1e3a8a;
-  --secondary-color: #f1f5f9;
-  --accent-color: #3b82f6;
-  --background-color: #ffffff;
-  --text-color: #1f2937;
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  padding: 0 2rem; /* Add padding for the body */
-}
-
-.header, .footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  padding: 1rem 0; /* Add padding to header and footer */
-}
-
-.header a, .footer a {
-  color: var(--accent-color);
-}
-
-.header a:hover, .footer a:hover {
-  color: var(--secondary-color);
-}
-
-.notification-bar {
-  background-color: #f8d7da;
-  color: #721c24;
-  padding: 10px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  font-size: 1em;
-}
-
-.btn {
-  @apply bg-blue-600 text-white font-bold py-2 px-4 rounded shadow transition-transform;
-  display: inline-block;
-  text-align: center;
-  margin: 1rem 0;
-}
-
-.btn:hover {
-  @apply bg-blue-700 shadow-lg transform -translate-y-1;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 2rem 0; /* Add margin to separate grid sections */
-}
-
-.card {
-  transition: transform 0.3s, box-shadow 0.3s;
-  border: 1px solid #e5e7eb; /* Light border for a subtle card look */
-  border-radius: 0.5rem; /* Rounded corners for a modern look */
-  background-color: #ffffff; /* White background for card */
-  overflow: hidden; /* Ensure content does not overflow the card */
-  padding: 1rem; /* Add padding inside card */
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Shadow for hover effect */
-}
-
-.card-image {
+/* Flexbox container for Solutions */
+.services-section .flex {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem; /* Padding inside card image */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem; /* Increased gap for more spacing between the cards */
 }
 
-.card-image img {
-  max-width: 100%;
-  max-height: 150px; /* Limit image height */
+/* Flexbox container for Why Choose Us */
+.why-choose-us .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
 }
 
-.card-content {
-  padding: 1rem; /* Padding inside card content */
-  text-align: center; /* Centered text */
+/* Card styling for Solutions section */
+.services-section .card {
+  flex: 1 1 calc(33.333% - 2rem); /* 3 cards per row on large screens */
+  min-width: 300px;
+  max-width: 400px;
+  padding: 1.5rem; /* Adjusted padding */
+  border: 2px solid rgba(0, 0, 0, 0.05); /* Light border for the cards */
+  border-radius: 12px; /* Softer rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Transition for hover effect */
 }
 
-.card-content h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--primary-color);
+/* Hover effect for cards */
+.services-section .card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Elevated shadow on hover */
+  border-color: rgba(0, 0, 0, 0.2); /* Darker border on hover */
+  transform: translateY(-10px); /* Slight upward movement on hover */
 }
 
-.card-content p {
-  font-size: 1rem;
-  color: #4b5563; /* Slightly darker text color for readability */
-  margin-bottom: 1rem; /* Space below text */
+/* Card styling for Why Us section */
+.why-choose-us .card {
+  flex: 1 1 calc(25% - 1.5rem); /* 4 cards per row on large screens */
+  min-width: 250px;
+  max-width: 300px;
+  padding: 1.5rem;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
 }
 
-.service-points {
-  list-style-type: square;
-  text-align: left; /* Align points to the left */
-  padding-left: 1.5rem; /* Indent points list */
-  margin-bottom: 1rem; /* Space below points */
+.why-choose-us .card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
 }
 
-.capabilities-container {
-  @apply p-0;
-}
-.card-box {
-  text-align: left;
-  padding: 1.5rem; /* Indent points list */
-  border: 2px solid black; /* Solid 2px border */
-  border-radius: 0.375rem; /* Rounded corners */
+/* Shared Card Image Styling */
+.card-image {
   margin-bottom: 1rem;
-}
-
-.service-points li {
-  margin-bottom: 0.5rem; /* Space between points */
-}
-
-.services-section {
-  padding: 2rem 0; /* Spacing for section */
-}
-
-.services-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: var(--primary-color);
   text-align: center;
 }
 
-/* Additional Spacing for Sections */
-.section {
-  padding: 2rem 0; /* Add padding to separate sections */
+/* Adjust cards to two per row on medium screens */
+@media (max-width: 1024px) {
+  .services-section .card, .why-choose-us .card {
+    flex: 1 1 calc(50% - 1.5rem); /* Two cards per row */
+  }
 }
 
-.section h2 {
-  margin-bottom: 2rem; /* Space below section titles */
-}
-
-.til-section {
-  @apply py-8 px-4 lg:px-16 bg-gray-50;
-}
-
-.til-entry {
-  @apply mb-8 p-4 bg-white shadow-md rounded-lg;
-}
-
-.til-date {
-  @apply text-lg font-semibold text-gray-700;
-}
-
-.til-topic {
-  @apply text-xl font-bold text-primary-color mt-2;
-}
-
-.til-description {
-  @apply text-base text-gray-600 mt-2;
-}
-
-.til-resource {
-  @apply text-blue-600 hover:underline mt-2;
-}
-
-
-/* Flexbox for service cards on larger screens */
-@media (min-width: 768px) {
-  .services-section .grid-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+/* Single column for mobile */
+@media (max-width: 640px) {
+  .services-section .card {
+    flex: 1 1 100%; /* 1 card per row for Solutions on mobile */
   }
 
-  .services-section .grid-container > div {
-    flex: 1 1 calc(33% - 1rem);
-    margin: 0.5rem;
+  .why-choose-us .card {
+    flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row for Why Us on mobile */
   }
 }
