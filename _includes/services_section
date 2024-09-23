@@ -2,7 +2,7 @@
   <h2> Solutions we provide</h2>
   <div class="grid-container">
     {% assign sorted_services = site.services | sort: 'score' | reverse %}
-    {% assign top_services = sorted_services | slice: 0, 4 %}
+    {% assign top_services = sorted_services | slice: 0, 6 %}
     {% for service in top_services %}
     <div class="card">
       <div class="card-image">
@@ -18,7 +18,11 @@
           </li>
           {% endfor %}
         </ul>
-        <div class="link"><a href="{{ service.url }}">Read use cases</a></div>
+        <div class="link">
+          use cases
+          <a href="{{ service.url }}">Read</a>
+          <a href="">Download</a>
+        </div>
       </div>
     </div>
     {% endfor %}

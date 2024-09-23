@@ -1,9 +1,9 @@
 ---
-title: "Chatbot"
-description: "Deliver real-time responses using AI in conversational format"
+title: "Marketplace Platform"
+description: "A Platform where consumers and producers meet."
 capabilities:
-  - Conversational flows
-  - AI based Chatbot
+  - Admin Interface
+  - Mobile Platform
 points:
   - Implement intelligent automation
   - Develop predictive analytics
@@ -13,7 +13,7 @@ image_name: "/assets/images/songpoem-ai.jpg"
 icon: "songpoem-ai-solutions.png"
 alt: "AI-powered solutions at Songpoem Labs."
 layout: splash
-score: 65
+score: 57
 category: web2
 header:
   overlay_color: "#000"
