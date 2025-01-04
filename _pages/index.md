@@ -37,6 +37,9 @@ why_songpoem:
   - title: "Community Engagement"
     description: "Giving back to society by organizing meetups, including Elixir Pune Meetup and Elixir Bengaluru Meetup."
     image_name: "songpoem-Community-engagement.jpeg"
+  - title: "Partnerships"
+    description: "Partnerships with expertise"
+    image_name: "songpoem-rocketship.png"
 memberships_row:
   - title: "TiE Pune, Mumbai and Delhi Chapters"
     image_path: /assets/images/ecosystem/tie-global-logo.png
