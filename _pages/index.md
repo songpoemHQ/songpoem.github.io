@@ -1,6 +1,6 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs"
-title: "We are a team of Engineers, Marketers and Designers dedicated tou your Business success"
+title: "We are a team of Engineers, Marketers and Designers dedicated to your Business success"
 description: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
 A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.

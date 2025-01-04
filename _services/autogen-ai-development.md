@@ -4,7 +4,8 @@ description: "Autogen automate repeative tasks."
 capabilities:
   - Autogen
 points:
-  - Autogen
+  - AI Agent framework
+  - Multi Agent
 url: "/services/blockchain-development-services/"
 icon: "songpoem-ai-solutions.png"
 image_name: "/assets/images/songpoem-ai.jpg"
