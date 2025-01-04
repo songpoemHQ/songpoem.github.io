@@ -18,7 +18,7 @@ image_name: "/assets/images/songpoem-traceability.jpg"
 alt: "Blockchain-based traceability solutions at Songpoem Labs."
 layout: splash
 category: web3
-score: 80
+score: 40
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

@@ -1,5 +1,5 @@
 ---
-title: "Bot Engine"
+title: "AI Agents"
 description: "Leverage our custom-built bot engine to automate processes and interactions"
 capabilities:
   - Conversational Messages
@@ -9,7 +9,7 @@ points:
   - Flexible bot engine
   - Multi-platform integration
   - Customizable workflows
-url: "/services/chatbot-solutions/"
+url: "/services/ai-agents/"
 icon: "songpoem-bot-engine.png"
 image_name: "/assets/images/songpoem-bot-engine.jpg"
 alt: "Bot engine solutions at Songpoem Labs."

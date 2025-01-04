@@ -13,7 +13,7 @@ image_name: "/assets/images/songpoem-marketplace.jpg"
 alt: "Verifiable Credentials by Songpoem Labs."
 layout: splash
 category: e-commerce
-score: 65
+score: 45
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
