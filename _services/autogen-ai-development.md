@@ -6,7 +6,7 @@ capabilities:
 points:
   - Autogen
 url: "/services/blockchain-development-services/"
-icon: "songpoem-blockchain-solutions.png"
+icon: "songpoem-ai-solutions.png"
 image_name: "/assets/images/songpoem-ai.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
