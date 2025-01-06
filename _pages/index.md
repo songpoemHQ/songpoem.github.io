@@ -1,6 +1,6 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs"
-title: "Accelerate product development in limited budget."
+title: "Accelerate product development in a limited budget."
 description: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
 A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.
@@ -43,6 +43,9 @@ why_songpoem:
   - title: "Partnerships"
     description: "Partnerships with expert consultants, contractors and mentors"
     image_name: "songpoem-rocketship.png"
+  - title: "Agile yet Affordable"
+    description: "We use tools and AI for faster execution saving your time"
+    image_name: "songpoem-affordable.png"
 memberships_row:
   - title: "TiE Pune, Mumbai and Delhi Chapters"
     image_path: /assets/images/ecosystem/tie-global-logo.png
