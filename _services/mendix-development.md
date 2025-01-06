@@ -12,7 +12,7 @@ image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-elixir-development.jpeg"
 alt: "Mendix development development at Songpoem Labs."
 layout: splash
-score: 62
+score: 65
 category: web2
 header:
   overlay_color: "#000"

@@ -9,11 +9,11 @@ points:
   - Create UX systems
   - integrate with GraphQL
 url: "/services/React Native-and-Reactjs-development/"
-image_name: "/assets/images/songpoem-teactjs.png"
-icon: "songpoem-teactjs.png"
+image_name: "/assets/images/songpoem-reactjs.png" 
+icon: "songpoem-reactjs.png" 
 alt: "React Native and Reactjs development at Songpoem Labs."
 layout: splash
-score: 72
+score: 68
 category: web2
 header:
   overlay_color: "#000"

@@ -15,7 +15,7 @@ image_name: "/assets/images/songpoem-marketplace.jpg"
 alt: "Google Vertex AI by Songpoem Labs."
 layout: splash
 category: AI
-score: 65
+score: 72
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
