@@ -1,6 +1,6 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs"
-title: "Accelerate product development in a limited budget."
+title: "Accelerate Product Development in a limited Budget."
 description: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
 A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.
@@ -28,8 +28,8 @@ why_songpoem:
   - title: "Agile yet Affordable"
     description: "We use tools and AI for faster execution saving your time"
     image_name: "songpoem-affordable.png"
-  - title: "Code Quality"
-    description: "Adhering to industry best practices and standards ensures your projects are built on a foundation of clean, efficient, and scalable code."
+  - title: "Best Practices"
+    description: "We adhere to industry standard practices and clean code."
     image_name: "songpoem-Quality-Assurance.jpeg"
   - title: "Open source contributions"
     description: "Our team contributes to open source repositories"

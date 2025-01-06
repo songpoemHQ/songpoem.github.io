@@ -15,7 +15,7 @@ image_name: "/assets/images/songpoem-reward-points.jpg"
 alt: "Blockchain-based Ethereum solutions at Songpoem Labs."
 layout: splash
 category: blockchain
-score: 67
+score: 47
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
