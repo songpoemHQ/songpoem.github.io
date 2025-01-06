@@ -10,7 +10,7 @@ points:
   - integrate with GraphQL
 url: "/services/React Native-and-Reactjs-development/"
 image_name: "/assets/images/songpoem-reactjs.png" 
-icon: "songpoem-reactjs.png" 
+icon: "songpoem-reactjs.png"
 alt: "React Native and Reactjs development at Songpoem Labs."
 layout: splash
 score: 68
