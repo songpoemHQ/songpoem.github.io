@@ -8,7 +8,7 @@
     {% for service in top_services %}
     <div class="card flex-1 min-w-[300px] max-w-[400px] p-4 border rounded-lg shadow-md text-center hover:shadow-lg transition">
       <div class="card-image mb-4">
-        <img src="{{ service.icon | prepend: '/assets/icons/' | relative_url }}" alt="{{ service.title }}" class="w-12 h-12 mx-auto">
+        <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}" class="w-12 h-12 mx-auto">
       </div>
       <div class="card-content">
         <h3 class="text-lg font-semibold">{{ service.title }}</h3>
