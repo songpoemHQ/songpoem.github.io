@@ -30,13 +30,13 @@ why_songpoem:
     image_name: "songpoem-time-money.png"
   - title: "Bridge the Talent Gap"
     description: "Lost a key developer? We seamlessly integrate with your team to fill gaps and ensure continuity in the development."
-    image_name: "songpoem-global-people.png"
-  - title: "Open source contributions"
-    description: "Our team contributes to open source repositories"
-    image_name: "songpoem-consensus-mechanism.png"
+    image_name: "songpoem-teamwork.png"
   - title: "Results Without Complexity"
     description: "You don’t need to be a tech expert—we translate your business goals into actionable, tech-driven solutions that are easy to understand and implement."
     image_name: "songpoem-Community-engagement.jpeg"
+  - title: "Open source contributions"
+    description: "Our team contributes to open source repositories"
+    image_name: "songpoem-programmer.png"
 memberships_row:
   - title: "TiE Pune, Mumbai and Delhi Chapters"
     image_path: /assets/images/ecosystem/tie-global-logo.png
