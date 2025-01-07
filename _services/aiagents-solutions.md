@@ -1,10 +1,10 @@
 ---
-title: "AI Agents"
-description: "Leverage our custom-built bot engine to automate processes and interactions"
+title: "AI Agents: Empowering Smarter Workflows"
+description: "AI-powered agents will reduce manual effort and give your team more time to focus on growth."
 capabilities:
-  - Conversational Messages
-  - Mobile App Integration
-  - Custom Logic Implementation
+  - automate repetitive tasks
+  - enhance customer interactions
+  - optimize decision-making
 points:
   - Flexible bot engine
   - Multi-platform integration
