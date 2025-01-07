@@ -8,8 +8,7 @@ points:
   - Create robust backend systems
   - Build enterprise applications
 url: "/services/mendix-development/"
-image_name: "/assets/images/songpoem-elixir.jpeg"
-icon: "songpoem-elixir-development.jpeg"
+icon: "songpoem-programmer.png"
 alt: "Mendix development development at Songpoem Labs."
 layout: splash
 score: 65

@@ -34,9 +34,9 @@ why_songpoem:
   - title: "Results Without Complexity"
     description: "You don’t need to be a tech expert—we translate your business goals into actionable, tech-driven solutions that are easy to understand and implement."
     image_name: "songpoem-Community-engagement.jpeg"
-  - title: "Open source contributions"
-    description: "Our team contributes to open source repositories"
-    image_name: "songpoem-programmer.png"
+  - title: "Proven Track Record in Emerging Tech"
+    description: "We deliver solutions designed for the future."
+    image_name: "songpoem-rocketship.png"
 memberships_row:
   - title: "TiE Pune, Mumbai and Delhi Chapters"
     image_path: /assets/images/ecosystem/tie-global-logo.png
