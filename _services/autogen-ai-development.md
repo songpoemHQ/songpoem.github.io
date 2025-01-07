@@ -1,8 +1,9 @@
 ---
-title: "Autogen: Scaling Your Business"
-description: "Automate your routine tasks with Autogen to boost capacity, reduce operational costs, and free up your team for strategic growth."
+title: "Autogen: Automating Tasks, Empowering Teams"
+description: "Automate repetitive tasks and streamline operations, freeing your team to focus on growth."
 capabilities:
-  - Autogen
+  - integrate seamlessly into your workflows
+  - leverage advanced machine learning 
 points:
   - AI Agent framework
   - Multi Agent
@@ -21,6 +22,7 @@ header:
 ## Autogen Development
 
 Our Autogen Solutions
+We design AI agents that integrate seamlessly into your workflows, leveraging advanced machine learning for smarter, faster operations.
 
 ### Key Services:
 - Autogen

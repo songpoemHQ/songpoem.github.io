@@ -1,10 +1,11 @@
 ---
-title: "RUST lang"
-description: "Build Fast, Secure, and Reliable Systems"
+title: "Rust Development"
+description: "High-Performance and Secure Systems for Startups"
 capabilities:
-  - performance
-  - safety
+  - memory-safe
+  - concurrent systems
   - reliability
+  - ideal for high-load environments.
 points:
   - performance
   - safety

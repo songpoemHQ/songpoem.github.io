@@ -26,7 +26,7 @@ header:
   excerpt: "Reuse well-tested modules and functionalities, avoiding the need to build from scratch."
 why_songpoem:
   - title: "Agile yet Affordable"
-    description: "Think of us as an extension of your team."
+    description: "Deliver high-quality solutions within your budget, with no surprises."
     image_name: "songpoem-time-money.png"
   - title: "Bridge the Talent Gap"
     description: "Lost a key developer? We seamlessly integrate with your team to fill gaps and ensure continuity in the development."
@@ -34,8 +34,8 @@ why_songpoem:
   - title: "Results Without Complexity"
     description: "You don’t need to be a tech expert—we translate your business goals into actionable, tech-driven solutions that are easy to understand and implement."
     image_name: "songpoem-Community-engagement.jpeg"
-  - title: "Proven Track Record in Emerging Tech"
-    description: "We deliver solutions designed for the future."
+  - title: "Proven Technical Expertise"
+    description: "Seamless Integration, Reliable Processes, Workflows"
     image_name: "songpoem-rocketship.png"
 memberships_row:
   - title: "TiE Pune, Mumbai and Delhi Chapters"
