@@ -7,8 +7,8 @@ main:
   #   url: /categories/
   - title: "Case Studies"
     url: /casestudies/
-  - title: "TIL"
-    url: /tils/
+  - title: "Blog"
+    url: /blog/
   # - title: "Schedule a Call"
   #   url: /team/
   # - title: "Pages"

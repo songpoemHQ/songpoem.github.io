@@ -7,7 +7,7 @@
       <div class="card flex-1 min-w-[250px] max-w-[300px] p-4 border rounded-lg shadow-md text-center hover:shadow-lg transition">
         {% if reason.image_name %}
         <div class="card-image mb-4">
-          <img src="{{ reason.image_name | prepend: '/assets/images/' | relative_url }}" alt="{{ reason.title }}" class="w-12 h-12 mx-auto">
+          <img src="{{ reason.image_name | prepend: '/assets/mascot/' | relative_url }}" alt="{{ reason.title }}" class="w-12 h-12 mx-auto">
         </div>
         {% endif %}
         <div class="card-content">
