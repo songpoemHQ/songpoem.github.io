@@ -1,10 +1,9 @@
 ---
-title: "Reactjs and React Native"
-description: "Build beautiful frontend using Reactjs and React Native."
+title: "React.js and React Native: Engage Your Users Everywhere"
+description: "Deliver seamless web and mobile experiences"
 capabilities:
-  - Mobile Applications
-  - Front end
-  - Single Page Applications(SPA)
+  - Deliver seamless web and mobile experiences
+  - Engage your users with fast, responsive, and beautiful interfaces.
 points:
   - Create UX systems
   - integrate with GraphQL

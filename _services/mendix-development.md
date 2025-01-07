@@ -1,6 +1,6 @@
 ---
-title: "Mendix development"
-description: "Mendix development."
+title: "Mendix Development: Launch Faster, Iterate Smarter"
+description: "Transform your ideas into fully functional apps with Mendix. Build, test, and deploy faster—without compromising on quality or innovation."
 capabilities:
   - Mendix development
   - No code

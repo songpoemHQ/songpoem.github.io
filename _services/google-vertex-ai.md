@@ -1,6 +1,6 @@
 ---
-title: "Google Vertex AI"
-description: "Google Vertex AI"
+title: "Google Vertex AI: Accelerate Decision-Making"
+description: "Leverage Google Vertex AI to harness data-driven insights, streamline operations, and make smarter business decisions, faster than ever."
 capabilities:
   - Data Preparation
   - Model Training

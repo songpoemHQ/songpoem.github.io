@@ -1,6 +1,6 @@
 ---
-title: "Autogen"
-description: "Autogen automate repeative tasks."
+title: "Autogen: Scaling Your Business"
+description: "Automate your routine tasks with Autogen to boost capacity, reduce operational costs, and free up your team for strategic growth."
 capabilities:
   - Autogen
 points:

@@ -1,6 +1,6 @@
 ---
-title: "Erlang and Elixir"
-description: "Build scalable, fault-tolerant, real-time applications using Erlang/Elixir."
+title: "Erlang and Elixir Development: Build Scalable Systems"
+description: "Develop fault-tolerant, scalable systems with Erlang and Elixir—ideal for startups requiring reliability and high-performance solutions."
 capabilities:
   - Scalibility
   - Concurrency

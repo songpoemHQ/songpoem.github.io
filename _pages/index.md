@@ -5,7 +5,7 @@ description: "We listen to a song. It reduces our stress, boosts creativity, and
 A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.
 At Songpoem Labs, we believe in boosting business productivity through the art of programming. Lets compose succes"
-excerpt: "We are a team of Engineers, Marketers and Designers dedicated to your Business success. #letscomposesuccess"
+excerpt: "We are a team of passionate engineers, dedicated to helping founders turn challenges into opportunities. #letscomposesuccess"
 keywords:
   - business solutions
   - competitive advantage
@@ -66,7 +66,7 @@ events_row:
     url: "https://www.meetup.com/elixir-pune/"
 ---
 
-{% include services_section id="services_row" title="Our Capabilities" %}
+{% include services_section id="services_row" title="How our Solutions Compose Business Success" %}
 
 
 {% include why_choose_us id=page.why_songpoem title="Why customers choose Songpoem Labs" %}
