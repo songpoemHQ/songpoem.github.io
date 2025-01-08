@@ -14,8 +14,8 @@
         <h3 class="text-lg font-semibold">{{ service.title }}</h3>
         <p class="antialiased">{{ service.description }}</p>
         <ul class="service-points text-left">
-          {% for capability in service.capabilities %}
-          <li>{{ capability }}</li>
+          {% for business_benefit in service.business_benefits %}
+          <li>{{ business_benefit }}</li>
           {% endfor %}
         </ul>
         <div class="mt-auto pt-4 text-left">

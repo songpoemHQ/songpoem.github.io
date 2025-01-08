@@ -1,11 +1,10 @@
 ---
-title: "Rust Development"
-description: "High-Performance and Secure Systems for Startups"
-capabilities:
-  - memory-safe
-  - concurrent systems
-  - reliability
-  - ideal for high-load environments.
+title: "Rust Lang"
+description: "Build Safe and Efficient Systems."
+business_benefits:
+  - Enhance performance with memory safety.
+  - Reduce development time with fewer bugs.
+  - Ideal for system programming and concurrent applications.
 points:
   - performance
   - safety

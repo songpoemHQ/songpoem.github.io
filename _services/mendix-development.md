@@ -1,6 +1,10 @@
 ---
-title: "Mendix Development: Launch Faster, Iterate Smarter"
-description: "Transform your ideas into fully functional apps with Mendix. Build, test, and deploy faster—without compromising on quality or innovation."
+title: "Mendix"
+description: "Accelerate Application Development."
+business_benefits:
+  - Enable rapid app development with low-code tools.
+  - Foster collaboration between IT and business teams.
+  - Integrate easily with existing systems for seamless deployment.
 capabilities:
   - Mendix development
   - No code

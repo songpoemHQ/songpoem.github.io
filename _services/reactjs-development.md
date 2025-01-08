@@ -1,6 +1,10 @@
 ---
-title: "React.js and React Native: Engage Your Users Everywhere"
-description: "Deliver seamless web and mobile experiences"
+title: "React.js and React Native"
+description: "Develop Cross-Platform Solutions."
+business_benefits:
+  - Create reusable components for efficient development.
+  - Reduce costs with a single codebase for multiple platforms.
+  - Speed up time-to-market with streamlined workflows.
 capabilities:
   - Deliver seamless web and mobile experiences
   - Engage your users with fast, responsive, and beautiful interfaces.

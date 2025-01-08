@@ -1,16 +1,15 @@
 ---
-title: "Erlang and Elixir"
-description: "Achieve Fault-Tolerant Applications."
+title: "Ruby on Rails"
+description: "Speedup Web Development"
 business_benefits:
-  - Ensure minimal downtime with built-in fault tolerance.
-  - Seamlessly scale to handle growing demands.
-  - Deliver real-time performance with concurrent processing.
-  - Build distributed systems for efficient multi-node communication.
+  - Follow convention over configuration for faster setups.
+  - Build scalable web applications quickly and efficiently.
+  - Access a vibrant community for support and resources.
 capabilities:
   - Scalibility
   - Concurrency
 points:
-  - Optimize resource usage with lightweight concurrency management.
+  - Create robust backend systems
   - Develop dynamic messaging platforms
   - Build scalable distributed applications
 url: "/services/elixir-and-erlang-development/"

@@ -1,11 +1,10 @@
 ---
-title: "Google Vertex AI: Accelerate Decision-Making"
-description: "Leverage Google Vertex AI to harness data-driven insights, streamline operations, and make smarter business decisions, faster than ever."
-capabilities:
-  - Data Preparation
-  - Model Training
-  - experiment tracking
-  - Model deployment and monitoring
+title: "Vertex AI"
+description: "Unlock AI-Powered Insights."
+business_benefits:
+  - Streamline operations with a unified AI platform.
+  - Scale machine learning models efficiently.
+  - Gain data-driven insights for better decision-making.
 points:
   - Unified AI Platform
   - Generative AI Capabilities

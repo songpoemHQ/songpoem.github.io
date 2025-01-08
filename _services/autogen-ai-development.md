@@ -1,8 +1,9 @@
 ---
-title: "Autogen: Automating Tasks, Empowering Teams"
-description: "Automate repetitive tasks and streamline operations, freeing your team to focus on growth."
-capabilities:
-  - integrate seamlessly into your workflows
+title: "Autogen"
+description: "Automating Tasks, Empowering Teams"
+business_benefits:
+  - Automate routine tasks to boost productivity.
+  - Accelerate development cycles while reducing costs.
   - leverage advanced machine learning 
 points:
   - AI Agent framework

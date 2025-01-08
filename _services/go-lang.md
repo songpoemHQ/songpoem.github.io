@@ -1,16 +1,15 @@
 ---
-title: "Erlang and Elixir"
-description: "Achieve Fault-Tolerant Applications."
+title: "Go Lang"
+description: "Optimize Performance and Scalability."
 business_benefits:
-  - Ensure minimal downtime with built-in fault tolerance.
-  - Seamlessly scale to handle growing demands.
-  - Deliver real-time performance with concurrent processing.
-  - Build distributed systems for efficient multi-node communication.
+  - Build high-performance applications with concurrency support.
+  - Simplify deployment with statically linked binaries.
+  - Reduce latency in microservices architectures.
 capabilities:
   - Scalibility
   - Concurrency
 points:
-  - Optimize resource usage with lightweight concurrency management.
+  - Create robust backend systems
   - Develop dynamic messaging platforms
   - Build scalable distributed applications
 url: "/services/elixir-and-erlang-development/"
