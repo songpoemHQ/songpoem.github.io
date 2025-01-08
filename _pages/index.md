@@ -38,12 +38,18 @@ why_songpoem:
     description: "Seamless Integration, Reliable Processes, Workflows"
     image_name: "songpoem-rocketship.png"
 memberships_row:
-  - title: "TiE Pune, Mumbai and Delhi Chapters"
+  - title: "TiE Pune and Delhi"
     image_path: /assets/images/ecosystem/tie-global-logo.png
     alt: "TiE Delhi"
+    description: "TiE is a global network fostering entrepreneurship."
   - title: "SEAP"
     image_path: /assets/images/ecosystem/logo-seap.png
-    alt: "SEAP Pune"
+    alt: "SEAP"
+    description: "SEAP is Pune's premier tech community."
+  - title: "STPI"
+    image_path: /assets/images/ecosystem/stpi_logo_S.jpg
+    alt: "STPI"
+    description: "STPI provides support for software exports across India’s thriving IT ecosystem."
 potential_partners_row:
   - title: "MongoDB"
     # image_path: /assets/images/partners/mongodb.png

@@ -8,7 +8,8 @@
           <img src="{{ member.image_path | relative_url }}" alt="{{ member.alt }}" class="membership-image">
         </div>
         <div class="card-content">
-          <h3 class="membership-title">{{ member.title }}</h3>
+            <h2 class="membership-title">{{ member.title }}</h2>
+            <h3 class="membership-description">{{ member.description }}</h3>
         </div>
       </div>
       {% endfor %}
