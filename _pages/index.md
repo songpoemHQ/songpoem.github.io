@@ -73,9 +73,6 @@ events_row:
 {% include memberships_section id=page.memberships_row title="Communities we are a part of" %}
 <!-- {% include memberships_section id=page.potential_partners_row title="Potential Partners" %} -->
 {% include case_studies_section id=page.featured_case_studies title="Case Studies" %}
-{% include events_section id=page.events_row title="Our Events & Workshops" %}
-{% include highlighted_events %}
 
-
-{% include cta_section title="Speak to us" description="Book a free 30 minutes Consultation call." %}
+{% include cta_section title="Speak to us" description="Book a free 30 minutes Consultation call." cta_label="Book Meeting" %}
 

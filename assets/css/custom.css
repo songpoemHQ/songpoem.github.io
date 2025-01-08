@@ -1,90 +1,245 @@
-/* Flexbox container for Solutions */
-.services-section .flex {
+/* Shared Flexbox Styling */
+.flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 2rem; /* Increased gap for more spacing between the cards */
+  gap: 2rem;
 }
 
-/* Flexbox container for Why Choose Us */
 .why-choose-us .flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   gap: 1.5rem;
 }
 
-/* Card styling for Solutions section */
-.services-section .card {
-  flex: 1 1 calc(33.333% - 2rem); /* 3 cards per row on large screens */
-  min-width: 300px;
-  max-width: 400px;
-  padding: 1.5rem; /* Adjusted padding */
-  border: 2px solid rgba(0, 0, 0, 0.05); /* Light border for the cards */
-  border-radius: 12px; /* Softer rounded corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow */
-  text-align: center;
-  transition: all 0.3s ease-in-out; /* Transition for hover effect */
-}
-
-/* Hover effect for cards */
-.services-section .card:hover {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Elevated shadow on hover */
-  border-color: rgba(0, 0, 0, 0.2); /* Darker border on hover */
-  transform: translateY(-10px); /* Slight upward movement on hover */
-}
-
-/* Card styling for Why Us section */
-.why-choose-us .card {
-  flex: 1 1 calc(25% - 1.5rem); /* 4 cards per row on large screens */
+/* Shared Card Styling */
+.card {
   min-width: 250px;
-  max-width: 300px;
+  max-width: 400px;
   padding: 1.5rem;
   border: 2px solid rgba(0, 0, 0, 0.05);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: center;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.why-choose-us .card:hover {
+.card:hover {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   border-color: rgba(0, 0, 0, 0.2);
   transform: translateY(-10px);
 }
 
-/* Shared Card Image Styling */
 .card-image {
   margin-bottom: 1rem;
   text-align: center;
 }
 
 .card-image img {
-  height: 12rem; /* Uniform container height */
-  width: auto; /* Maintain the image's original aspect ratio */
-  max-width: 100%; /* Ensure the image doesn't overflow the container */
-  object-fit: contain; /* Ensure the entire image is visible within the given height */
-  /* border-radius: 0.375rem; Optional rounded corners */
+  max-height: 150px; /* Ensures uniform image height */
+  width: auto;
+  object-fit: contain;
 }
 
-/* Adjust cards to two per row on medium screens */
+/* Services Section Specific */
+.services-section .card {
+  flex: 1 1 calc(33.333% - 2rem); /* 3 cards per row on large screens */
+}
+
 @media (max-width: 1024px) {
-  .services-section .card, .why-choose-us .card {
-    flex: 1 1 calc(50% - 1.5rem); /* Two cards per row */
-  }
-
-  .card {
-    flex: 1 1 calc(50% - 1.5rem); /* Two cards per row */
+  .services-section .card {
+    flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row on medium screens */
   }
 }
 
-/* Single column for mobile */
 @media (max-width: 640px) {
   .services-section .card {
-    flex: 1 1 100%; /* 1 card per row for Solutions on mobile */
+    flex: 1 1 100%; /* Single card per row on small screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 2rem 1rem;
   }
 
-  .why-choose-us .card {
-    flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row for Why Us on mobile */
+  .cta-section h2 {
+    font-size: 1.75rem;
   }
+
+  .cta-section p {
+    font-size: 1rem;
+  }
+
+  .cta-section .btn {
+    font-size: 0.875rem;
+    padding: 0.5rem 1.25rem;
+  }
+}
+
+/* Why Choose Us Section Specific */
+.why-choose-us .card {
+  flex: 1 1 calc(25% - 1.5rem); /* 4 cards per row on large screens */
+}
+
+@media (max-width: 1024px) {
+  .why-choose-us .card {
+    flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row on medium screens */
+  }
+}
+
+/* Case Studies Section */
+.case-studies-section {
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.case-studies-section .section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.view-all-btn {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.view-all-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.case-studies-section .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.case-study-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.case-study-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.case-study-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.case-study-client,
+.case-study-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.case-study-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.case-study-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.case-study-technology,
+.case-study-tags {
+  font-size: 0.875rem;
+  color: #777;
+}
+
+.case-study-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.case-study-link:hover {
+  background-color: #0056b3;
+}
+
+/* Memberships Section */
+.memberships-section {
+  padding: 3rem 1rem;
+  background-color: #fff;
+}
+
+.memberships-section .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.memberships-section .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 1rem 1rem;
+  text-align: center;
+}
+
+/* CTA Section Styling */
+.cta-section {
+  padding: 3rem 1rem;
+  background-color: #007bff; /* Primary color for CTA */
+  text-align: center;
+  color: #fff; /* Text color for contrast */
+  border-radius: 12px; /* Soft rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #fff; /* Ensure title color is white for accessibility */
+}
+
+.cta-section p {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  color: #f1f1f1; /* Slightly muted white for text */
+}
+
+.cta-section .btn {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  color: #007bff; /* Primary color for button text */
+  background-color: #fff; /* Contrast background for button */
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out; /* Smooth hover effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section .btn:hover {
+  background-color: #f1f1f1; /* Slightly muted white on hover */
+  color: #0056b3; /* Darker shade of primary for text */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); /* Slight upward motion on hover */
 }
