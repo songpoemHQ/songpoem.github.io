@@ -1,10 +1,10 @@
-<div class="section services-section py-12">
-  <h2 class="text-center text-3xl font-semibold mb-8">{{ include.title }}</h2>
+<div class="section services-section">
+  <h2 class="section-title">{{ include.title }}</h2>
 
   <!-- Flexbox layout for services -->
   <div class="flex flex-wrap justify-between gap-6 px-6 max-w-screen-lg mx-auto">
     {% assign sorted_services = site.services | sort: 'score' | reverse %}
-    {% assign top_services = sorted_services | slice: 0, 6 %}
+    {% assign top_services = sorted_services | slice: 0, 8 %}
     {% for service in top_services %}
     <div class="card flex-1 min-w-[300px] max-w-[400px] p-4 border rounded-lg shadow-md text-center hover:shadow-lg transition">
       <div class="card-image mb-4">
@@ -19,9 +19,7 @@
           {% endfor %}
         </ul>
         <div class="mt-auto pt-4 text-left">
-          <span>Use cases</span>
-          <a href="{{ service.url }}" class="mr-2 text-blue-600">Read</a>
-          <a href="" class="text-blue-600">Download</a>
+          <a href="{{ service.url }}" class="mr-2 text-blue-600">Read more</a>
         </div>
       </div>
     </div>

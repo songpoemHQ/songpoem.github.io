@@ -1,12 +1,12 @@
-<div class="section why-choose-us py-12">
-    <h2 class="text-center text-3xl font-semibold mb-8">Why Customers Choose Songpoem Labs</h2>
+<div class="section why-choose-us">
+    <h2 class="section-title">Why Customers Choose Songpoem Labs</h2>
   
     <!-- Flexbox layout for Why Choose Us -->
-    <div class="flex flex-wrap justify-between gap-6 px-6 max-w-screen-xl mx-auto">
+    <div class="grid-container">
       {% for reason in include.id %}
-      <div class="card flex-1 min-w-[250px] max-w-[300px] p-4 border rounded-lg shadow-md text-center hover:shadow-lg transition">
+      <div class="card">
         {% if reason.image_name %}
-        <div class="card-image mb-4">
+        <div class="card-image">
           <img src="{{ reason.image_name | prepend: '/assets/mascot/' | relative_url }}" alt="{{ reason.title }}" class="w-12 h-12 mx-auto">
         </div>
         {% endif %}

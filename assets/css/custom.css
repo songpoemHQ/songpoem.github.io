@@ -10,15 +10,21 @@
   gap: 1.5rem;
 }
 
+.why-choose-us .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
 /* Shared Card Styling */
 .card {
   min-width: 250px;
   max-width: 400px;
-  padding: 1.5rem;
+  padding: 1rem;
   border: 2px solid rgba(0, 0, 0, 0.05);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  text-align: center;
+  text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -90,6 +96,7 @@
 .case-studies-section {
   padding: 3rem 1rem;
   background-color: #f9f9f9;
+  margin-bottom: 2rem;
 }
 
 .case-studies-section .section-title {
@@ -135,9 +142,7 @@
 }
 
 .case-study-item img {
-  width: 100%;
-  max-height: 200px;
-  object-fit: contain;
+  max-height: 5rem; /* Ensures uniform image height */
   margin-bottom: 1rem;
 }
 
@@ -199,6 +204,10 @@
   color: #333;
   margin: 0 1rem 1rem;
   text-align: center;
+}
+
+.memberships-section .card-image img {
+  max-height: 5rem; /* Ensures uniform image height */
 }
 
 /* CTA Section Styling */

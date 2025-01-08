@@ -1,8 +1,9 @@
 <div class="section memberships-section">
-    <h2 class="section-title">{{ include.title }}</h2>
+    <h2 class="section-title">
+        {{ include.title }}</h2>
     <div class="grid-container">
       {% for member in include.id %}
-      <div class="membership-card">
+      <div class="card">
         <div class="card-image">
           <img src="{{ member.image_path | relative_url }}" alt="{{ member.alt }}" class="membership-image">
         </div>
