@@ -59,6 +59,14 @@
   text-align: center;
 }
 
+.card-image img {
+  height: 12rem; /* Uniform container height */
+  width: auto; /* Maintain the image's original aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't overflow the container */
+  object-fit: contain; /* Ensure the entire image is visible within the given height */
+  /* border-radius: 0.375rem; Optional rounded corners */
+}
+
 /* Adjust cards to two per row on medium screens */
 @media (max-width: 1024px) {
   .services-section .card, .why-choose-us .card {
