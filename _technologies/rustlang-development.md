@@ -1,9 +1,8 @@
 ---
 title: "Rust Lang"
-description: "Build Safe and Efficient Systems."
+description: "Safe and Efficient Systems."
 business_benefits:
-  - Enhance performance with memory safety.
-  - Reduce development time with fewer bugs.
+  - Performance with memory safety.
   - Ideal for system programming and concurrent applications.
 points:
   - performance

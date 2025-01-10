@@ -26,6 +26,7 @@ include:
   - _posts/*/*
   - _pages
   - _services
+  - _technologies
 
 category_archive:
   type: liquid
@@ -73,6 +74,9 @@ collections:
   services:
     output: true
     permalink: /:collection/:path/
+  technologies:
+    output: true
+    permalink: /:collection/:path/
   tils:
     output: true
     permalink: /:collection/:name
@@ -100,6 +104,12 @@ defaults:
   - scope:
       path: "_portfolio"
       type: portfolio
+    values:
+      layout: single
+      author_profile: false
+  - scope:
+      path: "_technologies"
+      type: technology
     values:
       layout: single
       author_profile: false

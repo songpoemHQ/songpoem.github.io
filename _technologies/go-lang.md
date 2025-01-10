@@ -4,7 +4,6 @@ description: "Optimize Performance and Scalability."
 business_benefits:
   - Build high-performance applications with concurrency support.
   - Simplify deployment with statically linked binaries.
-  - Reduce latency in microservices architectures.
 capabilities:
   - Scalibility
   - Concurrency

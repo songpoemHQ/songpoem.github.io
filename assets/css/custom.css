@@ -46,20 +46,26 @@
 }
 
 /* Services Section Specific */
-.services-section .card {
+.technologies-section, .services-section{
+   .card {
   flex: 1 1 calc(33.333% - 2rem); /* 3 cards per row on large screens */
+}
 }
 
 @media (max-width: 1024px) {
-  .services-section .card {
+  .technologies-section, .services-section{
+    .card {
     flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row on medium screens */
   }
 }
+}
 
 @media (max-width: 640px) {
-  .services-section .card {
+  .technologies-section, .services-section{
+    .card {
     flex: 1 1 100%; /* Single card per row on small screens */
   }
+}
 }
 
 @media (max-width: 768px) {

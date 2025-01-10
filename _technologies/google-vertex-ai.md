@@ -1,8 +1,7 @@
 ---
 title: "Vertex AI"
-description: "Unlock AI-Powered Insights."
+description: "AI-Powered Insights."
 business_benefits:
-  - Streamline operations with a unified AI platform.
   - Scale machine learning models efficiently.
   - Gain data-driven insights for better decision-making.
 points:

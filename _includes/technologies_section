@@ -1,0 +1,28 @@
+<div class="section technologies-section">
+  <h2 class="section-title">{{ include.title }}</h2>
+
+  <!-- Flexbox layout for technologies -->
+  <div class="flex flex-wrap justify-between gap-6 px-6 max-w-screen-lg mx-auto">
+    {% assign sorted_technologies = site.technologies | sort: 'score' | reverse %}
+    {% assign top_technologies = sorted_technologies | slice: 0, 8 %}
+    {% for technology in top_technologies %}
+    <div class="card flex-1 min-w-[300px] max-w-[400px] p-4 border rounded-lg shadow-md text-center hover:shadow-lg transition">
+      <div class="card-image mb-4">
+        <img src="{{ technology.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ technology.title }}" class="w-12 h-12 mx-auto">
+      </div>
+      <div class="card-content">
+        <h3 class="text-lg font-semibold">{{ technology.title }}</h3>
+        <p class="antialiased">{{ technology.description }}</p>
+        <ul class="technology-points text-left">
+          {% for business_benefit in technology.business_benefits %}
+          <li>{{ business_benefit }}</li>
+          {% endfor %}
+        </ul>
+        <div class="mt-auto pt-4 text-left">
+          <a href="{{ technology.url }}" class="mr-2 text-blue-600">Read more</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

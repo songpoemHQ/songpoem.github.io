@@ -1,19 +1,18 @@
 ---
-title: "AI Agents Integration"
-description: "Automate Tasks, Empower Teams"
+title: "Staff Augmentation"
+description: "Hire staff for niche technologies"
 business_benefits:
-  - Automate routine tasks to boost productivity.
-  - Accelerate development cycles while reducing costs.
+  - Uninterepted development
+  - Reduce cost
 points:
   - AI Agent framework
   - Multi Agent
 url: "/services/blockchain-development-services/"
-icon: "songpoem-ai-solutions.png"
-image_name: "/assets/images/songpoem-ai.jpg"
-alt: "Web3 Blockchain development solutions at Songpoem Labs."
+icon: "songpoem-teamwork.png"
+alt: "teamwork at Songpoem Labs."
 layout: splash
 category: web3
-score: 71
+score: 75
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
