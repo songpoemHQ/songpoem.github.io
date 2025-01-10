@@ -1,17 +1,16 @@
 <div class="section memberships-section">
-    <h2 class="section-title">
-        {{ include.title }}</h2>
-    <div class="grid-container">
-      {% for member in include.id %}
-      <div class="card">
-        <div class="card-image">
-          <img src="{{ member.image_path | relative_url }}" alt="{{ member.alt }}" class="membership-image">
-        </div>
-        <div class="card-content">
-            <h2 class="membership-title">{{ member.title }}</h2>
-            <h3 class="membership-description">{{ member.description }}</h3>
-        </div>
+  <h2 class="section-title">{{ include.title }}</h2>
+  <div class="grid-container">
+    {% for member in include.id %}
+    <div class="card" itemscope itemtype="http://schema.org/Organization"> 
+      <div class="card-image">
+        <img src="{{ member.image_path | relative_url }}" alt="{{ member.alt }}" class="membership-image" itemprop="logo"> 
       </div>
-      {% endfor %}
+      <div class="card-content">
+        <h2 class="membership-title" itemprop="name">{{ member.title }}</h2> 
+        <h3 class="membership-description" itemprop="description">{{ member.description }}</h3> 
+      </div>
     </div>
-  </div>  
+    {% endfor %}
+  </div>
+</div>

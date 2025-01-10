@@ -1,22 +1,40 @@
 ---
-seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs"
+seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
 title: "Accelerate Product Development on a limited Budget."
-description: "We listen to a song. It reduces our stress, boosts creativity, and improves focus. We enjoy it.
-A poem is a few words organized in a way that has a powerful meaning.
-New songs keep coming, just like new challenges and opportunities.
-At Songpoem Labs, we believe in boosting business productivity through the art of programming. Lets compose succes"
-excerpt: "We are a team of passionate engineers, dedicated to helping founders turn challenges into opportunities. #lets_compose_software"
+description: "Startup facing a developer shortage? Quickly hire skilled Elixir, Erlang, or Rust developers in India with Songpoem Solutions. Affordable staff augmentation for small teams. Scale your development, maintain your product, and ship features faster. Free consultation."
+excerpt: "We are a team of passionate engineers, dedicated to helping founders turn challenges into opportunities. #lets_compose_success"
 keywords:
+  - staff augmentation 
+  - hire developers 
+  - software developers India 
+  - Elixir developers 
+  - Erlang developers 
+  - Rust developers 
+  - startup developers 
+  - small business developers
+  - remote developers 
+  - offshore developers 
+  - affordable developers 
+  - dedicated developers 
+  - staff augmentation services 
+  - IT staff augmentation 
+  - software development outsourcing
+  - Hire Elixir developers India 
+  - find Rust programmers 
+  - staff augmentation for startups 
+  - scale development team quickly 
+  - replace software developer 
+  - maintain existing software product
+  - AI/ML development 
+  - custom software development
   - business solutions
-  - staff augmentation
   - digital transformation
   - regulatory compliance
   - AI-driven business solutions
-  - custom software development
-  - innovation in business tech
+  - innovation in business tech 
 layout: splash
 permalink: /
-date: 2022-06-11T11:48:41-04:00
+date: 2025-01-10T11:48:41-04:00
 header:
   overlay_color: "#fff"
   overlay_filter: "0.8"

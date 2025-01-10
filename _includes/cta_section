@@ -1,5 +1,11 @@
-<div class="cta-section">
-    <h2>{{ include.title }}</h2>
-    <p>{{ include.description }}</p>
+<div class="cta-section" itemscope itemtype="http://schema.org/SoftwareApplication"> 
+    <h2 itemprop="name">{{ include.title }}</h2> 
+    <p itemprop="description">{{ include.description }}</p>
+    <meta itemprop="applicationCategory" content="Software Development">
+    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+      <link itemprop="url" href="{{ include.url }}">
+      <meta itemprop="availability" content="http://schema.org/InStock">
+      <meta itemprop="priceCurrency" content="USD"> 
+    </div>
     <a href="{{ include.url }}" class="btn">{{ include.cta_label }}</a>
-</div>
+  </div>

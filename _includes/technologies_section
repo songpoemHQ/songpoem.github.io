@@ -5,20 +5,20 @@
     {% assign sorted_technologies = site.technologies | sort: 'score' | reverse %}
     {% assign top_technologies = sorted_technologies | slice: 0, 8 %}
     {% for technology in top_technologies %}
-    <div class="card">
+    <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication"> 
       <div class="card-image mb-4">
-        <img src="{{ technology.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ technology.title }}" class="w-12 h-12 mx-auto">
+        <img src="{{ technology.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ technology.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
       </div>
       <div class="card-content">
-        <h3 class="text-lg font-semibold">{{ technology.title }}</h3>
-        <p class="antialiased">{{ technology.description }}</p>
+        <h3 class="text-lg font-semibold" itemprop="name">{{ technology.title }}</h3> 
+        <p class="antialiased" itemprop="description">{{ technology.description }}</p>
         <ul class="technology-points text-left">
           {% for business_benefit in technology.business_benefits %}
-          <li>{{ business_benefit }}</li>
+          <li itemprop="featureList">{{ business_benefit }}</li> 
           {% endfor %}
         </ul>
         <div class="mt-auto pt-4 text-left">
-          <a href="{{ technology.url }}" class="mr-2 text-blue-600">Read more</a>
+          <a href="{{ technology.url }}" class="mr-2 text-blue-600" itemprop="url">Read more</a> 
         </div>
       </div>
     </div>
