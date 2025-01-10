@@ -27,6 +27,7 @@ include:
   - _pages
   - _services
   - _technologies
+  - _why-us
 
 category_archive:
   type: liquid
@@ -77,6 +78,9 @@ collections:
   technologies:
     output: true
     permalink: /:collection/:path/
+  whyus:
+    output: true
+    permalink: /:collection/:path/
   tils:
     output: true
     permalink: /:collection/:name
@@ -107,9 +111,9 @@ defaults:
     values:
       layout: single
       author_profile: false
-  - scope:
-      path: "_technologies"
-      type: technology
+  # - scope:
+  #     path: "_technologies"
+  #     type: technology
     values:
       layout: single
       author_profile: false

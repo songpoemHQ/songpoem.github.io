@@ -46,14 +46,14 @@
 }
 
 /* Services Section Specific */
-.technologies-section, .services-section{
+.whyus-section .technologies-section, .services-section{
    .card {
   flex: 1 1 calc(33.333% - 2rem); /* 3 cards per row on large screens */
 }
 }
 
 @media (max-width: 1024px) {
-  .technologies-section, .services-section{
+  .whyus-section .technologies-section, .services-section{
     .card {
     flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row on medium screens */
   }
@@ -61,7 +61,7 @@
 }
 
 @media (max-width: 640px) {
-  .technologies-section, .services-section{
+  .whyus-section .technologies-section, .services-section{
     .card {
     flex: 1 1 100%; /* Single card per row on small screens */
   }
@@ -88,12 +88,12 @@
 }
 
 /* Why Choose Us Section Specific */
-.why-choose-us .card {
+.whyus-section .card {
   flex: 1 1 calc(25% - 1.5rem); /* 4 cards per row on large screens */
 }
 
 @media (max-width: 1024px) {
-  .why-choose-us .card {
+  .whyus-section .card {
     flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row on medium screens */
   }
 }

@@ -24,19 +24,6 @@ header:
   cta_label: "Explore Our Insights on the Future of Business Tech"
   cta_url: "mailto:sandesh.soni@songpoem.com?subject=enquiry&body=Wehomepage"
   excerpt: "Reuse well-tested modules and functionalities, avoiding the need to build from scratch."
-why_songpoem:
-  - title: "Agile yet Affordable"
-    description: "Deliver high-quality solutions within your budget, with no surprises."
-    image_name: "songpoem-time-money.png"
-  - title: "Bridge the Talent Gap"
-    description: "Lost a key developer? We seamlessly integrate with your team to fill gaps and ensure continuity in the development."
-    image_name: "songpoem-teamwork.png"
-  - title: "Results Without Complexity"
-    description: "We translate your business goals into actionable, tech-driven solutions that are easy to understand and implement."
-    image_name: "songpoem-Community-engagement.jpeg"
-  - title: "Proven Technical Expertise"
-    description: "Seamless Integration, Reliable Processes, Workflows"
-    image_name: "songpoem-rocketship.png"
 memberships_row:
   - title: "TiE Pune and Delhi"
     image_path: /assets/images/ecosystem/tie-global-logo.png
@@ -77,7 +64,7 @@ events_row:
 {% include technologies_section id="technologies_row" title="Technologies our team has handson with" %}
 
 
-{% include why_choose_us id=page.why_songpoem title="Why customers choose Songpoem Labs" %}
+{% include why_us_section id=page.why_songpoem title="Why customers choose Songpoem Labs" %}
 {% include memberships_section id=page.memberships_row title="Communities we are a part of" %}
 <!-- {% include memberships_section id=page.potential_partners_row title="Potential Partners" %} -->
 {% include case_studies_section id=page.featured_case_studies title="Case Studies" %}
