@@ -5,7 +5,7 @@ description: "We listen to a song. It reduces our stress, boosts creativity, and
 A poem is a few words organized in a way that has a powerful meaning.
 New songs keep coming, just like new challenges and opportunities.
 At Songpoem Labs, we believe in boosting business productivity through the art of programming. Lets compose succes"
-excerpt: "We are a team of passionate engineers, dedicated to helping founders turn challenges into opportunities. #letscomposesoftware"
+excerpt: "We are a team of passionate engineers, dedicated to helping founders turn challenges into opportunities. #lets_compose_software"
 keywords:
   - business solutions
   - staff augmentation

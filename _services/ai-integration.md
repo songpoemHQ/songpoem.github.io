@@ -1,15 +1,16 @@
 ---
-title: "Staff Augmentation"
-description: "Hire staff for niche technologies"
+title: "AI Implementation"
+description: "Automate Tasks, Empower Teams"
 business_benefits:
-  - Uninterepted development
-  - Reduce cost
+  - Find scope for AI
+  - reduce costs and speed-up
 points:
   - AI Agent framework
   - Multi Agent
 url: "/services/blockchain-development-services/"
-icon: "songpoem-teamwork.png"
-alt: "teamwork at Songpoem Labs."
+icon: "songpoem-ai-solutions.png"
+image_name: "/assets/images/songpoem-ai.jpg"
+alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
 category: web3
 score: 75

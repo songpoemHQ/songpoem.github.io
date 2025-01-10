@@ -1,16 +1,15 @@
 ---
-title: "AI Agents Integration"
-description: "Automate Tasks, Empower Teams"
+title: "Modernization of Legacy Systems"
+description: "add updates and patches"
 business_benefits:
-  - Automate routine tasks to boost productivity.
-  - Accelerate development cycles while reducing costs.
+  - Addressing Vulnerabilities
+  - Adapting to Change customers want
 points:
   - AI Agent framework
   - Multi Agent
 url: "/services/blockchain-development-services/"
-icon: "songpoem-ai-solutions.png"
-image_name: "/assets/images/songpoem-ai.jpg"
-alt: "Web3 Blockchain development solutions at Songpoem Labs."
+icon: "songpoem-code-quality.png"
+alt: "teamwork at Songpoem Labs."
 layout: splash
 category: web3
 score: 71

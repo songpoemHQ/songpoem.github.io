@@ -4,7 +4,7 @@
   <!-- Flexbox layout for services -->
   <div class="flex flex-wrap justify-between gap-6 px-6 max-w-screen-lg mx-auto">
     {% assign sorted_services = site.services | sort: 'score' | reverse %}
-    {% assign top_services = sorted_services | slice: 0, 8 %}
+    {% assign top_services = sorted_services | slice: 0, 3 %}
     {% for service in top_services %}
     <div class="card flex-1 min-w-[300px] max-w-[400px] p-4 border rounded-lg shadow-md text-center hover:shadow-lg transition">
       <div class="card-image mb-4">
@@ -18,9 +18,7 @@
           <li>{{ business_benefit }}</li>
           {% endfor %}
         </ul>
-        <div class="mt-auto pt-4 text-left">
-          <a href="{{ service.url }}" class="mr-2 text-blue-600">Read more</a>
-        </div>
+
       </div>
     </div>
     {% endfor %}
