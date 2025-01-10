@@ -1,12 +1,12 @@
 ---
 title: "AI Implementation"
 description: "Automate Tasks, Empower Teams"
-business_benefits:
+points:
   - Find scope for AI
   - reduce costs and speed-up
-points:
   - AI Agent framework
   - Multi Agent
+business_benefits:
 url: "/services/blockchain-development-services/"
 icon: "songpoem-ai-solutions.png"
 image_name: "/assets/images/songpoem-ai.jpg"

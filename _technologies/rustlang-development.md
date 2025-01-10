@@ -11,7 +11,7 @@ url: "/services/RUST-development/"
 icon: "songpoem-programmer.png"
 alt: "RUST lang development at Songpoem Labs."
 layout: splash
-score: 72
+score: 62
 category: web2
 header:
   overlay_color: "#000"

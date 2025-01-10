@@ -2,10 +2,11 @@
 client_name: "Inkle"
 title:  "US accounting and tax automation for startups"
 excerpt: "Project Inkle"
+description: "We conducted requirements analysis to understand their needs and propose the most effective and feasible solutions."
 # date:   2024-04-03 10:13:30 +0530
 featured: true
 image_name: inkle-case-study.svg
-url: "/portfolio/inkle/"
+url: "/casestudies/inkle/"
 alt: "Inkle"
 share: true
 technology:

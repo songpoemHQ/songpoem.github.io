@@ -1,10 +1,10 @@
 ---
 title: "Staff Augmentation"
 description: "Our resources work as your team"
-business_benefits:
-  - Uninterepted development
-  - Upskilled developers on niche technologies
 points:
+  - uninterepted development for peak workloads
+  - Upskilled developers on niche technologies
+business_benefits:
   - AI Agent framework
   - Multi Agent
 url: "/services/blockchain-development-services/"

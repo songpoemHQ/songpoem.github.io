@@ -1,32 +1,39 @@
 <div class="case-studies-section">
-    <div class="section case-studies">
-      <h2 class="section-title">
-        {{ include.title }}
-        <a href="{{ '/casestudies/' | relative_url }}" class="view-all-link">View All</a>
-      </h2>
-      <div class="grid-container">
-        {% for case_study in site.portfolio %}
+  <div class="section case-studies">
+    <h2 class="section-title">
+      {{ include.title }}
+      <a href="{{ '/casestudies/' | relative_url }}" class="view-all-link">View All</a>
+    </h2>
+
+    <div class="grid-container"> 
+      {% for case_study in site.portfolio %}
         {% if case_study.featured %}
-        <div class="case-study-item">
-          <img src="{{ case_study.image_name | prepend: "/assets/images/casestudies/" | relative_url }}" alt="{{ case_study.alt }}" class="case-study-image">
-          <h4 class="case-study-client">{{ case_study.client_name }}</h4>
-          <h3 class="case-study-title">{{ case_study.title }}</h3>
-          <p class="case-study-description">{{ case_study.description }}</p>
-          {% if case_study.technology %}
-          <p class="case-study-tech"><strong>Technology:</strong> {{ case_study.technology | join: ", " }}</p>
-          {% endif %}
-          {% if case_study.tags %}
-          <p class="case-study-tags"><strong>Tags:</strong> 
-            {% for tag in case_study.tags %}
-            #{{ tag }}{% if forloop.last == false %} {% endif %}
-            {% endfor %}
-          </p>
-          {% endif %}
-          <a href="{{ case_study.url }}" class="btn learn-more-btn">Learn More</a>
+        <div class="card">
+          <div class="case-study-image-wrapper"> 
+            <img src="{{ case_study.image_name | prepend: "/assets/images/casestudies/" | relative_url }}" alt="{{ case_study.alt }}" class="case-study-image">
+          </div>
+          <div class="case-study-content">
+            <h4 class="title">{{ case_study.client_name }}</h4>
+            <h3 class="case-study-title">{{ case_study.title }}</h3>
+            <p class="case-study-description">{{ case_study.description }}</p>
+            {% if case_study.technology %}
+              <p class="case-study-tech">
+                <span class="label">Technology:</span> {{ case_study.technology | join: ", " }}
+              </p>
+            {% endif %}
+            {% if case_study.tags %}
+              <p class="case-study-tags">
+                <span class="label">Tags:</span> 
+                {% for tag in case_study.tags %}
+                  #{{ tag }}
+                {% endfor %}
+              </p>
+            {% endif %}
+            <a href="{{ case_study.url }}" class="btn">Learn More</a>
+          </div>
         </div>
         {% endif %}
-        {% endfor %}
-      </div>
+      {% endfor %}
     </div>
   </div>
-  
+</div>

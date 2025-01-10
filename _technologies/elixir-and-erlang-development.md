@@ -2,9 +2,9 @@
 title: "Erlang and Elixir"
 description: "Fault-Tolerant Applications."
 business_benefits:
-  - Minimal downtime with built-in fault tolerance.
-  - Real-time performance with concurrent processing.
-  - Distributed systems for efficient multi-node communication.
+  - Distributed systems.
+  - Concurrent processing.
+  - Real-time systems
 capabilities:
   - Scalibility
   - Concurrency

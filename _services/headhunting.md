@@ -2,12 +2,12 @@
 title: "Talent Scount"
 description: "Find experts"
 capabilities:
+points:
   - Find 
   - ERC standards
-business_benefits:
   - We find Techies worked on extreme Niche packages.
   - Carefully reviewed profiles
-points:
+business_benefits:
   - Tokenization
   - ERC741
   - ERC3643

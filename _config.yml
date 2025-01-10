@@ -71,7 +71,7 @@ footer:
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /casestudies/:path/
   services:
     output: true
     permalink: /:collection/:path/
@@ -92,7 +92,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -106,31 +106,17 @@ defaults:
       author_profile: true
   # _portfolio
   - scope:
-      path: "_portfolio"
+      path: ""
       type: portfolio
     values:
-      layout: single
+      layout: "single"
       author_profile: false
   # - scope:
   #     path: "_technologies"
   #     type: technology
-    values:
-      layout: single
-      author_profile: false
-  - scope:
-      path: "_services/"
-      category: service
-      category: web3
-    values:
-      layout: single
-      author_profile: false
-  - scope:
-      path: "_services/"
-      type: service
-      category: web2
-    values:
-      layout: single
-      author_profile: false
+    # values:
+    #   layout: single
+    #   author_profile: false
 
 category_archive:
   type: liquid

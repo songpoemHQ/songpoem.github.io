@@ -1,10 +1,10 @@
 ---
 title: "Modernization of Legacy Systems"
 description: "add updates and patches"
-business_benefits:
+points:
   - Addressing Vulnerabilities
   - Adapting to Change customers want
-points:
+business_benefits:
   - AI Agent framework
   - Multi Agent
 url: "/services/blockchain-development-services/"
