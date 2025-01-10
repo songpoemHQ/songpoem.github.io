@@ -1,8 +1,7 @@
 <div class="section whyus-section">
   <h2 class="section-title">{{ include.title }}</h2>
 
-  <!-- Flexbox layout for whyus -->
-  <div class="">
+  <div class="grid-container">
     {% assign sorted_whyus = site.whyus | sort: 'score' | reverse %}
     {% assign top_whyus = sorted_whyus | slice: 0, 4 %}
     {% for service in top_whyus %}

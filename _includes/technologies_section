@@ -1,12 +1,11 @@
 <div class="section technologies-section">
   <h2 class="section-title">{{ include.title }}</h2>
 
-  <!-- Flexbox layout for technologies -->
-  <div class="flex flex-wrap justify-between gap-6 px-6 max-w-screen-lg mx-auto">
+  <div class="grid-container">
     {% assign sorted_technologies = site.technologies | sort: 'score' | reverse %}
     {% assign top_technologies = sorted_technologies | slice: 0, 8 %}
     {% for technology in top_technologies %}
-    <div class="card flex-1 min-w-[300px] max-w-[400px] p-4 border rounded-lg shadow-md text-center hover:shadow-lg transition">
+    <div class="card">
       <div class="card-image mb-4">
         <img src="{{ technology.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ technology.title }}" class="w-12 h-12 mx-auto">
       </div>

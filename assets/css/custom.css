@@ -1,16 +1,17 @@
 /* Shared Flexbox Styling */
-.flex {
+/* .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
-}
+} */
+
 
 .why-choose-us .flex {
   gap: 1.5rem;
 }
 
-.why-choose-us .grid-container {
+.grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
