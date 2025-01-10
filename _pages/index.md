@@ -61,7 +61,8 @@ events_row:
 
 {% include services_section id="services_row" title="How our Services Compose Business Success" %}
 
-{% include technologies_section id="technologies_row" title="Technologies our team has handson with" %}
+{% include technologies_section id="technologies_row" title="Technologies We Have Hands On
+" %}
 
 
 {% include why_us_section id=page.why_songpoem title="Why customers choose Songpoem Labs" %}

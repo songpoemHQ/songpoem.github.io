@@ -2,7 +2,7 @@
     <div class="section case-studies">
       <h2 class="section-title">
         {{ include.title }}
-        <a href="{{ '/portfolio/' | relative_url }}" class="view-all-link">View All</a>
+        <a href="{{ '/casestudies/' | relative_url }}" class="view-all-link">View All</a>
       </h2>
       <div class="grid-container">
         {% for case_study in site.portfolio %}
