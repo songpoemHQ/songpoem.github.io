@@ -5,11 +5,11 @@ points:
   - Sprint Planning, Standups
   - Continuous Integration and Delivery
 url: "/services/blockchain-development-services/"
-icon: "songpoem-code-quality.png"
+icon: "songpoem-time-money.png"
 alt: "teamwork at Songpoem Labs."
 layout: splash
 category: web3
-score: 71
+score: 80
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

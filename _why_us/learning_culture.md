@@ -1,14 +1,12 @@
 ---
-title: "A Culture of Continuous Learning"
-description: "Professional development"
+title: "Quick team"
+description: "gather developers in weeks, not months"
 points:
-  - Knowledge Sharing Sessions
-  - Open Source Contributions
-  - Mentoships programs for team members
+  - Aware the developers availability
+  - trained staff ready to join
 url: "/services/talent-scount-services/"
-icon: "songpoem-time-money.png"
-image_name: "/assets/images/songpoem-blockchain.jpg"
-alt: "Web3 Blockchain development solutions at Songpoem Labs."
+icon: "songpoem-global-people.png"
+alt: "songpoem-global-people at Songpoem Labs."
 layout: splash
 category: web3
 score: 65

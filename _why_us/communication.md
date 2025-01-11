@@ -1,11 +1,11 @@
 ---
-title: "Clear and Consistent Communication"
-description: "We believe that effective communication is the foundation of successful projects"
+title: "Crystal-Clear Communication"
+description: "communication as the foundation"
 points:
   - regular updates and transparent progress reports.
   - Open Dialogue, Active listening and Documentation
 url: "/services/blockchain-development-services/"
-icon: "songpoem-teamwork.png"
+icon: "songpoem_technology_sphere.png"
 image_name: "/assets/images/songpoem-ai.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
