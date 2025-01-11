@@ -28,6 +28,7 @@ include:
   - _services
   - _skills/core
   - _why-us
+  - _why_us_human
 
 category_archive:
   type: liquid
@@ -78,7 +79,10 @@ collections:
   skills:
     output: true
     permalink: /:collection/:path/
-  whyus:
+  why_us:
+    output: true
+    permalink: /:collection/:path/
+  why_us_human:
     output: true
     permalink: /:collection/:path/
   tils:

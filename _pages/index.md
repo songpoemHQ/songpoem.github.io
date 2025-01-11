@@ -83,7 +83,11 @@ events_row:
 {% include secondary_skills_section id="core_skills" title="Our Secondary skills" %}
 
 
-{% include why_us_section id=page.why_songpoem title="Why customers choose Songpoem Labs" %}
+{% include why_us_section id=page.why_songpoem title="Why customers choose Songpoem Labs"
+data=site.why_us %}
+
+{% include why_us_section id=page.why_songpoem title="Our culture of Continuous Learning" data=site.why_us_human %}
+
 {% include memberships_section id=page.memberships_row title="Communities we are a part of" %}
 <!-- {% include memberships_section id=page.potential_partners_row title="Potential Partners" %} -->
 {% include case_studies_section id=page.featured_case_studies title="Case Studies" %}
