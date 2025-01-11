@@ -1,9 +1,9 @@
 ---
 title: "Agile yet affordable"
-description: "Agile yet affordable Agile yet affordable"
+description: "Aim to deliver value and adapt to evolving requirements"
 points:
-  - Agile yet affordable
-  - Multi Agent
+  - Sprint Planning, Standups
+  - Continuous Integration and Delivery
 url: "/services/blockchain-development-services/"
 icon: "songpoem-code-quality.png"
 alt: "teamwork at Songpoem Labs."

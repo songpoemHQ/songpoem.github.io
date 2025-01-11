@@ -1,9 +1,9 @@
 ---
-title: "effective communication"
-description: "listen, think, write"
+title: "Clear and Consistent Communication"
+description: "We believe that effective communication is the foundation of successful projects"
 points:
-  - Business goals into technical requirements
-  - Domain expertise to developers
+  - regular updates and transparent progress reports.
+  - Open Dialogue, Active listening and Documentation
 url: "/services/blockchain-development-services/"
 icon: "songpoem-teamwork.png"
 image_name: "/assets/images/songpoem-ai.jpg"

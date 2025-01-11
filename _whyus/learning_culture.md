@@ -1,9 +1,10 @@
 ---
-title: "Learning culture"
-description: "We have monthly all-hands"
+title: "A Culture of Continuous Learning"
+description: "Professional development"
 points:
-  - Share learnings.
-  - niche expertise
+  - Knowledge Sharing Sessions
+  - Open Source Contributions
+  - Mentoships programs for team members
 url: "/services/talent-scount-services/"
 icon: "songpoem-time-money.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"

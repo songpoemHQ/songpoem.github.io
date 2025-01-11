@@ -1,9 +1,10 @@
 ---
 title: "Clean Code"
-description: "Our team writes well maintainable code"
+description: "We're passionate about writing clean, maintainable, and high-quality code."
 points:
-  - Standard Practices Standard Practices
-  - Code Quality
+  - Code Reviews
+  - Automated Testing
+  - Refactoring
 url: "/services/blockchain-development-services/"
 icon: "songpoem-programmer.png"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
