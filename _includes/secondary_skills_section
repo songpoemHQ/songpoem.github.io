@@ -1,0 +1,27 @@
+<div class="section technologies-section">
+  <h2 class="section-title">{{ include.title }}</h2>
+
+  <div class="grid-container">
+    {% assign secondary_skills = site.skills | where_exp: "item", "item.category != 'core'" | sort: "score" | reverse %} 
+    {% assign skills = secondary_skills | slice: 0, 8 %}
+    {% for skill in skills %}
+    <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication"> 
+      <div class="card-image mb-4">
+        <img src="{{ skill.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ skill.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
+      </div>
+      <div class="card-content">
+        <h3 class="text-lg font-semibold" itemprop="name">{{ skill.title }}</h3> 
+        <p class="antialiased" itemprop="description">{{ skill.description }}</p>
+        <ul class="skill-points text-left">
+          {% for business_benefit in skill.business_benefits %}
+          <li itemprop="featureList">{{ business_benefit }}</li> 
+          {% endfor %}
+        </ul>
+        <div class="mt-auto pt-4 text-left">
+          <a href="{{ skill.url }}" class="mr-2 text-blue-600" itemprop="url">Read more</a> 
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

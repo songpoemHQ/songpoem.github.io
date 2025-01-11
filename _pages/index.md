@@ -79,8 +79,8 @@ events_row:
 
 {% include services_section id="services_row" title="How our Services Compose Business Success" %}
 
-{% include technologies_section id="technologies_row" title="Technologies We Have Hands On
-" %}
+{% include core_skills_section id="core_skills" title="Our Core Expertise" %}
+{% include secondary_skills_section id="core_skills" title="Our Secondary skills" %}
 
 
 {% include why_us_section id=page.why_songpoem title="Why customers choose Songpoem Labs" %}

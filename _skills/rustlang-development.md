@@ -12,7 +12,7 @@ icon: "songpoem-programmer.png"
 alt: "RUST lang development at Songpoem Labs."
 layout: splash
 score: 62
-category: web2
+category: core
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

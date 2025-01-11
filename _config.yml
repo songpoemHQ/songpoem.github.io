@@ -26,7 +26,7 @@ include:
   - _posts/*/*
   - _pages
   - _services
-  - _technologies
+  - _skills/core
   - _why-us
 
 category_archive:
@@ -75,7 +75,7 @@ collections:
   services:
     output: true
     permalink: /:collection/:path/
-  technologies:
+  skills:
     output: true
     permalink: /:collection/:path/
   whyus:

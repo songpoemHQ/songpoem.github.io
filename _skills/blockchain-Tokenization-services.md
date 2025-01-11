@@ -14,7 +14,7 @@ icon: "songpoem-blockchain-solutions.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
-category: web3
+category: secondary
 score: 45
 header:
   overlay_color: "#000"

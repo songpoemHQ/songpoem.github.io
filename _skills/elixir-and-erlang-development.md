@@ -18,7 +18,7 @@ icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
 score: 70
-category: web2
+category: core
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
