@@ -1,9 +1,9 @@
 ---
-title: "Modernization of Legacy Systems"
-description: "add updates and patches"
+title: "Customised Software Development"
+description: "Build Solutions Tailored to Your Unique Business"
 points:
-  - Addressing Vulnerabilities
-  - Adapting to Change customers want
+  - From concept to deployment
+  - We deliver high-quality, maintainable software
 business_benefits:
   - AI Agent framework
   - Multi Agent
@@ -12,7 +12,7 @@ icon: "songpoem-code-quality.png"
 alt: "teamwork at Songpoem Labs."
 layout: splash
 category: web3
-score: 71
+score: 70
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

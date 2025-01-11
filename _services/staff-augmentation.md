@@ -1,6 +1,6 @@
 ---
 title: "Staff Augmentation"
-description: "Our resources work as your team"
+description: "Scale Your Team with Top Talent, On Demand"
 points:
   - uninterepted development for peak workloads
   - Upskilled developers on niche technologies
@@ -12,7 +12,7 @@ icon: "songpoem-teamwork-boat.png"
 alt: "teamwork at Songpoem Labs."
 layout: splash
 category: web3
-score: 75
+score: 72
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
