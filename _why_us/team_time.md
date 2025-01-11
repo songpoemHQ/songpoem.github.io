@@ -1,9 +1,9 @@
 ---
 title: "Quick team"
-description: "gather developers in weeks, not months"
+description: "Developers start work in weeks"
 points:
-  - Aware the developers availability
-  - trained staff ready to join
+  - Well connected with developers and know availability.
+  - Continuous scouting for engineers
 url: "/services/talent-scount-services/"
 icon: "songpoem-global-people.png"
 alt: "songpoem-global-people at Songpoem Labs."

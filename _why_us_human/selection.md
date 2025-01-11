@@ -7,7 +7,7 @@ image_name: "/assets/images/songpoem-ai.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
 category: web3
-score: 75
+score: 60
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

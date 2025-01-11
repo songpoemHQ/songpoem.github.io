@@ -2,8 +2,8 @@
 title: "Agile yet affordable"
 description: "Aim to deliver value and adapt to evolving requirements"
 points:
-  - Sprint Planning, Standups
-  - Continuous Integration and Delivery
+  - Team of Seniors and mid-level expertise
+  - Flexible Engagement Models
 url: "/services/blockchain-development-services/"
 icon: "songpoem-time-money.png"
 alt: "teamwork at Songpoem Labs."

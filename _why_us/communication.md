@@ -1,5 +1,5 @@
 ---
-title: "Crystal-Clear Communication"
+title: "Communication and Visibility"
 description: "communication as the foundation"
 points:
   - regular updates and transparent progress reports.
