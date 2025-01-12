@@ -1,10 +1,11 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "We Sing Your Language (any niche technology)"
-description: "Startup facing a developer shortage? Quickly hire skilled Elixir, Erlang, Rust or niche technology developers in India with Songpoem Solutions. Affordable staff augmentation for small teams. Scale your development, maintain your product, and ship features faster. Free consultation."
-excerpt: "We source, train, and connect you with engineers working on niche technologies #lets_compose_success"
+title: "Your Partner in Niche Technology Excellence"
+description: "Facing a developer shortage? Hire expert Elixir, Erlang, and Rust engineers through Songpoem Solutions for affordable staff augmentation and custom software development. Accelerate your digital transformation with our agile approach and high-quality code solutions."
+excerpt: "We source, train, and provide engineers working on niche technologies #lets_compose_success"
 keywords:
-  - staff augmentation 
+  - staff augmentation
+  - Niche Technology Development 
   - hire developers 
   - software developers India 
   - Elixir developers 
@@ -31,7 +32,9 @@ keywords:
   - digital transformation
   - regulatory compliance
   - AI-driven business solutions
-  - innovation in business tech 
+  - innovation in business tech
+  - Low-Code Application Development (Mendix)
+
 layout: splash
 permalink: /
 date: 2025-01-10T11:48:41-04:00
