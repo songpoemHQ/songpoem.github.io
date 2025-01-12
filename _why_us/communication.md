@@ -1,9 +1,9 @@
 ---
-title: "Communication and Visibility"
+title: "Collaboration and Communication"
 description: "communication as the foundation"
 points:
+  - experience working with remote distributed teams.
   - regular updates and transparent progress reports.
-  - Open Dialogue, Active listening and Documentation
 url: "/services/blockchain-development-services/"
 icon: "songpoem_technology_sphere.png"
 image_name: "/assets/images/songpoem-ai.jpg"

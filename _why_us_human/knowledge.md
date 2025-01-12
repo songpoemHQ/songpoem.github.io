@@ -1,6 +1,8 @@
 ---
 title: "Knowledge Sharing Sessions"
 description: "Monthly sessions to exchange learnings."
+points:
+  - read white papers
 url: "/services/blockchain-development-services2/"
 icon: "songpoem-teamwork.png"
 image_name: "/assets/images/songpoem-ai.jpg"
