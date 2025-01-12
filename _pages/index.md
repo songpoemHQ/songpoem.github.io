@@ -1,8 +1,8 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "Accelerate Product Development on a limited Budget."
-description: "Startup facing a developer shortage? Quickly hire skilled Elixir, Erlang, or Rust developers in India with Songpoem Solutions. Affordable staff augmentation for small teams. Scale your development, maintain your product, and ship features faster. Free consultation."
-excerpt: "We are a team of passionate engineers, dedicated to helping founders turn challenges into opportunities. #lets_compose_success"
+title: "Outsourcing Partner for niche technologies"
+description: "Startup facing a developer shortage? Quickly hire skilled Elixir, Erlang, Rust or niche technology developers in India with Songpoem Solutions. Affordable staff augmentation for small teams. Scale your development, maintain your product, and ship features faster. Free consultation."
+excerpt: "We are a team of passionate engineers working on modern technologies #lets_compose_success"
 keywords:
   - staff augmentation 
   - hire developers 
