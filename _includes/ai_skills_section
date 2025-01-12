@@ -2,7 +2,7 @@
   <h2 class="section-title">{{ include.title }}</h2>
 
   <div class="grid-container">
-    {% assign core_skills = site.skills | where: "category", "core" | sort: "score" | reverse %}
+    {% assign core_skills = site.skills | where: "category", "AI" | sort: "score" | reverse %}
     {% assign skills = core_skills | slice: 0, 8 %}
     {% for skill in skills %}
     <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication"> 

@@ -1,9 +1,13 @@
 ---
 title: "Agile yet affordable"
-description: "Aim to deliver value and adapt to evolving requirements"
+description: "Develop and adapt quickly with our agile approach to software development."
 points:
-  - Team of Seniors and mid-level expertise
-  - Flexible Engagement Models
+  - Launch products faster.
+  - Reduce development costs.
+  - Adapt to change quickly.
+  - Improve product quality.
+  - Offer flexible models.
+  - Increase customer satisfaction.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-time-money.png"
 alt: "teamwork at Songpoem Labs."
@@ -15,14 +19,14 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/bg-texture2.png
 ---
-## Autogen Development
+## Agile
 
-Our Autogen Solutions
-We design AI agents that integrate seamlessly into your workflows, leveraging advanced machine learning for smarter, faster operations.
+Launching products faster: Agile's iterative approach allows you to get your products to market quicker, seizing opportunities and gaining a competitive edge.
 
-### Key Services:
-- Autogen
+Reducing development costs: By focusing on delivering value incrementally and adapting to change quickly, Agile can help minimize wasted effort and reduce overall development costs.
 
-## Programming Languages
-Python
-Elixir
+Adapting to change quickly: In today's dynamic business environment, being able to respond to changing market conditions and customer needs is crucial. Agile provides the flexibility to adapt and pivot as needed.
+
+Improving product quality: Continuous feedback and testing throughout the Agile development process lead to higher quality products that better meet user needs.
+
+Increasing customer satisfaction: By delivering valuable products quickly and responding to feedback effectively, Agile helps you create solutions that delight your customers.

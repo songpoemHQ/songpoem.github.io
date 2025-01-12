@@ -1,9 +1,12 @@
 ---
 title: "Collaboration and Communication"
-description: "communication as the foundation"
+description: "Experience seamless collaboration and transparent communication throughout your project."
 points:
-  - experience working with remote distributed teams.
-  - regular updates and transparent progress reports.
+  - Build strong relationships.
+  - Communicate transparently.
+  - Provide regular updates.
+  - Offer remote expertise.
+  - Facilitate open dialogue
 url: "/services/blockchain-development-services/"
 icon: "songpoem_technology_sphere.png"
 image_name: "/assets/images/songpoem-ai.jpg"

@@ -1,20 +1,21 @@
 ---
 title: "Tokenization"
-description: "Convert ownership rights of real-world assets into digital tokens that can be managed, sold, and traded on a blockchain."
+description: "Protect sensitive data with secure tokens."
 capabilities:
   - RWA Tokenization
   - ERC standards
 points:
-  - Tokenization
-  - ERC741
-  - ERC3643
-  - Hyperledger
+  - Reduce breach risks.
+  - Simplify compliance.
+  - Enhance data security.
+  - Improve customer trust.
+  - Protect sensitive data.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-blockchain-solutions.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
-category: secondary
+category: blockchain
 score: 45
 header:
   overlay_color: "#000"

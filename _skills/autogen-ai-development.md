@@ -1,18 +1,18 @@
 ---
 title: "Autogen"
-description: "Agentic AI framework"
-business_benefits:
-  - Automate routine tasks to boost productivity.
-  - Accelerate development cycles while reducing costs.
+description: "Build AI agents that automate tasks and workflows."
 points:
-  - AI Agent framework
-  - Multi Agent
+  - Boost team productivity.
+  - Automate complex tasks.
+  - Improve operational efficiency.
+  - Streamline business processes.
+  - Reduce manual effort.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-ai-solutions.png"
 image_name: "/assets/images/songpoem-ai.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
-category: core
+category: AI
 score: 75
 header:
   overlay_color: "#000"

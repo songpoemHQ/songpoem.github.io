@@ -1,6 +1,13 @@
 ---
 title: "Meetups and Workshops"
 description: "We organize events and invite expert speakers for knowledge sharing and experience exchange."
+points:
+  - Organize workshops & meetups.
+  - Invite expert speakers.
+  - Share valuable knowledge.
+  - Encourage open-source work.
+  - Foster learning culture.
+  - Expand Network
 url: "/services/talent-scount-services4/"
 icon: "songpoem-time-money.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"

@@ -79,6 +79,8 @@ events_row:
 
 {% include services_section id="services_row" title="How our Services Compose Business Success" %}
 
+{% include ai_skills_section id="ai_skills" title="Our AI skills" %}
+
 {% include core_skills_section id="core_skills" title="Our Core Expertise" %}
 {% include secondary_skills_section id="core_skills" title="Our Secondary skills" %}
 

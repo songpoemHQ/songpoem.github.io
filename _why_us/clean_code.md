@@ -1,10 +1,12 @@
 ---
 title: "Clean Code"
-description: "We're passionate about writing clean, maintainable, and high-quality code."
+description: "Benefit from high-quality, maintainable code that ensures long-term stability and efficiency."
 points:
-  - Code Reviews
-  - Automated Testing
-  - Refactoring
+  - Reduce maintenance costs.
+  - Improve software stability.
+  - Enhance security.
+  - Increase code reusability.
+  - Facilitate future updates.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-programmer.png"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."

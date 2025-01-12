@@ -1,9 +1,12 @@
 ---
 title: "Quick team"
-description: "Developers start work in weeks"
+description: "Get your development team up and running quickly with our efficient staffing process."
 points:
-  - Well connected with developers and know availability.
-  - Continuous scouting for engineers
+  - Accelerate project timelines.
+  - Reduce hiring time.
+  - Access available talent.
+  - Gain immediate support.
+  - Ensure project continuity.
 url: "/services/talent-scount-services/"
 icon: "songpoem-global-people.png"
 alt: "songpoem-global-people at Songpoem Labs."

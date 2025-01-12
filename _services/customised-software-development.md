@@ -2,8 +2,11 @@
 title: "Customised Software Development"
 description: "Build Solutions Tailored to Your Unique Business"
 points:
-  - From concept to deployment
-  - We deliver high-quality, maintainable software
+  - Create custom software solutions.
+  - Solve unique business challenges.
+  - Deliver high-quality software.
+  - Ensure maintainable code.
+  - Improve business efficiency.
 business_benefits:
   - AI Agent framework
   - Multi Agent

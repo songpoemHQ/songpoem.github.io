@@ -1,12 +1,12 @@
 ---
 title: "Rust Lang"
-description: "Safe and Efficient Systems."
-business_benefits:
-  - Performance with memory safety.
-  - Ideal for system programming and concurrent applications.
+description: "Build reliable and efficient software with guaranteed memory safety."
 points:
-  - performance
-  - safety
+  - Prevent costly errors.
+  - Improve application security.
+  - Increase software performance.
+  - Develop reliable systems.
+  - Reduce maintenance costs.
 url: "/services/RUST-development/"
 icon: "songpoem-programmer.png"
 alt: "RUST lang development at Songpoem Labs."

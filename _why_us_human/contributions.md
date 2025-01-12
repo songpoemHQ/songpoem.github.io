@@ -1,9 +1,11 @@
 ---
 title: "Open source contributions"
-description: "contributions"
+description: "We actively contribute to the open-source community, driving innovation and knowledge sharing."
 points:
-  - Source code commits
-  - maintain repositories
+  - Access latest technologies.
+  - Attract top talent. 
+  - Foster collaboration.
+  - Improve code quality.
 url: "/services/talent-scount-services/"
 icon: "songpoem-rocketship.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"

@@ -1,23 +1,20 @@
 ---
 title: "Ruby on Rails"
 description: "Speedup Web Development"
-business_benefits:
-  - Convention over configuration for faster setups.
-  - Build scalable web applications quickly.
 capabilities:
   - Scalibility
   - Concurrency
 points:
-  - Create robust backend systems
-  - Develop dynamic messaging platforms
-  - Build scalable distributed applications
+  - Reduce development time.
+  - Launch products quicker.
+  - Decrease development costs.
 url: "/services/elixir-and-erlang-development/"
 image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
 score: 65
-category: web2
+category: secondary
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

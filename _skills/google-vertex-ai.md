@@ -1,12 +1,15 @@
 ---
 title: "Vertex AI"
-description: "AI-Powered Insights."
+description: "Build, deploy, and scale machine learning models efficiently."
 business_benefits:
   - Scale machine learning models efficiently.
   - Gain data-driven insights for better decision-making.
 points:
-  - Unified AI Platform
-  - Generative AI Capabilities
+  - Improve predictions.
+  - Automate decisions.
+  - Gain insights.
+  - Reduce costs.
+  - Increase efficiency.
 url: "/services/Verifiable-Credentials/"
 icon: "songpoem-data-training.png"
 image_name: "/assets/images/songpoem-marketplace.jpg"

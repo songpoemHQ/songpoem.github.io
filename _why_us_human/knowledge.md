@@ -1,8 +1,11 @@
 ---
 title: "Knowledge Sharing Sessions"
-description: "Monthly sessions to exchange learnings."
+description: "We hold monthly sessions to exchange knowledge and foster continuous learning."
 points:
-  - read white papers
+  - Gain industry insights.
+  - Improve team skills.
+  - Share best practices.
+  - Stay up-to-date.
 url: "/services/blockchain-development-services2/"
 icon: "songpoem-teamwork.png"
 image_name: "/assets/images/songpoem-ai.jpg"

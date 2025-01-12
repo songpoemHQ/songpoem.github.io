@@ -1,17 +1,14 @@
 ---
 title: "Erlang and Elixir"
-description: "Fault-Tolerant Applications."
-business_benefits:
-  - Distributed systems.
-  - Concurrent processing.
-  - Real-time systems
+description: "Build scalable and maintainable applications with ease"
+points:
+  - Handle high user traffic.
+  - Reduce server costs.
+  - Minimize system downtime.
+  - Build reliable systems. 
 capabilities:
   - Scalibility
   - Concurrency
-points:
-  - Optimize resource usage with lightweight concurrency management.
-  - Develop dynamic messaging platforms
-  - Build scalable distributed applications
 url: "/services/elixir-and-erlang-development/"
 image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-programmer.png"

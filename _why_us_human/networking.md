@@ -1,6 +1,11 @@
 ---
 title: "Networking"
-description: "We participate in conferences to stay connected, share resources, and understand up-to-date trends."
+description: "We actively participate in industry events to stay connected and informed."
+points:
+  - Gain industry insights.
+  - Access new technologies.
+  - Understand current trends.
+  - Expand professional network.
 url: "/services/blockchain-development-services2/"
 icon: "songpoem-teamwork.png"
 image_name: "/assets/images/songpoem-ai.jpg"
