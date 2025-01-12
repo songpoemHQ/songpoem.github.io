@@ -1,6 +1,6 @@
 ---
 title: "Meetups and Workshops"
-description: "We organize events and invite expert speakers for knowledge sharing and experience exchange."
+description: "We host events and invite speakers to share knowledge and experiences."
 points:
   - Organize workshops & meetups.
   - Invite expert speakers.

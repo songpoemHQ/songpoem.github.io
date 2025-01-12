@@ -2,11 +2,11 @@
 title: "Staff Augmentation"
 description: "Scale Your Team with Top Talent, On Demand"
 points:
-  - Scale your development team.
-  - Ensure uninterrupted development.
+  - Grow your team quickly.
+  - Keep your development running smoothly.
   - Access niche technology experts.
-  - Reduce hiring time and costs.
-  - Gain competitive advantage.
+  - Save time and money on hiring.
+  - Stay ahead of your competitors.
 business_benefits:
   - AI Agent framework
   - Multi Agent

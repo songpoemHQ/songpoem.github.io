@@ -3,7 +3,7 @@ title: "Agile yet affordable"
 description: "Develop and adapt quickly with our agile approach to software development."
 points:
   - Launch products faster.
-  - Reduce development costs.
+  - Lower your development expenses.
   - Adapt to change quickly.
   - Improve product quality.
   - Offer flexible models.

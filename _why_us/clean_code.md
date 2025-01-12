@@ -1,12 +1,12 @@
 ---
-title: "Clean Code"
-description: "Benefit from high-quality, maintainable code that ensures long-term stability and efficiency."
+title: "High-Quality Code"
+description: "Enjoy good quality code that is easy to maintain and works well over time."
 points:
   - Reduce maintenance costs.
   - Improve software stability.
   - Enhance security.
   - Increase code reusability.
-  - Facilitate future updates.
+  - Make future updates easier.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-programmer.png"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."

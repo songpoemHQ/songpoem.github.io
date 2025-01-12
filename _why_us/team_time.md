@@ -1,12 +1,12 @@
 ---
-title: "Quick team"
-description: "Get your development team up and running quickly with our efficient staffing process."
+title: "Fast Team Setup"
+description: "Quickly set up your development team with our fast hiring process."
 points:
   - Accelerate project timelines.
-  - Reduce hiring time.
+  - Shorten the time it takes to hire.
   - Access available talent.
   - Gain immediate support.
-  - Ensure project continuity.
+  - Keep your project going smoothly.
 url: "/services/talent-scount-services/"
 icon: "songpoem-global-people.png"
 alt: "songpoem-global-people at Songpoem Labs."

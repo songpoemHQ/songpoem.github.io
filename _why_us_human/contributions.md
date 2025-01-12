@@ -1,6 +1,6 @@
 ---
 title: "Open source contributions"
-description: "We actively contribute to the open-source community, driving innovation and knowledge sharing."
+description: "We help the open-source community grow by sharing ideas and tools."
 points:
   - Access latest technologies.
   - Attract top talent. 

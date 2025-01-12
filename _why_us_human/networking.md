@@ -1,6 +1,6 @@
 ---
 title: "Networking"
-description: "We actively participate in industry events to stay connected and informed."
+description: "We join industry events to stay connected and learn about new trends."
 points:
   - Gain industry insights.
   - Access new technologies.

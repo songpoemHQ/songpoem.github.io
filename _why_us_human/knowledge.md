@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Sharing Sessions"
-description: "We hold monthly sessions to exchange knowledge and foster continuous learning."
+description: "We have monthly meetings to share knowledge and encourage ongoing learning."
 points:
   - Gain industry insights.
   - Improve team skills.
