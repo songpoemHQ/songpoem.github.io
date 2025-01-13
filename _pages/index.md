@@ -1,8 +1,9 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "Your Partner in Niche Technology Excellence"
+title: "Powering Startup Success with Niche Tech Talent"
 description: "Facing a developer shortage? Hire expert Elixir, Erlang, and Rust engineers through Songpoem Solutions for affordable staff augmentation and custom software development. Accelerate your digital transformation with our agile approach and high-quality code solutions."
-excerpt: "We source, train, and provide engineers working on niche technologies #lets_compose_success"
+excerpt: "We help early-stage companies build innovative products and scale their teams with expert engineers.
+ #lets_compose_success"
 keywords:
   - staff augmentation
   - Niche Technology Development 
