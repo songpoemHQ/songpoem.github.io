@@ -1,39 +1,19 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "We build AI-powered products for startups."
-description: "Facing a developer shortage? Hire expert Elixir, Erlang, and Rust engineers through Songpoem Solutions for affordable staff augmentation and custom software development. Accelerate your digital transformation with our agile approach and high-quality code solutions."
+title: "We Build AI-Powered Products for Startups"
+description: "Transform your startup with custom AI-powered solutions and expert staff augmentation. Hire skilled developers"
 excerpt: "We help early-stage companies build customised products and scale their teams with expert engineers.
  #lets_compose_success"
 keywords:
-  - staff augmentation
-  - Niche Technology Development 
-  - hire developers 
-  - software developers India 
-  - Elixir developers 
-  - Erlang developers 
-  - Rust developers 
-  - startup developers 
-  - small business developers
-  - remote developers 
-  - offshore developers 
-  - affordable developers 
-  - dedicated developers 
-  - staff augmentation services 
-  - IT staff augmentation 
-  - software development outsourcing
-  - Hire Elixir developers India 
-  - find Rust programmers 
-  - staff augmentation for startups 
-  - scale development team quickly 
-  - replace software developer 
-  - maintain existing software product
-  - AI/ML development 
-  - custom software development
-  - business solutions
-  - digital transformation
-  - regulatory compliance
-  - AI-driven business solutions
-  - innovation in business tech
+  - AI-powered product development
+  - Custom software development for startups
+  - Staff augmentation services
+  - Hire Elixir developers
+  - Erlang development services
+  - Rust programming specialists
+  - Niche technology developers
+  - Scalable software solutions
+  - Offshore development team
   - Low-Code Application Development (Mendix)
 
 layout: splash
