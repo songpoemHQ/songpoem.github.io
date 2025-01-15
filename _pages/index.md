@@ -1,8 +1,9 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "We Build AI-Powered Products for Startups"
+title: "We build AI powered products for startups"
 description: "Transform your startup with custom AI-powered solutions and expert staff augmentation. Hire skilled developers"
-excerpt: "We help early-stage companies build customised products and scale their teams with expert engineers.
+excerpt: "And help early stage companies create customised products
+ by scaling their teams with expert engineers.
  #lets_compose_success"
 keywords:
   - AI-powered product development
