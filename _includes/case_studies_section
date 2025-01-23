@@ -10,7 +10,7 @@
       {% if case_study.featured %}
       <div class="card">
         <div class="case-study-image-wrapper">
-          <img src="{{ case_study.image_name | prepend: " /assets/images/casestudies/" | relative_url }}"
+          <img src="{{ case_study.image_name | prepend: '/assets/images/casestudies/' | relative_url }}"
             alt="{{ case_study.alt }}" class="case-study-image">
         </div>
         <div class="case-study-content">
@@ -34,11 +34,11 @@
             <li>{{ point }}</li>
             {% endfor %}
           </ul>
-          {% endif %} {% if case_study.technology %}
+          <!-- {% endif %} {% if case_study.technology %}
           <p class="case-study-tech">
             <span class="label">Technology:</span> {{ case_study.technology | join: ", " }}
           </p>
-          {% endif %}
+          {% endif %} -->
           <!-- {% if case_study.tags %}
           <p class="case-study-tags">
             <span class="label">Tags:</span>

@@ -1,7 +1,7 @@
 ---
 client_name: "Enthuziastic Learning"
 title:  "Expanding Global Reach for Enthusiastic Solutions"
-challenge: Enthusiastic Solutions, an EdTech company, needed to expand globally.
+challenge: Enthuziastic Solutions, an EdTech company, needed to expand globally.
 solution:
 - Multiple payment gateways (including Razorpay for India)
 - Multiple currencies
