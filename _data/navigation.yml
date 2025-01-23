@@ -3,10 +3,10 @@ main:
   #   url: /docs/quick-start-guide/
   # - title: "Posts"
   #   url: /year-archive/
-  # - title: "Categories"
-  #   url: /categories/
-  # - title: "Case Studies"
-  #   url: /casestudies/
+  - title: "Careers"
+    url: /careers/
+  - title: "About"
+    url: /about/
   - title: "Blog"
     url: /blog/
   # - title: "Schedule a Call"

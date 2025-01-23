@@ -2,8 +2,7 @@
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
 title: "We compose intelligent products for startups"
 description: "Transform your startup with custom AI-powered solutions and expert staff augmentation. Hire skilled developers"
-excerpt: "Focusing on AI, GenAI, and Agentic AI to deliver tailored solutions that empower early-stage companies with expert engineering support
- #lets_compose_success"
+excerpt: "Focusing on AI, GenAI, and Agentic AI to deliver tailored solutions that empower early-stage companies with expert engineering support"
 keywords:
   - AI-powered product development
   - Custom software development for startups
