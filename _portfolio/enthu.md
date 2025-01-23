@@ -9,7 +9,7 @@ solution:
 - Seamless integration with existing tools
 results:
 - Expanded reach to a wider audience.
-# date:   2024-04-03 10:13:30 +0530
+date:   2024-04-03 10:13:30 +0530
 share: true
 featured: true
 url: "/casestudies/enthu/"
