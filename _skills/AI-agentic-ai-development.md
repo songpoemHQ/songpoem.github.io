@@ -1,5 +1,5 @@
 ---
-title: "Autogen"
+title: "AI Agents"
 description: "Build AI agents that automate tasks and workflows."
 points:
   - Boost team productivity.

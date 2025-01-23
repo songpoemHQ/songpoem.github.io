@@ -1,21 +1,18 @@
 ---
-title: "AI Implementation"
-description: "Innovation with AI"
+title: "Gen AI"
+description: "implement gen AI"
 points:
-  - Find ways to use AI effectively.
-  - Make routine tasks automatic.
-  - Lower your business expenses.
-  - Accelerate business processes.
-  - Use AI to create new ideas.
-  - Speed up the development process.
-business_benefits:
+  - Boost team productivity.
+  - Improve operational efficiency.
+  - Streamline business processes.
+  - Reduce manual effort.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-ai-solutions.png"
 image_name: "/assets/images/songpoem-ai.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
-category: web3
-score: 75
+category: AI
+score: 72
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

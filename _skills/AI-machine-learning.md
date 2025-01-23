@@ -1,5 +1,5 @@
 ---
-title: "Vertex AI"
+title: "Machine Learning Models"
 description: "Build, deploy, and scale machine learning models efficiently."
 business_benefits:
   - Scale machine learning models efficiently.
@@ -16,7 +16,7 @@ image_name: "/assets/images/songpoem-marketplace.jpg"
 alt: "Google Vertex AI by Songpoem Labs."
 layout: splash
 category: AI
-score: 72
+score: 70
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
