@@ -1,7 +1,14 @@
 ---
 client_name: "Enthuziastic Learning"
-title:  "Live Interactive Classes, Academic & Non-Academic Courses for all Age Groups ."
-description: "Project Enthu stands as a testament to our ability to transform limitations into opportunities. By decoupling our client's e-commerce platform from a single-country, single-gateway model to a flexible, multi-market solution, we enabled them to unlock new revenue streams and enter diverse geolocations. Our strategic approach not only expanded their market reach but also simplified compliance management, making regulatory hurdles a thing of the past. Enthu showcases our commitment to driving business growth through innovative IT solutions, empowering our clients to thrive in a global marketplace."
+title:  "Expanding Global Reach for Enthusiastic Solutions"
+challenge: Enthusiastic Solutions, an EdTech company, needed to expand globally.
+solution:
+- Multiple payment gateways (including Razorpay for India)
+- Multiple currencies
+- Multiple geolocations
+- Seamless integration with existing tools
+results:
+- Expanded reach to a wider audience.
 # date:   2024-04-03 10:13:30 +0530
 share: true
 featured: true
@@ -10,9 +17,8 @@ image_name: enthu-case-study.svg
 alt: "Enthu"
 technology:
 - Elixir
-- AbsInThe
+- GraphQL
 - Phoenix framework
-- Event Bus
 - Figma
 tags:
 - edtech

@@ -1,8 +1,18 @@
 ---
 client_name: "Inkle"
-title:  "US accounting and tax automation for startups"
+title:  "Streamlining Operations and Enhancing User Management for Inkle"
 excerpt: "Project Inkle"
-description: "We conducted requirements analysis to understand their needs and propose the most effective and feasible solutions."
+challenge: Inkle's portal had complex forms with overlapping data, hindering customer onboarding and administrative efficiency. They also needed better user management.
+solution:
+- Simplified complex forms, improving user experience.
+- Implemented multi-user roles.
+- Integrated payments for subscriptions using Chargebee.
+- Added recurring subscriptions.
+results:
+- Improved operational efficiency.
+- Reduced administrative tasks.
+- Enhanced customer onboarding.
+#description: "We conducted requirements analysis to understand their needs and propose the most effective and feasible solutions."
 # date:   2024-04-03 10:13:30 +0530
 featured: true
 image_name: inkle-case-study.svg
@@ -11,22 +21,26 @@ alt: "Inkle"
 share: true
 technology:
 - Elixir
-- Phoenix framework
-- React.js
-- TailwindCSS
-- Figma
+- Chargebee
 tags:
 - fintech
-- requirements_analysis
 - chargebee_integration
 ---
 
-We conducted requirements analysis to understand their needs and propose the most effective and feasible solutions.
+### Challenge:
+Inkle's portal had complex forms with overlapping data, hindering customer onboarding and administrative efficiency.  They also needed better user management.
 
+### Solution: [Songpoem]:
 
-Intuitive Admin Dashboard.
+Simplified complex forms, improving user experience.
+Implemented multi-user roles.
+Integrated payments for subscriptions using Chargebee.
+Added recurring subscriptions.
 
+### Results:
 
-### Enhanced Data Privacy and Access Control:
-With the implementation of Multi-User Permissions and business logic hierarchies, Project Inkle achieved a seamless transition from flat to hierarchical data access. This strategic approach not only optimized data governance but also restricted sensitive contact information access from employees, ensuring stringent data privacy within the organization.
+Improved operational efficiency.
+Reduced administrative tasks.
+Enhanced customer onboarding.
 
+Technology: Elixir, Chargebee
