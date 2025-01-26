@@ -2,11 +2,8 @@
 title: "Working Together and Communicating"
 description: "Enjoy smooth teamwork and clear communication during your project."
 points:
-  - Create solid partnerships.
-  - Communicate transparently.
   - Provide regular updates.
   - Offer remote expertise.
-  - Encourage open discussions.
 url: "/services/blockchain-development-services/"
 icon: "songpoem_technology_sphere.png"
 image_name: "/assets/images/songpoem-ai.jpg"

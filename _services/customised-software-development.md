@@ -2,11 +2,8 @@
 title: "Customised Software Development"
 description: "Build Solutions Tailored to Your Unique Business"
 points:
-  - Build software that fits your needs.
-  - Tackle specific problems in your business.
   - Deliver high-quality software.
-  - Write code that is easy to update.
-  - Improve business efficiency.
+  # - Write code that is easy to maintain.
 business_benefits:
   - AI Agent framework
   - Multi Agent

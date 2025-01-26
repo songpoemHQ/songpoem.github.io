@@ -2,10 +2,10 @@
 title: "Knowledge Sharing Sessions"
 description: "We have monthly meetings to share knowledge and encourage ongoing learning."
 points:
-  - Gain industry insights.
+  # - Gain industry insights.
   - Improve team skills.
   - Share best practices.
-  - Stay up-to-date.
+  # - Stay up-to-date.
 url: "/services/blockchain-development-services2/"
 icon: "songpoem-teamwork.png"
 image_name: "/assets/images/songpoem-ai.jpg"

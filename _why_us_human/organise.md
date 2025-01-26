@@ -3,10 +3,10 @@ title: "Meetups and Workshops"
 description: "We host events and invite speakers to share knowledge and experiences."
 points:
   - Organize workshops & meetups.
-  - Invite expert speakers.
+  # - Invite expert speakers.
   - Share valuable knowledge.
-  - Encourage open-source work.
-  - Foster learning culture.
+  # - Encourage open-source work.
+  # - Foster learning culture.
   - Expand Network
 url: "/services/talent-scount-services4/"
 icon: "songpoem-time-money.png"

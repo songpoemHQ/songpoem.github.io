@@ -1,12 +1,9 @@
 ---
 title: "Staff Augmentation"
-description: "Scale Your Team with Top Talent, On Demand"
+description: "Scale Your Team with trained talent, On Demand"
 points:
-  - Grow your team quickly.
-  - Keep your development running smoothly.
   - Access niche technology experts.
-  - Save time and money on hiring.
-  - Stay ahead of your competitors.
+  # - Save time and money on hiring.
 business_benefits:
   - AI Agent framework
   - Multi Agent
@@ -15,7 +12,7 @@ icon: "songpoem-teamwork-boat.png"
 alt: "teamwork at Songpoem Labs."
 layout: splash
 category: web3
-score: 72
+score: 68
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

@@ -3,9 +3,6 @@ title: "Fast Team Setup"
 description: "Quickly set up your development team with our fast hiring process."
 points:
   - Accelerate project timelines.
-  - Shorten the time it takes to hire.
-  - Access available talent.
-  - Gain immediate support.
   - Keep your project going smoothly.
 url: "/services/talent-scount-services/"
 icon: "songpoem-global-people.png"

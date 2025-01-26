@@ -4,10 +4,8 @@ description: "Develop and adapt quickly with our agile approach to software deve
 points:
   - Launch products faster.
   - Lower your development expenses.
-  - Adapt to change quickly.
-  - Improve product quality.
-  - Offer flexible models.
-  - Increase customer satisfaction.
+  # - Adapt to change quickly.
+  # - Offer flexible models.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-time-money.png"
 alt: "teamwork at Songpoem Labs."

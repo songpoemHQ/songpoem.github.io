@@ -3,9 +3,9 @@ title: "Networking"
 description: "We join industry events to stay connected and learn about new trends."
 points:
   - Gain industry insights.
-  - Access new technologies.
+  # - Access new technologies.
   - Understand current trends.
-  - Expand professional network.
+  # - Expand professional network.
 url: "/services/blockchain-development-services2/"
 icon: "songpoem-teamwork.png"
 image_name: "/assets/images/songpoem-ai.jpg"

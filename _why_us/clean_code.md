@@ -2,10 +2,8 @@
 title: "High-Quality Code"
 description: "Enjoy good quality code that is easy to maintain and works well over time."
 points:
-  - Reduce maintenance costs.
+  # - Reduce maintenance costs.
   - Improve software stability.
-  - Enhance security.
-  - Increase code reusability.
   - Make future updates easier.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-programmer.png"

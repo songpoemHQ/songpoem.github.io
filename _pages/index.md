@@ -1,20 +1,20 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
 title: "We compose intelligent products for startups"
-description: "Transform your startup with custom AI-powered solutions and expert staff augmentation. Hire skilled developers"
-excerpt: "Focusing on AI, GenAI, and Agentic AI to deliver tailored solutions that empower early-stage companies with expert engineering support"
+description: "Focusing on AI, Gen AI, and AI Agents to deliver tailored solutions that
+ empower early-stage companies with expert engineering support"
+excerpt: "Focusing on AI, Gen AI, and AI Agents to deliver tailored solutions that
+ empower early-stage companies with expert engineering support"
 keywords:
   - AI-powered product development
+  - AI development for startups
+  - Custom AI solutions
+  - AI-powered software development
+  - Startup AI
   - Custom software development for startups
   - Staff augmentation services
-  - Hire Elixir developers
-  - Erlang development services
   - Rust programming specialists
-  - Niche technology developers
-  - Scalable software solutions
   - Offshore development team
-  - Low-Code Application Development (Mendix)
-
 layout: splash
 permalink: /
 date: 2025-01-10T11:48:41-04:00
@@ -38,13 +38,6 @@ memberships_row:
     image_path: /assets/images/ecosystem/stpi_logo_S.jpg
     alt: "STPI"
     description: "STPI provides support for software exports across India’s thriving IT ecosystem."
-potential_partners_row:
-  - title: "MongoDB"
-    # image_path: /assets/images/partners/mongodb.png
-    alt: "MongoDB"
-  - title: "AWS Cloud"
-    # image_path: /assets/images/partners/aws.png
-    alt: "AWS Cloud"
 events_row:
   - title: "BeamBasket (Elixir News)"
     description: "Stay updated with the latest news and insights from the Elixir community through BeamBasket on Twitter. Follow us for regular updates, industry news, and expert opinions on everything Elixir."
@@ -77,5 +70,9 @@ data=site.why_us %}
 <!-- {% include memberships_section id=page.potential_partners_row title="Potential Partners" %} -->
 {% include case_studies_section id=page.featured_case_studies title="Case Studies" %}
 
-{% include cta_section title="Speak to us" description="Book a free 30 minutes Consultation call." cta_label="Book Meeting" %}
+{% include cta_section title="Speak to us"
+ description="Book a free 30 minutes Consultation call."
+  cta_label="Book Meeting"
+  url="mailto:sandesh.soni@songpoem.com"
+   %}
 

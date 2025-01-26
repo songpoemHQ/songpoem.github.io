@@ -2,10 +2,10 @@
 title: "Open source contributions"
 description: "We help the open-source community grow by sharing ideas and tools."
 points:
-  - Access latest technologies.
+  - Access niche technologies.
   - Attract top talent. 
-  - Foster collaboration.
-  - Improve code quality.
+  # - Foster collaboration.
+  # - Improve code quality.
 url: "/services/talent-scount-services/"
 icon: "songpoem-rocketship.png"
 image_name: "/assets/images/songpoem-blockchain.jpg"

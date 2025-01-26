@@ -3,11 +3,8 @@ title: "AI Implementation"
 description: "Innovation with AI"
 points:
   - Find ways to use AI effectively.
-  - Make routine tasks automatic.
   - Lower your business expenses.
-  - Accelerate business processes.
-  - Use AI to create new ideas.
-  - Speed up the development process.
+  # - Speed up the development process.
 business_benefits:
 url: "/services/blockchain-development-services/"
 icon: "songpoem-ai-solutions.png"
