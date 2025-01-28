@@ -1,10 +1,10 @@
 ---
-title: "Product development"
-description: "Build once and access across multiple devices"
+title: "Product Development"
+description: "Build your startup idea"
 points:
-  - Cloud Based.
-  - Access anywhere.
-  - Easy to use. 
+  - Build Once, Access Everywhere
+  - Cloud powered
+  - faster time-to-market
 capabilities:
   - Scalibility
   - Concurrency
@@ -13,7 +13,7 @@ image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
-score: 70
+score: 75
 category: core
 header:
   overlay_color: "#000"

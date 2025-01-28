@@ -5,11 +5,8 @@ business_benefits:
   - Scale machine learning models efficiently.
   - Gain data-driven insights for better decision-making.
 points:
-  - Improve predictions.
-  - Automate decisions.
-  - Gain insights.
-  - Reduce costs.
-  - Increase efficiency.
+  - Data-Driven Decisions
+  - Improve Predictions
 url: "/services/Verifiable-Credentials/"
 icon: "songpoem-data-training.png"
 image_name: "/assets/images/songpoem-marketplace.jpg"

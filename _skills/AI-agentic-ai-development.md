@@ -2,11 +2,8 @@
 title: "AI Agents"
 description: "Build AI agents that automate tasks and workflows."
 points:
-  - Boost team productivity.
-  - Automate complex tasks.
-  - Improve operational efficiency.
-  - Streamline business processes.
-  - Reduce manual effort.
+  - Automate the Tedious complex tasks.
+  - Agents that work around the clock, even when your team is offline.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-ai-solutions.png"
 image_name: "/assets/images/songpoem-ai.jpg"

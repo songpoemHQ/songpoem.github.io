@@ -2,10 +2,8 @@
 title: "Gen AI"
 description: "implement gen AI"
 points:
-  - Boost team productivity.
+  - Leverage generative AI to create new content.
   - Improve operational efficiency.
-  - Streamline business processes.
-  - Reduce manual effort.
 url: "/services/blockchain-development-services/"
 icon: "songpoem-ai-solutions.png"
 image_name: "/assets/images/songpoem-ai.jpg"

@@ -1,9 +1,10 @@
 ---
-title: "Distributed Systems"
-description: "Build scalable and maintainable applications with ease"
+title: "Real-Time Systems Development"
+description: "Build a real-time data pipeline"
 points:
-  - Handle high user traffic.
-  - Build reliable systems. 
+  - Low Latency Performance
+  - Scalable Infrastructure
+  - Erlang, Elixir, Go 
 capabilities:
   - Scalibility
   - Concurrency

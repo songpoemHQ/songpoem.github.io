@@ -1,9 +1,9 @@
 ---
-title: "Upgrade"
-description: "Modernize legacy systems"
+title: "Legacy System Modernization"
+description: "Upgrade outdated systems to improve efficiency and security"
 points:
-  - Improved Business Logic
-  - Modern UX.
+  - Streamline Business Logic
+  - Modern UX/UI.
 capabilities:
   - Scalibility
   - Concurrency
@@ -12,7 +12,7 @@ image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
-score: 70
+score: 65
 category: core
 header:
   overlay_color: "#000"
