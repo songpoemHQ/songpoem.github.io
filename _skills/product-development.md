@@ -1,11 +1,10 @@
 ---
-title: "Erlang and Elixir"
-description: "Build scalable and maintainable applications with ease"
+title: "Product development"
+description: "Build once and access across multiple devices"
 points:
-  - Handle high user traffic.
-  - Reduce server costs.
-  - Minimize system downtime.
-  - Build reliable systems. 
+  - Cloud Based.
+  - Access anywhere.
+  - Easy to use. 
 capabilities:
   - Scalibility
   - Concurrency

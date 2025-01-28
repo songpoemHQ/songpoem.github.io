@@ -2,13 +2,13 @@
   <h2 class="section-title">{{ include.title }}</h2>
 
   <div class="grid-container">
-    {% assign secondary_skills = site.skills | where: "category", "secondary" | sort: "score" | reverse %}
-    {% assign skills = secondary_skills | slice: 0, 4 %}
+    {% assign technologies = site.technologies | sort: "score" | reverse %}
+    {% assign skills = technologies | slice: 0, 9 %}
     {% for skill in skills %}
     <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication"> 
-      <div class="card-image mb-4">
+      <!-- <div class="card-image mb-4">
         <img src="{{ skill.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ skill.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
-      </div>
+      </div> -->
       <div class="card-content">
         <h3 class="text-lg font-semibold" itemprop="name">{{ skill.title }}</h3> 
         <p class="antialiased" itemprop="description">{{ skill.description }}</p>

@@ -1,6 +1,6 @@
 ---
-title: "Go Lang"
-description: "Optimize Performance and Scalability."
+title: "Autogen"
+description: "A programming framework for agentic AI"
 business_benefits:
   - Build high-performance applications with concurrency support.
   - Simplify deployment with statically linked binaries.
@@ -8,6 +8,8 @@ capabilities:
   - Scalibility
   - Concurrency
 points:
+  - multi-agent AI applications.
+pointsx:
   - Create robust backend systems
   - Develop dynamic messaging platforms
   - Build scalable distributed applications
@@ -16,7 +18,7 @@ image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
-score: 60
+score: 58
 category: secondary
 header:
   overlay_color: "#000"

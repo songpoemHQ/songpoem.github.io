@@ -29,6 +29,7 @@ include:
   - _skills/core
   - _why-us
   - _why_us_human
+  - _technologies
 
 category_archive:
   type: liquid
@@ -86,6 +87,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   tils:
+    output: true
+    permalink: /:collection/:name
+  technologies:
     output: true
     permalink: /:collection/:name
 

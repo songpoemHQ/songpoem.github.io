@@ -55,11 +55,11 @@ events_row:
 
 {% include services_section id="services_row" title="How our Services Compose Business Success" %}
 
-{% include ai_skills_section id="ai_skills" title="Our AI skills" %}
+{% include skills_ai_section id="ai_skills" title="Our AI skills" %}
 
-{% include core_skills_section id="core_skills" title="Our Core Expertise" %}
-{% include secondary_skills_section id="core_skills" title="Our Secondary skills" %}
+{% include skills_core_section id="core_skills" title="Our Core Expertise" %}
 
+{% include skills_technology_section id="tech_skills" title="Technologies we use" %}
 
 {% include why_us_section id=page.why_songpoem title="Why customers choose Songpoem Labs"
 data=site.why_us %}

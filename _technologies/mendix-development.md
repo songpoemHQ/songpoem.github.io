@@ -8,11 +8,13 @@ capabilities:
   - Mendix development
   - No code
 points:
+  - No code platform
+  - Empower business users.
+pointsx:
   - Accelerate app delivery.
   - Reduce development costs.
   - Improve business agility.
   - Enhance customer experience.
-  - Empower business users.
 url: "/services/mendix-development/"
 icon: "songpoem-programmer.png"
 alt: "Mendix development development at Songpoem Labs."

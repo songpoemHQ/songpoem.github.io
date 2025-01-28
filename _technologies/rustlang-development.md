@@ -1,9 +1,10 @@
 ---
-title: "Rust Lang"
+title: "Rust 🦀"
 description: "Build reliable and efficient software with guaranteed memory safety."
 points:
-  - Prevent costly errors.
-  - Improve application security.
+  - System-level programming
+  - High-performance web assembly (WASM) applications.
+pointsx:
   - Increase software performance.
   - Develop reliable systems.
   - Reduce maintenance costs.
