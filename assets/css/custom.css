@@ -41,32 +41,59 @@
 }
 
 .card-image img {
-  max-height: 150px; /* Ensures uniform image height */
+  max-height: 150px;
+  /* Ensures uniform image height */
   width: auto;
   object-fit: contain;
 }
 
 /* Services Section Specific */
-.whyus-section .technologies-section, .services-section{
-   .card {
-  flex: 1 1 calc(33.333% - 2rem); /* 3 cards per row on large screens */
-}
-}
-
-@media (max-width: 1024px) {
-  .whyus-section .technologies-section, .services-section{
-    .card {
-    flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row on medium screens */
+.whyus-section .services-section {
+  .card {
+    flex: 1 1 calc(33.333% - 2rem);
+    /* 3 cards per row on large screens */
   }
 }
+
+ .technologies-section {
+  .card {
+    flex: 1 1 calc(25% - 1rem);
+    /*  4 cards per row on large screens */
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .whyus-section .services-section {
+    .card {
+      flex: 1 1 calc(50% - 1.5rem);
+      /* 3 cards per row on medium screens */
+    }
+  }
+
+  .technologies-section {
+    .card {
+      flex: 1 1 calc(33.333% - 1rem);
+      /* 3 cards per row on medium screens */
+    }
+  }
 }
 
 @media (max-width: 640px) {
-  .whyus-section .technologies-section, .services-section{
+
+  .whyus-section .services-section {
     .card {
-    flex: 1 1 100%; /* Single card per row on small screens */
+      flex: 1 1 100%;
+      /* Single card per row on small screens */
+    }
   }
-}
+
+  .technologies-section {
+    .card {
+      flex: 1 1 50%;
+      /* Single card per row on small screens */
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -90,12 +117,14 @@
 
 /* Why Choose Us Section Specific */
 .whyus-section .card {
-  flex: 1 1 calc(25% - 1.5rem); /* 4 cards per row on large screens */
+  flex: 1 1 calc(25% - 1.5rem);
+  /* 4 cards per row on large screens */
 }
 
 @media (max-width: 1024px) {
   .whyus-section .card {
-    flex: 1 1 calc(50% - 1.5rem); /* 2 cards per row on medium screens */
+    flex: 1 1 calc(50% - 1.5rem);
+    /* 2 cards per row on medium screens */
   }
 }
 
@@ -149,7 +178,8 @@
 }
 
 .case-study-item img {
-  max-height: 5rem; /* Ensures uniform image height */
+  max-height: 5rem;
+  /* Ensures uniform image height */
   margin-bottom: 1rem;
 }
 
@@ -214,30 +244,37 @@
 }
 
 .memberships-section .card-image img {
-  max-height: 5rem; /* Ensures uniform image height */
+  max-height: 5rem;
+  /* Ensures uniform image height */
 }
 
 /* CTA Section Styling */
 .cta-section {
   padding: 3rem 1rem;
-  background-color: #007bff; /* Primary color for CTA */
+  background-color: #007bff;
+  /* Primary color for CTA */
   text-align: center;
-  color: #fff; /* Text color for contrast */
-  border-radius: 12px; /* Soft rounded corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+  color: #fff;
+  /* Text color for contrast */
+  border-radius: 12px;
+  /* Soft rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for elevation */
 }
 
 .cta-section h2 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #fff; /* Ensure title color is white for accessibility */
+  color: #fff;
+  /* Ensure title color is white for accessibility */
 }
 
 .cta-section p {
   font-size: 1.125rem;
   margin-bottom: 1.5rem;
-  color: #f1f1f1; /* Slightly muted white for text */
+  color: #f1f1f1;
+  /* Slightly muted white for text */
 }
 
 .cta-section .btn {
@@ -246,16 +283,22 @@
   font-weight: 500;
   text-decoration: none;
   padding: 0.75rem 1.5rem;
-  color: #007bff; /* Primary color for button text */
-  background-color: #fff; /* Contrast background for button */
+  color: #007bff;
+  /* Primary color for button text */
+  background-color: #fff;
+  /* Contrast background for button */
   border-radius: 8px;
-  transition: all 0.3s ease-in-out; /* Smooth hover effects */
+  transition: all 0.3s ease-in-out;
+  /* Smooth hover effects */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .cta-section .btn:hover {
-  background-color: #f1f1f1; /* Slightly muted white on hover */
-  color: #0056b3; /* Darker shade of primary for text */
+  background-color: #f1f1f1;
+  /* Slightly muted white on hover */
+  color: #0056b3;
+  /* Darker shade of primary for text */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px); /* Slight upward motion on hover */
+  transform: translateY(-2px);
+  /* Slight upward motion on hover */
 }

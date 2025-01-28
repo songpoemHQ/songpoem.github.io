@@ -8,8 +8,7 @@ capabilities:
   - Deliver seamless web and mobile experiences
   - Engage your users with fast, responsive, and beautiful interfaces.
 points:
-  - web and mobile
-  - reusable interfaces
+  - build cross-platform mobile apps with single codebase
 pointsx:
   - Boost user engagement.
   - Improve app performance.

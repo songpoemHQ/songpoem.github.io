@@ -5,16 +5,13 @@
     {% assign technologies = site.technologies | sort: "score" | reverse %}
     {% assign skills = technologies | slice: 0, 9 %}
     {% for skill in skills %}
-    <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication"> 
-      <!-- <div class="card-image mb-4">
-        <img src="{{ skill.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ skill.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
-      </div> -->
+    <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication">
       <div class="card-content">
-        <h3 class="text-lg font-semibold" itemprop="name">{{ skill.title }}</h3> 
-        <p class="antialiased" itemprop="description">{{ skill.description }}</p>
+        <h3 class="text-sm font-semibold" itemprop="name">{{ skill.title }}</h3>
+        <p class="text-sm" itemprop="description">{{ skill.description }}</p>
         <ul class="skill-points text-left">
           {% for point in skill.points %}
-          <li itemprop="featureList">{{ point }}</li> 
+          <li itemprop="featureList">{{ point }}</li>
           {% endfor %}
         </ul>
         <!-- <div class="mt-auto pt-4 text-left">

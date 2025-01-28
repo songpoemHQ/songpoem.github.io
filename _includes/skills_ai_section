@@ -1,4 +1,4 @@
-<div class="section technologies-section">
+<div class="section skills-section">
   <h2 class="section-title">{{ include.title }}</h2>
 
   <div class="grid-container">
