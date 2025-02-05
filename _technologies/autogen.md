@@ -1,6 +1,6 @@
 ---
 title: "Autogen"
-description: "A programming framework for agentic AI"
+description: "for building agentic AI"
 business_benefits:
   - Build high-performance applications with concurrency support.
   - Simplify deployment with statically linked binaries.

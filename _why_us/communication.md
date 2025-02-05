@@ -1,5 +1,5 @@
 ---
-title: "Working Together and Communicating"
+title: "Seamless Communication"
 description: "Enjoy smooth teamwork and clear communication during your project."
 points:
   - Provide regular updates.

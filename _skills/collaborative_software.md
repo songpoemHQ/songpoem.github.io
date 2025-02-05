@@ -1,12 +1,10 @@
 ---
 title: "Collaborative Software Development"
-description: "We design and build custom collaborative software solutions that empower teams to communicate, share information, and work together effectively.
-"
+description: "Empowering teams to achieve more, together."
 points:
-  - Building Innovative Collaborative Applications for Any Industry
   - Real-time Synchronization and Data Sharing
   - Seamless Integration with Existing Systems
-  - Examples Shared workspaces, document collaboration tools, project management platforms
+  - Examples - Shared workspaces, document collaboration tools, project management platforms.
 
 business_benefits:
   - AI Agent framework

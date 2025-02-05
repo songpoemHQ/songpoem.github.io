@@ -1,6 +1,6 @@
 ---
 title: "Rust 🦀"
-description: "Build reliable and efficient software with guaranteed memory safety."
+description: "For performance optimization."
 points:
   - System-level programming
   - High-performance web assembly (WASM) applications.

@@ -1,10 +1,8 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "We compose intelligent products for startups"
-description: "Focusing on AI, Gen AI, and AI Agents to deliver tailored solutions that
- empower early-stage companies with expert engineering support"
-excerpt: "Focusing on AI, Gen AI, and AI Agents to deliver tailored solutions that
- empower early-stage companies with expert engineering support"
+title: "We build the Foundation for Collaborative Software"
+description: "Real-time, shared state technology that powers interactive experiences."
+excerpt: "Real-time, Shared State Technology that powers interactive experiences."
 keywords:
   - AI-powered product development
   - AI development for startups
@@ -53,18 +51,18 @@ events_row:
     url: "https://www.meetup.com/elixir-pune/"
 ---
 
-{% include services_section id="services_row" title="How our Services Compose Business Success" %}
 
-{% include skills_ai_section id="ai_skills" title="Our AI skills" %}
 
-{% include skills_core_section id="core_skills" title="Our Core Expertise" %}
+
+
+{% include skills_core_section id="core_skills" title="What We Offer." %}
 
 {% include skills_technology_section id="tech_skills" title="Technologies we use" %}
 
 {% include why_us_section id=page.why_songpoem title="Why customers choose Songpoem Labs"
 data=site.why_us %}
 
-{% include why_us_section id=page.why_songpoem title="Our culture of Continuous Learning" data=site.why_us_human %}
+<!-- {% include why_us_section id=page.why_songpoem title="Our culture of Continuous Learning" data=site.why_us_human %} -->
 
 {% include memberships_section id=page.memberships_row title="Communities we are a part of" %}
 <!-- {% include memberships_section id=page.potential_partners_row title="Potential Partners" %} -->

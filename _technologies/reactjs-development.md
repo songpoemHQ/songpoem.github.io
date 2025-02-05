@@ -1,6 +1,6 @@
 ---
 title: "React.js and React Native"
-description: "Build dynamic, high-performing user interfaces"
+description: "For dynamic and engaging user interfaces across all platforms."
 business_benefits:
   - Create reusable components for efficient development.
   - Single codebase for multiple platforms.

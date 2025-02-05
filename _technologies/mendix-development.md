@@ -1,6 +1,6 @@
 ---
 title: "Mendix"
-description: "Rapidly build enterprise applications with low-code."
+description: "For rapid enterprise application development."
 business_benefits:
   - Rapid app development with low-code tools.
   - Foster collaboration between IT and business teams.

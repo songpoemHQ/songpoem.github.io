@@ -3,7 +3,7 @@
 
   <div class="grid-container">
     {% assign sorted_whyus = include.data | sort: 'score' | reverse %}
-    {% assign top_whyus = sorted_whyus | slice: 0, 4 %}
+    {% assign top_whyus = sorted_whyus | slice: 0, 3 %}
     {% for service in top_whyus %}
     <div class="card" itemscope itemtype="http://schema.org/Service"> 
       <div class="card-image">

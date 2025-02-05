@@ -1,6 +1,6 @@
 ---
 title: "Elixir 💜"
-description: "Build scalable and maintainable applications with ease"
+description: "For scalable and fault-tolerant applications."
 points:
   - Minimize system downtime.
   - Handle high user traffic.

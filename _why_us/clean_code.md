@@ -1,5 +1,5 @@
 ---
-title: "High-Quality Code"
+title: "Maintainable Code"
 description: "Enjoy good quality code that is easy to maintain and works well over time."
 points:
   # - Reduce maintenance costs.

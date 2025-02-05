@@ -8,12 +8,12 @@
     <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication">
       <div class="card-content">
         <h3 class="text-sm font-semibold" itemprop="name">{{ skill.title }}</h3>
-        <p class="text-sm" itemprop="description">{{ skill.description }}</p>
-        <ul class="skill-points text-left">
+        <p class="text-sm" itemprop="description"><i>{{ skill.description }}</i></p>
+        <!-- <ul class="skill-points text-left">
           {% for point in skill.points %}
           <li itemprop="featureList">{{ point }}</li>
           {% endfor %}
-        </ul>
+        </ul> -->
         <!-- <div class="mt-auto pt-4 text-left">
           <a href="{{ skill.url }}" class="mr-2 text-blue-600" itemprop="url">Read more</a> 
         </div> -->

@@ -1,9 +1,11 @@
 ---
 title: "AI Implementation"
-description: "Innovation with AI"
+description: "leverage AI to drive innovation and efficiency."
 points:
   - Find ways to use AI effectively.
-  - Lower your business expenses.
+  - Gen AI
+  - AI Agents
+  - Agentic AI
   # - Speed up the development process.
 business_benefits:
 url: "/services/blockchain-development-services/"
@@ -11,8 +13,8 @@ icon: "songpoem-ai-solutions.png"
 image_name: "/assets/images/songpoem-ai.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
-category: web3
-score: 75
+category: core
+score: 70
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

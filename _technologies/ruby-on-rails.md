@@ -1,6 +1,6 @@
 ---
 title: "Ruby on Rails"
-description: "Speedup Web Development"
+description: "For rapid prototyping and MVP development."
 capabilities:
   - Scalibility
   - Concurrency
