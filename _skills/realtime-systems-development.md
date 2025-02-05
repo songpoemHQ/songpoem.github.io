@@ -1,10 +1,9 @@
 ---
 title: "Real-Time Systems Development"
-description: "Build a real-time data pipeline"
+description: "Our real-time systems expertise is crucial for creating responsive and engaging collaborative applications."
 points:
-  - Low Latency Performance
-  - Scalable Infrastructure
-  - Erlang, Elixir, Go 
+  - Real-time Dashboards and Data Visualization
+  - Scalable and Reliable Infrastructure for Real-Time Applications
 capabilities:
   - Scalibility
   - Concurrency

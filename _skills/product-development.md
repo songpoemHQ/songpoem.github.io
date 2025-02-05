@@ -1,10 +1,9 @@
 ---
-title: "Product Development"
-description: "Build your startup idea"
+title: "Cross-Platform Development"
+description: "Reach your audience on any device with our cross-platform development expertise. We build once and deploy everywhere, ensuring consistent and accessible collaborative experiences."
 points:
-  - Build Once, Access Everywhere
-  - Cloud powered
-  - faster time-to-market
+  - Cloud-Powered Solutions for Scalability and Reliability
+  - Faster Time-to-Market with Unified Codebase
 capabilities:
   - Scalibility
   - Concurrency
