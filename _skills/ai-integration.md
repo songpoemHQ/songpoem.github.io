@@ -1,11 +1,10 @@
 ---
 title: "AI Implementation"
-description: "leverage AI to drive innovation and efficiency."
+description: "Find ways to use AI effectively."
 points:
-  - Find ways to use AI effectively.
-  - Gen AI
-  - AI Agents
-  - Agentic AI
+  - Generative AI- Creating high-quality content faster, automating content creation workflows, and enhancing creative processes. 
+  - AI Agents - Automating repetitive tasks, streamlining workflows, and freeing up your team for strategic initiatives.
+  - Agentic AI - Building intelligent, autonomous agents that can perform complex tasks and make decisions, revolutionizing how your business operates.
   # - Speed up the development process.
 business_benefits:
 url: "/services/blockchain-development-services/"

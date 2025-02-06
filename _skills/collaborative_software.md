@@ -1,9 +1,9 @@
 ---
 title: "Collaborative Software Development"
-description: "Empowering teams to achieve more, together."
+description: "Empowering teams to achieve more, together in realtime"
 points:
+  - Interactive experiences.
   - Real-time Synchronization and Data Sharing
-  - Seamless Integration with Existing Systems
   - Examples - Shared workspaces, document collaboration tools, project management platforms.
 
 business_benefits:

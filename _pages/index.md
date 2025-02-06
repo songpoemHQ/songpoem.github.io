@@ -1,8 +1,8 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "We build the Foundation for Collaborative Software"
+title: "We compose intelligent Software for startups"
 description: "Real-time, shared state technology that powers interactive experiences."
-excerpt: "Real-time, Shared State Technology that powers interactive experiences."
+excerpt: "Powered by GenAI, AI Agents and Agentic AI and our expert engineers in niche technologies"
 keywords:
   - AI-powered product development
   - AI development for startups
