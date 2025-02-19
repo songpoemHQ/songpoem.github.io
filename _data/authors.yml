@@ -1,26 +1,15 @@
 Sandesh Soni:
   name        : "Sandesh Soni"
   avatar      : "/assets/images/sandeshsoni.png"
-  bio: >-
-    My name is Sandesh Soni.
-
-    I was born in Latur, India but I've been living in Pune, since 2008.
-    I love working with Elixir and Reactjs and to combine the two together.
-    I love writing code using my Keychron K2.
+  bio: |
+      My Keychron K2 is my therapist.
   location: "Pune, India"
   linkedin: "sandeshsoni"
-  stackoverflow: "2227876"
-  github: "sandeshsoni"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:hello@sandeshsoni.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://sandeshsoni.com"
-    - label: "Resume"
-      icon: "far fa-fw fa-file-pdf"
-      url: "/assets/files/Sandesh-Soni-Elixir-Cover.pdf"
+
 
 Piyush Tanksale:
   name        : "Piyush Tanksale"
@@ -29,10 +18,7 @@ Piyush Tanksale:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "piyush.tanksale@papertoapp.com"
+      url: "hello+piyush.tanksale@songpoem.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://papertoapp.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/papertoapp"
+      url: "https://www.linkedin.com/company/tworegisters/about/"
