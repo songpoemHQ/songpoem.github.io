@@ -7,7 +7,7 @@ category: artificial-intelligence
 tags:
 - safety
 - artificial-intelligence
-read_time: true
+read_time: false
 comments: true
 share: true
 related: true
@@ -46,7 +46,17 @@ This way you try to break the security.
 
 ![Red Teaming]({{site.baseurl}}/{{page.folder-url}}/red-teaming.png)
 
+### Other ways
+- Implementing kill switches and emergency shutdown protocols
+- Implementing Asimov's Three Laws in modern AI
+- Blockchain-based AI safety verification
 
+### Frameworks and Libraries
+##### NeMo Guardrails (NVIDIA):
+This is like a toolkit for building those safety rules. Imagine it as a set of building blocks that help developers easily add those "guardrails" to AI. It's especially good for AI that talks and writes, like chatbots.
 
+#### Guardrails AI:
+This is another open-source tool that's really good at checking and fixing the things AI creates. Think of it as a quality control expert for AI!
 
-Any more?
+#### Microsoft's Responsible AI Toolbox:
+This toolbox helps developers make sure the AI is fair and doesn't show any biases. It's like a fairness checker for AI.
