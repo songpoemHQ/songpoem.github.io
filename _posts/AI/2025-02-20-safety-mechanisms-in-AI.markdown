@@ -3,7 +3,7 @@ title:  Different types of Safety Mechanisms used in AI, Explained.
 date:   2025-02-19 21:13:30 +0530
 author_profile: true
 author: Sandesh Soni
-category: artificial-intelligence
+category: Artificial Intelligence
 tags:
 - safety
 - artificial-intelligence
