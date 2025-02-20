@@ -4,7 +4,7 @@ tags:
 - tus
 - tus-protocol
 - upload
-category: Web Development
+category: Engineering
 author: Sandesh Soni
 date: 2022-05-06 10:00:00 + 0530
 published: true

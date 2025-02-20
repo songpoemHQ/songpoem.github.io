@@ -9,7 +9,7 @@ tags:
 - random Data
 - generator
 date:   2021-09-07 10:13:30 +0530
-published: true
+published: false
 ---
 
 Recently I was building an app for Banking.

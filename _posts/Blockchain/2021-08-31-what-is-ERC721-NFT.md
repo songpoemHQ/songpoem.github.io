@@ -1,13 +1,13 @@
 ---
-title:  "Introduction to ERC721"
+title:  Introduction to ERC721
+category: Blockchain
 date:   2021-08-31 21:13:30 +0530
-published: false
+published: true
 author_profile: true
 author: Sandesh Soni
-category: NFT
 tags:
 - ERC721
 - NFT
-- ERC20
+- Ethereum
 ---
 
