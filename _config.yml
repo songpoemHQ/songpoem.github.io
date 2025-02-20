@@ -17,7 +17,7 @@ facebook_username: songpoemlabs
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.26.1"
-permalink: /blog/:categories/:slug/
+# permalink: /blog/:categories/:slug/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -71,6 +71,8 @@ footer:
       url: "https://instagram.com/songpoemlabs"
 
 collections:
+  posts:
+    permalink: /blog/:slug/
   portfolio:
     output: true
     permalink: /casestudies/:path/
