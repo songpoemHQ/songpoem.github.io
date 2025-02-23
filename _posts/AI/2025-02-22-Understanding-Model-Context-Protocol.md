@@ -55,10 +55,31 @@ def list_restaurants(city, cuisine)
 return {}
 ```
 
+```
+tools = {
+    "flight_search": { #...
+    },
+    "hotel_search": {
+        "description": "Searches for hotels",
+        "parameters": ["city", "check_in_date", "check_out_date"],
+        "executor": hotel_search_executor,
+    },
+    "restaurant_search": {
+        "description": "Searches for restaurants",
+        "parameters": ["city", "food_preferences"],
+        "executor": restaurant_search_executor,
+    },
+    "flight_search": {
+        "description": "Searches flights and Aeroplanes for travel"
+        ..
+    }
+}
+```
+
 How it works?
-- A User sends the message like "I am looking for flight between Newyork and Mumbai on 25 February".
-- Along with the message, we also send the tools list to the LLM. (all 3 tools in our case)
-- The LLM responds with best matching tool and also the parameters. In this case (tool: find_available_flights, arrival: "Mumbai", departure: "New York", date: "25 February 2025")
+- A User sends the message like "I am looking for flight between Newyork and Mumbai on 25 February". Lets call it context.
+- Along with the context, we also send the tools list to the LLM. (all 3 tools in our case)
+- The LLM responds with best matching tool and also the parameters. In current case (executor: flight_search_executor, arrival: "Mumbai", departure: "New York", date: "25 February 2025")
 
 References
 - [Github MCP](https://github.com/modelcontextprotocol)
