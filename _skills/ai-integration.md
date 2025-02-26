@@ -3,8 +3,8 @@ title: "AI Implementation"
 description: "Find ways to use AI effectively."
 points:
   - Generative AI- Creating high-quality content faster, automating content creation workflows, and enhancing creative processes. 
-  - AI Agents - Automating repetitive tasks, streamlining workflows, and freeing up your team for strategic initiatives.
-  - Agentic AI - Building intelligent, autonomous agents that can perform complex tasks and make decisions, revolutionizing how your business operates.
+  - Safety mechanism in AI.
+  - AI Agents and Agentic AI - Building intelligent, autonomous agents that can perform complex tasks and make decisions, revolutionizing how your business operates.
   # - Speed up the development process.
 business_benefits:
 url: "/services/blockchain-development-services/"
