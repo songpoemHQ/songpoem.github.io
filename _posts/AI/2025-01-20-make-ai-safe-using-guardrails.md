@@ -34,7 +34,7 @@ We will see details below.
 A few frameworks available for implementing guardrails
 - [Nemo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails)
-- There are more Engines and tools that ensure AI safety like Aporia, 
+- [PurpleLLama / Llama-Guard3](https://github.com/meta-llama/PurpleLlama)
 
 
 
