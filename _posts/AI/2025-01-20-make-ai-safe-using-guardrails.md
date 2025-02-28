@@ -32,9 +32,9 @@ We will see details below.
 ![Guard Rails]({{site.baseurl}}/{{page.folder-url}}/guardrails.png)
 
 A few frameworks available for implementing guardrails
-- [Nemo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
-- [Guardrails AI](https://github.com/guardrails-ai/guardrails)
-- [PurpleLLama / Llama-Guard3](https://github.com/meta-llama/PurpleLlama)
+- [Nemo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails){:target="_blank"}
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails){:target="_blank"}
+- [PurpleLLama / Llama-Guard3](https://github.com/meta-llama/PurpleLlama){:target="_blank"}
 
 
 

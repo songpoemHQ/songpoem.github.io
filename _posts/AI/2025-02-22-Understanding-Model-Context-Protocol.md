@@ -82,5 +82,5 @@ How it works?
 - The LLM responds with best matching tool and also the parameters. In current case (executor: flight_search_executor, arrival: "Mumbai", departure: "New York", date: "25 February 2025")
 
 References
-- [Github MCP](https://github.com/modelcontextprotocol)
-- [MCP Documentation](https://modelcontextprotocol.io/introduction)
+- [Github MCP](https://github.com/modelcontextprotocol){:target="_blank"}
+- [MCP Documentation](https://modelcontextprotocol.io/introduction){:target="_blank"}

@@ -53,4 +53,5 @@ Instead of trying to directly encode Asimov's laws, researchers are exploring al
 
 
 references
-- [story on world economic forum](https://www.weforum.org/stories/2024/10/ai-value-alignment-how-we-can-align-artificial-intelligence-with-human-values/#:~:text=Artificial%20intelligence%20(AI)%20value%20alignment,human%20values%20and%20ethical%20principles)
+- [story on world economic forum](https://www.weforum.org/stories/2024/10/ai-value-alignment-how-we-can-align-artificial-intelligence-with-human-values/){:target="_blank"}
+- [YouTube, Isaac Asimov: The Three Laws of Robotics](https://www.youtube.com/watch?v=AWJJnQybZlk){:target="_blank"}
