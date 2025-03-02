@@ -19,7 +19,7 @@ url: "/services/mendix-development/"
 icon: "songpoem-programmer.png"
 alt: "Mendix development development at Songpoem Labs."
 layout: splash
-score: 65
+score: 63
 category: core
 header:
   overlay_color: "#000"

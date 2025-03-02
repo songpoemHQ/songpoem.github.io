@@ -1,18 +1,14 @@
 ---
-title: "Rust 🦀"
-description: "For performance optimization."
+title: "Python"
+description: "For AI frameworks."
 points:
-  - System-level programming
-  - High-performance web assembly (WASM) applications.
-pointsx:
-  - Increase software performance.
-  - Develop reliable systems.
-  - Reduce maintenance costs.
+  - Python
+  - Python
 url: "/services/RUST-development/"
 icon: "songpoem-programmer.png"
 alt: "RUST lang development at Songpoem Labs."
 layout: splash
-score: 64
+score: 65
 category: core
 header:
   overlay_color: "#000"
