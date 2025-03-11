@@ -1,11 +1,11 @@
 <div class="section technologies-section">
   <h2 class="section-title">{{ include.title }}</h2>
 
-  <div class="grid-container">
+  <div class="container">
     {% assign technologies = site.technologies | sort: "score" | reverse %}
     {% assign skills = technologies | slice: 0, 9 %}
     {% for skill in skills %}
-    <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication">
+    <div class="tech-card" itemscope itemtype="http://schema.org/SoftwareApplication">
       <div class="card-content">
         <h3 class="text-sm font-semibold" itemprop="name">{{ skill.title }}</h3>
         <p class="text-sm" itemprop="description"><i>{{ skill.description }}</i></p>

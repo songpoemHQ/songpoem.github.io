@@ -17,10 +17,29 @@
   gap: 2rem;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 20px;
+  justify-content: center;
+}
+
 /* Shared Card Styling */
 .card {
   min-width: 250px;
   max-width: 400px;
+  padding: 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-card {
+  flex: 1 1 calc(25% - 20px); /* Adjusts width accounting for gap */
+  max-width: calc(25% - 20px);
   padding: 1rem;
   border: 2px solid rgba(0, 0, 0, 0.05);
   border-radius: 12px;
@@ -62,12 +81,15 @@
   }
 }
 
-
 @media (max-width: 1024px) {
-  .whyus-section .services-section {
     .card {
       flex: 1 1 calc(50% - 1.5rem);
       /* 3 cards per row on medium screens */
+    }
+    .tech-card {
+      flex: 1 1 calc(33.33% - 20px);
+      max-width: calc(33.33% - 20px);
+
     }
   }
 
@@ -79,7 +101,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
 
   .whyus-section .services-section {
     .card {
@@ -91,12 +113,18 @@
   .technologies-section {
     .card {
       flex: 1 1 50%;
+      max-width: calc(50% - 20px);
       /* Single card per row on small screens */
     }
   }
 }
 
 @media (max-width: 768px) {
+  .tech-card {
+    flex: 1 1 calc(50% - 20px);
+    max-width: 100%;
+  }
+  
   .cta-section {
     padding: 2rem 1rem;
   }
@@ -121,12 +149,7 @@
   /* 4 cards per row on large screens */
 }
 
-@media (max-width: 1024px) {
-  .whyus-section .card {
-    flex: 1 1 calc(50% - 1.5rem);
-    /* 2 cards per row on medium screens */
-  }
-}
+
 
 /* Case Studies Section */
 .case-studies-section {

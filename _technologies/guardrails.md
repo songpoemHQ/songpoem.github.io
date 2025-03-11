@@ -1,6 +1,6 @@
 ---
 title: "Guardrails"
-description: "For safeguarding AI and LLM response"
+description: "safeguard AI requests and responses"
 points:
   - NeMo Guardrails.
   - GuardRails
