@@ -1,5 +1,5 @@
 ---
-title: "LangChain"
+title: "LangGraph and LangChain"
 description: "develop LLM powered applications."
 points:
   - Minimize system downtime.

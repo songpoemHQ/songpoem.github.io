@@ -1,5 +1,5 @@
 ---
-title: "Autogen"
+title: "Autogen and AG2"
 description: "for building agentic AI"
 business_benefits:
   - Build high-performance applications with concurrency support.
