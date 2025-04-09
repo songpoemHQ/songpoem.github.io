@@ -2,7 +2,7 @@
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
 title: "We compose intelligent Software for startups"
 description: "Real-time, shared state technology that powers interactive experiences."
-excerpt: "Powered by GenAI, AI Agents and Agentic AI and our expert engineers in niche technologies"
+excerpt: "We provide engineering talent that is not only technically proficient but also imaginative and collaborative."
 keywords:
   - AI-powered product development
   - AI development for startups
@@ -13,6 +13,7 @@ keywords:
   - Staff augmentation services
   - Rust programming specialists
   - Offshore development team
+  - vibe coding
 layout: splash
 permalink: /
 date: 2025-01-10T11:48:41-04:00
