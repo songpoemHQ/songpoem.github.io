@@ -2,7 +2,7 @@
 # minimal_mistakes_skin: "dirt"
 locale: "en-US"
 
-masthead_title: Songpoem Labs
+masthead_title: Songpoem
 title: Songpoem Solutions LLP
 email: sandesh.soni@songpoem.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -10,9 +10,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 logo: "/assets/images/songpoemlabs-logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.songpoem.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: songpoemlabs
-github_username: songpoemlabs
-facebook_username: songpoemlabs
+twitter_username: songpoemHQ
+github_username: songpoemHQ
+facebook_username: songpoemHQ
 
 # Build settings
 markdown: kramdown
