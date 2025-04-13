@@ -1,8 +1,8 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "We compose intelligent Software for startups"
+title: "We build Complex Digital Products that are easy to use, just like listening to a song or sing a poem."
 description: "Real-time, shared state technology that powers interactive experiences."
-excerpt: "We provide engineering talent that is not only technically proficient but also imaginative and collaborative."
+excerpt: "Our team uses emerging technologies to build your dream Startup."
 keywords:
   - AI-powered product development
   - AI development for startups
