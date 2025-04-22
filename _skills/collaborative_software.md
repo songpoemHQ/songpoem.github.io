@@ -13,8 +13,8 @@ url: "/services/blockchain-development-services/"
 icon: "songpoem-code-quality.png"
 alt: "teamwork at Songpoem Labs."
 layout: splash
-category: core
-score: 80
+category: corex
+score: 65
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

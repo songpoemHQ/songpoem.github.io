@@ -1,19 +1,20 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "We build Complex Digital Products that are easy to use, just like listening to a song or sing a poem."
+title: "Custom Software, Designed for People."
 description: "Real-time, shared state technology that powers interactive experiences."
-excerpt: "Our team uses emerging technologies to build your dream Startup."
+excerpt: "Songpoem builds custom web and cross-platform mobile applications that turn sophisticated business logic into intuitively simple user experiences. We specialize in ergonomic design, ensuring your software is not only powerful but also effortless to navigate and use, boosting productivity and user adoption."
 keywords:
-  - AI-powered product development
-  - AI development for startups
+  - custom software development
+  - product development
+  - ergonomic software
   - Custom AI solutions
-  - AI-powered software development
+  - ergonomic software development
   - Startup AI
   - Custom software development for startups
   - Staff augmentation services
   - Rust programming specialists
   - Offshore development team
-  - vibe coding
+  - user friendly software
 layout: splash
 permalink: /
 date: 2025-01-10T11:48:41-04:00

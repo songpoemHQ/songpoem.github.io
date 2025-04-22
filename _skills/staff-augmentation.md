@@ -13,7 +13,7 @@ url: "/services/blockchain-development-services/"
 icon: "songpoem-teamwork-boat.png"
 alt: "teamwork at Songpoem Labs."
 layout: splash
-category: web3
+category: core
 score: 68
 header:
   overlay_color: "#000"

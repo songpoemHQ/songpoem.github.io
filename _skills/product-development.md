@@ -1,5 +1,5 @@
 ---
-title: "Cross-Platform Development"
+title: Product Development
 description: "Reach your audience on any device with our cross-platform development expertise. We build once and deploy everywhere, ensuring consistent and accessible collaborative experiences."
 points:
   - Cloud-Powered Solutions for Scalability and Reliability
@@ -12,8 +12,8 @@ image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
-score: 65
-category: corex
+score: 80
+category: core
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
