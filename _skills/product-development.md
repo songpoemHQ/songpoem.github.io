@@ -1,9 +1,9 @@
 ---
 title: Product Development
-description: "Reach your audience on any device with our cross-platform development expertise. We build once and deploy everywhere, ensuring consistent and accessible collaborative experiences."
+description: "Products that run on web as well as mobile devices."
 points:
-  - Cloud-Powered Solutions for Scalability and Reliability
-  - Faster Time-to-Market with Unified Codebase
+  - Easy to use interface as per audience.
+  - Complex systems
 capabilities:
   - Scalibility
   - Concurrency

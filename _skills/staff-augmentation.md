@@ -1,10 +1,9 @@
 ---
 title: "Staff Augmentation"
-description: "Scale Your Team with trained talent, On Demand"
+description: "Scale Your Team with our trained talent"
 points:
-  - Access niche technology experts, AI & ML talent
-  - Short-term projects
-  - Part-time support
+  - Access niche technology experts
+  - Team ready in two weeks.
   # - Save time and money on hiring.
 business_benefits:
   - AI Agent framework

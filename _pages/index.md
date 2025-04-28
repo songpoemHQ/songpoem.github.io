@@ -1,8 +1,8 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "Custom Software, Designed for People."
+title: "Ergonomic Software Development"
 description: "Real-time, shared state technology that powers interactive experiences."
-excerpt: "Songpoem builds custom web and cross-platform mobile applications. We specialize in ergonomic design, helping decision makers make faster decisions, easy to adapt design for new users."
+excerpt: "Team Songpoem develops Digital Products that save time of Decision makers and also achieve higher user engagement."
 keywords:
   - custom software development
   - product development
