@@ -4,6 +4,7 @@ locale: "en-US"
 
 masthead_title: Songpoem
 title: Songpoem Solutions LLP
+subtitle: "We compose success"
 email: sandesh.soni@songpoem.com
 description: >- # this means to ignore newlines until "baseurl:"
   Lets Compose Success Together.
