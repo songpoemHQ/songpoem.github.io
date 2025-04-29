@@ -1,5 +1,5 @@
 ---
-title: "Legacy System Modernization"
+title: "Modernization of Legacy systems"
 description: "Upgrade outdated systems to improve efficiency and security"
 points:
   - Streamline Business Logic
@@ -13,7 +13,7 @@ icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
 score: 65
-category: corex
+category: core
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

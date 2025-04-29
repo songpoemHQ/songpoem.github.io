@@ -21,7 +21,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 # permalink: /blog/:categories/:slug/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+words_per_minute: 100
 
 include:
   - _posts/*/*
