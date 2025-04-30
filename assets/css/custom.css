@@ -179,7 +179,7 @@
   }
 
 
-  @media (min-width: 768px) {
+  @media (min-width: 767px) {
     .services-section .grid-container {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -189,6 +189,10 @@
 
   .services-section .grid-container {
     grid-template-columns: 1fr;
+  }
+
+  .services-section .card .card-body {
+    flex-direction: column;
   }
 
   .technologies-section {
