@@ -37,6 +37,32 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.horizontal-card {
+  display: flex; /* Use flexbox to arrange image and content horizontally */
+  align-items: center; /* Vertically align the image and content */
+  text-align: left; /* Align text to the left within the content area */
+  padding: 1.5rem; /* Adjust padding as needed */
+}
+
+.horizontal-card .card-image {
+  margin-right: 1.5rem; /* Space between image and content */
+  margin-bottom: 0; /* Reset bottom margin */
+}
+
+.horizontal-card .card-content {
+  flex-grow: 1; /* Allow content to take up remaining space */
+}
+
+.horizontal-card .card-content h2 {
+  margin-top: 0; /* Reset top margin */
+}
+
+/* Ensure points are still styled correctly in horizontal layout */
+.horizontal-card .card-content .points {
+  padding-left: 1.5rem; /* Adjust indentation */
+}
+
+
 .tech-card {
   flex: 1 1 calc(25% - 20px); /* Adjusts width accounting for gap */
   max-width: calc(25% - 20px);
@@ -67,11 +93,10 @@
 }
 
 /* Services Section Specific */
-.whyus-section .services-section {
-  .card {
-    flex: 1 1 calc(33.333% - 2rem);
-    /* 3 cards per row on large screens */
-  }
+.services-section .grid-container {
+  display: grid; /* Ensure it's a grid container */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Default for mobile: at least 250px wide, auto-fit will make them stack */
+  gap: 20px; /* Adjust spacing as needed */
 }
 
  .technologies-section {
@@ -103,10 +128,9 @@
 
 @media (max-width: 768px) {
 
-  .whyus-section .services-section {
-    .card {
-      flex: 1 1 100%;
-      /* Single card per row on small screens */
+  @media (min-width: 768px) {
+    .services-section .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* Force two equal-width columns on screens 768px and wider */
     }
   }
 

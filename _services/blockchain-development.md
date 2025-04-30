@@ -1,18 +1,15 @@
 ---
-title: Product Engineering
-description: "Products that run on web as well as mobile devices."
+title: Blockchain Development
+description: "Use Blockchain to build trust"
 points:
-  - Easy to use interface as per audience.
-  - Complex systems
-capabilities:
-  - Scalibility
-  - Concurrency
+  - Ethereum
+  - Hyperledger
 url: "/services/elixir-and-erlang-development/"
 image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
-score: 80
+score: 65
 category: core
 header:
   overlay_color: "#000"

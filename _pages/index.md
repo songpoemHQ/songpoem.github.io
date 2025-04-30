@@ -1,8 +1,8 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "Your Partner for Ergonomic-First Offshore Product Development"
+title: "Your partner for Digital Product Improvement and Development."
 description: "Real-time, shared state technology that powers interactive experiences."
-excerpt: "Team Songpoem develops Digital Products that have smooth workflows, saving your time and also achieve higher user engagement."
+excerpt: "Team Songpoem builds engaging digital products with seamless workflows, to enhance user engagement, save time and compose success."
 keywords:
   - custom software development
   - product development
@@ -57,7 +57,7 @@ events_row:
 
 
 
-{% include services_section id="services" title="What We Offer." %}
+{% include services_section id="services" title="Our Services" %}
 
 {% include skills_technology_section id="tech_skills" title="Technologies we use" %}
 
