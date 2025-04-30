@@ -6,18 +6,22 @@
     {% assign top_whyus = sorted_whyus | slice: 0, 3 %}
     {% for service in top_whyus %}
     <div class="card" itemscope itemtype="http://schema.org/Service"> 
-      <div class="card-image">
-        <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
-      </div>
-      <div class="card-content">
+      <div class="card-title">
         <h3 class="text-lg font-semibold" itemprop="name">{{ service.title }}</h3> 
-        <p class="antialiased" itemprop="description">{{ service.description }}</p>
-        <ul class="points text-left">
-          {% for point in service.points %}
-          <li itemprop="serviceType">{{ point }}</li> 
-          {% endfor %}
-        </ul>
-      </div>
+        </div>
+        <div class="card-body">
+          <div class="card-image">
+            <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
+          </div>
+          <div class="card-content">
+            <p class="antialiased" itemprop="description">{{ service.description }}</p>
+            <ul class="points text-left">
+              {% for point in service.points %}
+              <li itemprop="serviceType">{{ point }}</li> 
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
     </div>
     {% endfor %}
   </div>

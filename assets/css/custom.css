@@ -27,8 +27,9 @@
 
 /* Shared Card Styling */
 .card {
+  display: flex;
+  flex-direction: column;
   min-width: 250px;
-  max-width: 400px;
   padding: 1rem;
   border: 2px solid rgba(0, 0, 0, 0.05);
   border-radius: 12px;
@@ -37,29 +38,97 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.horizontal-card {
-  display: flex; /* Use flexbox to arrange image and content horizontally */
-  align-items: center; /* Vertically align the image and content */
-  text-align: left; /* Align text to the left within the content area */
-  padding: 1.5rem; /* Adjust padding as needed */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-.horizontal-card .card-image {
-  margin-right: 1.5rem; /* Space between image and content */
-  margin-bottom: 0; /* Reset bottom margin */
+.card-image {
+  display: flex;
+  flex: 1;
+  margin-bottom: 1rem;
 }
 
-.horizontal-card .card-content {
-  flex-grow: 1; /* Allow content to take up remaining space */
+.card-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
-.horizontal-card .card-content h2 {
-  margin-top: 0; /* Reset top margin */
+.card-image img {
+  /* Ensures uniform image height */
+  width: auto;
+  height: max-content;
+  object-fit: contain;
 }
 
-/* Ensure points are still styled correctly in horizontal layout */
-.horizontal-card .card-content .points {
-  padding-left: 1.5rem; /* Adjust indentation */
+.services-section .card {
+  display: flex; /* Enable Flexbox for the card */
+  flex-direction: column; /* Stack title, image, and content vertically by default */
+  padding: 25px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center; /* Default center alignment for smaller layouts */
+}
+
+.services-section .card .card-title {
+  margin-bottom: 15px;
+}
+
+.services-section .card .card-title h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.services-section .card .card-body {
+  display: flex; /* Arrange image and content horizontally in the body */
+  flex-direction: row;
+  align-items: flex-start; /* Align items to the top */
+  text-align: left; /* Align text within the body to the left */
+  gap: 20px; /* Spacing between image and content */
+}
+
+.services-section .card .card-image {
+  display: flex; /* Use flex to control image sizing within its container */
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  /* You might want to set a fixed or max width/height for the card-image div to control the open space */
+  max-width: 400px; /* Adjust as needed */
+  max-height: 400px; /* Adjust as needed */
+  margin-right: 20px; /* Keep spacing from content */
+  margin-bottom: 0;
+  flex-shrink: 0;}
+
+.services-section .card .card-image img {
+  width: 100%; /* Make the image try to take full width of its container */
+  height: 100%; /* Make the image try to take full height of its container */
+  object-fit: contain; /* Scale the image down to fit within the container, preserving aspect ratio and adding empty space if necessary */
+  display: block; /
+}
+
+.services-section .card .card-content {
+  flex-grow: 1;
+}
+
+.services-section .card .card-content p {
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.services-section .card .card-content .points {
+  list-style: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+.services-section .card .card-content .points li {
+  margin-bottom: 8px;
 }
 
 
@@ -80,26 +149,17 @@
   transform: translateY(-10px);
 }
 
-.card-image {
-  margin-bottom: 1rem;
-  text-align: center;
-}
 
-.card-image img {
-  max-height: 150px;
-  /* Ensures uniform image height */
-  width: auto;
-  object-fit: contain;
-}
 
 /* Services Section Specific */
 .services-section .grid-container {
-  display: grid; /* Ensure it's a grid container */
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Default for mobile: at least 250px wide, auto-fit will make them stack */
-  gap: 20px; /* Adjust spacing as needed */
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  padding: 20px;
 }
 
- .technologies-section {
+.technologies-section {
   .card {
     flex: 1 1 calc(25% - 1rem);
     /*  4 cards per row on large screens */
@@ -118,20 +178,17 @@
     }
   }
 
-  .technologies-section {
-    .card {
-      flex: 1 1 calc(33.333% - 1rem);
-      /* 3 cards per row on medium screens */
-    }
-  }
-}
-
-@media (max-width: 768px) {
 
   @media (min-width: 768px) {
     .services-section .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* Force two equal-width columns on screens 768px and wider */
+      grid-template-columns: repeat(2, 1fr);
     }
+  }
+
+@media (max-width: 768px) {
+
+  .services-section .grid-container {
+    grid-template-columns: 1fr;
   }
 
   .technologies-section {
@@ -141,9 +198,7 @@
       /* Single card per row on small screens */
     }
   }
-}
 
-@media (max-width: 768px) {
   .tech-card {
     flex: 1 1 calc(50% - 20px);
     max-width: 100%;

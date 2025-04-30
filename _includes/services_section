@@ -1,24 +1,31 @@
 <div class="section services-section">
-  <h3 class="section-title">{{ include.title }}</h3>
+  <h2 class="section-title">{{ include.title }}</h2>
 
   <div class="grid-container">
     {% assign number_of_services = 4 %}
-    {% assign sorted_services = site.services | sort: 'score' | reverse %}
+    {% assign services = site.services | where: "category", "core" | sort: "score" | reverse %}
+    {% assign sorted_services = services | sort: 'score' | reverse %}
+
+
     {% assign top_services = sorted_services | slice: 0, number_of_services %}
     {% for service in top_services %}
-    <div class="card horizontal-card">
-      <div class="card-image">
-        <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}"
-          class="w-12 h-12 mx-auto">
+    <div class="card">
+    <div class="card-title">
+      <h2 class="text-lg font-semibold">{{ service.title }}</h2>
       </div>
-      <div class="card-content">
-        <h2 class="text-lg font-semibold">{{ service.title }}</h2>
-        <p class="antialiased">{{ service.description }}</p>
-        <ul class="points">
-          {% for point in service.points %}
-          <li>{{ point }}</li>
-          {% endfor %}
-        </ul>
+      <div class="card-body">
+        <div class="card-image">
+          <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}"
+            class="w-12 h-12 mx-auto">
+        </div>
+        <div class="card-content">
+          <p class="antialiased">{{ service.description }}</p>
+          <ul class="points">
+            {% for point in service.points %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
     {% endfor %}
