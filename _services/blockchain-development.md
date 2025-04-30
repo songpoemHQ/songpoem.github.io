@@ -5,8 +5,7 @@ points:
   - Ethereum
   - Hyperledger
 url: "/services/elixir-and-erlang-development/"
-image_name: "/assets/images/songpoem-elixir.jpeg"
-icon: "songpoem-programmer.png"
+icon: "songpoem-blockchain-solutions.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
 score: 65

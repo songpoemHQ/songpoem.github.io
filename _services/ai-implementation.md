@@ -1,6 +1,6 @@
 ---
-title: "AI Implementation"
-description: "Find ways to use AI effectively."
+title: "AI Development"
+description: "Find ways to use AI in your product."
 points:
   - Easy queries using human languages.
   - Smoother workflows.

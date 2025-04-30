@@ -1,30 +1,33 @@
 ---
 seo_title: "Remote Technology Solutions | Align Your Business with Market Trends - Songpoem Labs" 
-title: "Your partner for Product Improvement and Development."
+title: "Your remote partner for Product Improvement and Development."
 description: "Real-time, shared state technology that powers interactive experiences."
-excerpt: "Team Songpoem partners with global businesses as an offshore development partner, building engaging digital products and custom software with seamless workflows to enhance user engagement, save time, and compose success."
+tagline: "Team Songpoem partners with global businesses, building engaging digital products and custom software with seamless workflows to enhance user engagement, save time, and compose success."
 keywords:
-  - custom software development
-  - product development
-  - ergonomic software
-  - Custom AI solutions
-  - ergonomic software development
-  - Startup AI
-  - Custom software development for startups
-  - Staff augmentation services
-  - Rust programming specialists
+  - software development	
+  - product development	
+  - custom software development	
+  - agile software development
+  - app development	
+  - mobile app development	
+  - Enterprise Software Development
   - Offshore development team
-  - user friendly software
+  - nearshoring
+  - remote development
+  - hire dedicated offshore team
+  - new product development
+  - ai development
 layout: splash
 permalink: /
 date: 2025-01-10T11:48:41-04:00
 header:
-  overlay_color: "#fff"
+  actions:
+    - label: "Book a Consultation"
+      url: "mailto:sandesh.soni@songpoem.com?subject=enquiry&body=Wehomepage"
+      overlay_color: "#fff"
   overlay_filter: "0.8"
   overlay_image: /assets/images/bg-texture.png
-  cta_label: "Explore Our Insights on the Future of Business Tech"
-  cta_url: "mailto:sandesh.soni@songpoem.com?subject=enquiry&body=Wehomepage"
-  excerpt: "Reuse well-tested modules and functionalities, avoiding the need to build from scratch."
+  caption: "Songpoem Solutions LLP"
 memberships_row:
   - title: "TiE Pune and Delhi"
     image_path: /assets/images/ecosystem/tie-global-logo.png
