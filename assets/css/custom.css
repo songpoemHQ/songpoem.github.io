@@ -87,7 +87,7 @@
 
 .services-section .card .card-body {
   display: flex; /* Arrange image and content horizontally in the body */
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: flex-start; /* Align items to the top */
   text-align: left; /* Align text within the body to the left */
   gap: 20px; /* Spacing between image and content */
@@ -176,12 +176,17 @@
       max-width: calc(33.33% - 20px);
 
     }
+
+    .services-section .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
   }
 
 
   @media (min-width: 767px) {
     .services-section .grid-container {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
