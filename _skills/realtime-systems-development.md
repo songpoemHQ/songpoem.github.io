@@ -2,9 +2,8 @@
 title: "Real-Time Systems Development"
 description: "Real-time insights for faster, smarter decisions."
 points:
-  - Real-time chat applications
-  - Real-time Dashboards and Data Visualization
-  - Scalable and Reliable Infrastructure for Real-Time Applications
+  - Chat Applications
+  - Dashboards and Data Visualization
 capabilities:
   - Scalibility
   - Concurrency
@@ -13,8 +12,8 @@ image_name: "/assets/images/songpoem-elixir.jpeg"
 icon: "songpoem-programmer.png"
 alt: "Elixir and Erlang development at Songpoem Labs."
 layout: splash
-score: 75
-category: corex
+score: 65
+category: core
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

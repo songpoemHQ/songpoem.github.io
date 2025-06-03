@@ -1,6 +1,5 @@
 <div class="section skills-section">
   <h2 class="section-title">{{ include.title }}</h2>
-
   <div class="grid-container">
     {% assign core_skills = site.skills | where: "category", "core" | sort: "score" | reverse %}
     {% assign skills = core_skills | slice: 0, 8 %}

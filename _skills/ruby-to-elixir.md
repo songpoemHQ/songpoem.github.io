@@ -1,16 +1,19 @@
 ---
-title: "Tokenization"
-description: "Protect sensitive data with secure tokens."
+title: "Ruby to Elixir"
+description: "shift tech for scalability"
+capabilities:
+  - RWA Tokenization
+  - ERC standards
 points:
-  - Real World Asset Tokenization
-  - NFT creation
+  - Ruby to Elixir
+  - Phoenix Liveview, Phoenix Native
 url: "/services/blockchain-development-services/"
-icon: "songpoem-blockchain-solutions.png"
+icon: "songpoem-elixir-development.jpeg"
 image_name: "/assets/images/songpoem-blockchain.jpg"
 alt: "Web3 Blockchain development solutions at Songpoem Labs."
 layout: splash
 category: core
-score: 45
+score: 70
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"

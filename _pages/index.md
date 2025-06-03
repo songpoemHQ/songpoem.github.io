@@ -60,7 +60,8 @@ events_row:
 
 
 
-{% include services_section id="services" title="Our Services" %}
+{% include services_section id="services" title="Our Expertise" %}
+{% include skills_core_section id="skills" title="Our Services" %}
 
 {% include skills_technology_section id="tech_skills" title="Technologies we use" %}
 

@@ -1,10 +1,9 @@
 ---
-title: "AI Development"
+title: "AI Implementation"
 description: "Find ways to use AI in your product."
 points:
-  - Easy queries using human languages.
-  - Smoother workflows.
-  # - Speed up the development process.
+  - Generative AI to assist easy queries using human languages.
+  - Video and Image processing with computer vision.
 business_benefits:
 url: "/services/blockchain-development-services/"
 icon: "songpoem-ai-solutions.png"
