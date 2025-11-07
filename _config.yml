@@ -16,8 +16,7 @@ github_username: songpoemHQ
 facebook_username: songpoemHQ
 
 # Build settings
-markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.27.0"
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 # permalink: /blog/:categories/:slug/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
@@ -129,13 +128,6 @@ defaults:
     # values:
     #   layout: single
     #   author_profile: false
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 analytics:
   provider: "google"
