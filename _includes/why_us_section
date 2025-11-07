@@ -1,23 +1,23 @@
-<div class="section whyus-section">
-  <h2 class="section-title">{{ include.title }}</h2>
+<div class="section whyus-section bg-gradient-to-br from-blue-50 to-indigo-50 py-16">
+  <h2 class="section-title text-4xl font-bold text-blue-900 mb-12">{{ include.title }}</h2>
 
   <div class="grid-container">
     {% assign sorted_whyus = include.data | sort: 'score' | reverse %}
     {% assign top_whyus = sorted_whyus | slice: 0, 3 %}
     {% for service in top_whyus %}
-    <div class="card" itemscope itemtype="http://schema.org/Service"> 
+    <div class="card hover:shadow-xl transition-all duration-300 border-l-4 border-blue-400" itemscope itemtype="http://schema.org/Service">
       <div class="card-title">
-        <h3 class="text-lg font-semibold" itemprop="name">{{ service.title }}</h3> 
+        <h3 class="text-lg font-semibold text-blue-800" itemprop="name">{{ service.title }}</h3>
         </div>
         <div class="card-body">
           <div class="card-image">
-            <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
+            <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}" class="w-16 h-16 mx-auto rounded-full bg-blue-100 p-2" itemprop="image">
           </div>
           <div class="card-content">
-            <p class="antialiased" itemprop="description">{{ service.description }}</p>
-            <ul class="points text-left">
+            <p class="antialiased text-gray-700 leading-relaxed" itemprop="description">{{ service.description }}</p>
+            <ul class="points text-left space-y-2">
               {% for point in service.points %}
-              <li itemprop="serviceType">{{ point }}</li> 
+              <li class="text-gray-600 hover:text-blue-600 transition-colors" itemprop="serviceType">{{ point }}</li>
               {% endfor %}
             </ul>
           </div>
