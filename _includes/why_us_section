@@ -4,43 +4,39 @@
     <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Why customers choose Songpoem Labs</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {% assign sorted_whyus = include.data | sort: 'score' | reverse %}
-      {% assign top_whyus = sorted_whyus | slice: 0, 3 %}
-      {% for service in top_whyus %}
-      <div class="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-300 hover:-translate-y-2" itemscope itemtype="http://schema.org/Service">
-        <!-- Icon: Simple container -->
-        <div class="mb-6 flex justify-center">
-          <div class="w-20 h-20 flex items-center justify-center">
-            <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}"
-                 alt="{{ service.title }}"
-                 class="w-full h-full object-contain"
-                 itemprop="image">
-          </div>
-        </div>
+{% assign sorted_whyus = include.data | sort: 'score' | reverse %}
+{% assign top_whyus = sorted_whyus | slice: 0, 3 %}
+{% for service in top_whyus %}
+<div class="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-300 hover:-translate-y-2" itemscope itemtype="http://schema.org/Service">
+  <div class="mb-6 flex justify-center">
+    <div class="w-20 h-20 flex items-center justify-center">
+      <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}"
+           alt="{{ service.title }}"
+           class="w-full h-full object-contain"
+           itemprop="image">
+    </div>
+  </div>
 
-        <!-- Title -->
-        <h3 class="text-xl font-bold text-blue-900 mb-4 group-hover:text-blue-600 transition-colors" itemprop="name">
-          {{ service.title }}
-        </h3>
+  <h3 class="text-xl font-bold text-blue-900 mb-4 group-hover:text-blue-600 transition-colors" itemprop="name">
+    {{ service.title }}
+  </h3>
 
-        <!-- Description -->
-        <p class="text-gray-700 leading-relaxed mb-6" itemprop="description">
-          {{ service.description }}
-        </p>
+  <p class="text-gray-700 leading-relaxed mb-6" itemprop="description">
+    {{ service.description }}
+  </p>
 
-        <!-- Points -->
-        <ul class="space-y-3">
-          {% for point in service.points %}
-          <li class="flex items-start text-gray-700">
-            <svg class="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-            </svg>
-            <span class="text-sm" itemprop="serviceType">{{ point }}</span>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
+  <ul class="space-y-3">
+{% for point in service.points %}
+    <li class="flex items-start text-gray-700">
+      <svg class="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+      </svg>
+      <span class="text-sm" itemprop="serviceType">{{ point }}</span>
+    </li>
+{% endfor %}
+  </ul>
+</div>
+{% endfor %}
     </div>
   </div>
 </div>
