@@ -9,10 +9,10 @@
       {% for skill in skills %}
       <div class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-300 hover:-translate-y-1" itemscope itemtype="http://schema.org/SoftwareApplication">
         <!-- Icon -->
-        <div class="flex items-center justify-center h-16 mb-4">
+        <div class="flex items-center justify-center w-16 h-16 mb-4 mx-auto">
           <img src="{{ skill.icon | prepend: '/assets/mascot/' | relative_url }}"
                alt="{{ skill.title }}"
-               class="w-12 h-12 object-contain group-hover:scale-110 transition-transform duration-300"
+               class="max-w-full max-h-full object-contain group-hover:scale-110 transition-transform duration-300"
                itemprop="image">
         </div>
 
