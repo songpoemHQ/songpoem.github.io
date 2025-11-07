@@ -1,14 +1,20 @@
-<div class="section technologies-section">
-  <h2 class="section-title">{{ include.title }}</h2>
-  <div class="container">
-    {% assign technologies = site.technologies | sort: "score" | reverse %}
-    {% assign skills = technologies | slice: 0, 12 %}
-    {% for skill in skills %}
-    <div class="card tech-card" itemscope itemtype="http://schema.org/SoftwareApplication">
-        <h5 class="text-sm">
-          {{ skill.title }}
-        </h5>
+<div class="py-20 bg-gradient-to-b from-white to-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">{{ include.title }}</h2>
+    <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Technologies we work with</p>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+      {% assign technologies = site.technologies | sort: "score" | reverse %}
+      {% assign skills = technologies | slice: 0, 12 %}
+      {% for skill in skills %}
+      <div class="group bg-white rounded-xl p-4 border border-gray-200 hover:border-purple-300 hover:shadow-lg transition-all duration-300 hover:-translate-y-1" itemscope itemtype="http://schema.org/SoftwareApplication">
+        <div class="text-center">
+          <h3 class="text-sm font-medium text-gray-800 group-hover:text-purple-600 transition-colors" itemprop="name">
+            {{ skill.title }}
+          </h3>
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>

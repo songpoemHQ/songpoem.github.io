@@ -1,16 +1,26 @@
-<div class="section memberships-section">
-  <h2 class="section-title">{{ include.title }}</h2>
-  <div class="grid-container">
-    {% for member in include.id %}
-    <div class="card" itemscope itemtype="http://schema.org/Organization"> 
-      <div class="card-image">
-        <img src="{{ member.image_path | relative_url }}" alt="{{ member.alt }}" class="membership-image" itemprop="logo"> 
+<div class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">{{ include.title }}</h2>
+    <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Trusted partnerships and industry memberships</p>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {% for member in include.id %}
+      <div class="group bg-white rounded-xl p-6 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all duration-300" itemscope itemtype="http://schema.org/Organization">
+        <!-- Logo Container -->
+        <div class="flex items-center justify-center h-24 mb-4">
+          <img src="{{ member.image_path | relative_url }}"
+               alt="{{ member.alt }}"
+               class="max-w-full max-h-20 w-auto h-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+               itemprop="logo">
+        </div>
+
+        <!-- Content -->
+        <div class="text-center">
+          <h3 class="text-sm font-semibold text-gray-900 mb-1" itemprop="name">{{ member.title }}</h3>
+          <p class="text-xs text-gray-600" itemprop="description">{{ member.description }}</p>
+        </div>
       </div>
-      <div class="card-content">
-        <h2 class="membership-title" itemprop="name">{{ member.title }}</h2> 
-        <h3 class="membership-description" itemprop="description">{{ member.description }}</h3> 
-      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>

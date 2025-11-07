@@ -1,28 +1,44 @@
-<div class="section whyus-section bg-gradient-to-br from-blue-50 to-indigo-50 py-16">
-  <h2 class="section-title text-4xl font-bold text-blue-900 mb-12">{{ include.title }}</h2>
+<div class="py-20 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-4xl font-bold text-center text-blue-900 mb-4">{{ include.title }}</h2>
+    <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Why customers choose Songpoem Labs</p>
 
-  <div class="grid-container">
-    {% assign sorted_whyus = include.data | sort: 'score' | reverse %}
-    {% assign top_whyus = sorted_whyus | slice: 0, 3 %}
-    {% for service in top_whyus %}
-    <div class="card hover:shadow-xl transition-all duration-300 border-l-4 border-blue-400" itemscope itemtype="http://schema.org/Service">
-      <div class="card-title">
-        <h3 class="text-lg font-semibold text-blue-800" itemprop="name">{{ service.title }}</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% assign sorted_whyus = include.data | sort: 'score' | reverse %}
+      {% assign top_whyus = sorted_whyus | slice: 0, 3 %}
+      {% for service in top_whyus %}
+      <div class="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-300 hover:-translate-y-2" itemscope itemtype="http://schema.org/Service">
+        <!-- Icon -->
+        <div class="mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-400 to-indigo-500 transform group-hover:scale-110 transition-transform duration-300">
+          <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}"
+               alt="{{ service.title }}"
+               class="w-10 h-10 object-contain filter brightness-0 invert"
+               itemprop="image">
         </div>
-        <div class="card-body">
-          <div class="card-image">
-            <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}" class="w-16 h-16 mx-auto rounded-full bg-blue-100 p-2" itemprop="image">
-          </div>
-          <div class="card-content">
-            <p class="antialiased text-gray-700 leading-relaxed" itemprop="description">{{ service.description }}</p>
-            <ul class="points text-left space-y-2">
-              {% for point in service.points %}
-              <li class="text-gray-600 hover:text-blue-600 transition-colors" itemprop="serviceType">{{ point }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
+
+        <!-- Title -->
+        <h3 class="text-xl font-bold text-blue-900 mb-4 group-hover:text-blue-600 transition-colors" itemprop="name">
+          {{ service.title }}
+        </h3>
+
+        <!-- Description -->
+        <p class="text-gray-700 leading-relaxed mb-6" itemprop="description">
+          {{ service.description }}
+        </p>
+
+        <!-- Points -->
+        <ul class="space-y-3">
+          {% for point in service.points %}
+          <li class="flex items-start text-gray-700">
+            <svg class="w-5 h-5 text-blue-500 mt-0.5 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+            </svg>
+            <span class="text-sm" itemprop="serviceType">{{ point }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>
