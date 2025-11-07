@@ -9,10 +9,10 @@
       {% for service in top_whyus %}
       <div class="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-300 hover:-translate-y-2" itemscope itemtype="http://schema.org/Service">
         <!-- Icon -->
-        <div class="mb-6 flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-400 to-indigo-500 p-3 transform group-hover:scale-110 transition-transform duration-300">
+        <div class="mb-6 flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-400 to-indigo-500 p-2 transform group-hover:scale-110 transition-transform duration-300">
           <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}"
                alt="{{ service.title }}"
-               class="w-full h-full object-contain"
+               class="max-w-full max-h-full object-contain"
                itemprop="image">
         </div>
 

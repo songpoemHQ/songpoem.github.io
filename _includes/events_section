@@ -1,13 +1,42 @@
-<div class="events-section">
-    <h2>{{ include.title }}</h2>
-    <div class="grid-container">
-        {% for event in include.id %}
-        <div class="card">
-            <!-- <img src="{{ event.image_name | prepend: " /assets/images/" | relative_url }}" alt="{{ event.title }}"> -->
-            <h3>{{ event.title }}</h3>
-            <p>{{ event.description }}</p>
-            <a href="{{ event.url }}" class="btn btn-secondary">Learn More</a>
+<div class="py-20 bg-gradient-to-b from-white to-blue-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">{{ include.title }}</h2>
+    <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">Join our community events and workshops</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {% for event in include.id %}
+      <div class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-200 hover:border-blue-400">
+        <!-- Icon/Badge -->
+        <div class="flex items-start gap-4 mb-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <div class="flex-1">
+            <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
+              {{ event.title }}
+            </h3>
+          </div>
         </div>
-        {% endfor %}
+
+        <!-- Description -->
+        <p class="text-gray-600 leading-relaxed mb-6">
+          {{ event.description }}
+        </p>
+
+        <!-- CTA Link -->
+        <a href="{{ event.url }}"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center text-blue-600 font-medium hover:text-blue-700 transition-colors">
+          Learn More
+          <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </div>
