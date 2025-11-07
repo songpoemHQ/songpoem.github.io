@@ -1,27 +1,44 @@
-<div class="section skills-section">
-  <h2 class="section-title">{{ include.title }}</h2>
+<div class="py-20 bg-gradient-to-b from-white to-purple-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">{{ include.title }}</h2>
+    <p class="text-center text-gray-600 mb-16 max-w-2xl mx-auto">AI-powered solutions and expertise</p>
 
-  <div class="grid-container">
-    {% assign core_skills = site.skills | where: "category", "AI" | sort: "score" | reverse %}
-    {% assign skills = core_skills | slice: 0, 8 %}
-    {% for skill in skills %}
-    <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication"> 
-      <div class="card-image mb-4">
-        <img src="{{ skill.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ skill.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
-      </div>
-      <div class="card-content">
-        <h3 class="text-lg font-semibold" itemprop="name">{{ skill.title }}</h3> 
-        <p class="antialiased" itemprop="description">{{ skill.description }}</p>
-        <ul class="skill-points text-left">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {% assign core_skills = site.skills | where: "category", "AI" | sort: "score" | reverse %}
+      {% assign skills = core_skills | slice: 0, 8 %}
+      {% for skill in skills %}
+      <div class="group bg-white rounded-xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-300 hover:-translate-y-1" itemscope itemtype="http://schema.org/SoftwareApplication">
+        <!-- Icon -->
+        <div class="flex items-center justify-center h-16 mb-4">
+          <img src="{{ skill.icon | prepend: '/assets/mascot/' | relative_url }}"
+               alt="{{ skill.title }}"
+               class="w-12 h-12 object-contain group-hover:scale-110 transition-transform duration-300"
+               itemprop="image">
+        </div>
+
+        <!-- Title -->
+        <h3 class="text-lg font-semibold text-gray-900 mb-3 text-center group-hover:text-blue-600 transition-colors" itemprop="name">
+          {{ skill.title }}
+        </h3>
+
+        <!-- Description -->
+        <p class="text-sm text-gray-600 text-center mb-4 leading-relaxed" itemprop="description">
+          {{ skill.description }}
+        </p>
+
+        <!-- Points -->
+        <ul class="space-y-2 text-left">
           {% for point in skill.points %}
-          <li itemprop="featureList">{{ point }}</li> 
+          <li class="flex items-start text-gray-700">
+            <svg class="w-4 h-4 text-blue-500 mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span class="text-xs" itemprop="featureList">{{ point }}</span>
+          </li>
           {% endfor %}
         </ul>
-        <!-- <div class="mt-auto pt-4 text-left">
-          <a href="{{ skill.url }}" class="mr-2 text-blue-600" itemprop="url">Read more</a> 
-        </div> -->
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>
