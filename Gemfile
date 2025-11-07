@@ -10,7 +10,7 @@ if env == 'production'
   gem "kramdown", "= 1.0.2"
   gem "terminal-table", "~> 1.4"
 else
-  gem "jekyll", "~> 4.2.2"
+  gem "jekyll", "~> 4.3"
   gem "jekyll-remote-theme"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-archives"
