@@ -1,12 +1,29 @@
 /*
- * Custom CSS - Minimal Tailwind Migration Complete
- * All sections now use Tailwind CSS exclusively
- * This file is kept for any future custom styling needs
+ * Custom CSS - Tailwind Override Fixes
+ * Fixes for Minimal Mistakes theme CSS conflicts
  */
+
+/* Fix image sizing - prevent theme from overriding container constraints */
+.w-20 img,
+.h-20 img,
+.w-16 img,
+.h-16 img,
+.w-12 img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+/* Ensure SVG icons respect sizing classes */
+svg.w-5,
+svg.h-5,
+svg.w-4,
+svg.h-4,
+svg.w-6,
+svg.h-6 {
+  flex-shrink: 0 !important;
+}
 
 /* Global section title styling if not covered by Tailwind */
 .section-title {
   /* Reserved for any non-Tailwind specific overrides */
 }
-
-/* Any remaining page-specific styles that don't fit Tailwind patterns */
