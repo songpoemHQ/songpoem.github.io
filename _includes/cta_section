@@ -1,11 +1,68 @@
-<div class="cta-section" itemscope itemtype="http://schema.org/SoftwareApplication"> 
-    <h2 itemprop="name">{{ include.title }}</h2> 
-    <p itemprop="description">{{ include.description }}</p>
+<div class="relative py-24 overflow-hidden" itemscope itemtype="http://schema.org/SoftwareApplication">
+  <!-- Gradient Background -->
+  <div class="absolute inset-0 bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-700"></div>
+
+  <!-- Pattern Overlay -->
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; viewBox=&quot;0 0 60 60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cg fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;%3E%3Cg fill=&quot;%23ffffff&quot; fill-opacity=&quot;1&quot;%3E%3Cpath d=&quot;M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z&quot;/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <meta itemprop="applicationCategory" content="Software Development">
     <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
       <link itemprop="url" href="{{ include.url }}">
       <meta itemprop="availability" content="http://schema.org/InStock">
-      <meta itemprop="priceCurrency" content="USD"> 
+      <meta itemprop="priceCurrency" content="USD">
     </div>
-    <a href="{{ include.url }}" class="btn bg-red-50 hover:bg-red-100 transition-colors duration-300">{{ include.cta_label }}</a>
+
+    <!-- Badge -->
+    <div class="inline-flex items-center px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-white text-sm font-medium mb-6">
+      <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+      </svg>
+      Free Consultation
+    </div>
+
+    <!-- Title -->
+    <h2 class="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight" itemprop="name">
+      {{ include.title }}
+    </h2>
+
+    <!-- Description -->
+    <p class="text-xl text-purple-100 mb-10 max-w-2xl mx-auto leading-relaxed" itemprop="description">
+      {{ include.description }}
+    </p>
+
+    <!-- CTA Button -->
+    <a href="{{ include.url }}"
+       class="inline-flex items-center px-8 py-4 bg-white text-purple-600 font-bold text-lg rounded-2xl hover:bg-gray-50 transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 group">
+      {{ include.cta_label }}
+      <svg class="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+      </svg>
+    </a>
+
+    <!-- Trust indicators -->
+    <div class="mt-12 flex items-center justify-center space-x-8 text-purple-100">
+      <div class="flex items-center">
+        <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-sm">No commitment</span>
+      </div>
+      <div class="flex items-center">
+        <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-sm">30 minutes</span>
+      </div>
+      <div class="flex items-center">
+        <svg class="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-sm">Expert advice</span>
+      </div>
+    </div>
   </div>
+</div>
