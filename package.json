@@ -1,0 +1,15 @@
+{
+  "name": "songpoem-website",
+  "version": "1.0.0",
+  "description": "SongPoem company website built with Jekyll and Tailwind CSS",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/tailwind-source.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/tailwind-source.css -o ./assets/css/tailwind.css --watch"
+  },
+  "keywords": ["jekyll", "tailwindcss"],
+  "author": "SongPoem",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
