@@ -9,7 +9,6 @@ gem "jemoji", "~> 0.13"
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
-  gem 'jekyll-tailwindcss', '~> 0.2.0'
   gem "kramdown", "~> 2.4.0"
   gem "kramdown-parser-gfm"
   gem "terminal-table", "~> 2.0.0"
