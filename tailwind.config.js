@@ -1,4 +1,5 @@
 module.exports = {
+  important: true, // Add !important to all Tailwind utilities to override theme CSS
   content: [
     './_includes/**/*',
     './_layouts/**/*.html',
