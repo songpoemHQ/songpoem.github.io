@@ -36,11 +36,13 @@
 
     <!-- CTA Button -->
     <a href="{{ include.url }}"
-       class="inline-flex items-center px-8 py-4 bg-white text-purple-600 font-bold text-lg rounded-2xl hover:bg-gray-50 transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105 group">
-      {{ include.cta_label }}
-      <svg class="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+       class="inline-flex items-center px-10 py-5 bg-white text-purple-600 font-bold text-lg rounded-2xl hover:bg-gradient-to-r hover:from-white hover:to-purple-50 transition-all duration-500 shadow-2xl hover:shadow-3xl hover:scale-110 group relative overflow-hidden">
+      <span class="relative z-10">{{ include.cta_label }}</span>
+      <svg class="w-6 h-6 ml-3 group-hover:translate-x-2 transition-all duration-300 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
       </svg>
+      <!-- Shine effect -->
+      <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 group-hover:translate-x-full transition-all duration-700 transform -translate-x-full"></div>
     </a>
 
     <!-- Trust indicators -->
