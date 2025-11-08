@@ -7,5 +7,5 @@ vendor
 # Node.js
 node_modules
 
-# Generated CSS (built by npm run build:css)
-assets/css/tailwind.css
+# Note: assets/css/tailwind.css is committed for reliable deployments
+# Rebuild with: npm run build:css
