@@ -14,6 +14,8 @@ url: "https://www.songpoem.com" # the base hostname & protocol for your site, e.
 twitter_username: songpoemHQ
 github_username: songpoemHQ
 facebook_username: songpoemHQ
+linkedin_username: songpoemHQ
+instagram_username: songpoemHQ
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
@@ -55,20 +57,6 @@ sass:
 #   cache: false
 
 # Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/songpoemlabs"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-li-square"
-      url: "https://linkedin.com/company/songpoemlabs"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/songpoemlabs"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/songpoemlabs"
 
 collections:
   posts:
