@@ -6,7 +6,7 @@
     {% for skill in skills %}
     <div class="card" itemscope itemtype="http://schema.org/SoftwareApplication"> 
       <div class="card-image mb-4">
-        <img src="{{ skill.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ skill.title }}" class="w-12 h-12 mx-auto" itemprop="image"> 
+        <img src="{{ skill.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ skill.title }}" class="w-12 h-12 mx-auto" itemprop="image" loading="lazy" decoding="async"> 
       </div>
       <div class="card-content">
         <h3 class="text-lg font-semibold" itemprop="name">{{ skill.title }}</h3> 

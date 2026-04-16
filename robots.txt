@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and development files
+Disallow: /node_modules/
+Disallow: /_site/
+Disallow: /logfile
+Disallow: /package-lock.json
+Disallow: /package.json
+Disallow: /postcss.config.js
+Disallow: /tailwind.config.js
+Disallow: /.tool-versions
+
+# Allow important directories
+Allow: /assets/
+Allow: /blog/
+Allow: /services/
+Allow: /casestudies/
+Allow: /skills/
+Allow: /technologies/
+
+# Sitemap location
+Sitemap: https://www.songpoem.com/sitemap.xml

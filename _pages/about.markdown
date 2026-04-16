@@ -1,6 +1,7 @@
 ---
 title: About Songpoem
 permalink: /about/
+description: "Learn about Songpoem Solutions LLP - expert software development company specializing in AI, blockchain, and custom product development for startups and B2B companies worldwide."
 # sidebar:
 #   nav: "docs"
 ---

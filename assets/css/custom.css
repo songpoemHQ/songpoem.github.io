@@ -36,6 +36,8 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Touch targets for mobile */
+  min-height: 44px;
 }
 
 .card-body {
@@ -227,7 +229,26 @@
 
   .cta-section .btn {
     font-size: 0.875rem;
-    padding: 0.5rem 1.25rem;
+    padding: 0.75rem 1.5rem;
+    /* Maintain minimum touch target size */
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Mobile navigation improvements */
+  .masthead__menu {
+    font-size: 1.1rem;
+  }
+  
+  .masthead__menu-item {
+    padding: 0.5rem 1rem;
+    min-height: 44px;
+  }
+  
+  /* Improve tap targets for mobile */
+  a, button, input, select, textarea {
+    min-height: 44px;
+    min-width: 44px;
   }
 }
 
@@ -402,6 +423,9 @@
   transition: all 0.3s ease-in-out;
   /* Smooth hover effects */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Touch targets for mobile accessibility */
+  min-height: 44px;
+  min-width: 44px;
 }
 
 .cta-section .btn:hover {
@@ -412,4 +436,57 @@
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
   /* Slight upward motion on hover */
+}
+
+/* Breadcrumb Navigation */
+.breadcrumbs {
+  padding: 1rem 0;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  content: "/";
+  margin: 0 0.5rem;
+  color: #6c757d;
+}
+
+.breadcrumbs a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.breadcrumbs a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.breadcrumbs li:last-child span {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs {
+    padding: 0.5rem 0;
+  }
+  
+  .breadcrumbs ol {
+    font-size: 0.875rem;
+  }
 }

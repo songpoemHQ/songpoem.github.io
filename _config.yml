@@ -48,10 +48,26 @@ plugins:
   - jekyll-remote-theme
   - jekyll-tailwindcss
   - jekyll-paginate
+  - jekyll-sitemap  # Re-enabled for GitHub Actions build
 
 sass:
   sass_dir: _sass
   style: compressed
+
+# Jekyll optimization
+incremental: true
+profile: false
+
+# Performance optimizations
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
 
 # postcss:
 #   cache: false
@@ -61,16 +77,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/songpoemlabs"
+      url: "https://twitter.com/songpoemHQ"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-li-square"
-      url: "https://linkedin.com/company/songpoemlabs"
+      url: "https://linkedin.com/company/songpoemHQ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/songpoemlabs"
+      url: "https://github.com/songpoemHQ"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/songpoemlabs"
+      url: "https://instagram.com/songpoemHQ"
 
 collections:
   posts:

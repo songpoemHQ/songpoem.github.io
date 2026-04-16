@@ -1,0 +1,31 @@
+{% unless page.header.overlay_color or page.header.overlay_image or page.title == "Home" %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ '/' | relative_url }}" itemprop="item">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1">
+    </li>
+    
+    {% if page.collection %}
+      {% assign collection = site.collections | where: "label", page.collection | first %}
+      {% if collection %}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="{{ '/' | append: page.collection | append: '/' | relative_url }}" itemprop="item">
+            <span itemprop="name">{{ collection.label | capitalize }}</span>
+          </a>
+          <meta itemprop="position" content="2">
+        </li>
+      {% endif %}
+    {% endif %}
+    
+    {% if page.url != "/" %}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{{ page.title }}</span>
+        <meta itemprop="position" content="{% if page.collection %}3{% else %}2{% endif %}">
+      </li>
+    {% endif %}
+  </ol>
+</nav>
+{% endunless %}

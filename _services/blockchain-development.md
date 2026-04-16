@@ -1,6 +1,6 @@
 ---
 title: Blockchain Development
-description: "Use Blockchain to build trust"
+description: "Enterprise blockchain development services using Ethereum and Hyperledger. Build secure, transparent, and decentralized solutions for your business with expert blockchain developers."
 points:
   - Ethereum
   - Hyperledger

@@ -1,0 +1,146 @@
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/images/songpoemlabs-logo.png",
+  "description": "{{ site.description }}",
+  "email": "{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://twitter.com/{{ site.twitter_username }}",
+    "https://github.com/{{ site.github_username }}",
+    "https://facebook.com/{{ site.facebook_username }}"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{ site.email }}",
+    "contactType": "customer service"
+  }
+}
+</script>
+
+<!-- Website Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- Professional Service Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}",
+  "telephone": "+91-XXXXXXXXXX",
+  "email": "{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "IN"
+  },
+  "serviceType": [
+    "Software Development",
+    "Product Development", 
+    "AI Implementation",
+    "Blockchain Development",
+    "Custom Software Development"
+  ],
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  },
+  "priceRange": "$$"
+}
+</script>
+
+{% if page.layout == 'single' and page.collection == 'posts' %}
+<!-- Article Schema for Blog Posts -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
+  "image": "{{ page.image | default: site.logo | absolute_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.title }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/images/songpoemlabs-logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+</script>
+{% endif %}
+
+{% if page.collection == 'services' %}
+<!-- Service Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}"
+  },
+  "serviceType": "{{ page.title }}",
+  "url": "{{ page.url | absolute_url }}",
+  "image": "{{ page.icon | prepend: '/assets/mascot/' | absolute_url }}",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Global"
+  }
+}
+</script>
+{% endif %}
+
+{% if page.collection == 'portfolio' %}
+<!-- Creative Work Schema for Case Studies -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html }}",
+  "creator": {
+    "@type": "Organization",
+    "name": "{{ site.title }}"
+  },
+  "url": "{{ page.url | absolute_url }}",
+  "image": "{{ page.image | absolute_url }}",
+  "about": "{{ page.client }}",
+  "keywords": "{{ page.tags | join: ', ' }}"
+}
+</script>
+{% endif %}

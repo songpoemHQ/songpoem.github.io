@@ -16,7 +16,7 @@
       <div class="card-body">
         <div class="card-image">
           <img src="{{ service.icon | prepend: '/assets/mascot/' | relative_url }}" alt="{{ service.title }}"
-            class="w-12 h-12 mx-auto">
+            class="w-12 h-12 mx-auto" loading="lazy" decoding="async">
         </div>
         <div class="card-content">
           <p class="antialiased">{{ service.description }}</p>

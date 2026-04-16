@@ -1,6 +1,6 @@
 ---
 title: "AI Implementation"
-description: "Find ways to use AI in your product."
+description: "Professional AI implementation services for B2B companies. Integrate generative AI, computer vision, and machine learning into your products with expert development support."
 points:
   - Generative AI to assist easy queries using human languages.
   - Video and Image processing with computer vision.
